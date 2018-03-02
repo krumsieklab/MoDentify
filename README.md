@@ -1,2 +1,2 @@
 # MoDentify
-Phenotype-driven module identification based on multi-level networks
+Phenotype-driven module identification based on multilevel metabolomics networks

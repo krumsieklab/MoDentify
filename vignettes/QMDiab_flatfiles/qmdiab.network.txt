@@ -1,0 +1,1946 @@
+from	to	Correlation	p-Value
+P::1,2-dipalmitoylglycerol	P::1,3-dipalmitoylglycerol	0.09973246	2.22E-16
+P::1,3,7-trimethylurate	P::1,7-dimethylurate	0.053225769	1.49E-09
+P::1-arachidonoylglycerophosphocholine*	P::1-docosahexaenoylglycerophosphocholine*	0.055122676	3.83E-10
+P::1-arachidonoylglycerophosphocholine*	P::1-docosapentaenoylglycerophosphocholine*	0.074126976	2.22E-16
+P::1-arachidonoylglycerophosphocholine*	P::1-eicosatrienoylglycerophosphocholine*	0.049942759	1.41E-08
+P::1-docosapentaenoylglycerophosphocholine*	P::1-eicosatrienoylglycerophosphocholine*	0.074522828	2.22E-16
+P::1-eicosadienoylglycerophosphocholine*	P::1-eicosatrienoylglycerophosphocholine*	0.048237058	4.31E-08
+P::1-eicosadienoylglycerophosphocholine*	P::1-heptadecanoylglycerophosphocholine	0.073675983	2.22E-16
+P::1-arachidonoylglycerophosphocholine*	P::1-linoleoylglycerophosphocholine	0.051134638	6.35E-09
+P::1-arachidonoylglycerophosphoethanolamine*	P::1-linoleoylglycerophosphoethanolamine*	0.116416465	2.22E-16
+P::1-methylurate	P::1-methylxanthine	0.078251261	2.22E-16
+P::1-eicosadienoylglycerophosphocholine*	P::1-oleoylglycerophosphocholine	0.060297009	7.41E-12
+P::1-eicosatrienoylglycerophosphocholine*	P::1-oleoylglycerophosphocholine	0.051481019	5.02E-09
+P::1-heptadecanoylglycerophosphocholine	P::1-oleoylglycerophosphocholine	0.051626383	4.54E-09
+P::1-myristoylglycerophosphocholine	P::1-palmitoleoylglycerophosphocholine*	0.061782325	2.24E-12
+P::1,2-dipalmitoylglycerol	P::1-palmitoylglycerol (1-monopalmitin)	0.065097146	1.40E-13
+P::1,3-dipalmitoylglycerol	P::1-palmitoylglycerol (1-monopalmitin)	0.073208439	2.22E-16
+P::1-oleoylglycerol (1-monoolein)	P::1-palmitoylglycerol (1-monopalmitin)	0.04932803	2.12E-08
+P::1-heptadecanoylglycerophosphocholine	P::1-palmitoylglycerophosphocholine	0.049346961	2.09E-08
+P::1-linoleoylglycerophosphocholine	P::1-palmitoylglycerophosphocholine	0.049470833	1.93E-08
+P::1-oleoylglycerophosphocholine	P::1-palmitoylglycerophosphocholine	0.051698415	4.32E-09
+P::1-oleoylglycerophosphoethanolamine	P::1-palmitoylglycerophosphoethanolamine	0.115973278	2.22E-16
+P::1-myristoylglycerophosphocholine	P::1-pentadecanoylglycerophosphocholine*	0.052689461	2.18E-09
+P::1-palmitoleoylglycerophosphocholine*	P::1-pentadecanoylglycerophosphocholine*	0.055789263	2.35E-10
+P::1-palmitoylglycerophosphocholine	P::1-pentadecanoylglycerophosphocholine*	0.053727085	1.05E-09
+P::1-eicosadienoylglycerophosphocholine*	P::1-stearoylglycerophosphocholine	0.055207172	3.60E-10
+P::1-heptadecanoylglycerophosphocholine	P::1-stearoylglycerophosphocholine	0.067514364	1.69E-14
+P::1-oleoylglycerophosphocholine	P::1-stearoylglycerophosphocholine	0.051921299	3.71E-09
+P::1-palmitoylglycerophosphocholine	P::1-stearoylglycerophosphocholine	0.04912006	2.43E-08
+P::1-arachidonoylglycerophosphoinositol*	P::1-stearoylglycerophosphoinositol	0.061384369	3.10E-12
+P::1-palmitoylglycerophosphoethanolamine	P::1-stearoylglycerophosphoinositol	0.056971292	9.73E-11
+P::10-heptadecenoate (17:1n7)	P::15-methylpalmitate (isobar with 2-methylpalmitate)	0.04953133	1.86E-08
+P::10-nonadecenoate (19:1n9)	P::15-methylpalmitate (isobar with 2-methylpalmitate)	0.049113705	2.44E-08
+P::15-methylpalmitate (isobar with 2-methylpalmitate)	P::17-methylstearate	0.067477951	1.75E-14
+P::1-arachidonoylglycerophosphocholine*	P::2-arachidonoylglycerophosphocholine*	0.086851988	2.22E-16
+P::1-docosapentaenoylglycerophosphocholine*	P::2-arachidonoylglycerophosphocholine*	0.048304102	4.12E-08
+P::1-arachidonoylglycerophosphoethanolamine*	P::2-arachidonoylglycerophosphoethanolamine*	0.099429119	2.22E-16
+P::1-linoleoylglycerophosphoethanolamine*	P::2-arachidonoylglycerophosphoethanolamine*	0.054528212	5.89E-10
+P::1-docosahexaenoylglycerophosphocholine*	P::2-docosahexaenoylglycerophosphoethanolamine*	0.058039225	4.32E-11
+P::2-arachidonoylglycerophosphocholine*	P::2-docosahexaenoylglycerophosphoethanolamine*	0.058683833	2.63E-11
+P::1-arachidonoylglycerophosphocholine*	P::2-docosapentaenoylglycerophosphocholine*	0.057321515	7.47E-11
+P::1-docosahexaenoylglycerophosphocholine*	P::2-docosapentaenoylglycerophosphocholine*	0.053272854	1.44E-09
+P::1-eicosatrienoylglycerophosphocholine*	P::2-docosapentaenoylglycerophosphocholine*	0.048412365	3.85E-08
+P::2-aminobutyrate	P::2-hydroxybutyrate (AHB)	0.051191704	6.11E-09
+P::1,11-Undecanedicarboxylic acid	P::2-hydroxydecanoic acid	0.074782656	2.22E-16
+P::1-arachidonoylglycerophosphoinositol*	P::2-hydroxypalmitate	0.058172687	3.90E-11
+P::1-stearoylglycerophosphoinositol	P::2-hydroxystearate	0.051723706	4.25E-09
+P::2-hydroxypalmitate	P::2-hydroxystearate	0.131288484	2.22E-16
+P::1-linoleoylglycerophosphocholine	P::2-linoleoylglycerophosphocholine*	0.073132878	2.22E-16
+P::1-arachidonoylglycerophosphoethanolamine*	P::2-linoleoylglycerophosphoethanolamine*	0.052933194	1.83E-09
+P::1-linoleoylglycerophosphoethanolamine*	P::2-linoleoylglycerophosphoethanolamine*	0.103240137	2.22E-16
+P::2-arachidonoylglycerophosphoethanolamine*	P::2-linoleoylglycerophosphoethanolamine*	0.052566049	2.37E-09
+P::1-myristoylglycerophosphocholine	P::2-myristoylglycerophosphocholine*	0.090307559	2.22E-16
+P::1-docosapentaenoylglycerophosphocholine*	P::2-oleoylglycerophosphocholine*	0.058194118	3.84E-11
+P::1-eicosatrienoylglycerophosphocholine*	P::2-oleoylglycerophosphocholine*	0.072504724	2.22E-16
+P::1-oleoylglycerophosphocholine	P::2-oleoylglycerophosphocholine*	0.07704887	2.22E-16
+P::1-palmitoylglycerophosphocholine	P::2-oleoylglycerophosphocholine*	0.057781627	5.26E-11
+P::1-arachidonoylglycerophosphoethanolamine*	P::2-oleoylglycerophosphoethanolamine*	0.057245123	7.91E-11
+P::1-linoleoylglycerophosphoethanolamine*	P::2-oleoylglycerophosphoethanolamine*	0.079907658	2.22E-16
+P::1-oleoylglycerophosphoethanolamine	P::2-oleoylglycerophosphoethanolamine*	0.084221601	2.22E-16
+P::1-palmitoylglycerophosphoethanolamine	P::2-oleoylglycerophosphoethanolamine*	0.159526298	2.22E-16
+P::1-stearoylglycerophosphoinositol	P::2-oleoylglycerophosphoethanolamine*	0.060059388	8.94E-12
+P::1-myristoylglycerophosphocholine	P::2-palmitoleoylglycerophosphocholine*	0.064024374	3.49E-13
+P::1-palmitoleoylglycerophosphocholine*	P::2-palmitoleoylglycerophosphocholine*	0.089882369	2.22E-16
+P::2-myristoylglycerophosphocholine*	P::2-palmitoleoylglycerophosphocholine*	0.056873031	1.05E-10
+P::1-linoleoylglycerophosphocholine	P::2-palmitoylglycerophosphocholine*	0.0537646	1.02E-09
+P::1-palmitoylglycerophosphocholine	P::2-palmitoylglycerophosphocholine*	0.066312491	4.91E-14
+P::1-pentadecanoylglycerophosphocholine*	P::2-palmitoylglycerophosphocholine*	0.0495983	1.78E-08
+P::2-oleoylglycerophosphocholine*	P::2-palmitoylglycerophosphocholine*	0.051539874	4.82E-09
+P::1-arachidonoylglycerophosphoethanolamine*	P::2-palmitoylglycerophosphoethanolamine*	0.092706898	2.22E-16
+P::1-linoleoylglycerophosphoethanolamine*	P::2-palmitoylglycerophosphoethanolamine*	0.119030401	2.22E-16
+P::1-palmitoylglycerophosphoethanolamine	P::2-palmitoylglycerophosphoethanolamine*	0.108090922	2.22E-16
+P::1-stearoylglycerophosphoinositol	P::2-palmitoylglycerophosphoethanolamine*	0.062429795	1.32E-12
+P::2-oleoylglycerophosphoethanolamine*	P::2-palmitoylglycerophosphoethanolamine*	0.110414466	2.22E-16
+P::1-eicosadienoylglycerophosphocholine*	P::2-stearoylglycerophosphocholine*	0.071913336	4.44E-16
+P::1-heptadecanoylglycerophosphocholine	P::2-stearoylglycerophosphocholine*	0.086039369	2.22E-16
+P::1-oleoylglycerophosphocholine	P::2-stearoylglycerophosphocholine*	0.052558712	2.38E-09
+P::1-stearoylglycerophosphocholine	P::2-stearoylglycerophosphocholine*	0.113193626	2.22E-16
+P::2-hydroxy-3-methylvalerate	P::3-(4-hydroxyphenyl)lactate	0.057217465	8.08E-11
+P::1-docosahexaenoylglycerophosphocholine*	P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	0.049421337	1.99E-08
+P::2-hydroxybutyrate (AHB)	P::3-hydroxyisobutyrate	0.056190971	1.74E-10
+P::3-hydroxydecanoate	P::3-hydroxyoctanoate	0.124066453	2.22E-16
+P::3-methyl-2-oxobutyrate	P::3-methyl-2-oxovalerate	0.081163736	2.22E-16
+P::1-methylxanthine	P::3-methylxanthine	0.094025905	2.22E-16
+P::21-hydroxypregnenolone disulfate	P::4-androsten-3beta,17beta-diol disulfate 2*	0.067129861	2.40E-14
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::4-androsten-3beta,17beta-diol disulfate 2*	0.062612883	1.13E-12
+P::3-hydroxyhippurate	P::4-hydroxyhippurate	0.060436339	6.63E-12
+P::3-methyl-2-oxobutyrate	P::4-methyl-2-oxopentanoate	0.08317508	2.22E-16
+P::3-methyl-2-oxovalerate	P::4-methyl-2-oxopentanoate	0.111109293	2.22E-16
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::5alpha-androstan-3beta,17beta-diol disulfate	0.061193371	3.61E-12
+P::3-methylxanthine	P::7-methylxanthine	0.157900732	2.22E-16
+P::3-phosphoglycerate	P::adenosine 5'-monophosphate (AMP)	0.093540005	2.22E-16
+P::2-hydroxy-3-methylvalerate	P::alpha-hydroxyisocaproate	0.060800959	4.95E-12
+P::2-hydroxy-3-methylvalerate	P::alpha-hydroxyisovalerate	0.11142642	2.22E-16
+P::3-(4-hydroxyphenyl)lactate	P::alpha-hydroxyisovalerate	0.050595375	9.14E-09
+P::2-hydroxybutyrate (AHB)	P::alpha-ketobutyrate	0.065459809	1.03E-13
+P::3-hydroxyisobutyrate	P::alpha-ketobutyrate	0.056655503	1.23E-10
+P::1-palmitoylglycerol (1-monopalmitin)	P::alpha-tocopherol	0.05011998	1.26E-08
+P::21-hydroxypregnenolone disulfate	P::andro steroid monosulfate 2*	0.063957457	3.70E-13
+P::4-androsten-3beta,17beta-diol disulfate 2*	P::andro steroid monosulfate 2*	0.078772808	2.22E-16
+P::5alpha-androstan-3beta,17beta-diol disulfate	P::androsterone sulfate	0.074035101	2.22E-16
+P::1-arachidonoylglycerophosphocholine*	P::arachidonate (20:4n6)	0.048893293	2.82E-08
+P::adrenate (22:4n6)	P::arachidonate (20:4n6)	0.050270747	1.14E-08
+P::2-ethylhexanoate	P::benzoate	0.061867569	2.09E-12
+P::3-methylhistidine	P::beta-alanine	0.054016232	8.52E-10
+P::1,3-dihydroxyacetone	P::beta-hydroxypyruvate	0.051942023	3.66E-09
+P::bilirubin (E,E)*	P::bilirubin (Z,Z)	0.096234442	2.22E-16
+P::bilirubin (E,E)*	P::biliverdin	0.075031319	2.22E-16
+P::bilirubin (Z,Z)	P::biliverdin	0.06685124	3.06E-14
+P::acetylcarnitine	P::butyrylcarnitine	0.057553445	6.26E-11
+P::1,3,7-trimethylurate	P::caffeine	0.080968567	2.22E-16
+P::1,7-dimethylurate	P::caffeine	0.05070866	8.47E-09
+P::beta-sitosterol	P::campesterol	0.132816893	2.22E-16
+P::caprate (10:0)	P::caprylate (8:0)	0.122987452	2.22E-16
+P::caproate (6:0)	P::caprylate (8:0)	0.07887553	2.22E-16
+P::acetylcarnitine	P::carnitine	0.101212188	2.22E-16
+P::butyrylcarnitine	P::carnitine	0.056850913	1.06E-10
+P::alpha-tocopherol	P::cholesterol	0.089727717	2.22E-16
+P::betaine	P::choline	0.056376572	1.52E-10
+P::3-hydroxyoctanoate	P::citrulline	-0.055428089	3.06E-10
+P::arginine	P::citrulline	0.067367618	1.95E-14
+P::cortisol	P::cortisone	0.121923523	2.22E-16
+P::cis-4-decenoyl carnitine	P::decanoylcarnitine	0.064657225	2.04E-13
+P::21-hydroxypregnenolone disulfate	P::dehydroisoandrosterone sulfate (DHEA-S)	0.052667122	2.21E-09
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::dehydroisoandrosterone sulfate (DHEA-S)	0.05317688	1.55E-09
+P::4-androsten-3beta,17beta-diol disulfate 2*	P::dehydroisoandrosterone sulfate (DHEA-S)	0.051738415	4.20E-09
+P::androsterone sulfate	P::dehydroisoandrosterone sulfate (DHEA-S)	0.050229632	1.17E-08
+P::arachidonate (20:4n6)	P::dihomo-linolenate (20:3n3 or n6)	0.048400874	3.88E-08
+P::asparagine	P::dihydroorotate	0.05357896	1.16E-09
+P::choline	P::dimethylglycine	0.048260898	4.24E-08
+P::1-docosahexaenoylglycerophosphocholine*	P::docosahexaenoate (DHA; 22:6n3)	0.05536111	3.22E-10
+P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	P::docosahexaenoate (DHA; 22:6n3)	0.055408628	3.11E-10
+P::docosahexaenoate (DHA; 22:6n3)	P::docosapentaenoate (n3 DPA; 22:5n3)	0.054049676	8.31E-10
+P::arachidonate (20:4n6)	P::docosapentaenoate (n6 DPA; 22:5n6)	0.062133539	1.68E-12
+P::caprate (10:0)	P::dodecanedioate	0.073037857	2.22E-16
+P::caprylate (8:0)	P::dodecanedioate	0.054904814	4.49E-10
+P::2-docosapentaenoylglycerophosphocholine*	P::eicosapentaenoate (EPA; 20:5n3)	0.056802033	1.10E-10
+P::docosahexaenoate (DHA; 22:6n3)	P::eicosapentaenoate (EPA; 20:5n3)	0.053214237	1.51E-09
+P::docosapentaenoate (n3 DPA; 22:5n3)	P::eicosapentaenoate (EPA; 20:5n3)	0.069190795	3.77E-15
+P::5alpha-androstan-3beta,17beta-diol disulfate	P::epiandrosterone sulfate	0.083132774	2.22E-16
+P::androsterone sulfate	P::epiandrosterone sulfate	0.136482528	2.22E-16
+P::dehydroisoandrosterone sulfate (DHEA-S)	P::epiandrosterone sulfate	0.048488835	3.66E-08
+P::cysteine-glutathione disulfide	P::gamma-glutamylglutamine	0.108219975	2.22E-16
+P::gamma-glutamylisoleucine*	P::gamma-glutamylleucine	0.060950516	4.39E-12
+P::3-(4-hydroxyphenyl)lactate	P::gamma-glutamyltyrosine	0.049507152	1.89E-08
+P::butyrylcarnitine	P::gamma-glutamylvaline	0.050048607	1.32E-08
+P::gamma-glutamylisoleucine*	P::gamma-glutamylvaline	0.049102234	2.46E-08
+P::gamma-glutamylleucine	P::gamma-glutamylvaline	0.06077992	5.04E-12
+P::arabitol	P::gluconate	0.04994744	1.41E-08
+P::beta-hydroxypyruvate	P::glucose	0.057524205	6.40E-11
+P::gluconate	P::glucose	0.058104421	4.11E-11
+P::alpha-ketoglutarate	P::glutamate	0.077632887	2.22E-16
+P::gamma-glutamylglutamine	P::glutamine	0.077472908	2.22E-16
+P::erythrulose	P::glycerate	0.054059236	8.26E-10
+P::cholesterol	P::glycerol 3-phosphate (G3P)	0.048810712	2.97E-08
+P::glycerol 2-phosphate	P::glycerol 3-phosphate (G3P)	0.105453949	2.22E-16
+P::glycerol 2-phosphate	P::glycerophosphorylcholine (GPC)	0.06629874	4.97E-14
+P::glycerol 3-phosphate (G3P)	P::glycerophosphorylcholine (GPC)	0.052879926	1.90E-09
+P::alanine	P::glycine	0.071960322	4.44E-16
+P::glycochenodeoxycholate	P::glycocholate	0.109266874	2.22E-16
+P::glycochenodeoxycholate	P::glycodeoxycholate	0.091959863	2.22E-16
+P::glycocholate	P::glycodeoxycholate	0.091926713	2.22E-16
+P::EDTA	P::glycolate (hydroxyacetate)	0.064467881	2.40E-13
+P::glycochenodeoxycholate	P::glycoursodeoxycholate	0.110600158	2.22E-16
+P::glycocholate	P::glycoursodeoxycholate	0.058568854	2.87E-11
+P::EDTA	P::heme	0.069233831	3.55E-15
+P::caproate (6:0)	P::heptanoate (7:0)	0.090196325	2.22E-16
+P::caprylate (8:0)	P::heptanoate (7:0)	0.077198603	2.22E-16
+P::cis-4-decenoyl carnitine	P::hexanoylcarnitine	0.060738884	5.21E-12
+P::decanoylcarnitine	P::hexanoylcarnitine	0.073923161	2.22E-16
+P::5-oxoproline	P::histidine	0.100977574	2.22E-16
+P::glutamine	P::histidine	0.053200253	1.52E-09
+P::HWESASLLR	P::HWESASXX*	0.11251517	2.22E-16
+P::EDTA	P::iminodiacetate (IDA)	0.075508878	2.22E-16
+P::glycolate (hydroxyacetate)	P::iminodiacetate (IDA)	0.073076532	2.22E-16
+P::3-(4-hydroxyphenyl)lactate	P::indolelactate	0.051013409	6.89E-09
+P::2-methylbutyrylcarnitine (C5)	P::isobutyrylcarnitine	0.054449726	6.24E-10
+P::3-methyl-2-oxovalerate	P::isoleucine	0.057642914	5.85E-11
+P::gamma-glutamylleucine	P::isoleucine	0.064193387	3.03E-13
+P::2-methylbutyrylcarnitine (C5)	P::isovalerylcarnitine	0.09336004	2.22E-16
+P::isovalerate	P::isovalerylcarnitine	0.048793023	3.01E-08
+P::adenosine 5'-monophosphate (AMP)	P::lactate	0.058506612	3.02E-11
+P::cholesterol	P::lathosterol	0.055425834	3.07E-10
+P::caprate (10:0)	P::laurate (12:0)	0.1002544	2.22E-16
+P::caprylate (8:0)	P::laurate (12:0)	0.061768879	2.27E-12
+P::dodecanedioate	P::laurate (12:0)	0.107512488	2.22E-16
+P::decanoylcarnitine	P::laurylcarnitine	0.064081104	3.33E-13
+P::gamma-glutamylleucine	P::leucine	0.072159329	2.22E-16
+P::isoleucine	P::leucine	0.10140932	2.22E-16
+P::dihomo-linoleate (20:2n6)	P::linoleate (18:2n6)	0.048932739	2.75E-08
+P::linoleate (18:2n6)	P::linolenate [alpha or gamma; (18:3n3 or 6)]	0.058604874	2.79E-11
+P::leucine	P::lysine	0.048857303	2.88E-08
+P::citrate	P::malate	0.070939918	8.88E-16
+P::erythritol	P::mannitol	0.058515301	2.99E-11
+P::beta-hydroxypyruvate	P::mannose	0.052501199	2.48E-09
+P::gluconate	P::mannose	0.049459785	1.95E-08
+P::glucose	P::mannose	0.060769098	5.08E-12
+P::15-methylpalmitate (isobar with 2-methylpalmitate)	P::margarate (17:0)	0.050544758	9.46E-09
+P::asparagine	P::methionine	0.053577527	1.16E-09
+P::isoleucine	P::methionine	0.05436733	6.62E-10
+P::leucine	P::methionine	0.048295575	4.15E-08
+P::lysine	P::methionine	0.051511152	4.91E-09
+P::caprate (10:0)	P::myristate (14:0)	0.050757722	8.19E-09
+P::laurate (12:0)	P::myristate (14:0)	0.069056212	4.22E-15
+P::5-dodecenoate (12:1n7)	P::myristoleate (14:1n5)	0.074534673	2.22E-16
+P::laurylcarnitine	P::myristoylcarnitine	0.063802257	4.21E-13
+P::glycine	P::N-acetylglycine	0.048943933	2.73E-08
+P::cysteine-glutathione disulfide	P::N-acetylmethionine	0.066194499	5.44E-14
+P::N-acetylalanine	P::N-acetylmethionine	0.064319001	2.72E-13
+P::N-acetylalanine	P::N-formylmethionine	0.050426047	1.02E-08
+P::N-acetylmethionine	P::N-formylmethionine	0.052719685	2.13E-09
+P::3-phosphoglycerate	P::nicotinamide	0.067151357	2.35E-14
+P::adenosine 5'-monophosphate (AMP)	P::nicotinamide	0.064674111	2.02E-13
+P::17-methylstearate	P::nonadecanoate (19:0)	0.073400419	2.22E-16
+P::eicosenoate (20:1n9 or 11)	P::nonadecanoate (19:0)	0.053090207	1.64E-09
+P::margarate (17:0)	P::nonadecanoate (19:0)	0.053125102	1.60E-09
+P::hexadecanedioate	P::octadecanedioate	0.070795277	8.88E-16
+P::cis-4-decenoyl carnitine	P::octanoylcarnitine	0.080223372	2.22E-16
+P::decanoylcarnitine	P::octanoylcarnitine	0.114678388	2.22E-16
+P::hexanoylcarnitine	P::octanoylcarnitine	0.087846263	2.22E-16
+P::laurylcarnitine	P::octanoylcarnitine	0.048563679	3.49E-08
+P::cis-vaccenate (18:1n7)	P::oleate (18:1n9)	0.055373004	3.19E-10
+P::myristoylcarnitine	P::oleoylcarnitine	0.05691581	1.01E-10
+P::cysteine	P::ornithine	0.048411377	3.85E-08
+P::4-methylcatechol sulfate	P::p-cresol sulfate	0.06798555	1.11E-14
+P::1,2-dipalmitoylglycerol	P::palmitate, methyl ester	0.061792999	2.22E-12
+P::1-palmitoylglycerol (1-monopalmitin)	P::palmitate, methyl ester	0.053333077	1.38E-09
+P::cholesterol	P::palmitate, methyl ester	0.052482325	2.51E-09
+P::glycerol 3-phosphate (G3P)	P::palmitate, methyl ester	0.052130517	3.21E-09
+P::10-heptadecenoate (17:1n7)	P::palmitoleate (16:1n7)	0.052602132	2.31E-09
+P::myristoleate (14:1n5)	P::palmitoleate (16:1n7)	0.054160856	7.68E-10
+P::alpha-tocopherol	P::palmitoyl sphingomyelin	0.064430713	2.48E-13
+P::cholesterol	P::palmitoyl sphingomyelin	0.118077973	2.22E-16
+P::glycerol 3-phosphate (G3P)	P::palmitoyl sphingomyelin	0.053672623	1.09E-09
+P::laurylcarnitine	P::palmitoylcarnitine	0.049605161	1.77E-08
+P::myristoylcarnitine	P::palmitoylcarnitine	0.076985593	2.22E-16
+P::oleoylcarnitine	P::palmitoylcarnitine	0.087294353	2.22E-16
+P::1,3,7-trimethylurate	P::paraxanthine	0.052847317	1.95E-09
+P::1,7-dimethylurate	P::paraxanthine	0.061069131	3.99E-12
+P::caffeine	P::paraxanthine	0.057130709	8.62E-11
+P::caproate (6:0)	P::pelargonate (9:0)	0.069654781	2.44E-15
+P::caprylate (8:0)	P::pelargonate (9:0)	0.074710665	2.22E-16
+P::heptanoate (7:0)	P::pelargonate (9:0)	0.088543765	2.22E-16
+P::p-cresol sulfate	P::phenylacetylglutamine	0.052923124	1.85E-09
+P::gamma-glutamylphenylalanine	P::phenylalanine	0.100640367	2.22E-16
+P::gamma-glutamyltyrosine	P::phenylalanine	0.059769822	1.12E-11
+P::nonadecanoate (19:0)	P::phenylalanyltryptophan	0.050134225	1.24E-08
+P::2-hydroxy-3-methylvalerate	P::phenyllactate (PLA)	0.073539664	2.22E-16
+P::3-(4-hydroxyphenyl)lactate	P::phenyllactate (PLA)	0.0555638	2.77E-10
+P::alpha-hydroxyisovalerate	P::phenyllactate (PLA)	0.052476222	2.52E-09
+P::indolelactate	P::phenyllactate (PLA)	0.075456464	2.22E-16
+P::21-hydroxypregnenolone disulfate	P::pregn steroid monosulfate*	0.067540567	1.67E-14
+P::dehydroisoandrosterone sulfate (DHEA-S)	P::pregn steroid monosulfate*	0.051130162	6.37E-09
+P::5alpha-pregnan-3beta,20alpha-diol disulfate	P::pregnanediol-3-glucuronide	0.089246086	2.22E-16
+P::21-hydroxypregnenolone disulfate	P::pregnen-diol disulfate*	0.058210505	3.79E-11
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::pregnen-diol disulfate*	0.063208712	6.92E-13
+P::4-androsten-3beta,17beta-diol disulfate 2*	P::pregnen-diol disulfate*	0.059237253	1.71E-11
+P::pregn steroid monosulfate*	P::pregnen-diol disulfate*	0.066517133	4.11E-14
+P::21-hydroxypregnenolone disulfate	P::pregnenolone sulfate	0.083226655	2.22E-16
+P::pregn steroid monosulfate*	P::pregnenolone sulfate	0.095621509	2.22E-16
+P::pregnen-diol disulfate*	P::pregnenolone sulfate	0.059014079	2.03E-11
+P::acetylcarnitine	P::propionylcarnitine	0.062797095	9.74E-13
+P::carnitine	P::propionylcarnitine	0.080186028	2.22E-16
+P::isobutyrylcarnitine	P::propionylcarnitine	0.052657447	2.23E-09
+P::N-acetylalanine	P::pseudouridine	0.051386376	5.35E-09
+P::pantothenate	P::pyridoxate	0.060114488	8.56E-12
+P::creatine	P::pyroglutamine*	-0.060750357	5.16E-12
+P::ornithine	P::pyrophosphate (PPi)	0.049512191	1.88E-08
+P::alpha-ketobutyrate	P::pyruvate	0.05930642	1.62E-11
+P::lactate	P::pyruvate	0.066671485	3.60E-14
+P::asparagine	P::serine	0.063975175	3.64E-13
+P::glycine	P::serine	0.070464935	1.33E-15
+P::methionine	P::serine	0.051517648	4.89E-09
+P::3-phosphoglycerate	P::serotonin (5HT)	0.079350872	2.22E-16
+P::adenosine 5'-monophosphate (AMP)	P::serotonin (5HT)	0.110815997	2.22E-16
+P::cysteine-glutathione disulfide	P::serotonin (5HT)	0.059015536	2.03E-11
+P::nicotinamide	P::serotonin (5HT)	0.092544597	2.22E-16
+P::serotonin (5HT)	P::sphingosine	0.054811342	4.80E-10
+P::erythrulose	P::stachydrine	0.049078089	2.50E-08
+P::N-methyl proline	P::stachydrine	0.051327533	5.57E-09
+P::17-methylstearate	P::stearate (18:0)	0.05138302	5.36E-09
+P::eicosenoate (20:1n9 or 11)	P::stearate (18:0)	0.056590667	1.29E-10
+P::margarate (17:0)	P::stearate (18:0)	0.053894551	9.29E-10
+P::nonadecanoate (19:0)	P::stearate (18:0)	0.066726798	3.42E-14
+P::docosapentaenoate (n3 DPA; 22:5n3)	P::stearidonate (18:4n3)	0.053132362	1.59E-09
+P::eicosapentaenoate (EPA; 20:5n3)	P::stearidonate (18:4n3)	0.072702143	2.22E-16
+P::cholesterol	P::stearoyl sphingomyelin	0.05169887	4.32E-09
+P::palmitoyl sphingomyelin	P::stearoyl sphingomyelin	0.080210967	2.22E-16
+P::myristoylcarnitine	P::stearoylcarnitine	0.05901288	2.04E-11
+P::oleoylcarnitine	P::stearoylcarnitine	0.080437243	2.22E-16
+P::palmitoylcarnitine	P::stearoylcarnitine	0.094797381	2.22E-16
+P::glycochenodeoxycholate	P::taurochenodeoxycholate	0.098198379	2.22E-16
+P::glycocholate	P::taurochenodeoxycholate	0.094113696	2.22E-16
+P::glycodeoxycholate	P::taurochenodeoxycholate	0.05272737	2.12E-09
+P::glycoursodeoxycholate	P::taurochenodeoxycholate	0.062458073	1.29E-12
+P::glycochenodeoxycholate	P::taurocholate	0.061652255	2.49E-12
+P::glycocholate	P::taurocholate	0.133154625	2.22E-16
+P::glycodeoxycholate	P::taurocholate	0.058179237	3.88E-11
+P::taurochenodeoxycholate	P::taurocholate	0.114236847	2.22E-16
+P::glycocholenate sulfate*	P::taurocholenate sulfate*	0.073131974	2.22E-16
+P::taurochenodeoxycholate	P::taurocholenate sulfate*	0.054089448	8.08E-10
+P::taurocholate	P::taurocholenate sulfate*	0.058952228	2.13E-11
+P::glycolithocholate sulfate*	P::taurolithocholate 3-sulfate	0.101893883	2.22E-16
+P::taurocholenate sulfate*	P::taurolithocholate 3-sulfate	0.066719387	3.44E-14
+P::dodecanedioate	P::tetradecanedioate	0.066193604	5.44E-14
+P::hexadecanedioate	P::tetradecanedioate	0.092235317	2.22E-16
+P::7-methylxanthine	P::theobromine	0.06155157	2.70E-12
+P::1,3,7-trimethylurate	P::theophylline	0.060327895	7.23E-12
+P::1,7-dimethylurate	P::theophylline	0.068325508	8.22E-15
+P::caffeine	P::theophylline	0.071623621	4.44E-16
+P::paraxanthine	P::theophylline	0.069273673	3.55E-15
+P::erythrulose	P::threonate	0.100354644	2.22E-16
+P::glycerate	P::threonate	0.109757102	2.22E-16
+P::glutamine	P::threonine	0.074441476	2.22E-16
+P::methionine	P::threonine	0.062375023	1.38E-12
+P::pro-hydroxy-pro	P::trans-4-hydroxyproline	0.066034906	6.26E-14
+P::3-(4-hydroxyphenyl)lactate	P::tyrosine	0.055610564	2.68E-10
+P::gamma-glutamyltyrosine	P::tyrosine	0.097725307	2.22E-16
+P::methionine	P::tyrosine	0.058391004	3.30E-11
+P::5-oxoproline	P::urate	0.049214377	2.28E-08
+P::gamma-glutamylleucine	P::valine	0.05321937	1.50E-09
+P::gamma-glutamylvaline	P::valine	0.057585918	6.11E-11
+P::isoleucine	P::valine	0.071736595	4.44E-16
+P::leucine	P::valine	0.086710713	2.22E-16
+P::hypoxanthine	P::xanthine	0.050032793	1.33E-08
+P::arabitol	P::xylitol	0.055121837	3.83E-10
+P::cysteine	P::xylonate	0.058731089	2.53E-11
+P::xylonate	P::xylose	0.052311762	2.83E-09
+P::piperine	P::X - 01911	0.075340506	2.22E-16
+P::10-undecenoate (11:1n1)	P::X - 02249	0.048249786	4.27E-08
+P::1-docosahexaenoylglycerophosphocholine*	P::X - 02269	0.050194257	1.20E-08
+P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	P::X - 02269	0.108396373	2.22E-16
+P::docosahexaenoate (DHA; 22:6n3)	P::X - 02269	0.053047051	1.69E-09
+P::X - 01497	P::X - 11204	0.057138323	8.57E-11
+P::1-palmitoylglycerol (1-monopalmitin)	P::X - 11317	0.048316219	4.09E-08
+P::citrate	P::X - 11327	-0.051852517	3.89E-09
+P::X - 01497	P::X - 11327	0.065079335	1.43E-13
+P::X - 11204	P::X - 11327	0.078937907	2.22E-16
+P::pipecolate	P::X - 11334	0.057226118	8.02E-11
+P::X - 11308	P::X - 11372	0.057145872	8.53E-11
+P::X - 11308	P::X - 11378	0.089247733	2.22E-16
+P::3-phosphoglycerate	P::X - 11400	0.06951181	2.66E-15
+P::adenosine 5'-monophosphate (AMP)	P::X - 11400	0.116056459	2.22E-16
+P::cysteine-glutathione disulfide	P::X - 11400	0.064883721	1.69E-13
+P::glycerophosphorylcholine (GPC)	P::X - 11400	0.054274791	7.08E-10
+P::nicotinamide	P::X - 11400	0.072517313	2.22E-16
+P::serotonin (5HT)	P::X - 11400	0.14923317	2.22E-16
+P::pseudouridine	P::X - 11429	0.055563105	2.77E-10
+P::10-undecenoate (11:1n1)	P::X - 11438	0.058877603	2.26E-11
+P::hexadecanedioate	P::X - 11438	0.048923433	2.76E-08
+P::21-hydroxypregnenolone disulfate	P::X - 11440	0.049290575	2.17E-08
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::X - 11440	0.074818357	2.22E-16
+P::pregnen-diol disulfate*	P::X - 11440	0.096308062	2.22E-16
+P::biliverdin	P::X - 11441	0.080759404	2.22E-16
+P::biliverdin	P::X - 11442	0.082745929	2.22E-16
+P::X - 11441	P::X - 11442	0.106788429	2.22E-16
+P::piperine	P::X - 11452	0.081994531	2.22E-16
+P::X - 01911	P::X - 11452	0.0529311	1.84E-09
+P::1-docosahexaenoylglycerophosphocholine*	P::X - 11469	0.050299018	1.11E-08
+P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	P::X - 11469	0.107112833	2.22E-16
+P::docosahexaenoate (DHA; 22:6n3)	P::X - 11469	0.053605165	1.14E-09
+P::X - 02269	P::X - 11469	0.124362605	2.22E-16
+P::X - 11444	P::X - 11470	0.086243846	2.22E-16
+P::X - 11261	P::X - 11478	0.076274372	2.22E-16
+P::X - 01911	P::X - 11485	0.057508591	6.48E-11
+P::X - 11452	P::X - 11485	0.062211602	1.58E-12
+P::X - 11372	P::X - 11497	0.077369625	2.22E-16
+P::X - 11261	P::X - 11521	0.071469081	4.44E-16
+P::X - 11478	P::X - 11521	0.060319276	7.28E-12
+P::bilirubin (Z,Z)	P::X - 11522	0.056923617	1.01E-10
+P::biliverdin	P::X - 11522	0.069036672	4.44E-15
+P::X - 11441	P::X - 11522	0.078771093	2.22E-16
+P::X - 11442	P::X - 11522	0.085314439	2.22E-16
+P::glycocholenate sulfate*	P::X - 11529	0.055922815	2.13E-10
+P::bilirubin (Z,Z)	P::X - 11530	0.061608371	2.58E-12
+P::biliverdin	P::X - 11530	0.072961826	2.22E-16
+P::X - 11441	P::X - 11530	0.085328924	2.22E-16
+P::X - 11442	P::X - 11530	0.089241166	2.22E-16
+P::X - 11522	P::X - 11530	0.118766969	2.22E-16
+P::undecanoate (11:0)	P::X - 11533	0.051900464	3.76E-09
+P::X - 11204	P::X - 11533	0.063796217	4.23E-13
+P::hexadecanedioate	P::X - 11538	0.088282235	2.22E-16
+P::octadecanedioate	P::X - 11538	0.067746322	1.38E-14
+P::X - 11372	P::X - 11549	0.071930406	4.44E-16
+P::pelargonate (9:0)	P::X - 11550	0.058110347	4.09E-11
+P::undecanoate (11:0)	P::X - 11550	0.051096864	6.51E-09
+P::X - 11533	P::X - 11550	0.09405738	2.22E-16
+P::threonate	P::X - 11593	0.064444821	2.45E-13
+P::N1-methyladenosine	P::X - 11687	0.049642887	1.72E-08
+P::X - 11845	P::X - 11847	0.101249293	2.22E-16
+P::X - 11845	P::X - 11849	0.121233524	2.22E-16
+P::X - 11847	P::X - 11849	0.113182837	2.22E-16
+P::X - 11845	P::X - 11858	0.085747088	2.22E-16
+P::X - 11847	P::X - 11858	0.100213311	2.22E-16
+P::X - 11849	P::X - 11858	0.082632856	2.22E-16
+P::X - 11308	P::X - 11880	0.059397996	1.51E-11
+P::X - 11372	P::X - 11880	0.128474022	2.22E-16
+P::X - 11497	P::X - 11880	0.084244695	2.22E-16
+P::hexadecanedioate	P::X - 11905	0.07177466	4.44E-16
+P::tetradecanedioate	P::X - 11905	0.073418792	2.22E-16
+P::X - 11538	P::X - 11905	0.05947995	1.41E-11
+P::2-oleoylglycerophosphoethanolamine*	P::X - 12038	0.050862552	7.63E-09
+P::2-palmitoylglycerophosphoethanolamine*	P::X - 12038	0.071923939	4.44E-16
+P::X - 11317	P::X - 12038	0.077721641	2.22E-16
+P::3-methyl catechol sulfate 1	P::X - 12039	0.065711648	8.26E-14
+P::quinate	P::X - 12039	0.049844011	1.51E-08
+P::2-stearoylglycerophosphocholine*	P::X - 12051	0.04862889	3.34E-08
+P::X - 11204	P::X - 12051	0.116664016	2.22E-16
+P::X - 11327	P::X - 12051	0.064466245	2.40E-13
+P::5alpha-androstan-3beta,17beta-diol disulfate	P::X - 12063	0.056698781	1.19E-10
+P::N1-Methyl-2-pyridone-5-carboxamide	P::X - 12095	0.112203894	2.22E-16
+P::kynurenine	P::X - 12100	0.053779004	1.01E-09
+P::S-methylcysteine	P::X - 12128	0.061890096	2.05E-12
+P::X - 12107	P::X - 12128	0.077714566	2.22E-16
+P::X - 12039	P::X - 12230	0.069053741	4.44E-15
+P::piperine	P::X - 12231	0.08333008	2.22E-16
+P::X - 01911	P::X - 12231	0.059302164	1.62E-11
+P::X - 11452	P::X - 12231	0.098289264	2.22E-16
+P::X - 11485	P::X - 12231	0.071557557	4.44E-16
+P::3-indoxyl sulfate	P::X - 12405	0.103837732	2.22E-16
+P::5-dodecenoate (12:1n7)	P::X - 12442	0.052728158	2.12E-09
+P::17-methylstearate	P::X - 12459	0.070465618	1.33E-15
+P::3-hydroxybutyrate (BHBA)	P::X - 12465	0.053239311	1.48E-09
+P::acetylcarnitine	P::X - 12465	0.053396433	1.32E-09
+P::X - 12510	P::X - 12511	0.141391542	2.22E-16
+P::1-arachidonoylglycerophosphoethanolamine*	P::X - 12644	0.092818662	2.22E-16
+P::1-docosahexaenoylglycerophosphocholine*	P::X - 12644	0.067658499	1.51E-14
+P::1-linoleoylglycerophosphoethanolamine*	P::X - 12644	0.070879219	8.88E-16
+P::2-arachidonoylglycerophosphoethanolamine*	P::X - 12644	0.056279647	1.63E-10
+P::2-palmitoylglycerophosphoethanolamine*	P::X - 12644	0.06292788	8.74E-13
+P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	P::X - 12644	0.060484045	6.38E-12
+P::docosahexaenoate (DHA; 22:6n3)	P::X - 12644	0.066082421	6.00E-14
+P::X - 11444	P::X - 12844	0.055340938	3.26E-10
+P::cortisol	P::X - 12846	0.051089004	6.55E-09
+P::X - 11444	P::X - 12846	0.064219849	2.96E-13
+P::thymol sulfate	P::X - 12847	0.067188064	2.26E-14
+P::glycochenodeoxycholate	P::X - 12850	0.063989642	3.60E-13
+P::glycocholate	P::X - 12850	0.062781151	9.87E-13
+P::X - 12465	P::X - 12855	0.097770339	2.22E-16
+P::phenylalanyltryptophan	P::X - 13215	0.051170094	6.20E-09
+P::X - 11317	P::X - 13215	0.099762676	2.22E-16
+P::glycodeoxycholate	P::X - 13429	0.081080355	2.22E-16
+P::glycolithocholate sulfate*	P::X - 13429	0.07654309	2.22E-16
+P::taurolithocholate 3-sulfate	P::X - 13429	0.058544283	2.93E-11
+P::X - 11529	P::X - 13429	0.078770141	2.22E-16
+P::cis-4-decenoyl carnitine	P::X - 13435	0.065407612	1.07E-13
+P::decanoylcarnitine	P::X - 13435	0.049114917	2.44E-08
+P::7-methylxanthine	P::X - 13728	0.058878427	2.26E-11
+P::theobromine	P::X - 13728	0.081494791	2.22E-16
+P::3-methylhistidine	P::X - 13835	0.102573518	2.22E-16
+P::X - 02249	P::X - 13866	0.058134241	4.02E-11
+P::13-HODE + 9-HODE	P::X - 13891	0.06224774	1.53E-12
+P::X - 13871	P::X - 14056	0.138326559	2.22E-16
+P::heme	P::X - 14588	-0.057059277	9.10E-11
+P::X - 11261	P::X - 14939	0.091860915	2.22E-16
+P::X - 11478	P::X - 14939	0.115401892	2.22E-16
+P::X - 11521	P::X - 14939	0.052811838	2.00E-09
+P::X - 11550	P::X - 15222	0.076718554	2.22E-16
+P::X - 13215	P::X - 15222	0.051349286	5.49E-09
+P::cys-gly, oxidized	P::X - 15375	0.111998736	2.22E-16
+P::X - 13871	P::X - 15382	0.05677569	1.13E-10
+P::X - 14056	P::X - 15382	0.055488433	2.93E-10
+P::X - 15375	P::X - 15382	0.069719017	2.22E-15
+P::X - 14056	P::X - 15484	0.065477128	1.01E-13
+P::X - 15375	P::X - 15484	0.071879907	4.44E-16
+P::X - 15382	P::X - 15484	0.185403906	2.22E-16
+P::X - 13529	P::X - 15497	0.054515852	5.95E-10
+P::kynurenine	P::X - 15503	0.053060097	1.68E-09
+P::pelargonate (9:0)	P::X - 15650	0.101337875	2.22E-16
+P::undecanoate (11:0)	P::X - 15650	0.049458662	1.95E-08
+P::X - 11550	P::X - 15650	0.082693118	2.22E-16
+P::X - 15222	P::X - 15650	0.066584316	3.86E-14
+P::X - 13557	P::X - 15808	0.077695684	2.22E-16
+P::2-hydroxydecanoic acid	P::X - 16089	0.057078892	8.97E-11
+P::X - 12029	P::X - 16206	0.049114144	2.44E-08
+P::X - 12776	P::X - 16206	0.04897584	2.67E-08
+P::hexadecanedioate	P::X - 16480	0.064997032	1.53E-13
+P::octadecanedioate	P::X - 16480	0.055468009	2.97E-10
+P::X - 11538	P::X - 16480	0.079285536	2.22E-16
+P::pelargonate (9:0)	P::X - 16578	0.059923532	9.96E-12
+P::X - 15650	P::X - 16578	0.056879925	1.04E-10
+P::X - 01497	P::X - 16869	0.049981255	1.38E-08
+P::X - 15664	P::X - 16932	0.180257451	2.22E-16
+P::biliverdin	P::X - 16934	0.07996104	2.22E-16
+P::X - 11441	P::X - 16934	0.08532027	2.22E-16
+P::X - 11442	P::X - 16934	0.09116535	2.22E-16
+P::X - 11522	P::X - 16934	0.08763853	2.22E-16
+P::X - 11530	P::X - 16934	0.089034395	2.22E-16
+P::X - 11308	P::X - 16935	0.076140807	2.22E-16
+P::X - 11372	P::X - 16935	0.064486675	2.36E-13
+P::X - 11378	P::X - 16935	0.056625936	1.26E-10
+P::X - 11549	P::X - 16935	0.052589023	2.33E-09
+P::X - 11880	P::X - 16935	0.07749881	2.22E-16
+P::X - 15664	P::X - 16938	0.111951807	2.22E-16
+P::X - 16932	P::X - 16938	0.087123342	2.22E-16
+P::X - 12734	P::X - 16940	0.107099132	2.22E-16
+P::undecanoate (11:0)	P::X - 16943	0.053069066	1.67E-09
+P::X - 11533	P::X - 16943	0.06004558	9.04E-12
+P::X - 11550	P::X - 16943	0.073790284	2.22E-16
+P::X - 16578	P::X - 16943	0.065983805	6.53E-14
+P::bilirubin (E,E)*	P::X - 16946	0.062051158	1.80E-12
+P::biliverdin	P::X - 16946	0.104421305	2.22E-16
+P::X - 11441	P::X - 16946	0.082900984	2.22E-16
+P::X - 11442	P::X - 16946	0.086546768	2.22E-16
+P::X - 11522	P::X - 16946	0.0726776	2.22E-16
+P::X - 11530	P::X - 16946	0.075619271	2.22E-16
+P::X - 16934	P::X - 16946	0.081772408	2.22E-16
+P::X - 15664	P::X - 17137	0.201345289	2.22E-16
+P::X - 16932	P::X - 17137	0.184423534	2.22E-16
+P::X - 16938	P::X - 17137	0.08904619	2.22E-16
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::X - 17148	0.049531306	1.86E-08
+P::5alpha-androstan-3beta,17beta-diol disulfate	P::X - 17148	0.13724663	2.22E-16
+P::androsterone sulfate	P::X - 17148	0.061689778	2.42E-12
+P::epiandrosterone sulfate	P::X - 17148	0.075874492	2.22E-16
+P::X - 12063	P::X - 17148	0.066269283	5.11E-14
+P::4-vinylphenol sulfate	P::X - 17185	0.059843686	1.06E-11
+P::1-oleoylglycerophosphoethanolamine	P::X - 17254	0.098977648	2.22E-16
+P::2-palmitoylglycerophosphoethanolamine*	P::X - 17254	-0.06837551	7.99E-15
+P::5-oxoproline	P::X - 17254	0.057256351	7.84E-11
+P::histidine	P::X - 17254	0.055230045	3.54E-10
+P::pelargonate (9:0)	P::X - 17269	0.063062178	7.82E-13
+P::X - 15650	P::X - 17269	0.049495342	1.90E-08
+P::X - 16943	P::X - 17269	0.061457767	2.92E-12
+P::X - 12844	P::X - 17336	0.096294275	2.22E-16
+P::10-undecenoate (11:1n1)	P::X - 17337	0.083195206	2.22E-16
+P::X - 11444	P::X - 17357	0.053286892	1.43E-09
+P::X - 12844	P::X - 17357	0.069382158	3.11E-15
+P::X - 17336	P::X - 17357	0.069026126	4.44E-15
+P::pyruvate	P::X - 17502	0.069426554	3.11E-15
+P::X - 15808	P::X - 17502	0.072589487	2.22E-16
+P::X - 16869	P::X - 17502	0.055382282	3.17E-10
+P::lathosterol	P::X - 17612	-0.057117833	8.71E-11
+P::X - 12029	P::X - 17628	0.069527463	2.66E-15
+P::X - 17628	P::X - 17629	0.127602052	2.22E-16
+P::X - 11308	P::X - 17653	0.089600453	2.22E-16
+P::X - 11378	P::X - 17653	0.054282512	7.04E-10
+P::X - 11549	P::X - 17653	0.059211011	1.74E-11
+P::X - 11880	P::X - 17653	0.049620098	1.75E-08
+P::X - 11308	P::X - 17654	0.100389429	2.22E-16
+P::X - 11378	P::X - 17654	0.049878429	1.48E-08
+P::X - 16935	P::X - 17654	0.050299473	1.11E-08
+P::X - 17653	P::X - 17654	0.135085246	2.22E-16
+P::X - 11845	P::X - 17656	0.078165223	2.22E-16
+P::X - 11847	P::X - 17656	0.079365275	2.22E-16
+P::X - 11849	P::X - 17656	0.06376358	4.35E-13
+P::X - 11858	P::X - 17656	0.097948374	2.22E-16
+P::thymol sulfate	P::X - 17690	0.169048298	2.22E-16
+P::X - 12847	P::X - 17690	0.091618326	2.22E-16
+P::X - 12846	P::X - 17706	0.059850318	1.06E-11
+P::X - 17336	P::X - 17706	0.049328464	2.12E-08
+P::glucose	P::X - 18221	0.06315891	7.21E-13
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::X - 18601	0.078344436	2.22E-16
+P::4-androsten-3beta,17beta-diol disulfate 2*	P::X - 18601	0.051236589	5.92E-09
+P::dehydroisoandrosterone sulfate (DHEA-S)	P::X - 18601	0.08687688	2.22E-16
+P::decanoylcarnitine	P::X - 18739	0.061882693	2.06E-12
+P::laurylcarnitine	P::X - 18739	0.078548371	2.22E-16
+P::myristoylcarnitine	P::X - 18739	0.050581943	9.22E-09
+P::palmitoylcarnitine	P::X - 18739	0.052208966	3.04E-09
+P::catechol sulfate	P::X - 18779	-0.053482558	1.25E-09
+P::EDTA	P::X - 18779	0.05308161	1.65E-09
+P::X - 17375	P::X - 18779	0.084760616	2.22E-16
+P::13-HODE + 9-HODE	P::X - 18913	0.056467225	1.42E-10
+P::2-hydroxydecanoic acid	P::X - 18913	0.071438024	4.44E-16
+P::X - 18249	P::X - 18914	0.197453268	2.22E-16
+P::bilirubin (Z,Z)	P::X - 18929	0.075153233	2.22E-16
+P::biliverdin	P::X - 18929	0.064074078	3.35E-13
+P::X - 11441	P::X - 18929	0.05123974	5.91E-09
+P::X - 11442	P::X - 18929	0.049396092	2.03E-08
+P::X - 16934	P::X - 18929	0.051291072	5.71E-09
+P::X - 16946	P::X - 18929	0.05251836	2.45E-09
+P::X - 11491	P::X - 19141	0.13862856	2.22E-16
+P::erythrulose	P::X - 19147	0.048633246	3.34E-08
+P::X - 11204	P::X - 19147	0.055222956	3.56E-10
+P::X - 11317	P::X - 19147	0.064992103	1.54E-13
+P::X - 16063	P::X - 19147	0.061022997	4.14E-12
+P::X - 16869	P::X - 19147	0.060096954	8.68E-12
+P::5-oxoproline	P::X - 19380	-0.064197665	3.02E-13
+P::tryptophan	P::X - 19380	0.055344029	3.26E-10
+P::X - 12776	P::X - 19380	0.050423236	1.03E-08
+P::X - 17628	P::X - 19380	0.058101201	4.12E-11
+P::gamma-glutamyltyrosine	P::X - 19411	0.058630794	2.74E-11
+P::tyrosine	P::X - 19411	0.067328174	2.00E-14
+P::X - 11429	P::X - 19437	0.100493351	2.22E-16
+P::3-methyl-2-oxobutyrate	P::X - 19438	0.064933752	1.61E-13
+P::3-methyl-2-oxovalerate	P::X - 19438	0.080494875	2.22E-16
+P::4-methyl-2-oxopentanoate	P::X - 19438	0.074476983	2.22E-16
+P::lactate	P::X - 19438	0.057008398	9.46E-11
+P::pyruvate	P::X - 19438	0.074435355	2.22E-16
+P::X - 17502	P::X - 19438	0.076193227	2.22E-16
+P::1,2-propanediol	U::1,2-propanediol	0.214084535	2.22E-16
+P::1,3,7-trimethylurate	U::1,3,7-trimethylurate	0.058535213	2.95E-11
+P::caffeine	U::1,3,7-trimethylurate	0.059522963	1.37E-11
+P::1,7-dimethylurate	U::1,7-dimethylurate	0.059204033	1.75E-11
+P::caffeine	U::1,7-dimethylurate	0.051566106	4.73E-09
+P::paraxanthine	U::1,7-dimethylurate	0.050762431	8.17E-09
+P::theophylline	U::1,7-dimethylurate	0.058565211	2.88E-11
+U::1,3,7-trimethylurate	U::1,7-dimethylurate	0.061119518	3.83E-12
+P::X - 03056	U::1-(3-aminopropyl)-2-pyrrolidone	0.082865327	2.22E-16
+P::3-methylhistidine	U::1-methylimidazoleacetate	0.065465028	1.02E-13
+P::X - 13835	U::1-methylimidazoleacetate	0.073047397	2.22E-16
+P::X - 12095	U::1-methylnicotinamide	0.060166714	8.21E-12
+U::1,7-dimethylurate	U::1-methylurate	0.053905673	9.22E-10
+P::1-methylxanthine	U::1-methylxanthine	0.049608691	1.76E-08
+U::1,7-dimethylurate	U::1-methylxanthine	0.074187372	2.22E-16
+U::1-methylurate	U::1-methylxanthine	0.092656415	2.22E-16
+P::2-aminobutyrate	U::2-aminobutyrate	0.068307671	8.44E-15
+P::2-hydroxyhippurate (salicylurate)	U::2-hydroxyhippurate (salicylurate)	0.140470397	2.22E-16
+P::21-hydroxypregnenolone disulfate	U::21-hydroxypregnenolone disulfate	0.05265299	2.23E-09
+U::2-methylbutyrylcarnitine (C5)	U::3-dehydrocarnitine*	0.048925942	2.76E-08
+U::2-methylhippurate	U::3-ethylphenylsulfate*	0.085849729	2.22E-16
+U::2-hydroxybutyrate (AHB)	U::3-hydroxybutyrate (BHBA)	0.054338497	6.76E-10
+U::2-hydroxyisobutyrate	U::3-hydroxyglutarate	0.049219226	2.28E-08
+P::3-hydroxyhippurate	U::3-hydroxyhippurate	0.08156599	2.22E-16
+U::3-hydroxy-2-ethylpropionate	U::3-hydroxyisobutyrate	0.063716723	4.53E-13
+U::3-hydroxybutyrate (BHBA)	U::3-hydroxyisobutyrate	0.071238577	4.44E-16
+P::3-hydroxypropanoate	U::3-hydroxypropanoate	0.154056107	2.22E-16
+P::3-hydroxydecanoate	U::3-hydroxysebacate	0.0556876	2.53E-10
+P::3-hydroxyoctanoate	U::3-hydroxysebacate	0.068352116	7.99E-15
+P::3-indoxyl sulfate	U::3-indoxyl sulfate	0.083636229	2.22E-16
+P::X - 12405	U::3-indoxyl sulfate	0.068632192	6.22E-15
+P::3-methyl catechol sulfate 1	U::3-methyl catechol sulfate 1	0.061453348	2.93E-12
+U::3-methyl catechol sulfate 1	U::3-methyl catechol sulfate 2	0.070995994	6.66E-16
+U::2-methylbutyrylglycine	U::3-methylcrotonylglycine	0.069879939	2.00E-15
+P::3-methylglutarylcarnitine (C6)	U::3-methylglutaconate	0.086448492	2.22E-16
+U::3-hydroxy-3-methylglutarate	U::3-methylglutaconate	0.052773097	2.05E-09
+P::3-methylglutarylcarnitine (C6)	U::3-methylglutarate	0.078230254	2.22E-16
+U::3-methylglutaconate	U::3-methylglutarate	0.108646222	2.22E-16
+P::3-methylglutarylcarnitine (C6)	U::3-methylglutarylcarnitine (C6)	0.109105514	2.22E-16
+U::3-methylglutaconate	U::3-methylglutarylcarnitine (C6)	0.092047369	2.22E-16
+U::3-methylglutarate	U::3-methylglutarylcarnitine (C6)	0.1402116	2.22E-16
+P::3-methylhistidine	U::3-methylhistidine	0.108518065	2.22E-16
+P::X - 13835	U::3-methylhistidine	0.061793931	2.22E-12
+U::1-methylimidazoleacetate	U::3-methylhistidine	0.068747725	5.77E-15
+P::theobromine	U::3-methylxanthine	0.060980597	4.29E-12
+P::X - 13728	U::3-methylxanthine	0.055814272	2.30E-10
+P::5-methyluridine (ribothymidine)	U::4-acetaminophen sulfate	-0.066127681	5.77E-14
+P::4-androsten-3beta,17beta-diol disulfate 1*	U::4-androsten-3beta,17beta-diol disulfate 1*	0.08215428	2.22E-16
+P::dehydroisoandrosterone sulfate (DHEA-S)	U::4-androsten-3beta,17beta-diol disulfate 1*	0.052108814	3.26E-09
+P::X - 18601	U::4-androsten-3beta,17beta-diol disulfate 1*	0.068049269	1.07E-14
+P::4-androsten-3beta,17beta-diol disulfate 2*	U::4-androsten-3beta,17beta-diol disulfate 2*	0.062730324	1.03E-12
+U::4-androsten-3beta,17beta-diol disulfate 1*	U::4-androsten-3beta,17beta-diol disulfate 2*	0.06330579	6.38E-13
+P::4-ethylphenylsulfate	U::4-ethylphenylsulfate	0.156254186	2.22E-16
+P::4-hydroxyhippurate	U::4-hydroxybenzoate	0.075427518	2.22E-16
+P::4-hydroxyhippurate	U::4-hydroxyhippurate	0.154770697	2.22E-16
+U::4-hydroxybenzoate	U::4-hydroxyhippurate	0.093683625	2.22E-16
+P::X - 11787	U::4-hydroxyisoleucine	0.058559492	2.89E-11
+U::4-hydroxybenzoate	U::4-hydroxymandelate	0.064711213	1.95E-13
+P::4-hydroxyphenylacetate	U::4-hydroxyphenylacetate	0.089755375	2.22E-16
+U::3-(4-hydroxyphenyl)lactate	U::4-hydroxyphenylpyruvate	0.054986688	4.23E-10
+P::4-methylcatechol sulfate	U::4-methylcatechol sulfate	0.131791725	2.22E-16
+P::p-cresol sulfate	U::4-methylcatechol sulfate	0.050966015	7.12E-09
+P::4-vinylphenol sulfate	U::4-vinylphenol sulfate	0.184817839	2.22E-16
+U::3-ureidopropionate	U::5,6-dihydrouracil	0.08473326	2.22E-16
+U::1,3-dimethylurate	U::5-acetylamino-6-amino-3-methyluracil	0.05217044	3.12E-09
+U::1,7-dimethylurate	U::5-acetylamino-6-amino-3-methyluracil	0.06159435	2.61E-12
+U::1-methylurate	U::5-acetylamino-6-amino-3-methyluracil	0.053373844	1.35E-09
+U::1,7-dimethylurate	U::5-acetylamino-6-formylamino-3-methyluracil	0.055541693	2.82E-10
+U::5-acetylamino-6-amino-3-methyluracil	U::5-acetylamino-6-formylamino-3-methyluracil	0.101863194	2.22E-16
+P::betaine	U::5-aminovalerate	0.052922458	1.85E-09
+U::3-methylcytidine	U::5-methylcytidine	0.067200869	2.26E-14
+U::7,8-dihydroneopterin	U::7-methylguanine	0.075962761	2.22E-16
+P::7-methylxanthine	U::7-methylxanthine	0.051763492	4.13E-09
+P::theobromine	U::7-methylxanthine	0.066109323	5.86E-14
+P::X - 13728	U::7-methylxanthine	0.055837695	2.27E-10
+U::1-methylxanthine	U::7-methylxanthine	0.051217474	6.00E-09
+U::3-methylxanthine	U::7-methylxanthine	0.064977313	1.55E-13
+U::2-methylbutyrylcarnitine (C5)	U::acetylcarnitine	0.051509334	4.92E-09
+U::3-dehydrocarnitine*	U::acetylcarnitine	0.080989359	2.22E-16
+U::5-methylthioadenosine (MTA)	U::adenine	0.062773125	9.93E-13
+U::7,8-dihydroneopterin	U::adenine	0.073298648	2.22E-16
+U::7-methylguanine	U::adenine	0.071932423	4.44E-16
+U::2-hydroxyglutarate	U::adipate	0.066847818	3.06E-14
+U::2-aminobutyrate	U::alanine	0.050670821	8.69E-09
+P::allantoin	U::allantoin	0.04843123	3.80E-08
+P::gamma-tocopherol	U::alpha-CEHC glucuronide*	-0.074679895	2.22E-16
+P::X - 11876	U::alpha-CEHC glucuronide*	0.075346576	2.22E-16
+P::alpha-hydroxyisovalerate	U::alpha-hydroxyisovalerate	0.054744741	5.04E-10
+U::2-hydroxyglutarate	U::alpha-ketoglutarate	0.061928999	1.99E-12
+P::andro steroid monosulfate 2*	U::andro steroid monosulfate 2*	0.084682189	2.22E-16
+U::4-androsten-3beta,17beta-diol disulfate 2*	U::andro steroid monosulfate 2*	0.073219578	2.22E-16
+P::androsterone sulfate	U::androsterone sulfate	0.097001044	2.22E-16
+P::epiandrosterone sulfate	U::androsterone sulfate	0.072517453	2.22E-16
+P::arabinose	U::arabinose	0.064760135	1.87E-13
+U::arabitol	U::arabonate	0.050075329	1.29E-08
+P::erythrulose	U::ascorbate (Vitamin C)	0.055127812	3.81E-10
+P::glycerate	U::ascorbate (Vitamin C)	0.052830988	1.97E-09
+P::threonate	U::ascorbate (Vitamin C)	0.0540477	8.33E-10
+U::2-aminoadipate	U::asparagine	0.04929491	2.17E-08
+U::allantoin	U::asparagine	0.051356672	5.46E-09
+P::2-hydroxydecanoic acid	U::azelate (nonanedioate)	0.056013066	1.99E-10
+P::X - 12734	U::benzene-1,2,3-triol	0.057502104	6.51E-11
+P::X - 16940	U::benzene-1,2,3-triol	0.063651857	4.78E-13
+P::beta-alanine	U::beta-alanine	0.048510519	3.61E-08
+U::5-aminovalerate	U::beta-alanine	0.052301101	2.85E-09
+U::acetylcarnitine	U::butyrylcarnitine	0.06089508	4.59E-12
+P::caffeine	U::caffeine	0.049260169	2.22E-08
+U::1,3,7-trimethylurate	U::caffeine	0.061499977	2.82E-12
+U::2-methylbutyrylcarnitine (C5)	U::carnitine	0.055395112	3.14E-10
+U::3-dehydrocarnitine*	U::carnitine	0.087603049	2.22E-16
+U::acetylcarnitine	U::carnitine	0.102097096	2.22E-16
+U::butyrylcarnitine	U::carnitine	0.064635266	2.08E-13
+U::anserine	U::carnosine	0.080540496	2.22E-16
+P::catechol sulfate	U::catechol sulfate	0.105740596	2.22E-16
+U::alpha-ketoglutarate	U::citrate	0.055283908	3.40E-10
+P::creatine	U::creatine	0.091890071	2.22E-16
+P::pyroglutamine*	U::creatine	-0.069970862	1.78E-15
+U::allantoin	U::cysteine	0.049154781	2.38E-08
+U::cystathionine	U::cystine	0.086433486	2.22E-16
+P::17-methylstearate	U::decanoylcarnitine	0.059590629	1.30E-11
+P::X - 12459	U::decanoylcarnitine	0.080183603	2.22E-16
+U::4-androsten-3beta,17beta-diol disulfate 1*	U::dehydroisoandrosterone sulfate (DHEA-S)	0.060975872	4.30E-12
+U::4-androsten-3beta,17beta-diol disulfate 2*	U::dehydroisoandrosterone sulfate (DHEA-S)	0.060315647	7.30E-12
+U::andro steroid monosulfate 2*	U::dehydroisoandrosterone sulfate (DHEA-S)	0.077414013	2.22E-16
+U::androsterone sulfate	U::dehydroisoandrosterone sulfate (DHEA-S)	0.082703697	2.22E-16
+U::7,8-dihydroneopterin	U::dihydrobiopterin	0.075440863	2.22E-16
+U::7-methylguanine	U::dihydrobiopterin	0.080523511	2.22E-16
+U::adenine	U::dihydrobiopterin	0.070347371	1.33E-15
+P::dimethylglycine	U::dimethylglycine	0.086505536	2.22E-16
+P::erythritol	U::erythritol	0.135574199	2.22E-16
+P::butyrylcarnitine	U::ethylmalonate	0.122670266	2.22E-16
+U::fucitol	U::fucose	0.109560989	2.22E-16
+U::fructose	U::galactitol (dulcitol)	0.076194322	2.22E-16
+P::gamma-CEHC	U::gamma-CEHC glucuronide*	0.104968172	2.22E-16
+U::alpha-CEHC glucuronide*	U::gamma-CEHC glucuronide*	0.070121887	1.55E-15
+U::gamma-glutamylisoleucine*	U::gamma-glutamylleucine	0.055219409	3.57E-10
+U::gamma-glutamylisoleucine*	U::gamma-glutamylphenylalanine	0.053979554	8.74E-10
+U::gamma-glutamylleucine	U::gamma-glutamylphenylalanine	0.117177607	2.22E-16
+U::gamma-glutamylisoleucine*	U::gamma-glutamyltyrosine	0.048894182	2.82E-08
+U::gamma-glutamylleucine	U::gamma-glutamyltyrosine	0.102040523	2.22E-16
+U::gamma-glutamylphenylalanine	U::gamma-glutamyltyrosine	0.092461238	2.22E-16
+U::gamma-glutamylisoleucine*	U::gamma-glutamylvaline	0.081969692	2.22E-16
+U::gamma-glutamylleucine	U::gamma-glutamylvaline	0.091606216	2.22E-16
+U::gamma-glutamylphenylalanine	U::gamma-glutamylvaline	0.085707988	2.22E-16
+U::gamma-glutamyltyrosine	U::gamma-glutamylvaline	0.074015046	2.22E-16
+U::aspartate	U::glutamate	0.058088159	4.16E-11
+U::2-aminobutyrate	U::glutamine	0.053247443	1.47E-09
+U::asparagine	U::glutamine	0.055061896	4.00E-10
+P::N-acetyl-beta-alanine	U::glutarate (pentanedioate)	0.04907971	2.50E-08
+U::2-hydroxyglutarate	U::glutarate (pentanedioate)	0.060932447	4.46E-12
+U::3-hydroxyglutarate	U::glutarylcarnitine (C5)	0.071610682	4.44E-16
+U::glutarate (pentanedioate)	U::glutarylcarnitine (C5)	0.097581658	2.22E-16
+U::3-phosphoglycerate	U::glycerol 3-phosphate (G3P)	0.07488283	2.22E-16
+P::glycocholate	U::glycocholate	0.070002559	1.78E-15
+P::glycocholenate sulfate*	U::glycocholenate sulfate*	0.103331389	2.22E-16
+P::trans-4-hydroxyproline	U::glycolate (hydroxyacetate)	0.070937538	8.88E-16
+U::2-hydroxyisobutyrate	U::glycolate (hydroxyacetate)	0.05578508	2.36E-10
+P::glycolithocholate sulfate*	U::glycolithocholate sulfate*	0.091050401	2.22E-16
+P::taurolithocholate 3-sulfate	U::glycolithocholate sulfate*	0.063291291	6.46E-13
+U::alanylalanine	U::glycylglycine	0.052668923	2.21E-09
+U::glycerol 3-phosphate (G3P)	U::guanidine	-0.049476448	1.92E-08
+U::2-aminoadipate	U::guanidinoacetate	0.053722662	1.05E-09
+U::guanidine	U::guanidinoacetate	0.055451524	3.01E-10
+U::7,8-dihydroneopterin	U::guanine	0.074822777	2.22E-16
+U::7-methylguanine	U::guanine	0.069830229	2.22E-15
+U::dihydrobiopterin	U::guanine	0.051740068	4.20E-09
+U::butyrylcarnitine	U::hexanoylcarnitine	0.055257588	3.47E-10
+P::hippurate	U::hippurate	0.076454576	2.22E-16
+U::benzoate	U::hippurate	0.049315903	2.14E-08
+U::cinnamoylglycine	U::hippurate	0.051262501	5.82E-09
+P::homocitrulline	U::homocitrulline	0.076773617	2.22E-16
+P::homostachydrine*	U::homostachydrine*	0.134497522	2.22E-16
+U::3,4-dihydroxyphenylacetate	U::homovanillate (HVA)	0.12468181	2.22E-16
+P::carnitine	U::hydroxyisovaleroyl carnitine	0.053178223	1.54E-09
+U::beta-hydroxyisovalerate	U::hydroxyisovaleroyl carnitine	0.058692726	2.61E-11
+P::indoleacetate	U::indoleacetylglutamine	0.113412854	2.22E-16
+U::3-(4-hydroxyphenyl)lactate	U::indolelactate	0.089372827	2.22E-16
+U::4-hydroxyphenylpyruvate	U::indolelactate	0.053646639	1.11E-09
+U::adenosine	U::inosine	0.119948382	2.22E-16
+U::hypoxanthine	U::inosine	0.067423018	1.84E-14
+P::isobutyrylcarnitine	U::isobutyrylcarnitine	0.084917804	2.22E-16
+U::2-methylbutyrylcarnitine (C5)	U::isobutyrylcarnitine	0.059087762	1.92E-11
+P::isobutyrylcarnitine	U::isobutyrylglycine	0.050150876	1.23E-08
+U::2-methylbutyrylglycine	U::isobutyrylglycine	0.065352964	1.13E-13
+U::3-methylcrotonylglycine	U::isobutyrylglycine	0.05323658	1.48E-09
+U::isobutyrylcarnitine	U::isobutyrylglycine	0.067167463	2.31E-14
+P::erythritol	U::isosorbide	0.054855672	4.65E-10
+U::erythritol	U::isosorbide	0.057630323	5.90E-11
+U::3-dehydrocarnitine*	U::isovalerylcarnitine	0.049236264	2.25E-08
+U::acetylcarnitine	U::isovalerylcarnitine	0.065772113	7.86E-14
+U::butyrylcarnitine	U::isovalerylcarnitine	0.052572332	2.36E-09
+U::carnitine	U::isovalerylcarnitine	0.063850168	4.05E-13
+U::2-methylbutyrylglycine	U::isovalerylglycine	0.05686575	1.05E-10
+U::3-methylcrotonylglycine	U::isovalerylglycine	0.069765216	2.22E-15
+U::isobutyrylglycine	U::isovalerylglycine	0.079570027	2.22E-16
+P::kynurenate	U::kynurenate	0.086087943	2.22E-16
+U::3-hydroxykynurenine	U::kynurenine	0.063563317	5.15E-13
+U::2-hydroxybutyrate (AHB)	U::lactate	0.057796702	5.20E-11
+U::3-hydroxybutyrate (BHBA)	U::lactate	0.049257104	2.22E-08
+U::3-hydroxyisobutyrate	U::lactate	0.049773377	1.58E-08
+U::isoleucine	U::leucine	0.092873373	2.22E-16
+U::cystine	U::lysine	0.102311782	2.22E-16
+U::glutamine	U::lysine	0.067187416	2.26E-14
+U::2-hydroxyglutarate	U::malate	0.056755735	1.14E-10
+U::alpha-ketoglutarate	U::malate	0.057409272	6.98E-11
+U::citrate	U::malate	0.049637901	1.73E-08
+U::3-ethylphenylsulfate*	U::mandelate	0.059224176	1.73E-11
+P::mannitol	U::mannitol	0.149674312	2.22E-16
+U::fructose	U::mannose	0.067146323	2.35E-14
+P::X - 12092	U::N-6-trimethyllysine	0.091734847	2.22E-16
+P::N-acetyl-beta-alanine	U::N-acetyl-beta-alanine	0.08764959	2.22E-16
+P::citrulline	U::N-acetylarginine	0.052104966	3.27E-09
+U::N-acetylasparagine	U::N-acetylglutamine	0.062719679	1.04E-12
+U::N-acetylglutamine	U::N-acetylleucine	0.051373433	5.40E-09
+U::N-acetylisoleucine	U::N-acetylleucine	0.1073895	2.22E-16
+U::4-acetamidobutanoate	U::N-acetylputrescine	0.099105568	2.22E-16
+U::4-hydroxyphenylpyruvate	U::N-acetyltryptophan	0.054660958	5.36E-10
+U::N-acetylphenylalanine	U::N-acetyltryptophan	0.098897282	2.22E-16
+U::N-acetylphenylalanine	U::N-acetyltyrosine	0.125227223	2.22E-16
+U::N-acetyltryptophan	U::N-acetyltyrosine	0.107646066	2.22E-16
+U::N-acetylisoleucine	U::N-acetylvaline	0.071829038	4.44E-16
+P::N-methyl proline	U::N-methyl proline	0.05957186	1.31E-11
+P::stachydrine	U::N-methyl proline	0.055083873	3.94E-10
+U::chiro-inositol	U::N-methyl proline	0.063859087	4.01E-13
+P::N-methyl proline	U::N-methylglutamate	0.070899417	8.88E-16
+U::N-methyl proline	U::N-methylglutamate	0.05572989	2.45E-10
+P::N1-Methyl-2-pyridone-5-carboxamide	U::N1-Methyl-2-pyridone-5-carboxamide	0.072266324	2.22E-16
+P::X - 12095	U::N1-Methyl-2-pyridone-5-carboxamide	0.107876385	2.22E-16
+U::1-methylnicotinamide	U::N1-Methyl-2-pyridone-5-carboxamide	0.069527959	2.66E-15
+U::C-glycosyltryptophan*	U::N2-methylguanosine	0.066978173	2.75E-14
+U::7,8-dihydroneopterin	U::neopterin	0.07889466	2.22E-16
+U::7-methylguanine	U::neopterin	0.062523331	1.22E-12
+U::adenine	U::neopterin	0.049699424	1.66E-08
+U::dihydrobiopterin	U::neopterin	0.067351376	1.95E-14
+U::guanine	U::neopterin	0.062144915	1.67E-12
+U::3-ethylphenylsulfate*	U::o-cresol sulfate	0.096622415	2.22E-16
+U::3-methyl catechol sulfate 1	U::o-cresol sulfate	0.052930567	1.84E-09
+U::mandelate	U::o-cresol sulfate	0.052157043	3.15E-09
+U::acetylcarnitine	U::octanoylcarnitine	0.062706706	1.05E-12
+U::butyrylcarnitine	U::octanoylcarnitine	0.055145181	3.77E-10
+U::carnitine	U::octanoylcarnitine	0.053187031	1.53E-09
+U::hexanoylcarnitine	U::octanoylcarnitine	0.072418968	2.22E-16
+U::isovalerylcarnitine	U::octanoylcarnitine	0.054806133	4.82E-10
+U::citrate	U::ornithine	0.057063243	9.07E-11
+U::cystine	U::ornithine	0.080753826	2.22E-16
+U::lysine	U::ornithine	0.082865174	2.22E-16
+U::5-oxoproline	U::orotidine	0.054765413	4.96E-10
+P::4-methylcatechol sulfate	U::p-cresol sulfate	0.051681097	4.37E-09
+P::p-cresol sulfate	U::p-cresol sulfate	0.095889164	2.22E-16
+U::4-methylcatechol sulfate	U::p-cresol sulfate	0.064313206	2.74E-13
+P::pantothenate	U::pantothenate	0.079078259	2.22E-16
+P::1,7-dimethylurate	U::paraxanthine	0.048311142	4.11E-08
+P::paraxanthine	U::paraxanthine	0.061028885	4.12E-12
+P::theophylline	U::paraxanthine	0.059581817	1.30E-11
+U::caffeine	U::paraxanthine	0.048669135	3.26E-08
+P::phenol sulfate	U::phenol sulfate	0.130439159	2.22E-16
+P::phenylacetylglutamine	U::phenylacetylglutamine	0.068457144	7.33E-15
+U::lactose	U::phenylacetylglycine	0.093444302	2.22E-16
+U::isoleucine	U::phenylalanine	0.049200297	2.31E-08
+U::leucine	U::phenylalanine	0.057804503	5.17E-11
+U::cinnamoylglycine	U::phenylpropionylglycine	0.061564508	2.67E-12
+U::dimethylarginine (SDMA + ADMA)	U::phosphate	-0.04887547	2.85E-08
+P::2-hydroxydecanoic acid	U::pimelate (heptanedioate)	0.080884486	2.22E-16
+U::azelate (nonanedioate)	U::pimelate (heptanedioate)	0.086662608	2.22E-16
+P::pipecolate	U::pipecolate	0.056559231	1.33E-10
+P::5alpha-pregnan-3beta,20alpha-diol disulfate	U::pregnanediol-3-glucuronide	0.123273464	2.22E-16
+P::pregnanediol-3-glucuronide	U::pregnanediol-3-glucuronide	0.103729144	2.22E-16
+P::4-androsten-3beta,17beta-diol disulfate 1*	U::pregnen-diol disulfate*	0.048870585	2.86E-08
+P::pregn steroid monosulfate*	U::pregnen-diol disulfate*	0.052848783	1.95E-09
+P::pregnen-diol disulfate*	U::pregnen-diol disulfate*	0.081036221	2.22E-16
+P::X - 11440	U::pregnen-diol disulfate*	0.06243239	1.32E-12
+U::4-androsten-3beta,17beta-diol disulfate 1*	U::pregnen-diol disulfate*	0.064364785	2.62E-13
+U::4-androsten-3beta,17beta-diol disulfate 2*	U::pregnen-diol disulfate*	0.052299397	2.85E-09
+P::pro-hydroxy-pro	U::pro-hydroxy-pro	0.132760363	2.22E-16
+P::trans-4-hydroxyproline	U::pro-hydroxy-pro	0.054610382	5.55E-10
+U::glycylproline	U::pro-hydroxy-pro	0.069739599	2.22E-15
+P::proline	U::proline	0.074468209	2.22E-16
+P::X - 11315	U::proline	-0.06342192	5.79E-13
+U::2-methylbutyrylcarnitine (C5)	U::propionylcarnitine	0.049147523	2.39E-08
+U::3-dehydrocarnitine*	U::propionylcarnitine	0.063596207	5.01E-13
+U::acetylcarnitine	U::propionylcarnitine	0.093872006	2.22E-16
+U::butyrylcarnitine	U::propionylcarnitine	0.067432928	1.82E-14
+U::carnitine	U::propionylcarnitine	0.092752085	2.22E-16
+U::isovalerylcarnitine	U::propionylcarnitine	0.077296847	2.22E-16
+U::octanoylcarnitine	U::propionylcarnitine	0.057417819	6.94E-11
+U::ethanolamine	U::putrescine	0.058752001	2.49E-11
+P::pyridoxate	U::pyridoxate	0.19298805	2.22E-16
+P::S-methylcysteine	U::pyruvate	0.095850489	2.22E-16
+P::quinate	U::quinate	0.079752459	2.22E-16
+U::fumarate	U::quinolinate	0.057035402	9.27E-11
+P::pyridoxate	U::riboflavin (Vitamin B2)	0.055357506	3.22E-10
+U::pantothenate	U::riboflavin (Vitamin B2)	0.058469338	3.10E-11
+U::pyridoxate	U::riboflavin (Vitamin B2)	0.056932513	1.00E-10
+U::arabinose	U::ribose	0.068206687	9.33E-15
+P::S-methylcysteine	U::S-methylcysteine	0.09950482	2.22E-16
+U::pyruvate	U::S-methylcysteine	0.09390483	2.22E-16
+P::2-hydroxyhippurate (salicylurate)	U::salicylate	0.123878331	2.22E-16
+U::2-hydroxyhippurate (salicylurate)	U::salicylate	0.12529038	2.22E-16
+P::2-hydroxyhippurate (salicylurate)	U::salicyluric glucuronide*	0.12582031	2.22E-16
+U::2-hydroxyhippurate (salicylurate)	U::salicyluric glucuronide*	0.161979481	2.22E-16
+U::salicylate	U::salicyluric glucuronide*	0.108427272	2.22E-16
+P::dimethylglycine	U::sarcosine (N-Methylglycine)	0.071811921	4.44E-16
+U::dimethylglycine	U::sarcosine (N-Methylglycine)	0.087317003	2.22E-16
+P::scyllo-inositol	U::scyllo-inositol	0.092953504	2.22E-16
+P::serine	U::serine	0.057348405	7.31E-11
+U::ribitol	U::sorbitol	0.049234343	2.26E-08
+P::stachydrine	U::stachydrine	0.135699931	2.22E-16
+U::chiro-inositol	U::stachydrine	0.065333469	1.15E-13
+U::N-methyl proline	U::stachydrine	0.060105859	8.62E-12
+U::N-methylglutamate	U::stachydrine	0.055973905	2.05E-10
+U::2-hydroxyglutarate	U::succinate	0.059614247	1.27E-11
+U::malate	U::succinate	0.052537176	2.42E-09
+P::carnitine	U::succinylcarnitine	0.053518326	1.21E-09
+U::hydroxyisovaleroyl carnitine	U::succinylcarnitine	0.053621534	1.13E-09
+U::fructose	U::sucrose	0.054422935	6.36E-10
+U::beta-alanine	U::taurine	0.09369484	2.22E-16
+P::taurocholenate sulfate*	U::taurocholenate sulfate*	0.053006531	1.74E-09
+U::glycocholenate sulfate*	U::taurocholenate sulfate*	0.055086504	3.93E-10
+P::taurolithocholate 3-sulfate	U::taurolithocholate 3-sulfate	0.050481908	9.86E-09
+U::glycolithocholate sulfate*	U::taurolithocholate 3-sulfate	0.055299029	3.37E-10
+U::taurocholenate sulfate*	U::taurolithocholate 3-sulfate	0.058351064	3.40E-11
+P::theobromine	U::theobromine	0.09415598	2.22E-16
+P::X - 13728	U::theobromine	0.056490183	1.40E-10
+U::3-methylxanthine	U::theobromine	0.064968608	1.57E-13
+U::7-methylxanthine	U::theobromine	0.055649054	2.60E-10
+P::threitol	U::threitol	0.113861134	2.22E-16
+U::citramalate	U::threitol	0.054529869	5.89E-10
+P::threonine	U::threonine	0.053234256	1.48E-09
+U::alanine	U::threonine	0.049575165	1.80E-08
+U::methionine	U::threonine	0.05586461	2.22E-10
+U::serine	U::threonine	0.071642649	4.44E-16
+P::thymol sulfate	U::thymol sulfate	0.136929351	2.22E-16
+P::X - 12847	U::thymol sulfate	0.090389026	2.22E-16
+P::X - 17690	U::thymol sulfate	0.109011921	2.22E-16
+U::2-methylbutyrylglycine	U::tigloylglycine	0.074778337	2.22E-16
+U::3-methylcrotonylglycine	U::tigloylglycine	0.081212454	2.22E-16
+U::isobutyrylglycine	U::tigloylglycine	0.064953173	1.59E-13
+U::isovalerylglycine	U::tigloylglycine	0.089163896	2.22E-16
+P::acetylcarnitine	U::tiglyl carnitine	0.057336951	7.38E-11
+P::tiglyl carnitine	U::tiglyl carnitine	0.056377882	1.52E-10
+P::trigonelline (N'-methylnicotinate)	U::trigonelline (N'-methylnicotinate)	0.114660574	2.22E-16
+U::phenylalanine	U::tryptophan	0.07310543	2.22E-16
+P::tryptophan betaine	U::tryptophan betaine	0.138767586	2.22E-16
+U::tryptamine	U::tyramine	0.078253941	2.22E-16
+U::leucine	U::tyrosine	0.04934138	2.10E-08
+U::phenylalanine	U::tyrosine	0.080942406	2.22E-16
+U::tryptophan	U::tyrosine	0.083018676	2.22E-16
+P::uridine	U::uracil	0.062765828	1.00E-12
+U::thymine	U::uracil	0.111697015	2.22E-16
+U::7-methylguanine	U::urate	0.049685608	1.68E-08
+U::isoleucine	U::valine	0.06927905	3.55E-15
+U::leucine	U::valine	0.055135702	3.79E-10
+U::methionine	U::valine	0.074827769	2.22E-16
+U::7-methylguanine	U::xanthine	0.048698504	3.20E-08
+U::N2-methylguanosine	U::xanthosine	0.052055337	3.38E-09
+U::kynurenate	U::xanthurenate	0.083653029	2.22E-16
+U::ribitol	U::xylitol	0.065812043	7.59E-14
+U::arabonate	U::xylonate	0.075958519	2.22E-16
+U::threitol	U::xylonate	0.06770709	1.42E-14
+U::threonate	U::xylonate	0.059002854	2.05E-11
+P::threitol	U::xylose	0.060821379	4.87E-12
+P::xylose	U::xylose	0.098144851	2.22E-16
+U::4-hydroxymandelate	U::xylose	0.060702212	5.36E-12
+U::arabinose	U::xylose	0.061856445	2.11E-12
+U::threitol	U::xylose	0.080692352	2.22E-16
+U::xylonate	U::xylose	0.076760809	2.22E-16
+U::alpha-ketoglutarate	U::xylulose	0.055906528	2.15E-10
+U::arabinose	U::xylulose	0.048317905	4.09E-08
+U::ribulose	U::xylulose	0.094418762	2.22E-16
+P::piperine	U::X - 01911	0.07318383	2.22E-16
+P::X - 01911	U::X - 01911	0.094361282	2.22E-16
+P::X - 11452	U::X - 01911	0.057215625	8.09E-11
+P::X - 12231	U::X - 01911	0.055442719	3.03E-10
+P::X - 02249	U::X - 02249	0.063688048	4.64E-13
+U::5-methylthioadenosine (MTA)	U::X - 02249	0.049938013	1.42E-08
+U::indoleacetate	U::X - 02249	0.070148615	1.55E-15
+P::X - 03056	U::X - 03056	0.145103	2.22E-16
+U::1-(3-aminopropyl)-2-pyrrolidone	U::X - 03056	0.090989582	2.22E-16
+P::X - 07765	U::X - 07765	0.227095079	2.22E-16
+P::X - 09789	U::X - 09789	0.106822101	2.22E-16
+P::X - 11247	U::X - 11247	0.203664667	2.22E-16
+P::3-methylhistidine	U::X - 11332	0.091279026	2.22E-16
+P::X - 13835	U::X - 11332	0.073445066	2.22E-16
+U::1-methylimidazoleacetate	U::X - 11332	0.061448145	2.94E-12
+U::3-methylhistidine	U::X - 11332	0.10281727	2.22E-16
+P::X - 11334	U::X - 11334	0.132105045	2.22E-16
+P::pro-hydroxy-pro	U::X - 11338	0.049803226	1.55E-08
+U::glycylproline	U::X - 11338	0.065954558	6.71E-14
+U::pro-hydroxy-pro	U::X - 11338	0.058204822	3.80E-11
+P::homocitrulline	U::X - 11357	0.053279082	1.44E-09
+U::homocitrulline	U::X - 11357	0.114923463	2.22E-16
+U::lysine	U::X - 11357	-0.073387422	2.22E-16
+P::pro-hydroxy-pro	U::X - 11360	0.064117594	3.23E-13
+U::glycylproline	U::X - 11360	0.089386348	2.22E-16
+U::pro-hydroxy-pro	U::X - 11360	0.064262943	2.86E-13
+P::N-acetyl-beta-alanine	U::X - 11390	0.08635757	2.22E-16
+U::N-acetyl-beta-alanine	U::X - 11390	0.084778987	2.22E-16
+P::X - 11423	U::X - 11423	0.120513678	2.22E-16
+U::pseudouridine	U::X - 11429	0.071258709	4.44E-16
+P::X - 11437	U::X - 11437	0.163110439	2.22E-16
+P::4-androsten-3beta,17beta-diol disulfate 1*	U::X - 11440	0.054284881	7.02E-10
+P::pregnen-diol disulfate*	U::X - 11440	0.071303143	4.44E-16
+P::X - 11440	U::X - 11440	0.103370356	2.22E-16
+U::4-androsten-3beta,17beta-diol disulfate 1*	U::X - 11440	0.049536856	1.85E-08
+U::pregnen-diol disulfate*	U::X - 11440	0.065748553	8.02E-14
+P::X - 11444	U::X - 11444	0.069817663	2.22E-15
+P::piperine	U::X - 11452	0.070306551	1.33E-15
+P::X - 11452	U::X - 11452	0.076095615	2.22E-16
+P::X - 12231	U::X - 11452	0.074397376	2.22E-16
+U::X - 01911	U::X - 11452	0.06525061	1.23E-13
+P::X - 11444	U::X - 11470	0.0512433	5.90E-09
+P::X - 11470	U::X - 11470	0.120747612	2.22E-16
+U::X - 11444	U::X - 11470	0.061672777	2.45E-12
+P::X - 11452	U::X - 11485	0.051596127	4.64E-09
+P::X - 11485	U::X - 11485	0.082988469	2.22E-16
+P::X - 12231	U::X - 11485	0.05244008	2.59E-09
+U::X - 01911	U::X - 11485	0.048352959	4.00E-08
+U::X - 11452	U::X - 11485	0.05914624	1.83E-11
+P::cholate	U::X - 11491	0.11808198	2.22E-16
+P::X - 11491	U::X - 11491	0.091210347	2.22E-16
+P::X - 11529	U::X - 11529	0.125356805	2.22E-16
+P::X - 13429	U::X - 11529	0.073910369	2.22E-16
+U::glycolithocholate sulfate*	U::X - 11529	0.054112972	7.95E-10
+U::X - 11491	U::X - 11529	0.063568634	5.12E-13
+P::X - 11561	U::X - 11561	0.100043898	2.22E-16
+P::X - 11593	U::X - 11593	0.123632025	2.22E-16
+U::benzene-1,2,3-triol	U::X - 11616	-0.049449977	1.96E-08
+U::tryptophan betaine	U::X - 11668	0.075573655	2.22E-16
+P::p-cresol sulfate	U::X - 11837	0.079752522	2.22E-16
+U::4-methylcatechol sulfate	U::X - 11837	0.057043886	9.21E-11
+U::p-cresol sulfate	U::X - 11837	0.092737669	2.22E-16
+U::phenylacetylglutamine	U::X - 11837	0.048974519	2.67E-08
+P::5-methyluridine (ribothymidine)	U::X - 11838	-0.048908167	2.79E-08
+U::4-acetaminophen sulfate	U::X - 11838	0.111432636	2.22E-16
+P::indoleacetate	U::X - 11843	0.048555614	3.51E-08
+P::X - 11845	U::X - 11847	0.075510244	2.22E-16
+P::X - 11847	U::X - 11847	0.08460475	2.22E-16
+P::X - 11849	U::X - 11847	0.072950404	2.22E-16
+P::X - 11858	U::X - 11847	0.073767668	2.22E-16
+P::X - 17656	U::X - 11847	0.068455835	7.33E-15
+P::X - 11845	U::X - 11849	0.067110784	2.44E-14
+P::X - 11849	U::X - 11849	0.078710841	2.22E-16
+U::X - 11847	U::X - 11849	0.074074468	2.22E-16
+P::X - 11845	U::X - 11858	0.060281407	7.50E-12
+P::X - 11847	U::X - 11858	0.067410441	1.87E-14
+P::X - 11849	U::X - 11858	0.06280114	9.71E-13
+P::X - 11858	U::X - 11858	0.07947211	2.22E-16
+P::X - 17656	U::X - 11858	0.075744652	2.22E-16
+U::X - 11847	U::X - 11858	0.095151852	2.22E-16
+U::X - 11849	U::X - 11858	0.058834627	2.34E-11
+U::N2,N2-dimethylguanosine	U::X - 11945	0.051750611	4.17E-09
+U::N-acetylasparagine	U::X - 12001	0.054768841	4.95E-10
+U::N2-acetyllysine	U::X - 12001	0.049881302	1.47E-08
+U::X - 11852	U::X - 12010	0.106151572	2.22E-16
+U::X - 12007	U::X - 12024	0.060402905	6.81E-12
+U::7,8-dihydroneopterin	U::X - 12026	0.077925652	2.22E-16
+U::7-methylguanine	U::X - 12026	0.091147665	2.22E-16
+U::adenine	U::X - 12026	0.049495562	1.90E-08
+U::dihydrobiopterin	U::X - 12026	0.062614324	1.13E-12
+U::guanine	U::X - 12026	0.075972921	2.22E-16
+U::neopterin	U::X - 12026	0.062125067	1.69E-12
+P::X - 12039	U::X - 12039	0.068409728	7.55E-15
+U::3-hydroxypyridine	U::X - 12039	0.05395957	8.87E-10
+U::3-methyl catechol sulfate 1	U::X - 12039	0.048717329	3.16E-08
+P::X - 12056	U::X - 12056	0.200155017	2.22E-16
+P::X - 12092	U::X - 12092	0.15875857	2.22E-16
+U::N-6-trimethyllysine	U::X - 12092	0.103816128	2.22E-16
+P::X - 12092	U::X - 12093	0.105139804	2.22E-16
+U::N-6-trimethyllysine	U::X - 12093	0.111040244	2.22E-16
+U::X - 12092	U::X - 12093	0.124697436	2.22E-16
+P::N1-Methyl-2-pyridone-5-carboxamide	U::X - 12095	0.079719851	2.22E-16
+P::X - 12095	U::X - 12095	0.113987605	2.22E-16
+U::1-methylnicotinamide	U::X - 12095	0.064737415	1.91E-13
+U::N1-Methyl-2-pyridone-5-carboxamide	U::X - 12095	0.173337482	2.22E-16
+U::3-aminoisobutyrate	U::X - 12097	-0.090891914	2.22E-16
+P::kynurenine	U::X - 12100	0.066202142	5.42E-14
+U::4-acetaminophen sulfate	U::X - 12100	-0.053944077	8.97E-10
+U::C-glycosyltryptophan*	U::X - 12100	0.051363779	5.43E-09
+P::X - 12107	U::X - 12107	0.120663787	2.22E-16
+P::X - 12128	U::X - 12107	0.067339016	2.00E-14
+U::2-octenedioate	U::X - 12108	0.051087482	6.56E-09
+U::X - 11668	U::X - 12108	0.070312004	1.33E-15
+U::X - 12097	U::X - 12108	0.093930464	2.22E-16
+U::X - 11338	U::X - 12110	0.196579121	2.22E-16
+P::X - 12092	U::X - 12112	0.07881732	2.22E-16
+U::N-6-trimethyllysine	U::X - 12112	0.073370915	2.22E-16
+U::X - 12092	U::X - 12112	0.111325365	2.22E-16
+U::X - 12093	U::X - 12112	0.092111154	2.22E-16
+U::X - 12007	U::X - 12113	0.101263711	2.22E-16
+P::tiglyl carnitine	U::X - 12114	0.075030802	2.22E-16
+U::tiglyl carnitine	U::X - 12114	0.088365158	2.22E-16
+P::X - 12115	U::X - 12115	0.128465773	2.22E-16
+U::5-hydroxymethyl-2-furoic acid	U::X - 12116	0.05814124	3.99E-11
+U::3-aminoisobutyrate	U::X - 12117	-0.088526199	2.22E-16
+U::X - 12097	U::X - 12117	0.083594583	2.22E-16
+P::X - 12119	U::X - 12119	0.1003574	2.22E-16
+U::1-kestose	U::X - 12119	0.064561603	2.22E-13
+U::pyroglutamylglutamine	U::X - 12119	0.052518859	2.45E-09
+P::butyrylcarnitine	U::X - 12122	0.070381853	1.33E-15
+U::3-methylglutarylcarnitine (C6)	U::X - 12122	0.059207341	1.75E-11
+U::N-(2-furoyl)glycine	U::X - 12123	0.079902462	2.22E-16
+U::N-acetylasparagine	U::X - 12124	0.049998405	1.36E-08
+U::N2-acetyllysine	U::X - 12124	0.057539072	6.33E-11
+U::N-acetylglutamine	U::X - 12125	0.055825002	2.29E-10
+U::N2-acetyllysine	U::X - 12125	0.05868176	2.63E-11
+U::X - 12093	U::X - 12125	0.062270964	1.50E-12
+U::3-hydroxysebacate	U::X - 12128	0.080417666	2.22E-16
+U::xanthurenate	U::X - 12170	0.081027061	2.22E-16
+U::3-aminoisobutyrate	U::X - 12173	-0.100931715	2.22E-16
+U::X - 12117	U::X - 12173	0.111769462	2.22E-16
+U::X - 11640	U::X - 12188	0.121202253	2.22E-16
+U::X - 12125	U::X - 12191	0.04845318	3.75E-08
+U::X - 12187	U::X - 12191	0.059890281	1.02E-11
+P::X - 12212	U::X - 12212	0.198507778	2.22E-16
+P::X - 12216	U::X - 12216	0.061678083	2.44E-12
+U::X - 12126	U::X - 12216	0.071956442	4.44E-16
+U::2-oxo-1-pyrrolidinepropionate	U::X - 12225	0.068630189	6.22E-15
+P::X - 12230	U::X - 12230	0.090672452	2.22E-16
+U::X - 12039	U::X - 12230	0.049194903	2.31E-08
+P::piperine	U::X - 12231	0.070214664	1.33E-15
+P::X - 11452	U::X - 12231	0.074029791	2.22E-16
+P::X - 12231	U::X - 12231	0.076095532	2.22E-16
+U::X - 01911	U::X - 12231	0.057779298	5.27E-11
+U::X - 11452	U::X - 12231	0.095844614	2.22E-16
+U::X - 11485	U::X - 12231	0.062230877	1.55E-12
+P::X - 11561	U::X - 12244	0.11284245	2.22E-16
+U::X - 11561	U::X - 12244	0.125514014	2.22E-16
+U::N-acetylglutamine	U::X - 12252	0.048444467	3.77E-08
+U::X - 12125	U::X - 12252	0.04944499	1.96E-08
+U::3,5-dihydroxybenzoic acid	U::X - 12253	0.048824574	2.95E-08
+U::phenylacetylglycine	U::X - 12254	0.074385262	2.22E-16
+P::phenol sulfate	U::X - 12257	0.088916331	2.22E-16
+U::4-acetaminophen sulfate	U::X - 12257	0.049350823	2.09E-08
+U::phenol sulfate	U::X - 12257	0.087269795	2.22E-16
+U::3,5-dihydroxybenzoic acid	U::X - 12258	0.072498964	2.22E-16
+U::hydroquinone sulfate	U::X - 12258	0.065658488	8.66E-14
+U::X - 09789	U::X - 12258	0.059005868	2.05E-11
+U::X - 12253	U::X - 12258	0.134825805	2.22E-16
+U::X - 11843	U::X - 12261	0.173116278	2.22E-16
+P::N-acetyl-beta-alanine	U::X - 12263	0.056078433	1.90E-10
+U::X - 11390	U::X - 12263	0.085779264	2.22E-16
+U::X - 12267	U::X - 12270	0.050962384	7.14E-09
+P::indolepropionate	U::X - 12283	0.137447166	2.22E-16
+P::3-methylhistidine	U::X - 12308	0.056482623	1.40E-10
+P::X - 13835	U::X - 12308	0.049777901	1.58E-08
+U::1-methylimidazoleacetate	U::X - 12308	0.051505109	4.93E-09
+U::3-methylhistidine	U::X - 12308	0.057873728	4.90E-11
+U::X - 11332	U::X - 12308	0.089091596	2.22E-16
+U::vanillate	U::X - 12328	0.095855879	2.22E-16
+U::X - 12039	U::X - 12329	0.060176603	8.15E-12
+U::X - 12221	U::X - 12329	0.057571506	6.18E-11
+P::phenol sulfate	U::X - 12335	0.112213615	2.22E-16
+U::phenol sulfate	U::X - 12335	0.100697035	2.22E-16
+U::X - 12257	U::X - 12335	0.138598876	2.22E-16
+U::X - 11668	U::X - 12339	0.063288477	6.47E-13
+P::hippurate	U::X - 12358	0.062328556	1.43E-12
+U::hippurate	U::X - 12358	0.077656037	2.22E-16
+U::X - 12211	U::X - 12379	0.078247808	2.22E-16
+U::X - 12270	U::X - 12379	0.049282793	2.18E-08
+P::citrulline	U::X - 12386	0.052632648	2.26E-09
+U::N-acetylarginine	U::X - 12386	0.067355546	1.95E-14
+U::X - 12124	U::X - 12386	0.057546921	6.29E-11
+U::X - 12125	U::X - 12386	0.072144486	2.22E-16
+P::caprate (10:0)	U::X - 12398	0.050124531	1.25E-08
+P::caprylate (8:0)	U::X - 12398	0.055997078	2.01E-10
+U::octanoylcarnitine	U::X - 12398	0.051749025	4.17E-09
+P::3-indoxyl sulfate	U::X - 12405	0.076343259	2.22E-16
+P::X - 12405	U::X - 12405	0.06308948	7.64E-13
+U::3-indoxyl sulfate	U::X - 12405	0.095328434	2.22E-16
+P::X - 12407	U::X - 12407	0.085836627	2.22E-16
+P::X - 13727	U::X - 12410	0.053656864	1.10E-09
+P::X - 12411	U::X - 12411	0.124210089	2.22E-16
+U::alpha-CEHC glucuronide*	U::X - 12435	0.151441192	2.22E-16
+U::acetylcarnitine	U::X - 12465	0.059757776	1.14E-11
+U::propionylcarnitine	U::X - 12465	0.057412804	6.97E-11
+P::X - 12510	U::X - 12510	0.079456398	2.22E-16
+P::X - 12511	U::X - 12510	0.072439229	2.22E-16
+P::X - 12510	U::X - 12511	0.094809855	2.22E-16
+P::X - 12511	U::X - 12511	0.088214585	2.22E-16
+U::X - 12510	U::X - 12511	0.070254219	1.33E-15
+P::3-hydroxyhippurate	U::X - 12543	0.083876844	2.22E-16
+U::3-hydroxyhippurate	U::X - 12543	0.154321523	2.22E-16
+U::homocitrulline	U::X - 12565	0.110829345	2.22E-16
+U::X - 11357	U::X - 12565	0.082121074	2.22E-16
+U::3-aminoisobutyrate	U::X - 12602	-0.085909843	2.22E-16
+U::X - 12097	U::X - 12602	0.096215931	2.22E-16
+U::X - 12117	U::X - 12602	0.147140959	2.22E-16
+U::X - 12173	U::X - 12602	0.084671334	2.22E-16
+U::X - 12636	U::X - 12637	0.113641805	2.22E-16
+U::X - 12007	U::X - 12680	0.050159797	1.22E-08
+U::X - 12113	U::X - 12680	0.060079595	8.80E-12
+U::X - 12187	U::X - 12680	0.110576061	2.22E-16
+U::X - 12379	U::X - 12680	0.064085122	3.32E-13
+U::tryptophan betaine	U::X - 12681	0.05604982	1.94E-10
+U::X - 11668	U::X - 12681	0.072454718	2.22E-16
+U::X - 12339	U::X - 12681	0.103455482	2.22E-16
+U::X - 11390	U::X - 12685	0.053077875	1.66E-09
+U::X - 12216	U::X - 12687	0.049082845	2.49E-08
+P::X - 03056	U::X - 12688	0.064662497	2.03E-13
+U::X - 03056	U::X - 12688	0.087865122	2.22E-16
+U::5-oxoproline	U::X - 12695	0.055322963	3.31E-10
+U::orotidine	U::X - 12695	0.053444802	1.28E-09
+U::3,4-dihydroxyphenylacetate	U::X - 12696	0.102633304	2.22E-16
+U::homovanillate (HVA)	U::X - 12696	0.129090702	2.22E-16
+U::X - 12007	U::X - 12701	0.089434394	2.22E-16
+U::X - 12113	U::X - 12701	0.107009035	2.22E-16
+U::X - 12411	U::X - 12701	0.066509406	4.13E-14
+P::X - 12216	U::X - 12705	0.049536909	1.85E-08
+U::X - 12126	U::X - 12705	0.102830781	2.22E-16
+U::X - 12216	U::X - 12705	0.07576886	2.22E-16
+P::X - 12407	U::X - 12706	0.052561716	2.38E-09
+U::X - 12407	U::X - 12706	0.072030938	2.22E-16
+P::X - 11593	U::X - 12708	0.061323117	3.25E-12
+U::X - 11593	U::X - 12708	0.107636775	2.22E-16
+U::X - 12257	U::X - 12712	-0.048809503	2.98E-08
+U::X - 12258	U::X - 12712	0.052954167	1.81E-09
+U::X - 12707	U::X - 12713	0.065164684	1.32E-13
+U::X - 12024	U::X - 12714	0.111511102	2.22E-16
+U::X - 12113	U::X - 12714	0.055649176	2.60E-10
+P::4-hydroxyphenylacetate	U::X - 12715	0.074272728	2.22E-16
+U::4-hydroxyphenylacetate	U::X - 12715	0.135861576	2.22E-16
+U::X - 12028	U::X - 12715	0.048606702	3.39E-08
+P::3-indoxyl sulfate	U::X - 12718	0.0551597	3.73E-10
+U::3-indoxyl sulfate	U::X - 12718	0.063367491	6.06E-13
+U::X - 12126	U::X - 12718	0.04976951	1.59E-08
+U::X - 12216	U::X - 12718	0.051526277	4.86E-09
+U::X - 12405	U::X - 12718	0.06309239	7.63E-13
+U::X - 12705	U::X - 12718	0.060608033	5.78E-12
+U::X - 12712	U::X - 12722	0.078590717	2.22E-16
+U::X - 12329	U::X - 12730	0.052396702	2.67E-09
+P::X - 12740	U::X - 12732	0.067114586	2.44E-14
+U::alanylalanine	U::X - 12733	0.053498448	1.23E-09
+U::3-methyl catechol sulfate 1	U::X - 12738	0.063176817	7.11E-13
+U::X - 12039	U::X - 12738	0.055695786	2.52E-10
+P::X - 12740	U::X - 12740	0.120766636	2.22E-16
+U::X - 12732	U::X - 12740	0.102913067	2.22E-16
+P::indoleacetate	U::X - 12745	0.105592877	2.22E-16
+U::5-methylthioadenosine (MTA)	U::X - 12745	-0.055235105	3.53E-10
+U::ethanolamine	U::X - 12745	0.051798239	4.04E-09
+U::indoleacetylglutamine	U::X - 12745	0.057293315	7.63E-11
+U::N-acetyl-aspartyl-glutamate (NAAG)	U::X - 12748	0.066701287	3.51E-14
+P::X - 11423	U::X - 12749	0.084501824	2.22E-16
+P::X - 12119	U::X - 12753	0.069816724	2.22E-15
+U::1-kestose	U::X - 12753	0.059063715	1.96E-11
+U::X - 12107	U::X - 12753	0.067371292	1.93E-14
+U::X - 12119	U::X - 12753	0.140276285	2.22E-16
+U::X - 12122	U::X - 12760	0.048424105	3.82E-08
+P::pantothenate	U::X - 12762	0.062228949	1.56E-12
+U::pantothenate	U::X - 12762	0.081248882	2.22E-16
+U::phenylalanine	U::X - 12799	0.061247848	3.46E-12
+U::adipate	U::X - 12802	0.069527464	2.66E-15
+U::N-methylglutamate	U::X - 12812	0.064130271	3.20E-13
+U::X - 12193	U::X - 12814	0.052570715	2.36E-09
+U::3,5-dihydroxybenzoic acid	U::X - 12818	0.057056374	9.12E-11
+U::X - 12258	U::X - 12818	0.07135187	4.44E-16
+U::X - 12712	U::X - 12818	0.05498833	4.22E-10
+U::X - 12722	U::X - 12818	0.103791016	2.22E-16
+U::hexanoylglycine	U::X - 12819	0.059459944	1.44E-11
+U::X - 12742	U::X - 12819	0.051775753	4.10E-09
+U::X - 12813	U::X - 12821	0.152479541	2.22E-16
+P::X - 12822	U::X - 12822	0.10039001	2.22E-16
+U::hexanoylglycine	U::X - 12824	0.052619178	2.29E-09
+U::X - 12636	U::X - 12824	0.065510441	9.84E-14
+U::X - 12637	U::X - 12824	0.067440073	1.82E-14
+U::X - 12742	U::X - 12824	0.073680276	2.22E-16
+U::X - 12802	U::X - 12824	0.054722422	5.12E-10
+U::X - 12680	U::X - 12828	0.049142877	2.39E-08
+U::X - 12814	U::X - 12831	0.093658608	2.22E-16
+P::piperine	U::X - 12832	0.066726184	3.42E-14
+P::X - 11452	U::X - 12832	0.069260355	3.55E-15
+P::X - 12231	U::X - 12832	0.069304631	3.55E-15
+U::X - 01911	U::X - 12832	0.062460729	1.29E-12
+U::X - 11452	U::X - 12832	0.079840766	2.22E-16
+U::X - 11485	U::X - 12832	0.058460244	3.12E-11
+U::X - 12231	U::X - 12832	0.082024356	2.22E-16
+U::X - 12730	U::X - 12833	0.056700998	1.19E-10
+U::X - 12267	U::X - 12834	0.051992271	3.53E-09
+U::X - 12270	U::X - 12834	0.114387431	2.22E-16
+U::X - 12379	U::X - 12834	0.051951775	3.63E-09
+P::piperine	U::X - 12840	0.059333018	1.59E-11
+P::X - 11452	U::X - 12840	0.056492517	1.39E-10
+P::X - 12231	U::X - 12840	0.059502509	1.39E-11
+U::X - 11452	U::X - 12840	0.066759739	3.33E-14
+U::X - 12231	U::X - 12840	0.066119854	5.82E-14
+U::X - 12832	U::X - 12840	0.076267097	2.22E-16
+P::X - 12844	U::X - 12844	0.067637408	1.53E-14
+P::X - 17336	U::X - 12844	0.05427847	7.06E-10
+U::X - 11444	U::X - 12844	0.066350439	4.75E-14
+P::X - 18913	U::X - 12845	0.051848767	3.90E-09
+P::X - 12846	U::X - 12846	0.087671381	2.22E-16
+U::X - 11444	U::X - 12846	0.061837065	2.14E-12
+P::thymol sulfate	U::X - 12847	0.068227497	8.88E-15
+P::X - 12847	U::X - 12847	0.15460244	2.22E-16
+P::X - 17690	U::X - 12847	0.072504024	2.22E-16
+U::thymol sulfate	U::X - 12847	0.132876387	2.22E-16
+P::piperine	U::X - 12848	0.048304054	4.12E-08
+P::X - 11452	U::X - 12848	0.054277522	7.06E-10
+P::X - 11485	U::X - 12848	0.056650995	1.24E-10
+P::X - 12231	U::X - 12848	0.056297515	1.61E-10
+U::X - 01911	U::X - 12848	0.071191822	4.44E-16
+U::X - 11452	U::X - 12848	0.072570679	2.22E-16
+U::X - 11485	U::X - 12848	0.073023791	2.22E-16
+U::X - 12231	U::X - 12848	0.068059629	1.04E-14
+U::X - 12832	U::X - 12848	0.05844228	3.17E-11
+P::X - 12850	U::X - 12850	0.113767717	2.22E-16
+U::glycocholate	U::X - 12850	0.063375759	6.02E-13
+U::acetylcarnitine	U::X - 12855	0.059027107	2.01E-11
+U::carnitine	U::X - 12855	0.050142295	1.24E-08
+U::propionylcarnitine	U::X - 12855	0.053096192	1.64E-09
+U::X - 12465	U::X - 12855	0.09304999	2.22E-16
+U::X - 12855	U::X - 12860	0.051423903	5.21E-09
+U::2-isopropylmalate	U::X - 12906	0.059519172	1.37E-11
+U::4-hydroxymandelate	U::X - 12906	0.063616625	4.92E-13
+U::N-acetylproline	U::X - 12906	0.056254687	1.66E-10
+P::glycolithocholate sulfate*	U::X - 13429	0.048961685	2.69E-08
+P::X - 11529	U::X - 13429	0.057835388	5.05E-11
+P::X - 13429	U::X - 13429	0.108873074	2.22E-16
+U::glycolithocholate sulfate*	U::X - 13429	0.072718962	2.22E-16
+U::X - 11529	U::X - 13429	0.087773891	2.22E-16
+P::X - 13431	U::X - 13431	0.108683671	2.22E-16
+U::decanoylcarnitine	U::X - 13431	0.052296518	2.86E-09
+P::X - 17299	U::X - 13462	0.049411471	2.01E-08
+P::X - 13553	U::X - 13553	0.124932653	2.22E-16
+U::vanillylmandelate (VMA)	U::X - 13553	0.058205724	3.80E-11
+U::X - 12707	U::X - 13553	0.081294391	2.22E-16
+U::X - 12713	U::X - 13553	0.088237476	2.22E-16
+U::alpha-CEHC glucuronide*	U::X - 13689	0.078455307	2.22E-16
+U::X - 12435	U::X - 13689	0.089529745	2.22E-16
+U::X - 13688	U::X - 13693	0.060527723	6.16E-12
+U::4-acetylphenol sulfate	U::X - 13695	0.048857569	2.88E-08
+U::X - 12093	U::X - 13698	0.048981057	2.66E-08
+U::X - 12125	U::X - 13698	0.050308142	1.11E-08
+U::X - 12252	U::X - 13698	0.048900264	2.80E-08
+U::X - 12760	U::X - 13709	0.097732292	2.22E-16
+U::X - 12189	U::X - 13723	0.055824809	2.29E-10
+U::X - 12263	U::X - 13723	0.105325612	2.22E-16
+P::3-hydroxyhippurate	U::X - 13724	0.073215147	2.22E-16
+U::3-hydroxyhippurate	U::X - 13724	0.077419232	2.22E-16
+U::X - 12543	U::X - 13724	0.072061911	2.22E-16
+P::4-methylcatechol sulfate	U::X - 13726	0.129371516	2.22E-16
+P::p-cresol sulfate	U::X - 13726	0.049850682	1.50E-08
+U::4-methylcatechol sulfate	U::X - 13726	0.144819952	2.22E-16
+U::p-cresol sulfate	U::X - 13726	0.060514401	6.23E-12
+U::X - 11837	U::X - 13726	0.064559636	2.22E-13
+P::X - 13727	U::X - 13727	0.144952414	2.22E-16
+U::X - 12410	U::X - 13727	0.067956833	1.15E-14
+P::theobromine	U::X - 13728	0.050192038	1.20E-08
+P::X - 13728	U::X - 13728	0.052508862	2.47E-09
+U::1,7-dimethylurate	U::X - 13728	0.056038135	1.95E-10
+U::1-methylurate	U::X - 13728	0.053920593	9.12E-10
+U::1-methylxanthine	U::X - 13728	0.061983138	1.90E-12
+U::5-acetylamino-6-amino-3-methyluracil	U::X - 13728	0.056000783	2.01E-10
+U::5-acetylamino-6-formylamino-3-methyluracil	U::X - 13728	0.048348472	4.01E-08
+U::7-methylxanthine	U::X - 13728	0.063149326	7.27E-13
+U::X - 12687	U::X - 13729	0.057059573	9.10E-11
+P::1,2-propanediol	U::X - 13730	0.059832469	1.07E-11
+U::1,2-propanediol	U::X - 13730	0.060885507	4.63E-12
+U::vanillate	U::X - 13730	0.118885897	2.22E-16
+U::X - 12328	U::X - 13730	0.115607094	2.22E-16
+U::X - 12270	U::X - 13735	0.0732626	2.22E-16
+U::X - 12834	U::X - 13735	0.078981673	2.22E-16
+U::azelate (nonanedioate)	U::X - 13772	0.062899536	8.95E-13
+P::3-methylhistidine	U::X - 13835	0.049297333	2.16E-08
+P::X - 13835	U::X - 13835	0.064030914	3.47E-13
+U::3-methylhistidine	U::X - 13835	0.063320686	6.31E-13
+U::3-hydroxyphenylacetate	U::X - 13836	0.084229367	2.22E-16
+P::X - 11261	U::X - 13837	0.05443977	6.28E-10
+U::X - 12259	U::X - 13842	0.055614529	2.67E-10
+P::X - 12734	U::X - 13843	0.075515504	2.22E-16
+P::X - 16940	U::X - 13843	0.088138471	2.22E-16
+U::benzene-1,2,3-triol	U::X - 13843	0.079475141	2.22E-16
+P::trigonelline (N'-methylnicotinate)	U::X - 13844	0.086027461	2.22E-16
+U::trigonelline (N'-methylnicotinate)	U::X - 13844	0.102795857	2.22E-16
+P::X - 12407	U::X - 13846	0.055719967	2.47E-10
+U::N-methylglutamate	U::X - 13847	0.060999482	4.22E-12
+P::X - 13866	U::X - 13866	0.079425502	2.22E-16
+U::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	U::X - 13866	0.059054943	1.97E-11
+U::X - 02249	U::X - 13866	0.061294842	3.33E-12
+P::trigonelline (N'-methylnicotinate)	U::X - 14082	0.048655173	3.29E-08
+U::trigonelline (N'-methylnicotinate)	U::X - 14082	0.050451874	1.01E-08
+U::X - 12234	U::X - 14318	0.098483801	2.22E-16
+U::X - 12682	U::X - 14331	0.049318067	2.13E-08
+U::X - 12234	U::X - 14352	0.109886861	2.22E-16
+U::X - 14318	U::X - 14352	0.133208389	2.22E-16
+U::pyroglutamylvaline	U::X - 14445	0.09285981	2.22E-16
+U::X - 14302	U::X - 14445	0.053655678	1.10E-09
+U::X - 14314	U::X - 14445	0.068325628	8.22E-15
+U::quinate	U::X - 14473	0.05759273	6.08E-11
+U::X - 11204	U::X - 14588	0.052678717	2.19E-09
+P::X - 11438	U::X - 14596	0.054090203	8.08E-10
+U::X - 12760	U::X - 14596	0.068183568	9.33E-15
+U::X - 13834	U::X - 14596	0.054391085	6.51E-10
+U::3-sialyllactose	U::X - 14625	0.049205487	2.30E-08
+P::X - 13727	U::X - 14665	0.076861011	2.22E-16
+U::X - 12410	U::X - 14665	0.050785749	8.04E-09
+U::X - 13727	U::X - 14665	0.096629037	2.22E-16
+P::3-methylhistidine	U::X - 14838	0.087075858	2.22E-16
+P::X - 13835	U::X - 14838	0.068210921	9.10E-15
+U::1-methylimidazoleacetate	U::X - 14838	0.08973843	2.22E-16
+U::3-methylhistidine	U::X - 14838	0.1170544	2.22E-16
+U::X - 11332	U::X - 14838	0.090636229	2.22E-16
+U::X - 13835	U::X - 14838	0.067289807	2.09E-14
+U::X - 15375	U::X - 15382	0.07782573	2.22E-16
+U::5-aminovalerate	U::X - 15461	0.085051342	2.22E-16
+U::X - 12685	U::X - 15461	0.102378274	2.22E-16
+U::citramalate	U::X - 15472	0.05125903	5.84E-09
+U::X - 13529	U::X - 15472	0.073323458	2.22E-16
+U::X - 15382	U::X - 15484	0.15721518	2.22E-16
+P::X - 11261	U::X - 15486	0.066175435	5.53E-14
+P::X - 11521	U::X - 15486	0.058047265	4.29E-11
+P::X - 14939	U::X - 15486	0.062719917	1.04E-12
+U::X - 13837	U::X - 15486	0.062432741	1.32E-12
+U::X - 11444	U::X - 15492	0.053231714	1.49E-09
+P::X - 15636	U::X - 15636	0.140687375	2.22E-16
+U::X - 12212	U::X - 15636	0.076652139	2.22E-16
+U::X - 13688	U::X - 15636	0.05902083	2.02E-11
+U::gamma-CEHC glucuronide*	U::X - 15646	0.064315497	2.73E-13
+P::alanine	U::X - 15678	0.049686196	1.68E-08
+U::X - 15375	U::X - 15678	0.064323928	2.71E-13
+P::X - 15728	U::X - 15728	0.131558367	2.22E-16
+P::X - 02249	U::X - 16087	0.110462876	2.22E-16
+U::X - 12385	U::X - 16397	0.058949034	2.14E-11
+P::N-acetylglycine	U::X - 16563	0.049095339	2.47E-08
+U::2-methylbutyrylglycine	U::X - 16563	0.050605458	9.08E-09
+U::X - 13864	U::X - 16564	0.082542963	2.22E-16
+U::X - 16563	U::X - 16567	0.067129264	2.40E-14
+P::X - 11261	U::X - 16570	0.059098274	1.90E-11
+P::X - 11478	U::X - 16570	0.055352621	3.24E-10
+U::X - 15486	U::X - 16570	0.058060721	4.25E-11
+U::X - 12101	U::X - 16580	0.072336467	2.22E-16
+U::X - 16397	U::X - 16580	0.09022073	2.22E-16
+P::X - 13866	U::X - 16581	0.049418135	2.00E-08
+U::X - 11491	U::X - 16654	0.057683075	5.67E-11
+P::2-hydroxydecanoic acid	U::X - 16674	0.080088685	2.22E-16
+U::3-hydroxysebacate	U::X - 16674	0.054129982	7.85E-10
+U::azelate (nonanedioate)	U::X - 16674	0.078958379	2.22E-16
+U::pimelate (heptanedioate)	U::X - 16674	0.068607481	6.44E-15
+U::X - 13772	U::X - 16674	0.055109634	3.87E-10
+P::urate	U::X - 16774	0.072448162	2.22E-16
+U::glycocholate	U::X - 16803	0.085442516	2.22E-16
+P::X - 11858	U::X - 16933	0.056697653	1.19E-10
+P::X - 17656	U::X - 16933	0.078146849	2.22E-16
+U::X - 11858	U::X - 16933	0.058871949	2.27E-11
+U::X - 13695	U::X - 16933	0.060609429	5.77E-12
+P::X - 12734	U::X - 16940	0.074755632	2.22E-16
+P::X - 16940	U::X - 16940	0.075823384	2.22E-16
+U::benzene-1,2,3-triol	U::X - 16940	0.06579857	7.68E-14
+U::X - 13843	U::X - 16940	0.107862805	2.22E-16
+U::X - 12007	U::X - 16975	0.052663558	2.22E-09
+U::X - 12113	U::X - 16975	0.059273781	1.66E-11
+U::X - 12211	U::X - 16975	0.094442787	2.22E-16
+U::X - 12379	U::X - 16975	0.07851502	2.22E-16
+P::X - 11261	U::X - 17138	0.059559142	1.33E-11
+P::X - 11521	U::X - 17138	0.053905391	9.22E-10
+P::X - 14939	U::X - 17138	0.064959413	1.58E-13
+U::X - 13837	U::X - 17138	0.077692538	2.22E-16
+U::X - 15486	U::X - 17138	0.09084273	2.22E-16
+P::4-vinylphenol sulfate	U::X - 17185	0.048306222	4.12E-08
+P::X - 17185	U::X - 17185	0.143227701	2.22E-16
+U::4-vinylphenol sulfate	U::X - 17185	0.0633452	6.18E-13
+U::X - 12230	U::X - 17185	0.052201962	3.05E-09
+U::X - 12833	U::X - 17185	0.049144656	2.39E-08
+P::X - 17299	U::X - 17299	0.050078828	1.29E-08
+U::3-methylcytidine	U::X - 17299	0.051553175	4.77E-09
+U::citrate	U::X - 17299	-0.054526363	5.90E-10
+U::X - 16394	U::X - 17299	0.053933249	9.04E-10
+P::4-hydroxyphenylacetate	U::X - 17305	0.053150397	1.57E-09
+U::4-hydroxyphenylacetate	U::X - 17305	0.126909433	2.22E-16
+U::X - 12715	U::X - 17305	0.141463868	2.22E-16
+U::X - 12211	U::X - 17308	0.07376294	2.22E-16
+U::X - 16975	U::X - 17308	0.094511431	2.22E-16
+U::X - 12760	U::X - 17310	0.069304104	3.55E-15
+U::X - 13709	U::X - 17310	0.048944878	2.72E-08
+U::X - 13837	U::X - 17310	0.06596073	6.66E-14
+U::hippurate	U::X - 17314	0.055235065	3.53E-10
+U::5-hydroxymethyl-2-furoic acid	U::X - 17320	0.062302444	1.46E-12
+U::mesaconate (methylfumarate)	U::X - 17320	0.05029166	1.12E-08
+U::o-cresol sulfate	U::X - 17320	0.051673315	4.40E-09
+P::X - 13866	U::X - 17322	0.050378121	1.06E-08
+U::X - 16581	U::X - 17322	0.068061783	1.04E-14
+P::10-undecenoate (11:1n1)	U::X - 17324	0.071355769	4.44E-16
+U::X - 13864	U::X - 17325	0.070745423	8.88E-16
+U::X - 16564	U::X - 17325	0.131403803	2.22E-16
+U::X - 12636	U::X - 17327	0.071037822	6.66E-16
+U::X - 12637	U::X - 17327	0.071461827	4.44E-16
+U::X - 12739	U::X - 17327	0.056838393	1.07E-10
+U::X - 12742	U::X - 17327	0.061038418	4.09E-12
+U::thymol sulfate	U::X - 17328	0.07244541	2.22E-16
+P::gamma-CEHC	U::X - 17330	0.096629729	2.22E-16
+U::alpha-CEHC glucuronide*	U::X - 17330	0.071863112	4.44E-16
+U::gamma-CEHC glucuronide*	U::X - 17330	0.161065085	2.22E-16
+U::X - 15646	U::X - 17330	0.055940185	2.10E-10
+U::X - 16947	U::X - 17334	0.156271076	2.22E-16
+U::X - 12385	U::X - 17335	0.074295729	2.22E-16
+U::X - 16397	U::X - 17335	0.049703893	1.66E-08
+P::X - 12844	U::X - 17336	0.069401661	3.11E-15
+P::X - 17336	U::X - 17336	0.055508943	2.89E-10
+U::X - 11444	U::X - 17336	0.057779074	5.27E-11
+U::X - 12844	U::X - 17336	0.078514038	2.22E-16
+U::2-methylbutyrylcarnitine (C5)	U::X - 17337	0.057109828	8.76E-11
+U::3-dehydrocarnitine*	U::X - 17337	0.050176431	1.21E-08
+U::acetylcarnitine	U::X - 17337	0.056669834	1.22E-10
+U::carnitine	U::X - 17337	0.061572275	2.66E-12
+U::isovalerylcarnitine	U::X - 17337	0.048843837	2.91E-08
+U::propionylcarnitine	U::X - 17337	0.053832958	9.71E-10
+U::X - 17324	U::X - 17337	0.070981102	8.88E-16
+U::X - 15492	U::X - 17339	0.054774637	4.93E-10
+U::X - 17336	U::X - 17339	0.055617449	2.66E-10
+P::X - 17706	U::X - 17340	0.062871134	9.16E-13
+U::X - 15492	U::X - 17340	0.06701161	2.66E-14
+U::X - 17339	U::X - 17340	0.053757753	1.02E-09
+U::X - 15492	U::X - 17341	0.096081341	2.22E-16
+U::X - 17339	U::X - 17341	0.058939469	2.16E-11
+U::X - 17340	U::X - 17341	0.068966682	4.66E-15
+U::4-hydroxymandelate	U::X - 17342	0.080672349	2.22E-16
+U::X - 12707	U::X - 17342	0.060776319	5.05E-12
+U::X - 12906	U::X - 17342	0.053328065	1.39E-09
+U::N-acetylaspartate (NAA)	U::X - 17345	0.051445203	5.14E-09
+U::pimelate (heptanedioate)	U::X - 17346	0.053873933	9.43E-10
+P::X - 12734	U::X - 17347	0.07378775	2.22E-16
+P::X - 16940	U::X - 17347	0.083188065	2.22E-16
+U::benzene-1,2,3-triol	U::X - 17347	0.066998499	2.69E-14
+U::X - 13843	U::X - 17347	0.100938108	2.22E-16
+U::X - 16940	U::X - 17347	0.102237298	2.22E-16
+U::X - 16947	U::X - 17350	0.127338045	2.22E-16
+U::X - 17334	U::X - 17350	0.128564852	2.22E-16
+P::indolepropionate	U::X - 17351	0.138124968	2.22E-16
+U::cinnamoylglycine	U::X - 17351	0.051663992	4.43E-09
+U::X - 12283	U::X - 17351	0.210106516	2.22E-16
+U::X - 12849	U::X - 17353	0.122837982	2.22E-16
+U::X - 11640	U::X - 17354	0.110015621	2.22E-16
+U::X - 12188	U::X - 17354	0.083549547	2.22E-16
+P::X - 12844	U::X - 17357	0.056110166	1.85E-10
+P::X - 17357	U::X - 17357	0.082383768	2.22E-16
+U::X - 11444	U::X - 17357	0.052898453	1.88E-09
+U::X - 12844	U::X - 17357	0.071723972	4.44E-16
+U::X - 17336	U::X - 17357	0.060650533	5.59E-12
+U::X - 17339	U::X - 17357	0.050541638	9.48E-09
+U::X - 16947	U::X - 17358	0.12291305	2.22E-16
+U::X - 17334	U::X - 17358	0.118119238	2.22E-16
+U::X - 17350	U::X - 17358	0.114239062	2.22E-16
+U::X - 11444	U::X - 17359	0.057004157	9.49E-11
+U::X - 12844	U::X - 17359	0.053307881	1.41E-09
+U::X - 15492	U::X - 17359	0.058851092	2.31E-11
+U::X - 17339	U::X - 17359	0.096253797	2.22E-16
+U::X - 17340	U::X - 17359	0.049509789	1.88E-08
+U::X - 17341	U::X - 17359	0.053916824	9.14E-10
+U::X - 17357	U::X - 17359	0.055805359	2.32E-10
+U::X - 12849	U::X - 17361	0.171492445	2.22E-16
+U::X - 17353	U::X - 17361	0.122538872	2.22E-16
+U::pyroglutamylglutamine	U::X - 17365	0.078749825	2.22E-16
+U::pyruvate	U::X - 17365	0.059403582	1.50E-11
+U::X - 12107	U::X - 17365	0.055452476	3.01E-10
+U::X - 12119	U::X - 17365	0.06826577	8.66E-15
+U::X - 12753	U::X - 17365	0.084953452	2.22E-16
+U::hippurate	U::X - 17367	0.05395809	8.88E-10
+U::X - 13864	U::X - 17367	0.087523583	2.22E-16
+U::X - 16564	U::X - 17367	0.107497202	2.22E-16
+U::X - 17325	U::X - 17367	0.106892086	2.22E-16
+U::X - 12830	U::X - 17370	0.166318764	2.22E-16
+P::3-indoxyl sulfate	U::X - 17393	0.068833689	5.33E-15
+P::X - 12405	U::X - 17393	0.057130436	8.63E-11
+U::3-indoxyl sulfate	U::X - 17393	0.07829802	2.22E-16
+U::X - 12405	U::X - 17393	0.074512886	2.22E-16
+P::4-vinylphenol sulfate	U::X - 17398	0.055479121	2.95E-10
+P::X - 17185	U::X - 17398	0.094356794	2.22E-16
+U::4-vinylphenol sulfate	U::X - 17398	0.052981899	1.77E-09
+U::X - 17185	U::X - 17398	0.105345783	2.22E-16
+P::2-hydroxydecanoic acid	U::X - 17438	0.089678241	2.22E-16
+U::X - 16674	U::X - 17438	0.086748585	2.22E-16
+P::X - 17612	U::X - 17612	0.063365885	6.07E-13
+P::X - 12734	U::X - 17673	0.072244323	2.22E-16
+P::X - 16940	U::X - 17673	0.080367225	2.22E-16
+U::benzene-1,2,3-triol	U::X - 17673	0.079333348	2.22E-16
+U::X - 13843	U::X - 17673	0.097546467	2.22E-16
+U::X - 16940	U::X - 17673	0.089280058	2.22E-16
+U::X - 17347	U::X - 17673	0.099969124	2.22E-16
+P::X - 17682	U::X - 17682	0.10623115	2.22E-16
+P::X - 12734	U::X - 17685	0.089898811	2.22E-16
+P::X - 16940	U::X - 17685	0.054741889	5.05E-10
+U::benzene-1,2,3-triol	U::X - 17685	0.059492971	1.40E-11
+U::X - 13843	U::X - 17685	0.07111251	6.66E-16
+U::X - 16940	U::X - 17685	0.076918692	2.22E-16
+U::X - 17347	U::X - 17685	0.079546944	2.22E-16
+U::X - 17673	U::X - 17685	0.065172214	1.32E-13
+P::indoleacetate	U::X - 17688	0.139471141	2.22E-16
+U::indoleacetate	U::X - 17688	0.103706076	2.22E-16
+U::indoleacetylglutamine	U::X - 17688	0.085130909	2.22E-16
+U::X - 12745	U::X - 17688	0.092473007	2.22E-16
+U::X - 11452	U::X - 17692	0.053478778	1.25E-09
+U::X - 11485	U::X - 17692	0.04897971	2.66E-08
+U::X - 12231	U::X - 17692	0.0503858	1.05E-08
+U::X - 12840	U::X - 17692	0.059653197	1.23E-11
+U::X - 17370	U::X - 17692	0.054702734	5.20E-10
+P::X - 11549	U::X - 17695	0.069886877	2.00E-15
+U::X - 13693	U::X - 17695	0.053331345	1.39E-09
+U::X - 17346	U::X - 17695	0.080849114	2.22E-16
+U::X - 17693	U::X - 17695	0.093564701	2.22E-16
+U::X - 12819	U::X - 17699	0.066947906	2.80E-14
+U::X - 16567	U::X - 17699	0.067873694	1.24E-14
+U::X - 13700	U::X - 17701	0.078982974	2.22E-16
+U::X - 16570	U::X - 17701	0.052621895	2.28E-09
+U::X - 12846	U::X - 17703	0.057826449	5.08E-11
+U::X - 12814	U::X - 17704	0.06157569	2.65E-12
+U::X - 12831	U::X - 17704	0.055034153	4.08E-10
+U::X - 12845	U::X - 17704	0.060150647	8.32E-12
+P::glycoursodeoxycholate	U::X - 17705	0.104731956	2.22E-16
+P::X - 17706	U::X - 17706	0.056196991	1.74E-10
+U::X - 12844	U::X - 17706	0.051516356	4.90E-09
+U::X - 12846	U::X - 17706	0.049907256	1.45E-08
+U::X - 15492	U::X - 17706	0.07517818	2.22E-16
+U::X - 17339	U::X - 17706	0.050513383	9.66E-09
+U::X - 17340	U::X - 17706	0.088015443	2.22E-16
+U::X - 17341	U::X - 17706	0.066228534	5.28E-14
+U::X - 17359	U::X - 17706	0.057364215	7.23E-11
+U::X - 12170	U::X - 17715	0.060965798	4.34E-12
+U::X - 12234	U::X - 17717	0.08295365	2.22E-16
+U::X - 14318	U::X - 17717	0.082986962	2.22E-16
+U::X - 14352	U::X - 17717	0.062464782	1.28E-12
+U::X - 13431	U::X - 17730	0.063266119	6.60E-13
+U::X - 17346	U::X - 17730	0.056702758	1.19E-10
+U::X - 17682	U::X - 17730	0.061997027	1.88E-12
+U::X - 12385	U::X - 17735	0.058388846	3.30E-11
+U::X - 17335	U::X - 17735	0.068965593	4.66E-15
+U::X - 17335	U::X - 17761	0.051655046	4.45E-09
+U::X - 17735	U::X - 17761	0.061718831	2.36E-12
+U::X - 12845	U::X - 17765	0.081925397	2.22E-16
+U::X - 17704	U::X - 17765	0.086900775	2.22E-16
+P::trans-4-hydroxyproline	U::X - 18342	0.069170084	4.00E-15
+U::X - 12234	U::X - 18342	0.056895794	1.03E-10
+U::X - 14318	U::X - 18342	0.07830769	2.22E-16
+U::X - 14352	U::X - 18342	0.087626216	2.22E-16
+U::X - 17717	U::X - 18342	0.059237537	1.71E-11
+U::X - 12234	U::X - 18345	0.108473481	2.22E-16
+U::X - 14318	U::X - 18345	0.132384866	2.22E-16
+U::X - 14352	U::X - 18345	0.134430069	2.22E-16
+U::X - 17717	U::X - 18345	0.082094091	2.22E-16
+U::X - 18342	U::X - 18345	0.084724063	2.22E-16
+U::X - 12234	U::X - 18368	0.060943189	4.42E-12
+U::X - 14318	U::X - 18368	0.085798538	2.22E-16
+U::X - 14352	U::X - 18368	0.065897184	7.04E-14
+U::X - 17717	U::X - 18368	0.076934174	2.22E-16
+U::X - 18345	U::X - 18368	0.084923782	2.22E-16
+U::X - 11333	U::X - 18475	0.072307219	2.22E-16
+U::X - 14839	U::X - 18603	0.051053439	6.71E-09
+P::pro-hydroxy-pro	U::X - 18887	0.068184932	9.33E-15
+U::glycylproline	U::X - 18887	0.056801023	1.11E-10
+U::pro-hydroxy-pro	U::X - 18887	0.067779619	1.33E-14
+U::X - 11338	U::X - 18887	0.054209579	7.41E-10
+U::X - 11616	U::X - 18887	0.05000277	1.36E-08
+U::X - 12822	U::X - 18948	0.082342588	2.22E-16
+U::X - 15646	U::X - 18948	0.061490795	2.84E-12
+U::alpha-CEHC glucuronide*	U::X - 18965	0.049954561	1.40E-08
+U::tryptophan	U::X - 19380	0.071565133	4.44E-16
+U::X - 11429	U::X - 19437	0.071851902	4.44E-16
+P::1,2-propanediol	S::1,2-propanediol	0.082861592	2.22E-16
+U::1,2-propanediol	S::1,2-propanediol	0.071927135	4.44E-16
+P::1,5-anhydroglucitol (1,5-AG)	S::1,5-anhydroglucitol (1,5-AG)	0.067270414	2.11E-14
+S::12-HETE	S::13-HODE + 9-HODE	0.06054466	6.08E-12
+S::2-hydroxypalmitate	S::2-hydroxystearate	0.134120184	2.22E-16
+S::2-hydroxyglutarate	S::3-(4-hydroxyphenyl)lactate	0.057541555	6.32E-11
+U::3-aminoisobutyrate	S::3-aminoisobutyrate	0.081711937	2.22E-16
+P::3-dehydrocarnitine*	S::3-dehydrocarnitine*	0.056864518	1.05E-10
+P::3-hydroxybutyrate (BHBA)	S::3-hydroxybutyrate (BHBA)	0.07190464	4.44E-16
+P::X - 12405	S::3-indoxyl sulfate	0.053987365	8.69E-10
+U::X - 17393	S::3-indoxyl sulfate	0.049917528	1.44E-08
+S::3-(4-hydroxyphenyl)propionate	S::3-phenylpropionate (hydrocinnamate)	0.070129812	1.55E-15
+S::3-(4-hydroxyphenyl)propionate	S::4-hydroxyphenylacetate	0.0667102	3.46E-14
+S::2,3-butanediol	S::alanylalanine	0.049581967	1.79E-08
+S::2-hydroxy-3-methylvalerate	S::alpha-hydroxyisocaproate	0.086161371	2.22E-16
+S::2-hydroxyglutarate	S::alpha-hydroxyisocaproate	0.060676014	5.47E-12
+S::3-(4-hydroxyphenyl)lactate	S::alpha-hydroxyisocaproate	0.065058562	1.45E-13
+P::alpha-hydroxyisovalerate	S::alpha-hydroxyisovalerate	0.054843514	4.69E-10
+S::2-hydroxy-3-methylvalerate	S::alpha-hydroxyisovalerate	0.095450111	2.22E-16
+S::2-hydroxyglutarate	S::alpha-hydroxyisovalerate	0.060093278	8.71E-12
+S::3-(4-hydroxyphenyl)lactate	S::alpha-hydroxyisovalerate	0.070114624	1.78E-15
+S::alpha-hydroxyisocaproate	S::alpha-hydroxyisovalerate	0.070663969	8.88E-16
+S::2-hydroxybutyrate (AHB)	S::alpha-ketobutyrate	0.060629025	5.68E-12
+S::acetoacetate	S::alpha-ketobutyrate	0.051487064	4.99E-09
+S::alpha-ketobutyrate	S::alpha-ketoglutarate	0.071481695	4.44E-16
+S::agmatine	S::arginine	0.072434548	2.22E-16
+S::arginylisoleucine	S::arginylphenylalanine	0.071819778	4.44E-16
+P::1,3,7-trimethylurate	S::caffeine	0.063918603	3.82E-13
+P::caffeine	S::caffeine	0.083797438	2.22E-16
+P::paraxanthine	S::caffeine	0.04846369	3.72E-08
+P::theophylline	S::caffeine	0.05415379	7.72E-10
+U::1,3,7-trimethylurate	S::caffeine	0.051795746	4.04E-09
+U::1,7-dimethylurate	S::caffeine	0.048255282	4.26E-08
+S::13-HODE + 9-HODE	S::caprate (10:0)	0.077827009	2.22E-16
+S::benzoate	S::caproate (6:0)	0.054798296	4.85E-10
+S::caprate (10:0)	S::caprylate (8:0)	0.080875914	2.22E-16
+S::caproate (6:0)	S::caprylate (8:0)	0.072312545	2.22E-16
+S::3-dehydrocarnitine*	S::carnitine	0.051198323	6.08E-09
+S::acetylcarnitine	S::carnitine	0.087813563	2.22E-16
+P::catechol sulfate	S::catechol sulfate	0.07583924	2.22E-16
+U::catechol sulfate	S::catechol sulfate	0.058371952	3.35E-11
+P::cyclo(leu-pro)	S::cyclo(leu-pro)	0.059260563	1.68E-11
+S::4-hydroxyphenylpyruvate	S::cytidine	-0.060788838	5.00E-12
+S::3-dehydrocarnitine*	S::deoxycarnitine	0.055934501	2.11E-10
+S::4-hydroxyphenylacetate	S::deoxycarnitine	0.060874986	4.67E-12
+S::2-hydroxypalmitate	S::dihomo-linolenate (20:3n3 or n6)	0.10230398	2.22E-16
+S::2-hydroxystearate	S::dihomo-linolenate (20:3n3 or n6)	0.077185162	2.22E-16
+S::arachidonate (20:4n6)	S::dihomo-linolenate (20:3n3 or n6)	0.053087839	1.65E-09
+S::2-hydroxypalmitate	S::docosadioate	0.054997707	4.19E-10
+S::caprate (10:0)	S::eicosanodioate	0.056253998	1.66E-10
+S::2-hydroxypalmitate	S::eicosenoate (20:1n9 or 11)	0.087918026	2.22E-16
+S::2-hydroxystearate	S::eicosenoate (20:1n9 or 11)	0.08546674	2.22E-16
+S::arachidonate (20:4n6)	S::eicosenoate (20:1n9 or 11)	0.059964935	9.64E-12
+P::erythritol	S::erythritol	0.088053195	2.22E-16
+U::erythritol	S::erythritol	0.059734831	1.16E-11
+S::fucose	S::galactose	0.05609797	1.87E-10
+S::cadaverine	S::gamma-aminobutyrate (GABA)	0.048751039	3.09E-08
+S::fructose-6-phosphate	S::glucose-6-phosphate (G6P)	0.110777511	2.22E-16
+S::alanine	S::glutamate	0.057194922	8.22E-11
+S::arginylproline	S::glutamine	0.049550208	1.83E-08
+S::alpha-glutamylglutamate	S::glutamine-glutamate	0.107157329	2.22E-16
+S::3-phosphoglycerate	S::glycerol	0.049654721	1.71E-08
+S::fructose-6-phosphate	S::glycerol 3-phosphate (G3P)	0.053048286	1.69E-09
+S::glucose-6-phosphate (G6P)	S::glycerol 3-phosphate (G3P)	0.064899613	1.66E-13
+S::agmatine	S::glycine	0.049927906	1.43E-08
+S::arginine	S::glycine	0.048715875	3.16E-08
+S::adenine	S::guanine	0.077624356	2.22E-16
+S::glucose-6-phosphate (G6P)	S::guanine	0.060241866	7.74E-12
+S::arabitol	S::gulono-1,4-lactone	0.052736625	2.11E-09
+S::gluconate	S::gulono-1,4-lactone	0.050648805	8.82E-09
+S::4-methyl-2-oxopentanoate	S::heptanoate (7:0)	-0.066601306	3.82E-14
+P::hippurate	S::hippurate	0.051043694	6.75E-09
+S::3-indoxyl sulfate	S::hippurate	0.04861876	3.37E-08
+S::adenine	S::hypoxanthine	0.057037877	9.25E-11
+S::guanine	S::hypoxanthine	0.075205128	2.22E-16
+S::4-hydroxyphenylacetate	S::imidazole propionate	0.067581466	1.60E-14
+S::deoxycarnitine	S::imidazole propionate	0.049345041	2.10E-08
+S::3-(4-hydroxyphenyl)propionate	S::indoleacetate	0.094675954	2.22E-16
+S::3-phenylpropionate (hydrocinnamate)	S::indoleacetate	0.050169846	1.22E-08
+S::4-hydroxyphenylacetate	S::indoleacetate	0.106837471	2.22E-16
+S::arginylphenylalanine	S::isoleucylglycine	0.080369978	2.22E-16
+S::isoleucylalanine	S::isoleucylserine	0.056049954	1.94E-10
+S::acetylcarnitine	S::isovalerylcarnitine	0.056446333	1.44E-10
+S::carnitine	S::isovalerylcarnitine	0.060165731	8.22E-12
+S::2-hydroxybutyrate (AHB)	S::lactate	0.062474919	1.27E-12
+S::isoleucine	S::leucine	0.079081701	2.22E-16
+S::alanylvaline	S::leucylalanine	0.048748211	3.10E-08
+S::glutamine-leucine	S::leucylalanine	0.050572665	9.28E-09
+S::alanylvaline	S::leucylglutamate	0.0570136	9.42E-11
+S::asparagylleucine	S::leucylglutamate	0.048980787	2.66E-08
+S::leucylglutamate	S::leucylglycine	0.055679949	2.54E-10
+S::leucylisoleucine	S::leucylphenylalanine	0.054957168	4.32E-10
+S::glycine	S::lysine	0.051116597	6.43E-09
+S::arginylisoleucine	S::lysylphenylalanine	0.082125719	2.22E-16
+S::leucyltyrosine	S::lysylphenylalanine	0.065344648	1.13E-13
+S::arginine	S::lysylproline	0.050054525	1.31E-08
+S::lysine	S::lysylproline	0.048360246	3.98E-08
+S::fumarate	S::malate	0.049627969	1.74E-08
+S::glucose	S::maltose	0.071860688	4.44E-16
+S::citrate	S::N-acetylaspartate (NAA)	0.055319268	3.32E-10
+S::fucose	S::N-acetylglucosamine	0.075410367	2.22E-16
+S::galactose	S::N-acetylglucosamine	0.131161099	2.22E-16
+S::fucose	S::N-acetylneuraminate	0.064029536	3.48E-13
+S::N-acetylglucosamine	S::N-acetylneuraminate	0.056590945	1.29E-10
+S::N-acetylleucine	S::N-acetylphenylalanine	0.134022171	2.22E-16
+S::agmatine	S::N-acetylputrescine	0.051559027	4.75E-09
+S::beta-alanine	S::ornithine	0.057744048	5.41E-11
+S::lysine	S::ornithine	0.064299241	2.77E-13
+S::lysylproline	S::ornithine	0.051779442	4.09E-09
+P::p-cresol sulfate	S::p-cresol sulfate	0.059655622	1.23E-11
+U::p-cresol sulfate	S::p-cresol sulfate	0.055436412	3.04E-10
+U::X - 11837	S::p-cresol sulfate	0.064455282	2.43E-13
+S::2-hydroxystearate	S::palmitoyl sphingomyelin	0.056657294	1.23E-10
+S::arachidonate (20:4n6)	S::palmitoyl sphingomyelin	0.04874675	3.10E-08
+S::eicosenoate (20:1n9 or 11)	S::palmitoyl sphingomyelin	0.057642083	5.85E-11
+P::paraxanthine	S::paraxanthine	0.058708872	2.58E-11
+S::caffeine	S::paraxanthine	0.064460223	2.42E-13
+S::caprate (10:0)	S::pelargonate (9:0)	0.079200696	2.22E-16
+S::caprylate (8:0)	S::pelargonate (9:0)	0.084324979	2.22E-16
+S::heptanoate (7:0)	S::pelargonate (9:0)	0.080057172	2.22E-16
+P::phenol sulfate	S::phenol sulfate	0.134028941	2.22E-16
+U::phenol sulfate	S::phenol sulfate	0.089301866	2.22E-16
+U::X - 12257	S::phenol sulfate	0.061713469	2.37E-12
+U::X - 12335	S::phenol sulfate	0.090311327	2.22E-16
+S::3-(4-hydroxyphenyl)propionate	S::phenylacetate	0.055988988	2.03E-10
+S::3-phenylpropionate (hydrocinnamate)	S::phenylacetate	0.05570592	2.50E-10
+S::4-hydroxyphenylacetate	S::phenylacetate	0.091357769	2.22E-16
+S::indoleacetate	S::phenylacetate	0.101129734	2.22E-16
+S::isoleucine	S::phenylalanine	0.051778545	4.09E-09
+S::N-acetylphenylalanine	S::phenylalanine	0.065060312	1.45E-13
+S::leucylphenylalanine	S::phenylalanylleucine	0.071624572	4.44E-16
+S::lysylphenylalanine	S::phenylalanylphenylalanine	0.057011463	9.44E-11
+S::arginylisoleucine	S::phenylalanyltyrosine	0.050457911	1.00E-08
+S::leucyltyrosine	S::phenylalanyltyrosine	0.07967387	2.22E-16
+S::lysylphenylalanine	S::phenylalanyltyrosine	0.078183805	2.22E-16
+S::2-hydroxy-3-methylvalerate	S::phenyllactate (PLA)	0.052395431	2.67E-09
+S::2-hydroxyglutarate	S::phenyllactate (PLA)	0.067865036	1.24E-14
+S::3-(4-hydroxyphenyl)lactate	S::phenyllactate (PLA)	0.105648826	2.22E-16
+S::alpha-hydroxyisocaproate	S::phenyllactate (PLA)	0.080580372	2.22E-16
+S::alpha-hydroxyisovalerate	S::phenyllactate (PLA)	0.077154882	2.22E-16
+S::glycerol	S::phosphate	0.164290528	2.22E-16
+S::glycerol 3-phosphate (G3P)	S::phosphate	0.049409348	2.01E-08
+S::phosphate	S::phosphoethanolamine	0.049246591	2.24E-08
+S::glutamine	S::proline	0.049470106	1.93E-08
+S::glycine	S::proline	0.057451118	6.77E-11
+S::histidylproline	S::prolylglycine	0.053958941	8.87E-10
+S::arginylproline	S::prolylproline	0.049684824	1.68E-08
+S::proline	S::prolylproline	0.062539827	1.20E-12
+S::acetylcarnitine	S::propionylcarnitine	0.088517118	2.22E-16
+S::butyrylcarnitine	S::propionylcarnitine	0.061440726	2.96E-12
+S::carnitine	S::propionylcarnitine	0.059948754	9.76E-12
+S::isovalerylcarnitine	S::propionylcarnitine	0.063305615	6.38E-13
+S::N6-carbamoylthreonyladenosine	S::pseudouridine	0.074724661	2.22E-16
+S::5-aminovalerate	S::putrescine	0.070323162	1.33E-15
+S::beta-alanine	S::putrescine	0.051523552	4.87E-09
+S::cadaverine	S::putrescine	0.059513816	1.38E-11
+S::lysine	S::putrescine	0.059928039	9.92E-12
+S::ornithine	S::putrescine	0.061806922	2.20E-12
+P::pyroglutamine*	S::pyroglutamine*	0.070598976	8.88E-16
+S::alpha-ketobutyrate	S::pyruvate	0.052006457	3.50E-09
+S::alpha-ketoglutarate	S::pyruvate	0.063997617	3.57E-13
+S::lactate	S::pyruvate	0.067281101	2.09E-14
+S::fructose	S::quinate	0.091786312	2.22E-16
+S::agmatine	S::ribose	0.077006794	2.22E-16
+S::fucose	S::ribose	0.11762905	2.22E-16
+S::galactose	S::ribose	0.050885128	7.52E-09
+S::N-acetylglucosamine	S::ribose	0.057263323	7.80E-11
+S::deoxycarnitine	S::sarcosine (N-Methylglycine)	0.054828417	4.74E-10
+S::myo-inositol	S::scyllo-inositol	0.084026696	2.22E-16
+S::arginine	S::serine	0.057432835	6.86E-11
+S::isoleucylalanine	S::serylleucine	0.074499741	2.22E-16
+P::stachydrine	S::stachydrine	0.049255267	2.22E-08
+U::X - 13841	S::stachydrine	0.049929046	1.43E-08
+S::malate	S::succinate	0.061005175	4.20E-12
+S::acetylcarnitine	S::succinylcarnitine	0.079663675	2.22E-16
+S::N-acetylaspartate (NAA)	S::succinylcarnitine	0.054913113	4.46E-10
+S::3-dehydrocarnitine*	S::taurine	0.049364618	2.07E-08
+P::7-methylxanthine	S::theobromine	0.057997644	4.46E-11
+P::theobromine	S::theobromine	0.095375672	2.22E-16
+U::theobromine	S::theobromine	0.067572611	1.62E-14
+S::serine	S::threonine	0.075013682	2.22E-16
+S::isoleucylglycine	S::threonylphenylalanine	0.066664156	3.60E-14
+S::leucyltyrosine	S::threonylphenylalanine	0.074604677	2.22E-16
+S::phenylalanylphenylalanine	S::threonylphenylalanine	0.052923764	1.85E-09
+P::trans-4-hydroxyproline	S::trans-4-hydroxyproline	0.097350957	2.22E-16
+S::3-aminoisobutyrate	S::trans-4-hydroxyproline	0.065361907	1.12E-13
+P::tryptophan betaine	S::tryptophan betaine	0.113553079	2.22E-16
+U::tryptophan betaine	S::tryptophan betaine	0.051114492	6.44E-09
+S::histidine	S::tyrosine	0.057007345	9.47E-11
+S::N-acetylphenylalanine	S::tyrosine	0.052560387	2.38E-09
+S::phenylalanine	S::tyrosine	0.091910881	2.22E-16
+S::lysylphenylalanine	S::tyrosylglutamine	0.053158643	1.57E-09
+S::threonylphenylalanine	S::tyrosylglutamine	0.083729565	2.22E-16
+S::isoleucylglycine	S::tyrosylglycine	0.069266065	3.55E-15
+S::leucyltyrosine	S::tyrosylleucine	0.094795875	2.22E-16
+S::lysylphenylalanine	S::tyrosylleucine	0.056828151	1.08E-10
+S::phenylalanyltyrosine	S::tyrosylleucine	0.049478097	1.92E-08
+S::threonylphenylalanine	S::tyrosylleucine	0.051983919	3.55E-09
+S::adenine	S::uracil	0.055625631	2.65E-10
+S::hypoxanthine	S::uracil	0.050874836	7.57E-09
+P::urate	S::urate	0.072034467	2.22E-16
+S::phosphate	S::urate	0.048918235	2.77E-08
+S::heptanoate (7:0)	S::uridine	-0.09870815	2.22E-16
+S::caproate (6:0)	S::valerate	0.089227364	2.22E-16
+S::caprylate (8:0)	S::valerate	0.070301216	1.33E-15
+S::heptanoate (7:0)	S::valerate	0.093925903	2.22E-16
+S::pelargonate (9:0)	S::valerate	0.096452003	2.22E-16
+S::isoleucine	S::valine	0.072750561	2.22E-16
+S::leucine	S::valine	0.077619846	2.22E-16
+S::alanylvaline	S::valylalanine	0.053180373	1.54E-09
+S::leucylalanine	S::valylalanine	0.051077657	6.60E-09
+S::leucylglutamate	S::valylalanine	0.055166968	3.71E-10
+S::leucylglycine	S::valylalanine	0.055206685	3.60E-10
+S::leucylleucine	S::valylleucine	0.056888438	1.04E-10
+S::adenine	S::xanthine	0.053307636	1.41E-09
+S::hypoxanthine	S::xanthine	0.073022148	2.22E-16
+S::uracil	S::xanthine	0.063777974	4.30E-13
+P::X - 03056	S::X - 03056	0.10172641	2.22E-16
+U::X - 03056	S::X - 03056	0.083759002	2.22E-16
+P::X - 11315	S::X - 11315	0.084586127	2.22E-16
+S::3-(4-hydroxyphenyl)propionate	S::X - 11390	0.053747341	1.03E-09
+S::4-hydroxyphenylacetate	S::X - 11390	0.0895294	2.22E-16
+S::5-aminovalerate	S::X - 11390	0.061137516	3.78E-12
+S::indoleacetate	S::X - 11390	0.103752179	2.22E-16
+S::phenylacetate	S::X - 11390	0.097326033	2.22E-16
+S::8-hydroxyoctanoate	S::X - 11508	0.065009553	1.51E-13
+S::N-acetylneuraminate	S::X - 11607	0.111916098	2.22E-16
+S::X - 11616	S::X - 11618	0.063011015	8.16E-13
+S::valylleucine	S::X - 11684	0.048252565	4.26E-08
+S::benzoate	S::X - 12776	0.055925526	2.12E-10
+S::X - 11684	S::X - 12805	0.084821989	2.22E-16
+S::2,3-butanediol	S::X - 12944	0.064650651	2.06E-13
+S::quinate	S::X - 12944	0.051368631	5.42E-09
+S::choline phosphate	S::X - 13230	0.048398293	3.88E-08
+S::urate	S::X - 13230	0.050886707	7.51E-09
+S::13-HODE + 9-HODE	S::X - 13537	0.111399772	2.22E-16
+S::caprate (10:0)	S::X - 13537	0.098001948	2.22E-16
+S::docosadioate	S::X - 13537	0.07048684	1.11E-15
+S::eicosanodioate	S::X - 13537	0.059164075	1.81E-11
+S::2-hydroxypalmitate	S::X - 13579	0.088168003	2.22E-16
+S::2-hydroxystearate	S::X - 13579	0.092081108	2.22E-16
+S::dihomo-linolenate (20:3n3 or n6)	S::X - 13579	0.081287952	2.22E-16
+S::docosadioate	S::X - 13579	0.072316108	2.22E-16
+S::eicosenoate (20:1n9 or 11)	S::X - 13579	0.04984506	1.51E-08
+S::13-HODE + 9-HODE	S::X - 13671	0.061358484	3.16E-12
+S::tartarate	S::X - 13671	0.048935833	2.74E-08
+S::X - 13537	S::X - 13671	0.050246065	1.16E-08
+S::12-HETE	S::X - 13673	0.050216739	1.18E-08
+S::docosadioate	S::X - 13673	0.102621748	2.22E-16
+S::eicosanodioate	S::X - 13673	0.099396011	2.22E-16
+S::heptanoate (7:0)	S::X - 14105	0.062931782	8.71E-13
+S::histidine	S::X - 14105	0.062328437	1.43E-12
+S::glycyltyrosine	S::X - 14257	0.052370911	2.72E-09
+S::tyrosylleucine	S::X - 14257	0.053723201	1.05E-09
+U::X - 14473	S::X - 14473	0.072262452	2.22E-16
+S::cyclo(leu-pro)	S::X - 14473	0.083639849	2.22E-16
+S::X - 11508	S::X - 14904	0.059406841	1.50E-11
+S::X - 13230	S::X - 15415	0.051339151	5.53E-09
+S::pyrophosphate (PPi)	S::X - 15461	0.053903266	9.23E-10
+S::X - 11684	S::X - 15580	0.103020803	2.22E-16
+S::X - 12805	S::X - 15580	0.071472727	4.44E-16
+S::X - 11684	S::X - 15581	0.067112859	2.44E-14
+S::X - 12805	S::X - 15581	0.074878106	2.22E-16
+S::X - 15580	S::X - 15581	0.082580274	2.22E-16
+S::X - 11618	S::X - 15594	0.052999468	1.75E-09
+S::13-HODE + 9-HODE	S::X - 15675	0.052436813	2.60E-09
+S::X - 13671	S::X - 15675	0.049253159	2.23E-08
+S::X - 11684	S::X - 15735	0.049116485	2.44E-08
+S::X - 12805	S::X - 15735	0.05394945	8.93E-10
+S::X - 15580	S::X - 15735	0.063652465	4.78E-13
+S::X - 15581	S::X - 15735	0.06593474	6.82E-14
+S::valerate	S::X - 15808	0.078407602	2.22E-16
+S::X - 15461	S::X - 15808	0.089907081	2.22E-16
+S::X - 12776	S::X - 16103	0.057200696	8.18E-11
+S::X - 13230	S::X - 16103	0.053185369	1.54E-09
+S::X - 15581	S::X - 16626	0.05049978	9.75E-09
+S::X - 15689	S::X - 16626	0.058802826	2.40E-11
+S::lactate	S::X - 17502	0.057969265	4.56E-11
+S::X - 16271	S::X - 18059	0.051962778	3.60E-09
+S::X - 13819	S::X - 18095	0.05325493	1.46E-09
+S::X - 15581	S::X - 18111	0.051667072	4.42E-09
+S::X - 15689	S::X - 18111	0.057811828	5.14E-11
+S::X - 15735	S::X - 18111	0.057013174	9.42E-11
+S::X - 16626	S::X - 18111	0.063572132	5.11E-13
+S::X - 15581	S::X - 18113	0.051307294	5.65E-09
+S::X - 15689	S::X - 18113	0.056372382	1.52E-10
+S::X - 15735	S::X - 18113	0.053587886	1.16E-09
+S::X - 16626	S::X - 18113	0.070029763	1.78E-15
+S::X - 18111	S::X - 18113	0.070340406	1.33E-15
+S::phosphate	S::X - 18140	0.065020579	1.50E-13
+S::valerate	S::X - 18278	-0.053618827	1.13E-09
+S::X - 18037	S::X - 18278	0.117335109	2.22E-16
+S::X - 15581	S::X - 18309	0.058915781	2.20E-11
+S::X - 15689	S::X - 18309	0.058229664	3.73E-11
+S::X - 15735	S::X - 18309	0.058689398	2.62E-11
+S::X - 16626	S::X - 18309	0.073550802	2.22E-16
+S::X - 18111	S::X - 18309	0.067384781	1.91E-14
+S::X - 18113	S::X - 18309	0.074356413	2.22E-16
+S::threonylphenylalanine	S::X - 18330	0.068392202	7.77E-15
+S::picolinate	S::X - 19572	0.050668313	8.70E-09
+S::X - 18672	S::X - 19572	0.130348795	2.22E-16

@@ -1,0 +1,1525 @@
+name	SUPER_PATHWAY	SUB_PATHWAY	label
+P::1,11-Undecanedicarboxylic acid	P::Lipid	P::Fatty acid, dicarboxylate	P::1,11-Undecanedicarboxylic acid
+P::1,2-dipalmitoylglycerol	P::Lipid	P::Diacylglycerol	P::1,2-dipalmitoylglycerol
+P::1,2-propanediol	P::Lipid	P::Ketone bodies	P::1,2-propanediol
+P::1,3,7-trimethylurate	P::Xenobiotics	P::Xanthine metabolism	P::1,3,7-trimethylurate
+P::1,3-dihydroxyacetone	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::1,3-dihydroxyacetone
+P::1,3-dipalmitoylglycerol	P::Lipid	P::Diacylglycerol	P::1,3-dipalmitoylglycerol
+P::1,5-anhydroglucitol (1,5-AG)	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::1,5-anhydroglucitol (1,5-AG)
+P::1,7-dimethylurate	P::Xenobiotics	P::Xanthine metabolism	P::1,7-dimethylurate
+P::1-arachidonoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-arachidonoylglycerophosphocholine*
+P::1-arachidonoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::1-arachidonoylglycerophosphoethanolamine*
+P::1-arachidonoylglycerophosphoinositol*	P::Lipid	P::Lysolipid	P::1-arachidonoylglycerophosphoinositol*
+P::1-docosahexaenoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-docosahexaenoylglycerophosphocholine*
+P::1-docosapentaenoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-docosapentaenoylglycerophosphocholine*
+P::1-eicosadienoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-eicosadienoylglycerophosphocholine*
+P::1-eicosatrienoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-eicosatrienoylglycerophosphocholine*
+P::1-heptadecanoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-heptadecanoylglycerophosphocholine
+P::1-linoleoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-linoleoylglycerophosphocholine
+P::1-linoleoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::1-linoleoylglycerophosphoethanolamine*
+P::1-methylurate	P::Xenobiotics	P::Xanthine metabolism	P::1-methylurate
+P::1-methylxanthine	P::Xenobiotics	P::Xanthine metabolism	P::1-methylxanthine
+P::1-myristoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-myristoylglycerophosphocholine
+P::1-oleoylglycerol (1-monoolein)	P::Lipid	P::Monoacylglycerol	P::1-oleoylglycerol (1-monoolein)
+P::1-oleoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-oleoylglycerophosphocholine
+P::1-oleoylglycerophosphoethanolamine	P::Lipid	P::Lysolipid	P::1-oleoylglycerophosphoethanolamine
+P::1-palmitoleoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-palmitoleoylglycerophosphocholine*
+P::1-palmitoylglycerol (1-monopalmitin)	P::Lipid	P::Monoacylglycerol	P::1-palmitoylglycerol (1-monopalmitin)
+P::1-palmitoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-palmitoylglycerophosphocholine
+P::1-palmitoylglycerophosphoethanolamine	P::Lipid	P::Lysolipid	P::1-palmitoylglycerophosphoethanolamine
+P::1-palmitoylglycerophosphoinositol*	P::Lipid	P::Lysolipid	P::1-palmitoylglycerophosphoinositol*
+P::1-pentadecanoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::1-pentadecanoylglycerophosphocholine*
+P::1-stearoylglycerophosphocholine	P::Lipid	P::Lysolipid	P::1-stearoylglycerophosphocholine
+P::1-stearoylglycerophosphoethanolamine	P::Lipid	P::Lysolipid	P::1-stearoylglycerophosphoethanolamine
+P::1-stearoylglycerophosphoinositol	P::Lipid	P::Lysolipid	P::1-stearoylglycerophosphoinositol
+P::10-heptadecenoate (17:1n7)	P::Lipid	P::Long chain fatty acid	P::10-heptadecenoate (17:1n7)
+P::10-nonadecenoate (19:1n9)	P::Lipid	P::Long chain fatty acid	P::10-nonadecenoate (19:1n9)
+P::10-undecenoate (11:1n1)	P::Lipid	P::Medium chain fatty acid	P::10-undecenoate (11:1n1)
+P::13-HODE + 9-HODE	P::Lipid	P::Fatty acid, monohydroxy	P::13-HODE + 9-HODE
+P::15-methylpalmitate (isobar with 2-methylpalmitate)	P::Lipid	P::Fatty acid, branched	P::15-methylpalmitate (isobar with 2-methylpalmitate)
+P::17-methylstearate	P::Lipid	P::Fatty acid, branched	P::17-methylstearate
+P::2-aminobutyrate	P::Amino acid	P::Butanoate metabolism	P::2-aminobutyrate
+P::2-arachidonoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-arachidonoylglycerophosphocholine*
+P::2-arachidonoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::2-arachidonoylglycerophosphoethanolamine*
+P::2-docosahexaenoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::2-docosahexaenoylglycerophosphoethanolamine*
+P::2-docosapentaenoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-docosapentaenoylglycerophosphocholine*
+P::2-ethylhexanoate	P::Xenobiotics	P::Chemical	P::2-ethylhexanoate
+P::2-hydroxy-3-methylvalerate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::2-hydroxy-3-methylvalerate
+P::2-hydroxybutyrate (AHB)	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::2-hydroxybutyrate (AHB)
+P::2-hydroxydecanoic acid	P::Lipid	P::Fatty acid, monohydroxy	P::2-hydroxydecanoic acid
+P::2-hydroxyglutarate	P::Lipid	P::Fatty acid, dicarboxylate	P::2-hydroxyglutarate
+P::2-hydroxyhippurate (salicylurate)	P::Xenobiotics	P::Benzoate metabolism	P::2-hydroxyhippurate (salicylurate)
+P::2-hydroxyisobutyrate	P::Xenobiotics	P::Chemical	P::2-hydroxyisobutyrate
+P::2-hydroxypalmitate	P::Lipid	P::Fatty acid, monohydroxy	P::2-hydroxypalmitate
+P::2-hydroxystearate	P::Lipid	P::Fatty acid, monohydroxy	P::2-hydroxystearate
+P::2-linoleoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-linoleoylglycerophosphocholine*
+P::2-linoleoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::2-linoleoylglycerophosphoethanolamine*
+P::2-methylbutyrylcarnitine (C5)	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::2-methylbutyrylcarnitine (C5)
+P::2-myristoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-myristoylglycerophosphocholine*
+P::2-oleoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-oleoylglycerophosphocholine*
+P::2-oleoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::2-oleoylglycerophosphoethanolamine*
+P::2-palmitoleoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-palmitoleoylglycerophosphocholine*
+P::2-palmitoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-palmitoylglycerophosphocholine*
+P::2-palmitoylglycerophosphoethanolamine*	P::Lipid	P::Lysolipid	P::2-palmitoylglycerophosphoethanolamine*
+P::2-stearoylglycerophosphocholine*	P::Lipid	P::Lysolipid	P::2-stearoylglycerophosphocholine*
+P::21-hydroxypregnenolone disulfate	P::Lipid	P::Sterol/Steroid	P::21-hydroxypregnenolone disulfate
+P::3-(4-hydroxyphenyl)lactate	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::3-(4-hydroxyphenyl)lactate
+P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	P::Lipid	P::Fatty acid, dicarboxylate	P::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)
+P::3-dehydrocarnitine*	P::Lipid	P::Carnitine metabolism	P::3-dehydrocarnitine*
+P::3-hydroxy-2-ethylpropionate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::3-hydroxy-2-ethylpropionate
+P::3-hydroxybutyrate (BHBA)	P::Lipid	P::Ketone bodies	P::3-hydroxybutyrate (BHBA)
+P::3-hydroxydecanoate	P::Lipid	P::Fatty acid, monohydroxy	P::3-hydroxydecanoate
+P::3-hydroxyhippurate	P::Xenobiotics	P::Benzoate metabolism	P::3-hydroxyhippurate
+P::3-hydroxyisobutyrate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::3-hydroxyisobutyrate
+P::3-hydroxyoctanoate	P::Lipid	P::Fatty acid, monohydroxy	P::3-hydroxyoctanoate
+P::3-hydroxypropanoate	P::Lipid	P::Fatty acid, monohydroxy	P::3-hydroxypropanoate
+P::3-indoxyl sulfate	P::Amino acid	P::Tryptophan metabolism	P::3-indoxyl sulfate
+P::3-methoxytyrosine	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::3-methoxytyrosine
+P::3-methyl catechol sulfate 1	P::Xenobiotics	P::Benzoate metabolism	P::3-methyl catechol sulfate 1
+P::3-methyl-2-oxobutyrate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::3-methyl-2-oxobutyrate
+P::3-methyl-2-oxovalerate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::3-methyl-2-oxovalerate
+P::3-methylglutarylcarnitine (C6)	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::3-methylglutarylcarnitine (C6)
+P::3-methylhistidine	P::Amino acid	P::Histidine metabolism	P::3-methylhistidine
+P::3-methylxanthine	P::Xenobiotics	P::Xanthine metabolism	P::3-methylxanthine
+P::3-phosphoglycerate	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::3-phosphoglycerate
+P::4-androsten-3beta,17beta-diol disulfate 1*	P::Lipid	P::Sterol/Steroid	P::4-androsten-3beta,17beta-diol disulfate 1*
+P::4-androsten-3beta,17beta-diol disulfate 2*	P::Lipid	P::Sterol/Steroid	P::4-androsten-3beta,17beta-diol disulfate 2*
+P::4-ethylphenylsulfate	P::Xenobiotics	P::Benzoate metabolism	P::4-ethylphenylsulfate
+P::4-hydroxyhippurate	P::Xenobiotics	P::Benzoate metabolism	P::4-hydroxyhippurate
+P::4-hydroxyphenylacetate	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::4-hydroxyphenylacetate
+P::4-hydroxyphenylpyruvate	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::4-hydroxyphenylpyruvate
+P::4-methyl-2-oxopentanoate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::4-methyl-2-oxopentanoate
+P::4-methylcatechol sulfate	P::Xenobiotics	P::Benzoate metabolism	P::4-methylcatechol sulfate
+P::4-vinylphenol sulfate	P::Xenobiotics	P::Benzoate metabolism	P::4-vinylphenol sulfate
+P::5,6-dihydrouracil	P::Nucleotide	P::Pyrimidine metabolism, uracil containing	P::5,6-dihydrouracil
+P::5-dodecenoate (12:1n7)	P::Lipid	P::Medium chain fatty acid	P::5-dodecenoate (12:1n7)
+P::5-methyluridine (ribothymidine)	P::Nucleotide	P::Pyrimidine metabolism, uracil containing	P::5-methyluridine (ribothymidine)
+P::5-oxoproline	P::Amino acid	P::Glutathione metabolism	P::5-oxoproline
+P::5alpha-androstan-3beta,17beta-diol disulfate	P::Lipid	P::Sterol/Steroid	P::5alpha-androstan-3beta,17beta-diol disulfate
+P::5alpha-pregnan-3beta,20alpha-diol disulfate	P::Lipid	P::Sterol/Steroid	P::5alpha-pregnan-3beta,20alpha-diol disulfate
+P::7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)	P::Lipid	P::Sterol/Steroid	P::7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)
+P::7-methylxanthine	P::Xenobiotics	P::Xanthine metabolism	P::7-methylxanthine
+P::acetylcarnitine	P::Lipid	P::Carnitine metabolism	P::acetylcarnitine
+P::adenosine 5'-monophosphate (AMP)	P::Nucleotide	P::Purine metabolism, adenine containing	P::adenosine 5'-monophosphate (AMP)
+P::adrenate (22:4n6)	P::Lipid	P::Long chain fatty acid	P::adrenate (22:4n6)
+P::alanine	P::Amino acid	P::Alanine and aspartate metabolism	P::alanine
+P::allantoin	P::Nucleotide	P::Purine metabolism, urate metabolism	P::allantoin
+P::alpha-hydroxyisocaproate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::alpha-hydroxyisocaproate
+P::alpha-hydroxyisovalerate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::alpha-hydroxyisovalerate
+P::alpha-ketobutyrate	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::alpha-ketobutyrate
+P::alpha-ketoglutarate	P::Energy	P::Krebs cycle	P::alpha-ketoglutarate
+P::alpha-tocopherol	P::Cofactors and vitamins	P::Tocopherol metabolism	P::alpha-tocopherol
+P::andro steroid monosulfate 2*	P::Lipid	P::Sterol/Steroid	P::andro steroid monosulfate 2*
+P::androsterone sulfate	P::Lipid	P::Sterol/Steroid	P::androsterone sulfate
+P::arabinose	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::arabinose
+P::arabitol	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::arabitol
+P::arachidonate (20:4n6)	P::Lipid	P::Long chain fatty acid	P::arachidonate (20:4n6)
+P::arginine	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::arginine
+P::asparagine	P::Amino acid	P::Alanine and aspartate metabolism	P::asparagine
+P::benzoate	P::Xenobiotics	P::Benzoate metabolism	P::benzoate
+P::beta-alanine	P::Amino acid	P::Alanine and aspartate metabolism	P::beta-alanine
+P::beta-hydroxyisovalerate	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::beta-hydroxyisovalerate
+P::beta-hydroxypyruvate	P::Amino acid	P::Glycine, serine and threonine metabolism	P::beta-hydroxypyruvate
+P::beta-sitosterol	P::Lipid	P::Sterol/Steroid	P::beta-sitosterol
+P::beta-tocopherol	P::Cofactors and vitamins	P::Tocopherol metabolism	P::beta-tocopherol
+P::betaine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::betaine
+P::bilirubin (E,E)*	P::Cofactors and vitamins	P::Hemoglobin and porphyrin metabolism	P::bilirubin (E,E)*
+P::bilirubin (Z,Z)	P::Cofactors and vitamins	P::Hemoglobin and porphyrin metabolism	P::bilirubin (Z,Z)
+P::biliverdin	P::Cofactors and vitamins	P::Hemoglobin and porphyrin metabolism	P::biliverdin
+P::butyrylcarnitine	P::Lipid	P::Fatty acid metabolism (also BCAA metabolism)	P::butyrylcarnitine
+P::C-glycosyltryptophan*	P::Amino acid	P::Tryptophan metabolism	P::C-glycosyltryptophan*
+P::caffeine	P::Xenobiotics	P::Xanthine metabolism	P::caffeine
+P::campesterol	P::Lipid	P::Sterol/Steroid	P::campesterol
+P::caprate (10:0)	P::Lipid	P::Medium chain fatty acid	P::caprate (10:0)
+P::caproate (6:0)	P::Lipid	P::Medium chain fatty acid	P::caproate (6:0)
+P::caprylate (8:0)	P::Lipid	P::Medium chain fatty acid	P::caprylate (8:0)
+P::carnitine	P::Lipid	P::Carnitine metabolism	P::carnitine
+P::catechol sulfate	P::Xenobiotics	P::Benzoate metabolism	P::catechol sulfate
+P::cholate	P::Lipid	P::Bile acid metabolism	P::cholate
+P::cholesterol	P::Lipid	P::Sterol/Steroid	P::cholesterol
+P::choline	P::Lipid	P::Glycerolipid metabolism	P::choline
+P::cis-4-decenoyl carnitine	P::Lipid	P::Carnitine metabolism	P::cis-4-decenoyl carnitine
+P::cis-vaccenate (18:1n7)	P::Lipid	P::Long chain fatty acid	P::cis-vaccenate (18:1n7)
+P::citrate	P::Energy	P::Krebs cycle	P::citrate
+P::citrulline	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::citrulline
+P::cortisol	P::Lipid	P::Sterol/Steroid	P::cortisol
+P::cortisone	P::Lipid	P::Sterol/Steroid	P::cortisone
+P::creatine	P::Amino acid	P::Creatine metabolism	P::creatine
+P::creatinine	P::Amino acid	P::Creatine metabolism	P::creatinine
+P::cyclo(leu-pro)	P::Peptide	P::Dipeptide	P::cyclo(leu-pro)
+P::cys-gly, oxidized	P::Peptide	P::Dipeptide derivative	P::cys-gly, oxidized
+P::cysteine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::cysteine
+P::cysteine-glutathione disulfide	P::Amino acid	P::Glutathione metabolism	P::cysteine-glutathione disulfide
+P::cystine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::cystine
+P::decanoylcarnitine	P::Lipid	P::Carnitine metabolism	P::decanoylcarnitine
+P::dehydroisoandrosterone sulfate (DHEA-S)	P::Lipid	P::Sterol/Steroid	P::dehydroisoandrosterone sulfate (DHEA-S)
+P::deoxycarnitine	P::Lipid	P::Carnitine metabolism	P::deoxycarnitine
+P::dihomo-linoleate (20:2n6)	P::Lipid	P::Long chain fatty acid	P::dihomo-linoleate (20:2n6)
+P::dihomo-linolenate (20:3n3 or n6)	P::Lipid	P::Essential fatty acid	P::dihomo-linolenate (20:3n3 or n6)
+P::dihydroorotate	P::Nucleotide	P::Pyrimidine metabolism, orotate containing	P::dihydroorotate
+P::dimethylglycine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::dimethylglycine
+P::docosahexaenoate (DHA; 22:6n3)	P::Lipid	P::Essential fatty acid	P::docosahexaenoate (DHA; 22:6n3)
+P::docosapentaenoate (n3 DPA; 22:5n3)	P::Lipid	P::Essential fatty acid	P::docosapentaenoate (n3 DPA; 22:5n3)
+P::docosapentaenoate (n6 DPA; 22:5n6)	P::Lipid	P::Essential fatty acid	P::docosapentaenoate (n6 DPA; 22:5n6)
+P::dodecanedioate	P::Lipid	P::Fatty acid, dicarboxylate	P::dodecanedioate
+P::EDTA	P::Xenobiotics	P::EDTA	P::EDTA
+P::eicosapentaenoate (EPA; 20:5n3)	P::Lipid	P::Essential fatty acid	P::eicosapentaenoate (EPA; 20:5n3)
+P::eicosenoate (20:1n9 or 11)	P::Lipid	P::Long chain fatty acid	P::eicosenoate (20:1n9 or 11)
+P::epiandrosterone sulfate	P::Lipid	P::Sterol/Steroid	P::epiandrosterone sulfate
+P::erythritol	P::Xenobiotics	P::Sugar, sugar substitute, starch	P::erythritol
+P::erythronate*	P::Carbohydrate	P::Aminosugars metabolism	P::erythronate*
+P::erythrulose	P::Secondary Metabolism	P::Advanced glycation end-product	P::erythrulose
+P::fructose	P::Carbohydrate	P::Fructose, mannose, galactose, starch, and sucrose metabolism	P::fructose
+P::gamma-CEHC	P::Cofactors and vitamins	P::Tocopherol metabolism	P::gamma-CEHC
+P::gamma-glutamylglutamine	P::Peptide	P::gamma-glutamyl	P::gamma-glutamylglutamine
+P::gamma-glutamylisoleucine*	P::Peptide	P::gamma-glutamyl	P::gamma-glutamylisoleucine*
+P::gamma-glutamylleucine	P::Peptide	P::gamma-glutamyl	P::gamma-glutamylleucine
+P::gamma-glutamylphenylalanine	P::Peptide	P::gamma-glutamyl	P::gamma-glutamylphenylalanine
+P::gamma-glutamyltyrosine	P::Peptide	P::gamma-glutamyl	P::gamma-glutamyltyrosine
+P::gamma-glutamylvaline	P::Peptide	P::gamma-glutamyl	P::gamma-glutamylvaline
+P::gamma-tocopherol	P::Cofactors and vitamins	P::Tocopherol metabolism	P::gamma-tocopherol
+P::gluconate	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::gluconate
+P::glucose	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::glucose
+P::glutamate	P::Amino acid	P::Glutamate metabolism	P::glutamate
+P::glutamine	P::Amino acid	P::Glutamate metabolism	P::glutamine
+P::glycerate	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::glycerate
+P::glycerol	P::Lipid	P::Glycerolipid metabolism	P::glycerol
+P::glycerol 2-phosphate	P::Xenobiotics	P::Chemical	P::glycerol 2-phosphate
+P::glycerol 3-phosphate (G3P)	P::Lipid	P::Glycerolipid metabolism	P::glycerol 3-phosphate (G3P)
+P::glycerophosphorylcholine (GPC)	P::Lipid	P::Glycerolipid metabolism	P::glycerophosphorylcholine (GPC)
+P::glycine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::glycine
+P::glycochenodeoxycholate	P::Lipid	P::Bile acid metabolism	P::glycochenodeoxycholate
+P::glycocholate	P::Lipid	P::Bile acid metabolism	P::glycocholate
+P::glycocholenate sulfate*	P::Lipid	P::Bile acid metabolism	P::glycocholenate sulfate*
+P::glycodeoxycholate	P::Lipid	P::Bile acid metabolism	P::glycodeoxycholate
+P::glycolate (hydroxyacetate)	P::Xenobiotics	P::Chemical	P::glycolate (hydroxyacetate)
+P::glycolithocholate sulfate*	P::Lipid	P::Bile acid metabolism	P::glycolithocholate sulfate*
+P::glycoursodeoxycholate	P::Lipid	P::Bile acid metabolism	P::glycoursodeoxycholate
+P::heme	P::Cofactors and vitamins	P::Hemoglobin and porphyrin metabolism	P::heme
+P::heptanoate (7:0)	P::Lipid	P::Medium chain fatty acid	P::heptanoate (7:0)
+P::hexadecanedioate	P::Lipid	P::Fatty acid, dicarboxylate	P::hexadecanedioate
+P::hexanoylcarnitine	P::Lipid	P::Carnitine metabolism	P::hexanoylcarnitine
+P::hippurate	P::Xenobiotics	P::Benzoate metabolism	P::hippurate
+P::histidine	P::Amino acid	P::Histidine metabolism	P::histidine
+P::homocitrulline	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::homocitrulline
+P::homostachydrine*	P::Xenobiotics	P::Food component/Plant	P::homostachydrine*
+P::HWESASLLR	P::Peptide	P::Polypeptide	P::HWESASLLR
+P::HWESASXX*	P::Peptide	P::Polypeptide	P::HWESASXX*
+P::hypoxanthine	P::Nucleotide	P::Purine metabolism, (hypo)xanthine/inosine containing	P::hypoxanthine
+P::iminodiacetate (IDA)	P::Xenobiotics	P::Chemical	P::iminodiacetate (IDA)
+P::indoleacetate	P::Amino acid	P::Tryptophan metabolism	P::indoleacetate
+P::indolelactate	P::Amino acid	P::Tryptophan metabolism	P::indolelactate
+P::indolepropionate	P::Amino acid	P::Tryptophan metabolism	P::indolepropionate
+P::isobutyrylcarnitine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::isobutyrylcarnitine
+P::isoleucine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::isoleucine
+P::isovalerate	P::Lipid	P::Fatty acid metabolism	P::isovalerate
+P::isovalerylcarnitine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::isovalerylcarnitine
+P::kynurenate	P::Amino acid	P::Tryptophan metabolism	P::kynurenate
+P::kynurenine	P::Amino acid	P::Tryptophan metabolism	P::kynurenine
+P::lactate	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::lactate
+P::lathosterol	P::Lipid	P::Sterol/Steroid	P::lathosterol
+P::laurate (12:0)	P::Lipid	P::Medium chain fatty acid	P::laurate (12:0)
+P::laurylcarnitine	P::Lipid	P::Carnitine metabolism	P::laurylcarnitine
+P::leucine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::leucine
+P::linoleate (18:2n6)	P::Lipid	P::Essential fatty acid	P::linoleate (18:2n6)
+P::linolenate [alpha or gamma; (18:3n3 or 6)]	P::Lipid	P::Essential fatty acid	P::linolenate [alpha or gamma; (18:3n3 or 6)]
+P::lysine	P::Amino acid	P::Lysine metabolism	P::lysine
+P::malate	P::Energy	P::Krebs cycle	P::malate
+P::mannitol	P::Carbohydrate	P::Fructose, mannose, galactose, starch, and sucrose metabolism	P::mannitol
+P::mannose	P::Carbohydrate	P::Fructose, mannose, galactose, starch, and sucrose metabolism	P::mannose
+P::margarate (17:0)	P::Lipid	P::Long chain fatty acid	P::margarate (17:0)
+P::methionine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::methionine
+P::methyl-4-hydroxybenzoate	P::Xenobiotics	P::Benzoate metabolism	P::methyl-4-hydroxybenzoate
+P::myo-inositol	P::Lipid	P::Inositol metabolism	P::myo-inositol
+P::myristate (14:0)	P::Lipid	P::Long chain fatty acid	P::myristate (14:0)
+P::myristoleate (14:1n5)	P::Lipid	P::Long chain fatty acid	P::myristoleate (14:1n5)
+P::myristoylcarnitine	P::Lipid	P::Carnitine metabolism	P::myristoylcarnitine
+P::N-acetyl-beta-alanine	P::Amino acid	P::Alanine and aspartate metabolism	P::N-acetyl-beta-alanine
+P::N-acetylalanine	P::Amino acid	P::Alanine and aspartate metabolism	P::N-acetylalanine
+P::N-acetylglycine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::N-acetylglycine
+P::N-acetylmethionine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::N-acetylmethionine
+P::N-acetylphenylalanine	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::N-acetylphenylalanine
+P::N-acetylthreonine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::N-acetylthreonine
+P::N-formylmethionine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::N-formylmethionine
+P::N-methyl proline	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::N-methyl proline
+P::N1-Methyl-2-pyridone-5-carboxamide	P::Cofactors and vitamins	P::Nicotinate and nicotinamide metabolism	P::N1-Methyl-2-pyridone-5-carboxamide
+P::N1-methyladenosine	P::Nucleotide	P::Purine metabolism, adenine containing	P::N1-methyladenosine
+P::N2,N2-dimethylguanosine	P::Nucleotide	P::Purine metabolism, guanine containing	P::N2,N2-dimethylguanosine
+P::N6-carbamoylthreonyladenosine	P::Nucleotide	P::Purine metabolism, guanine containing	P::N6-carbamoylthreonyladenosine
+P::nicotinamide	P::Cofactors and vitamins	P::Nicotinate and nicotinamide metabolism	P::nicotinamide
+P::nonadecanoate (19:0)	P::Lipid	P::Long chain fatty acid	P::nonadecanoate (19:0)
+P::octadecanedioate	P::Lipid	P::Fatty acid, dicarboxylate	P::octadecanedioate
+P::octanoylcarnitine	P::Lipid	P::Carnitine metabolism	P::octanoylcarnitine
+P::oleate (18:1n9)	P::Lipid	P::Long chain fatty acid	P::oleate (18:1n9)
+P::oleoylcarnitine	P::Lipid	P::Carnitine metabolism	P::oleoylcarnitine
+P::ornithine	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::ornithine
+P::p-cresol sulfate	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::p-cresol sulfate
+P::palmitate (16:0)	P::Lipid	P::Long chain fatty acid	P::palmitate (16:0)
+P::palmitate, methyl ester	P::Lipid	P::Fatty acid, methyl ester	P::palmitate, methyl ester
+P::palmitoleate (16:1n7)	P::Lipid	P::Long chain fatty acid	P::palmitoleate (16:1n7)
+P::palmitoyl sphingomyelin	P::Lipid	P::Sphingolipid	P::palmitoyl sphingomyelin
+P::palmitoylcarnitine	P::Lipid	P::Carnitine metabolism	P::palmitoylcarnitine
+P::pantothenate	P::Cofactors and vitamins	P::Pantothenate and CoA metabolism	P::pantothenate
+P::paraxanthine	P::Xenobiotics	P::Xanthine metabolism	P::paraxanthine
+P::pelargonate (9:0)	P::Lipid	P::Medium chain fatty acid	P::pelargonate (9:0)
+P::phenol sulfate	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::phenol sulfate
+P::phenylacetylglutamine	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::phenylacetylglutamine
+P::phenylalanine	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::phenylalanine
+P::phenylalanyltryptophan	P::Peptide	P::Dipeptide	P::phenylalanyltryptophan
+P::phenyllactate (PLA)	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::phenyllactate (PLA)
+P::phosphate	P::Energy	P::Oxidative phosphorylation	P::phosphate
+P::pipecolate	P::Amino acid	P::Lysine metabolism	P::pipecolate
+P::piperine	P::Xenobiotics	P::Food component/Plant	P::piperine
+P::pregn steroid monosulfate*	P::Lipid	P::Sterol/Steroid	P::pregn steroid monosulfate*
+P::pregnanediol-3-glucuronide	P::Lipid	P::Sterol/Steroid	P::pregnanediol-3-glucuronide
+P::pregnen-diol disulfate*	P::Lipid	P::Sterol/Steroid	P::pregnen-diol disulfate*
+P::pregnenolone sulfate	P::Lipid	P::Sterol/Steroid	P::pregnenolone sulfate
+P::pro-hydroxy-pro	P::Peptide	P::Dipeptide	P::pro-hydroxy-pro
+P::proline	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::proline
+P::propionylcarnitine	P::Lipid	P::Fatty acid metabolism (also BCAA metabolism)	P::propionylcarnitine
+P::pseudouridine	P::Nucleotide	P::Pyrimidine metabolism, uracil containing	P::pseudouridine
+P::pyridoxate	P::Cofactors and vitamins	P::Vitamin B6 metabolism	P::pyridoxate
+P::pyroglutamine*	P::Amino acid	P::Glutamate metabolism	P::pyroglutamine*
+P::pyrophosphate (PPi)	P::Energy	P::Oxidative phosphorylation	P::pyrophosphate (PPi)
+P::pyruvate	P::Carbohydrate	P::Glycolysis, gluconeogenesis, pyruvate metabolism	P::pyruvate
+P::quinate	P::Xenobiotics	P::Food component/Plant	P::quinate
+P::S-methylcysteine	P::Amino acid	P::Cysteine, methionine, SAM, taurine metabolism	P::S-methylcysteine
+P::scyllo-inositol	P::Lipid	P::Inositol metabolism	P::scyllo-inositol
+P::serine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::serine
+P::serotonin (5HT)	P::Amino acid	P::Tryptophan metabolism	P::serotonin (5HT)
+P::sphingosine	P::Lipid	P::Sphingolipid	P::sphingosine
+P::stachydrine	P::Xenobiotics	P::Food component/Plant	P::stachydrine
+P::stearamide	P::Lipid	P::Fatty acid, amide	P::stearamide
+P::stearate (18:0)	P::Lipid	P::Long chain fatty acid	P::stearate (18:0)
+P::stearidonate (18:4n3)	P::Lipid	P::Long chain fatty acid	P::stearidonate (18:4n3)
+P::stearoyl sphingomyelin	P::Lipid	P::Sphingolipid	P::stearoyl sphingomyelin
+P::stearoylcarnitine	P::Lipid	P::Carnitine metabolism	P::stearoylcarnitine
+P::succinate	P::Energy	P::Krebs cycle	P::succinate
+P::taurochenodeoxycholate	P::Lipid	P::Bile acid metabolism	P::taurochenodeoxycholate
+P::taurocholate	P::Lipid	P::Bile acid metabolism	P::taurocholate
+P::taurocholenate sulfate*	P::Lipid	P::Bile acid metabolism	P::taurocholenate sulfate*
+P::taurolithocholate 3-sulfate	P::Lipid	P::Bile acid metabolism	P::taurolithocholate 3-sulfate
+P::tetradecanedioate	P::Lipid	P::Fatty acid, dicarboxylate	P::tetradecanedioate
+P::theobromine	P::Xenobiotics	P::Xanthine metabolism	P::theobromine
+P::theophylline	P::Xenobiotics	P::Xanthine metabolism	P::theophylline
+P::threitol	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::threitol
+P::threonate	P::Cofactors and vitamins	P::Ascorbate and aldarate metabolism	P::threonate
+P::threonine	P::Amino acid	P::Glycine, serine and threonine metabolism	P::threonine
+P::thymol sulfate	P::Xenobiotics	P::Food component/Plant	P::thymol sulfate
+P::tiglyl carnitine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::tiglyl carnitine
+P::trans-4-hydroxyproline	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::trans-4-hydroxyproline
+P::trigonelline (N'-methylnicotinate)	P::Cofactors and vitamins	P::Nicotinate and nicotinamide metabolism	P::trigonelline (N'-methylnicotinate)
+P::tryptophan	P::Amino acid	P::Tryptophan metabolism	P::tryptophan
+P::tryptophan betaine	P::Amino acid	P::Tryptophan metabolism	P::tryptophan betaine
+P::tyrosine	P::Amino acid	P::Phenylalanine & tyrosine metabolism	P::tyrosine
+P::undecanoate (11:0)	P::Lipid	P::Medium chain fatty acid	P::undecanoate (11:0)
+P::urate	P::Nucleotide	P::Purine metabolism, urate metabolism	P::urate
+P::urea	P::Amino acid	P::Urea cycle; arginine-, proline-, metabolism	P::urea
+P::uridine	P::Nucleotide	P::Pyrimidine metabolism, uracil containing	P::uridine
+P::valine	P::Amino acid	P::Valine, leucine and isoleucine metabolism	P::valine
+P::xanthine	P::Nucleotide	P::Purine metabolism, (hypo)xanthine/inosine containing	P::xanthine
+P::xylitol	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::xylitol
+P::xylonate	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::xylonate
+P::xylose	P::Carbohydrate	P::Nucleotide sugars, pentose metabolism	P::xylose
+P::X - 01497	P::Unknown	P::Unknown	P::X - 01497
+P::X - 01911	P::Unknown	P::Unknown	P::X - 01911
+P::X - 02249	P::Unknown	P::Unknown	P::X - 02249
+P::X - 02269	P::Unknown	P::Unknown	P::X - 02269
+P::X - 03056	P::Unknown	P::Unknown	P::X - 03056
+P::X - 07765	P::Unknown	P::Unknown	P::X - 07765
+P::X - 09789	P::Unknown	P::Unknown	P::X - 09789
+P::X - 11204	P::Unknown	P::Unknown	P::X - 11204
+P::X - 11247	P::Unknown	P::Unknown	P::X - 11247
+P::X - 11261	P::Unknown	P::Unknown	P::X - 11261
+P::X - 11308	P::Unknown	P::Unknown	P::X - 11308
+P::X - 11315	P::Unknown	P::Unknown	P::X - 11315
+P::X - 11317	P::Unknown	P::Unknown	P::X - 11317
+P::X - 11327	P::Unknown	P::Unknown	P::X - 11327
+P::X - 11334	P::Unknown	P::Unknown	P::X - 11334
+P::X - 11342	P::Unknown	P::Unknown	P::X - 11342
+P::X - 11372	P::Unknown	P::Unknown	P::X - 11372
+P::X - 11378	P::Unknown	P::Unknown	P::X - 11378
+P::X - 11381	P::Unknown	P::Unknown	P::X - 11381
+P::X - 11400	P::Unknown	P::Unknown	P::X - 11400
+P::X - 11412	P::Unknown	P::Unknown	P::X - 11412
+P::X - 11423	P::Unknown	P::Unknown	P::X - 11423
+P::X - 11429	P::Unknown	P::Unknown	P::X - 11429
+P::X - 11437	P::Unknown	P::Unknown	P::X - 11437
+P::X - 11438	P::Unknown	P::Unknown	P::X - 11438
+P::X - 11440	P::Unknown	P::Unknown	P::X - 11440
+P::X - 11441	P::Unknown	P::Unknown	P::X - 11441
+P::X - 11442	P::Unknown	P::Unknown	P::X - 11442
+P::X - 11444	P::Unknown	P::Unknown	P::X - 11444
+P::X - 11452	P::Unknown	P::Unknown	P::X - 11452
+P::X - 11469	P::Unknown	P::Unknown	P::X - 11469
+P::X - 11470	P::Unknown	P::Unknown	P::X - 11470
+P::X - 11478	P::Unknown	P::Unknown	P::X - 11478
+P::X - 11485	P::Unknown	P::Unknown	P::X - 11485
+P::X - 11491	P::Unknown	P::Unknown	P::X - 11491
+P::X - 11497	P::Unknown	P::Unknown	P::X - 11497
+P::X - 11521	P::Unknown	P::Unknown	P::X - 11521
+P::X - 11522	P::Unknown	P::Unknown	P::X - 11522
+P::X - 11529	P::Unknown	P::Unknown	P::X - 11529
+P::X - 11530	P::Unknown	P::Unknown	P::X - 11530
+P::X - 11533	P::Unknown	P::Unknown	P::X - 11533
+P::X - 11538	P::Unknown	P::Unknown	P::X - 11538
+P::X - 11549	P::Unknown	P::Unknown	P::X - 11549
+P::X - 11550	P::Unknown	P::Unknown	P::X - 11550
+P::X - 11561	P::Unknown	P::Unknown	P::X - 11561
+P::X - 11564	P::Unknown	P::Unknown	P::X - 11564
+P::X - 11593	P::Unknown	P::Unknown	P::X - 11593
+P::X - 11687	P::Unknown	P::Unknown	P::X - 11687
+P::X - 11787	P::Unknown	P::Unknown	P::X - 11787
+P::X - 11795	P::Unknown	P::Unknown	P::X - 11795
+P::X - 11818	P::Unknown	P::Unknown	P::X - 11818
+P::X - 11820	P::Unknown	P::Unknown	P::X - 11820
+P::X - 11845	P::Unknown	P::Unknown	P::X - 11845
+P::X - 11847	P::Unknown	P::Unknown	P::X - 11847
+P::X - 11849	P::Unknown	P::Unknown	P::X - 11849
+P::X - 11858	P::Unknown	P::Unknown	P::X - 11858
+P::X - 11876	P::Unknown	P::Unknown	P::X - 11876
+P::X - 11880	P::Unknown	P::Unknown	P::X - 11880
+P::X - 11905	P::Unknown	P::Unknown	P::X - 11905
+P::X - 12029	P::Unknown	P::Unknown	P::X - 12029
+P::X - 12038	P::Unknown	P::Unknown	P::X - 12038
+P::X - 12039	P::Unknown	P::Unknown	P::X - 12039
+P::X - 12051	P::Unknown	P::Unknown	P::X - 12051
+P::X - 12056	P::Unknown	P::Unknown	P::X - 12056
+P::X - 12063	P::Unknown	P::Unknown	P::X - 12063
+P::X - 12092	P::Unknown	P::Unknown	P::X - 12092
+P::X - 12095	P::Unknown	P::Unknown	P::X - 12095
+P::X - 12100	P::Unknown	P::Unknown	P::X - 12100
+P::X - 12101	P::Unknown	P::Unknown	P::X - 12101
+P::X - 12107	P::Unknown	P::Unknown	P::X - 12107
+P::X - 12115	P::Unknown	P::Unknown	P::X - 12115
+P::X - 12119	P::Unknown	P::Unknown	P::X - 12119
+P::X - 12128	P::Unknown	P::Unknown	P::X - 12128
+P::X - 12212	P::Unknown	P::Unknown	P::X - 12212
+P::X - 12216	P::Unknown	P::Unknown	P::X - 12216
+P::X - 12230	P::Unknown	P::Unknown	P::X - 12230
+P::X - 12231	P::Unknown	P::Unknown	P::X - 12231
+P::X - 12405	P::Unknown	P::Unknown	P::X - 12405
+P::X - 12407	P::Unknown	P::Unknown	P::X - 12407
+P::X - 12411	P::Unknown	P::Unknown	P::X - 12411
+P::X - 12442	P::Unknown	P::Unknown	P::X - 12442
+P::X - 12459	P::Unknown	P::Unknown	P::X - 12459
+P::X - 12465	P::Unknown	P::Unknown	P::X - 12465
+P::X - 12510	P::Unknown	P::Unknown	P::X - 12510
+P::X - 12511	P::Unknown	P::Unknown	P::X - 12511
+P::X - 12644	P::Unknown	P::Unknown	P::X - 12644
+P::X - 12729	P::Unknown	P::Unknown	P::X - 12729
+P::X - 12734	P::Unknown	P::Unknown	P::X - 12734
+P::X - 12740	P::Unknown	P::Unknown	P::X - 12740
+P::X - 12776	P::Unknown	P::Unknown	P::X - 12776
+P::X - 12822	P::Unknown	P::Unknown	P::X - 12822
+P::X - 12844	P::Unknown	P::Unknown	P::X - 12844
+P::X - 12846	P::Unknown	P::Unknown	P::X - 12846
+P::X - 12847	P::Unknown	P::Unknown	P::X - 12847
+P::X - 12850	P::Unknown	P::Unknown	P::X - 12850
+P::X - 12855	P::Unknown	P::Unknown	P::X - 12855
+P::X - 13215	P::Unknown	P::Unknown	P::X - 13215
+P::X - 13429	P::Unknown	P::Unknown	P::X - 13429
+P::X - 13431	P::Unknown	P::Unknown	P::X - 13431
+P::X - 13435	P::Unknown	P::Unknown	P::X - 13435
+P::X - 13483	P::Unknown	P::Unknown	P::X - 13483
+P::X - 13529	P::Unknown	P::Unknown	P::X - 13529
+P::X - 13553	P::Unknown	P::Unknown	P::X - 13553
+P::X - 13557	P::Unknown	P::Unknown	P::X - 13557
+P::X - 13658	P::Unknown	P::Unknown	P::X - 13658
+P::X - 13727	P::Unknown	P::Unknown	P::X - 13727
+P::X - 13728	P::Unknown	P::Unknown	P::X - 13728
+P::X - 13835	P::Unknown	P::Unknown	P::X - 13835
+P::X - 13866	P::Unknown	P::Unknown	P::X - 13866
+P::X - 13871	P::Unknown	P::Unknown	P::X - 13871
+P::X - 13891	P::Unknown	P::Unknown	P::X - 13891
+P::X - 14056	P::Unknown	P::Unknown	P::X - 14056
+P::X - 14588	P::Unknown	P::Unknown	P::X - 14588
+P::X - 14939	P::Unknown	P::Unknown	P::X - 14939
+P::X - 15222	P::Unknown	P::Unknown	P::X - 15222
+P::X - 15375	P::Unknown	P::Unknown	P::X - 15375
+P::X - 15382	P::Unknown	P::Unknown	P::X - 15382
+P::X - 15484	P::Unknown	P::Unknown	P::X - 15484
+P::X - 15497	P::Unknown	P::Unknown	P::X - 15497
+P::X - 15503	P::Unknown	P::Unknown	P::X - 15503
+P::X - 15636	P::Unknown	P::Unknown	P::X - 15636
+P::X - 15650	P::Unknown	P::Unknown	P::X - 15650
+P::X - 15664	P::Unknown	P::Unknown	P::X - 15664
+P::X - 15728	P::Unknown	P::Unknown	P::X - 15728
+P::X - 15808	P::Unknown	P::Unknown	P::X - 15808
+P::X - 16063	P::Unknown	P::Unknown	P::X - 16063
+P::X - 16089	P::Unknown	P::Unknown	P::X - 16089
+P::X - 16206	P::Unknown	P::Unknown	P::X - 16206
+P::X - 16480	P::Unknown	P::Unknown	P::X - 16480
+P::X - 16578	P::Unknown	P::Unknown	P::X - 16578
+P::X - 16869	P::Unknown	P::Unknown	P::X - 16869
+P::X - 16932	P::Unknown	P::Unknown	P::X - 16932
+P::X - 16934	P::Unknown	P::Unknown	P::X - 16934
+P::X - 16935	P::Unknown	P::Unknown	P::X - 16935
+P::X - 16938	P::Unknown	P::Unknown	P::X - 16938
+P::X - 16940	P::Unknown	P::Unknown	P::X - 16940
+P::X - 16943	P::Unknown	P::Unknown	P::X - 16943
+P::X - 16946	P::Unknown	P::Unknown	P::X - 16946
+P::X - 16975	P::Unknown	P::Unknown	P::X - 16975
+P::X - 17130	P::Unknown	P::Unknown	P::X - 17130
+P::X - 17137	P::Unknown	P::Unknown	P::X - 17137
+P::X - 17148	P::Unknown	P::Unknown	P::X - 17148
+P::X - 17185	P::Unknown	P::Unknown	P::X - 17185
+P::X - 17254	P::Unknown	P::Unknown	P::X - 17254
+P::X - 17269	P::Unknown	P::Unknown	P::X - 17269
+P::X - 17299	P::Unknown	P::Unknown	P::X - 17299
+P::X - 17336	P::Unknown	P::Unknown	P::X - 17336
+P::X - 17337	P::Unknown	P::Unknown	P::X - 17337
+P::X - 17357	P::Unknown	P::Unknown	P::X - 17357
+P::X - 17375	P::Unknown	P::Unknown	P::X - 17375
+P::X - 17425	P::Unknown	P::Unknown	P::X - 17425
+P::X - 17502	P::Unknown	P::Unknown	P::X - 17502
+P::X - 17612	P::Unknown	P::Unknown	P::X - 17612
+P::X - 17628	P::Unknown	P::Unknown	P::X - 17628
+P::X - 17629	P::Unknown	P::Unknown	P::X - 17629
+P::X - 17653	P::Unknown	P::Unknown	P::X - 17653
+P::X - 17654	P::Unknown	P::Unknown	P::X - 17654
+P::X - 17656	P::Unknown	P::Unknown	P::X - 17656
+P::X - 17682	P::Unknown	P::Unknown	P::X - 17682
+P::X - 17690	P::Unknown	P::Unknown	P::X - 17690
+P::X - 17706	P::Unknown	P::Unknown	P::X - 17706
+P::X - 18221	P::Unknown	P::Unknown	P::X - 18221
+P::X - 18249	P::Unknown	P::Unknown	P::X - 18249
+P::X - 18601	P::Unknown	P::Unknown	P::X - 18601
+P::X - 18602	P::Unknown	P::Unknown	P::X - 18602
+P::X - 18739	P::Unknown	P::Unknown	P::X - 18739
+P::X - 18779	P::Unknown	P::Unknown	P::X - 18779
+P::X - 18901	P::Unknown	P::Unknown	P::X - 18901
+P::X - 18913	P::Unknown	P::Unknown	P::X - 18913
+P::X - 18914	P::Unknown	P::Unknown	P::X - 18914
+P::X - 18922	P::Unknown	P::Unknown	P::X - 18922
+P::X - 18929	P::Unknown	P::Unknown	P::X - 18929
+P::X - 19137	P::Unknown	P::Unknown	P::X - 19137
+P::X - 19141	P::Unknown	P::Unknown	P::X - 19141
+P::X - 19147	P::Unknown	P::Unknown	P::X - 19147
+P::X - 19380	P::Unknown	P::Unknown	P::X - 19380
+P::X - 19411	P::Unknown	P::Unknown	P::X - 19411
+P::X - 19437	P::Unknown	P::Unknown	P::X - 19437
+P::X - 19438	P::Unknown	P::Unknown	P::X - 19438
+U::1,2-propanediol	U::Lipid	U::Ketone bodies	U::1,2-propanediol
+U::1,3,7-trimethylurate	U::Xenobiotics	U::Xanthine metabolism	U::1,3,7-trimethylurate
+U::1,3-dimethylurate	U::Xenobiotics	U::Xanthine metabolism	U::1,3-dimethylurate
+U::1,5-anhydroglucitol (1,5-AG)	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::1,5-anhydroglucitol (1,5-AG)
+U::1,6-anhydroglucose	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::1,6-anhydroglucose
+U::1,7-dimethylurate	U::Xenobiotics	U::Xanthine metabolism	U::1,7-dimethylurate
+U::1-(3-aminopropyl)-2-pyrrolidone	U::Xenobiotics	U::Chemical	U::1-(3-aminopropyl)-2-pyrrolidone
+U::1-kestose	U::Xenobiotics	U::Sugar, sugar substitute, starch	U::1-kestose
+U::1-methylhistidine	U::Amino acid	U::Histidine metabolism	U::1-methylhistidine
+U::1-methylimidazoleacetate	U::Amino acid	U::Histidine metabolism	U::1-methylimidazoleacetate
+U::1-methylnicotinamide	U::Cofactors and vitamins	U::Nicotinate and nicotinamide metabolism	U::1-methylnicotinamide
+U::1-methylurate	U::Xenobiotics	U::Xanthine metabolism	U::1-methylurate
+U::1-methylxanthine	U::Xenobiotics	U::Xanthine metabolism	U::1-methylxanthine
+U::12-dehydrocholate	U::Lipid	U::Bile acid metabolism	U::12-dehydrocholate
+U::2,3-butanediol	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::2,3-butanediol
+U::2,3-dihydroxyisovalerate	U::Cofactors and vitamins	U::Pantothenate and CoA metabolism	U::2,3-dihydroxyisovalerate
+U::2,4,6-trihydroxybenzoate	U::Xenobiotics	U::Benzoate metabolism	U::2,4,6-trihydroxybenzoate
+U::2-aminoadipate	U::Amino acid	U::Lysine metabolism	U::2-aminoadipate
+U::2-aminobutyrate	U::Amino acid	U::Butanoate metabolism	U::2-aminobutyrate
+U::2-hydroxybutyrate (AHB)	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::2-hydroxybutyrate (AHB)
+U::2-hydroxyglutarate	U::Lipid	U::Fatty acid, dicarboxylate	U::2-hydroxyglutarate
+U::2-hydroxyhippurate (salicylurate)	U::Xenobiotics	U::Benzoate metabolism	U::2-hydroxyhippurate (salicylurate)
+U::2-hydroxyisobutyrate	U::Xenobiotics	U::Chemical	U::2-hydroxyisobutyrate
+U::2-hydroxyphenylacetate	U::Xenobiotics	U::Chemical	U::2-hydroxyphenylacetate
+U::2-isopropylmalate	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::2-isopropylmalate
+U::2-methylbutyrylcarnitine (C5)	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::2-methylbutyrylcarnitine (C5)
+U::2-methylbutyrylglycine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::2-methylbutyrylglycine
+U::2-methylcitrate	U::Energy	U::Krebs cycle	U::2-methylcitrate
+U::2-methylhippurate	U::Xenobiotics	U::Benzoate metabolism	U::2-methylhippurate
+U::2-octenedioate	U::Lipid	U::Fatty acid, dicarboxylate	U::2-octenedioate
+U::2-oxindole-3-acetate	U::Xenobiotics	U::Food component/Plant	U::2-oxindole-3-acetate
+U::2-oxo-1-pyrrolidinepropionate	U::Xenobiotics	U::Chemical	U::2-oxo-1-pyrrolidinepropionate
+U::2-pyrrolidinone	U::Xenobiotics	U::Chemical	U::2-pyrrolidinone
+U::21-hydroxypregnenolone disulfate	U::Lipid	U::Sterol/Steroid	U::21-hydroxypregnenolone disulfate
+U::3,4-dihydroxyphenylacetate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::3,4-dihydroxyphenylacetate
+U::3,5-dihydroxybenzoic acid	U::Xenobiotics	U::Food component/Plant	U::3,5-dihydroxybenzoic acid
+U::3-(4-hydroxyphenyl)lactate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::3-(4-hydroxyphenyl)lactate
+U::3-aminoisobutyrate	U::Nucleotide	U::Pyrimidine metabolism, thymine containing; Valine, leucine and isoleucine metabolism/	U::3-aminoisobutyrate
+U::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	U::Lipid	U::Fatty acid, dicarboxylate	U::3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)
+U::3-dehydrocarnitine*	U::Lipid	U::Carnitine metabolism	U::3-dehydrocarnitine*
+U::3-ethylphenylsulfate*	U::Xenobiotics	U::Benzoate metabolism	U::3-ethylphenylsulfate*
+U::3-hydroxy-2-ethylpropionate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::3-hydroxy-2-ethylpropionate
+U::3-hydroxy-3-methylglutarate	U::Lipid	U::Mevalonate metabolism	U::3-hydroxy-3-methylglutarate
+U::3-hydroxyanthranilate	U::Amino acid	U::Tryptophan metabolism	U::3-hydroxyanthranilate
+U::3-hydroxybutyrate (BHBA)	U::Lipid	U::Ketone bodies	U::3-hydroxybutyrate (BHBA)
+U::3-hydroxyglutarate	U::Amino acid	U::Lysine metabolism	U::3-hydroxyglutarate
+U::3-hydroxyhippurate	U::Xenobiotics	U::Benzoate metabolism	U::3-hydroxyhippurate
+U::3-hydroxyisobutyrate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::3-hydroxyisobutyrate
+U::3-hydroxykynurenine	U::Amino acid	U::Tryptophan metabolism	U::3-hydroxykynurenine
+U::3-hydroxyphenylacetate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::3-hydroxyphenylacetate
+U::3-hydroxyproline	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::3-hydroxyproline
+U::3-hydroxypropanoate	U::Lipid	U::Fatty acid, monohydroxy	U::3-hydroxypropanoate
+U::3-hydroxypyridine	U::Xenobiotics	U::Chemical	U::3-hydroxypyridine
+U::3-hydroxysebacate	U::Lipid	U::Fatty acid, monohydroxy	U::3-hydroxysebacate
+U::3-indoxyl sulfate	U::Amino acid	U::Tryptophan metabolism	U::3-indoxyl sulfate
+U::3-methoxytyrosine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::3-methoxytyrosine
+U::3-methyl catechol sulfate 1	U::Xenobiotics	U::Benzoate metabolism	U::3-methyl catechol sulfate 1
+U::3-methyl catechol sulfate 2	U::Xenobiotics	U::Benzoate metabolism	U::3-methyl catechol sulfate 2
+U::3-methylcrotonylglycine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::3-methylcrotonylglycine
+U::3-methylcytidine	U::Nucleotide	U::Pyrimidine metabolism, cytidine containing	U::3-methylcytidine
+U::3-methylglutaconate	U::Amino acid	U::Lysine metabolism	U::3-methylglutaconate
+U::3-methylglutarate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::3-methylglutarate
+U::3-methylglutarylcarnitine (C6)	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::3-methylglutarylcarnitine (C6)
+U::3-methylhistidine	U::Amino acid	U::Histidine metabolism	U::3-methylhistidine
+U::3-methylxanthine	U::Xenobiotics	U::Xanthine metabolism	U::3-methylxanthine
+U::3-phosphoglycerate	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::3-phosphoglycerate
+U::3-sialyllactose	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::3-sialyllactose
+U::3-ureidopropionate	U::Amino acid	U::Alanine and aspartate metabolism	U::3-ureidopropionate
+U::4-acetamidobutanoate	U::Amino acid	U::Guanidino and acetamido metabolism	U::4-acetamidobutanoate
+U::4-acetaminophen sulfate	U::Xenobiotics	U::Drug	U::4-acetaminophen sulfate
+U::4-acetylphenol sulfate	U::Xenobiotics	U::Drug	U::4-acetylphenol sulfate
+U::4-androsten-3beta,17beta-diol disulfate 1*	U::Lipid	U::Sterol/Steroid	U::4-androsten-3beta,17beta-diol disulfate 1*
+U::4-androsten-3beta,17beta-diol disulfate 2*	U::Lipid	U::Sterol/Steroid	U::4-androsten-3beta,17beta-diol disulfate 2*
+U::4-ethylphenylsulfate	U::Xenobiotics	U::Benzoate metabolism	U::4-ethylphenylsulfate
+U::4-guanidinobutanoate	U::Amino acid	U::Guanidino and acetamido metabolism	U::4-guanidinobutanoate
+U::4-hydroxybenzoate	U::Xenobiotics	U::Benzoate metabolism	U::4-hydroxybenzoate
+U::4-hydroxyhippurate	U::Xenobiotics	U::Benzoate metabolism	U::4-hydroxyhippurate
+U::4-hydroxyisoleucine	U::Xenobiotics	U::Food component/Plant	U::4-hydroxyisoleucine
+U::4-hydroxymandelate	U::Xenobiotics	U::Benzoate metabolism	U::4-hydroxymandelate
+U::4-hydroxyphenylacetate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::4-hydroxyphenylacetate
+U::4-hydroxyphenylpyruvate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::4-hydroxyphenylpyruvate
+U::4-imidazoleacetate	U::Amino acid	U::Histidine metabolism	U::4-imidazoleacetate
+U::4-methylcatechol sulfate	U::Xenobiotics	U::Benzoate metabolism	U::4-methylcatechol sulfate
+U::4-ureidobutyrate	U::Nucleotide	U::Pyrimidine metabolism, uracil containing	U::4-ureidobutyrate
+U::4-vinylphenol sulfate	U::Xenobiotics	U::Benzoate metabolism	U::4-vinylphenol sulfate
+U::5,6-dihydrouracil	U::Nucleotide	U::Pyrimidine metabolism, uracil containing	U::5,6-dihydrouracil
+U::5-acetylamino-6-amino-3-methyluracil	U::Xenobiotics	U::Xanthine metabolism	U::5-acetylamino-6-amino-3-methyluracil
+U::5-acetylamino-6-formylamino-3-methyluracil	U::Xenobiotics	U::Xanthine metabolism	U::5-acetylamino-6-formylamino-3-methyluracil
+U::5-aminovalerate	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::5-aminovalerate
+U::5-hydroxyhexanoate	U::Lipid	U::Fatty acid, monohydroxy	U::5-hydroxyhexanoate
+U::5-hydroxyindoleacetate	U::Amino acid	U::Tryptophan metabolism	U::5-hydroxyindoleacetate
+U::5-hydroxymethyl-2-furoic acid	U::Amino acid	U::Phenylalanine &amp; tyrosine metabolism	U::5-hydroxymethyl-2-furoic acid
+U::5-methylcytidine	U::Nucleotide	U::Pyrimidine metabolism, cytidine containing	U::5-methylcytidine
+U::5-methylthioadenosine (MTA)	U::Amino acid	U::Polyamine metabolism	U::5-methylthioadenosine (MTA)
+U::5-oxoproline	U::Amino acid	U::Glutathione metabolism	U::5-oxoproline
+U::5alpha-androstan-3beta,17beta-diol disulfate	U::Lipid	U::Sterol/Steroid	U::5alpha-androstan-3beta,17beta-diol disulfate
+U::6-sialyl-N-acetyllactosamine	U::Carbohydrate	U::Aminosugars metabolism	U::6-sialyl-N-acetyllactosamine
+U::7,8-dihydroneopterin	U::Nucleotide	U::Purine metabolism, guanine containing	U::7,8-dihydroneopterin
+U::7-methylguanine	U::Nucleotide	U::Purine metabolism, guanine containing	U::7-methylguanine
+U::7-methylxanthine	U::Xenobiotics	U::Xanthine metabolism	U::7-methylxanthine
+U::acetoacetate	U::Lipid	U::Ketone bodies	U::acetoacetate
+U::acetylcarnitine	U::Lipid	U::Carnitine metabolism	U::acetylcarnitine
+U::adenine	U::Nucleotide	U::Purine metabolism, adenine containing	U::adenine
+U::adenosine	U::Nucleotide	U::Purine metabolism, adenine containing	U::adenosine
+U::adenosine 3',5'-cyclic monophosphate (cAMP)	U::Nucleotide	U::Purine metabolism, adenine containing	U::adenosine 3',5'-cyclic monophosphate (cAMP)
+U::adipate	U::Lipid	U::Fatty acid, dicarboxylate	U::adipate
+U::alanine	U::Amino acid	U::Alanine and aspartate metabolism	U::alanine
+U::alanylalanine	U::Peptide	U::Dipeptide	U::alanylalanine
+U::allantoin	U::Nucleotide	U::Purine metabolism, urate metabolism	U::allantoin
+U::allo-threonine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::allo-threonine
+U::alpha-CEHC glucuronide*	U::Cofactors and vitamins	U::Tocopherol metabolism	U::alpha-CEHC glucuronide*
+U::alpha-glutamylvaline	U::Peptide	U::Dipeptide	U::alpha-glutamylvaline
+U::alpha-hydroxyisovalerate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::alpha-hydroxyisovalerate
+U::alpha-ketoglutarate	U::Energy	U::Krebs cycle	U::alpha-ketoglutarate
+U::andro steroid monosulfate 2*	U::Lipid	U::Sterol/Steroid	U::andro steroid monosulfate 2*
+U::androsterone sulfate	U::Lipid	U::Sterol/Steroid	U::androsterone sulfate
+U::anserine	U::Peptide	U::Dipeptide derivative	U::anserine
+U::arabinose	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::arabinose
+U::arabitol	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::arabitol
+U::arabonate	U::Cofactors and vitamins	U::Ascorbate and aldarate metabolism	U::arabonate
+U::ascorbate (Vitamin C)	U::Cofactors and vitamins	U::Ascorbate and aldarate metabolism	U::ascorbate (Vitamin C)
+U::asparagine	U::Amino acid	U::Alanine and aspartate metabolism	U::asparagine
+U::aspartate	U::Amino acid	U::Alanine and aspartate metabolism	U::aspartate
+U::azelate (nonanedioate)	U::Lipid	U::Fatty acid, dicarboxylate	U::azelate (nonanedioate)
+U::benzene-1,2,3-triol	U::Xenobiotics	U::Chemical	U::benzene-1,2,3-triol
+U::benzoate	U::Xenobiotics	U::Benzoate metabolism	U::benzoate
+U::beta-alanine	U::Amino acid	U::Alanine and aspartate metabolism	U::beta-alanine
+U::beta-hydroxyisovalerate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::beta-hydroxyisovalerate
+U::beta-hydroxypyruvate	U::Amino acid	U::Glycine, serine and threonine metabolism	U::beta-hydroxypyruvate
+U::bisphenol A monosulfate	U::Xenobiotics	U::Chemical	U::bisphenol A monosulfate
+U::butyrylcarnitine	U::Lipid	U::Fatty acid metabolism (also BCAA metabolism)	U::butyrylcarnitine
+U::C-glycosyltryptophan*	U::Amino acid	U::Tryptophan metabolism	U::C-glycosyltryptophan*
+U::cadaverine	U::Amino acid	U::Lysine metabolism	U::cadaverine
+U::caffeine	U::Xenobiotics	U::Xanthine metabolism	U::caffeine
+U::carnitine	U::Lipid	U::Carnitine metabolism	U::carnitine
+U::carnosine	U::Peptide	U::Dipeptide derivative	U::carnosine
+U::catechol sulfate	U::Xenobiotics	U::Benzoate metabolism	U::catechol sulfate
+U::chiro-inositol	U::Lipid	U::Inositol metabolism	U::chiro-inositol
+U::ciliatine (2-aminoethylphosphonate)	U::Amino acid	U::Aminophosphonate metabolism	U::ciliatine (2-aminoethylphosphonate)
+U::cinnamoylglycine	U::Xenobiotics	U::Food component/Plant	U::cinnamoylglycine
+U::cis-aconitate	U::Energy	U::Krebs cycle	U::cis-aconitate
+U::citramalate	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::citramalate
+U::citrate	U::Energy	U::Krebs cycle	U::citrate
+U::coproporphyrin III	U::Cofactors and vitamins	U::Hemoglobin and porphyrin metabolism	U::coproporphyrin III
+U::cortisone	U::Lipid	U::Sterol/Steroid	U::cortisone
+U::creatine	U::Amino acid	U::Creatine metabolism	U::creatine
+U::creatinine	U::Amino acid	U::Creatine metabolism	U::creatinine
+U::cystathionine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::cystathionine
+U::cysteine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::cysteine
+U::cystine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::cystine
+U::cytidine	U::Nucleotide	U::Pyrimidine metabolism, cytidine containing	U::cytidine
+U::decanoylcarnitine	U::Lipid	U::Carnitine metabolism	U::decanoylcarnitine
+U::dehydroisoandrosterone sulfate (DHEA-S)	U::Lipid	U::Sterol/Steroid	U::dehydroisoandrosterone sulfate (DHEA-S)
+U::diglycerol	U::Xenobiotics	U::Chemical	U::diglycerol
+U::dihydrobiopterin	U::Cofactors and vitamins	U::Folate metabolism	U::dihydrobiopterin
+U::dimethylarginine (SDMA + ADMA)	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::dimethylarginine (SDMA + ADMA)
+U::dimethylglycine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::dimethylglycine
+U::erythritol	U::Xenobiotics	U::Sugar, sugar substitute, starch	U::erythritol
+U::erythronate*	U::Carbohydrate	U::Aminosugars metabolism	U::erythronate*
+U::ethanolamine	U::Lipid	U::Glycerolipid metabolism	U::ethanolamine
+U::ethylmalonate	U::Lipid	U::Carnitine metabolism	U::ethylmalonate
+U::fructose	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::fructose
+U::fucitol	U::Xenobiotics	U::Food component/Plant	U::fucitol
+U::fucose	U::Carbohydrate	U::Aminosugars metabolism	U::fucose
+U::fumarate	U::Energy	U::Krebs cycle	U::fumarate
+U::galactitol (dulcitol)	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::galactitol (dulcitol)
+U::gamma-CEHC glucuronide*	U::Cofactors and vitamins	U::Tocopherol metabolism	U::gamma-CEHC glucuronide*
+U::gamma-glutamylisoleucine*	U::Peptide	U::gamma-glutamyl	U::gamma-glutamylisoleucine*
+U::gamma-glutamylleucine	U::Peptide	U::gamma-glutamyl	U::gamma-glutamylleucine
+U::gamma-glutamylphenylalanine	U::Peptide	U::gamma-glutamyl	U::gamma-glutamylphenylalanine
+U::gamma-glutamyltyrosine	U::Peptide	U::gamma-glutamyl	U::gamma-glutamyltyrosine
+U::gamma-glutamylvaline	U::Peptide	U::gamma-glutamyl	U::gamma-glutamylvaline
+U::gentisate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::gentisate
+U::gluconate	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::gluconate
+U::glucosamine	U::Carbohydrate	U::Aminosugars metabolism	U::glucosamine
+U::glucuronate	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::glucuronate
+U::glutamate	U::Amino acid	U::Glutamate metabolism	U::glutamate
+U::glutamine	U::Amino acid	U::Glutamate metabolism	U::glutamine
+U::glutarate (pentanedioate)	U::Amino acid	U::Lysine metabolism	U::glutarate (pentanedioate)
+U::glutarylcarnitine (C5)	U::Amino acid	U::Lysine metabolism	U::glutarylcarnitine (C5)
+U::glycerol 3-phosphate (G3P)	U::Lipid	U::Glycerolipid metabolism	U::glycerol 3-phosphate (G3P)
+U::glycerophosphorylcholine (GPC)	U::Lipid	U::Glycerolipid metabolism	U::glycerophosphorylcholine (GPC)
+U::glycine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::glycine
+U::glycocholate	U::Lipid	U::Bile acid metabolism	U::glycocholate
+U::glycocholenate sulfate*	U::Lipid	U::Bile acid metabolism	U::glycocholenate sulfate*
+U::glycolate (hydroxyacetate)	U::Xenobiotics	U::Chemical	U::glycolate (hydroxyacetate)
+U::glycolithocholate sulfate*	U::Lipid	U::Bile acid metabolism	U::glycolithocholate sulfate*
+U::glycylglycine	U::Peptide	U::Dipeptide	U::glycylglycine
+U::glycylproline	U::Peptide	U::Dipeptide	U::glycylproline
+U::guanidine	U::Nucleotide	U::Purine metabolism, guanine containing	U::guanidine
+U::guanidinoacetate	U::Amino acid	U::Guanidino and acetamido metabolism	U::guanidinoacetate
+U::guanine	U::Nucleotide	U::Purine metabolism, guanine containing	U::guanine
+U::gulono-1,4-lactone	U::Cofactors and vitamins	U::Ascorbate and aldarate metabolism	U::gulono-1,4-lactone
+U::hexanoylcarnitine	U::Lipid	U::Carnitine metabolism	U::hexanoylcarnitine
+U::hexanoylglycine	U::Lipid	U::Fatty acid metabolism	U::hexanoylglycine
+U::hippurate	U::Xenobiotics	U::Benzoate metabolism	U::hippurate
+U::histidine	U::Amino acid	U::Histidine metabolism	U::histidine
+U::homocitrate	U::Energy	U::Krebs cycle	U::homocitrate
+U::homocitrulline	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::homocitrulline
+U::homocysteine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::homocysteine
+U::homoserine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::homoserine
+U::homostachydrine*	U::Xenobiotics	U::Food component/Plant	U::homostachydrine*
+U::homovanillate (HVA)	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::homovanillate (HVA)
+U::hydantoin-5-propionic acid	U::Amino acid	U::Histidine metabolism	U::hydantoin-5-propionic acid
+U::hydroquinone sulfate	U::Xenobiotics	U::Drug	U::hydroquinone sulfate
+U::hydroxyisovaleroyl carnitine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::hydroxyisovaleroyl carnitine
+U::hypoxanthine	U::Nucleotide	U::Purine metabolism, (hypo)xanthine/inosine containing	U::hypoxanthine
+U::imidazole lactate	U::Amino acid	U::Histidine metabolism	U::imidazole lactate
+U::imidazole propionate	U::Amino acid	U::Histidine metabolism	U::imidazole propionate
+U::indoleacetate	U::Amino acid	U::Tryptophan metabolism	U::indoleacetate
+U::indoleacetylglutamine	U::Amino acid	U::Tryptophan metabolism	U::indoleacetylglutamine
+U::indolelactate	U::Amino acid	U::Tryptophan metabolism	U::indolelactate
+U::inosine	U::Nucleotide	U::Purine metabolism, (hypo)xanthine/inosine containing	U::inosine
+U::isobutyrylcarnitine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::isobutyrylcarnitine
+U::isobutyrylglycine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::isobutyrylglycine
+U::isocitrate	U::Energy	U::Krebs cycle	U::isocitrate
+U::isoleucine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::isoleucine
+U::isosorbide	U::Xenobiotics	U::Drug	U::isosorbide
+U::isovalerylcarnitine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::isovalerylcarnitine
+U::isovalerylglycine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::isovalerylglycine
+U::itaconate (methylenesuccinate)	U::Energy	U::Krebs cycle	U::itaconate (methylenesuccinate)
+U::kynurenate	U::Amino acid	U::Tryptophan metabolism	U::kynurenate
+U::kynurenine	U::Amino acid	U::Tryptophan metabolism	U::kynurenine
+U::L-urobilin	U::Cofactors and vitamins	U::Hemoglobin and porphyrin metabolism	U::L-urobilin
+U::lactate	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::lactate
+U::lactose	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::lactose
+U::leucine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::leucine
+U::lysine	U::Amino acid	U::Lysine metabolism	U::lysine
+U::malate	U::Energy	U::Krebs cycle	U::malate
+U::mandelate	U::Xenobiotics	U::Benzoate metabolism	U::mandelate
+U::mannitol	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::mannitol
+U::mannose	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::mannose
+U::mesaconate (methylfumarate)	U::Energy	U::Krebs cycle	U::mesaconate (methylfumarate)
+U::methionine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::methionine
+U::myo-inositol	U::Lipid	U::Inositol metabolism	U::myo-inositol
+U::N-(2-furoyl)glycine	U::Xenobiotics	U::Food component/Plant	U::N-(2-furoyl)glycine
+U::N-6-trimethyllysine	U::Amino acid	U::Lysine metabolism	U::N-6-trimethyllysine
+U::N-acetyl-aspartyl-glutamate (NAAG)	U::Amino acid	U::Glutamate metabolism	U::N-acetyl-aspartyl-glutamate (NAAG)
+U::N-acetyl-beta-alanine	U::Amino acid	U::Alanine and aspartate metabolism	U::N-acetyl-beta-alanine
+U::N-acetylarginine	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::N-acetylarginine
+U::N-acetylasparagine	U::Amino acid	U::Alanine and aspartate metabolism	U::N-acetylasparagine
+U::N-acetylaspartate (NAA)	U::Amino acid	U::Alanine and aspartate metabolism	U::N-acetylaspartate (NAA)
+U::N-acetylcysteine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::N-acetylcysteine
+U::N-acetylglutamine	U::Amino acid	U::Glutamate metabolism	U::N-acetylglutamine
+U::N-acetylhistidine	U::Amino acid	U::Histidine metabolism	U::N-acetylhistidine
+U::N-acetylisoleucine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::N-acetylisoleucine
+U::N-acetylleucine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::N-acetylleucine
+U::N-acetylneuraminate	U::Carbohydrate	U::Aminosugars metabolism	U::N-acetylneuraminate
+U::N-acetylphenylalanine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::N-acetylphenylalanine
+U::N-acetylproline	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::N-acetylproline
+U::N-acetylputrescine	U::Amino acid	U::Polyamine metabolism	U::N-acetylputrescine
+U::N-acetylserine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::N-acetylserine
+U::N-acetylthreonine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::N-acetylthreonine
+U::N-acetyltryptophan	U::Amino acid	U::Tryptophan metabolism	U::N-acetyltryptophan
+U::N-acetyltyrosine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::N-acetyltyrosine
+U::N-acetylvaline	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::N-acetylvaline
+U::N-formylmethionine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::N-formylmethionine
+U::N-methyl proline	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::N-methyl proline
+U::N-methylglutamate	U::Amino acid	U::Glutamate metabolism	U::N-methylglutamate
+U::N1-Methyl-2-pyridone-5-carboxamide	U::Cofactors and vitamins	U::Nicotinate and nicotinamide metabolism	U::N1-Methyl-2-pyridone-5-carboxamide
+U::N1-methyladenosine	U::Nucleotide	U::Purine metabolism, adenine containing	U::N1-methyladenosine
+U::N1-methylguanosine	U::Nucleotide	U::Purine metabolism, guanine containing	U::N1-methylguanosine
+U::N2,N2-dimethylguanosine	U::Nucleotide	U::Purine metabolism, guanine containing	U::N2,N2-dimethylguanosine
+U::N2-acetyllysine	U::Amino acid	U::Lysine metabolism	U::N2-acetyllysine
+U::N2-methylguanosine	U::Nucleotide	U::Purine metabolism, guanine containing	U::N2-methylguanosine
+U::N4-acetylcytidine	U::Nucleotide	U::Pyrimidine metabolism, cytidine containing	U::N4-acetylcytidine
+U::N6-carbamoylthreonyladenosine	U::Nucleotide	U::Purine metabolism, guanine containing	U::N6-carbamoylthreonyladenosine
+U::neopterin	U::Nucleotide	U::Purine metabolism, guanine containing	U::neopterin
+U::o-cresol sulfate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::o-cresol sulfate
+U::octanoylcarnitine	U::Lipid	U::Carnitine metabolism	U::octanoylcarnitine
+U::ornithine	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::ornithine
+U::orotate	U::Nucleotide	U::Pyrimidine metabolism, orotate containing	U::orotate
+U::orotidine	U::Nucleotide	U::Pyrimidine metabolism	U::orotidine
+U::p-cresol sulfate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::p-cresol sulfate
+U::palatinitol	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::palatinitol
+U::pantothenate	U::Cofactors and vitamins	U::Pantothenate and CoA metabolism	U::pantothenate
+U::paraxanthine	U::Xenobiotics	U::Xanthine metabolism	U::paraxanthine
+U::phenol sulfate	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::phenol sulfate
+U::phenylacetylglutamine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::phenylacetylglutamine
+U::phenylacetylglycine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::phenylacetylglycine
+U::phenylalanine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::phenylalanine
+U::phenylpropionylglycine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::phenylpropionylglycine
+U::phosphate	U::Energy	U::Oxidative phosphorylation	U::phosphate
+U::picolinate	U::Amino acid	U::Tryptophan metabolism	U::picolinate
+U::pimelate (heptanedioate)	U::Lipid	U::Fatty acid, dicarboxylate	U::pimelate (heptanedioate)
+U::pinitol	U::Lipid	U::Inositol metabolism	U::pinitol
+U::pipecolate	U::Amino acid	U::Lysine metabolism	U::pipecolate
+U::pivaloylcarnitine	U::Xenobiotics	U::Drug	U::pivaloylcarnitine
+U::pregnanediol-3-glucuronide	U::Lipid	U::Sterol/Steroid	U::pregnanediol-3-glucuronide
+U::pregnen-diol disulfate*	U::Lipid	U::Sterol/Steroid	U::pregnen-diol disulfate*
+U::pro-hydroxy-pro	U::Peptide	U::Dipeptide	U::pro-hydroxy-pro
+U::proline	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::proline
+U::prolylglycine	U::Peptide	U::Dipeptide	U::prolylglycine
+U::propionylcarnitine	U::Lipid	U::Fatty acid metabolism (also BCAA metabolism)	U::propionylcarnitine
+U::pseudouridine	U::Nucleotide	U::Pyrimidine metabolism, uracil containing	U::pseudouridine
+U::putrescine	U::Amino acid	U::Polyamine metabolism	U::putrescine
+U::pyridoxate	U::Cofactors and vitamins	U::Vitamin B6 metabolism	U::pyridoxate
+U::pyroglutamine*	U::Amino acid	U::Glutamate metabolism	U::pyroglutamine*
+U::pyroglutamylglutamine	U::Peptide	U::Dipeptide	U::pyroglutamylglutamine
+U::pyroglutamylvaline	U::Peptide	U::Dipeptide	U::pyroglutamylvaline
+U::pyruvate	U::Carbohydrate	U::Glycolysis, gluconeogenesis, pyruvate metabolism	U::pyruvate
+U::quinate	U::Xenobiotics	U::Food component/Plant	U::quinate
+U::quinolinate	U::Cofactors and vitamins	U::Nicotinate and nicotinamide metabolism	U::quinolinate
+U::ribitol	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::ribitol
+U::riboflavin (Vitamin B2)	U::Cofactors and vitamins	U::Riboflavin metabolism	U::riboflavin (Vitamin B2)
+U::ribose	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::ribose
+U::ribulose	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::ribulose
+U::S-methylcysteine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::S-methylcysteine
+U::saccharin	U::Xenobiotics	U::Food component/Plant	U::saccharin
+U::salicylate	U::Xenobiotics	U::Drug	U::salicylate
+U::salicyluric glucuronide*	U::Xenobiotics	U::Drug	U::salicyluric glucuronide*
+U::sarcosine (N-Methylglycine)	U::Amino acid	U::Glycine, serine and threonine metabolism	U::sarcosine (N-Methylglycine)
+U::scyllo-inositol	U::Lipid	U::Inositol metabolism	U::scyllo-inositol
+U::serine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::serine
+U::sorbitol	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::sorbitol
+U::stachydrine	U::Xenobiotics	U::Food component/Plant	U::stachydrine
+U::succinate	U::Energy	U::Krebs cycle	U::succinate
+U::succinylcarnitine	U::Energy	U::Krebs cycle	U::succinylcarnitine
+U::sucrose	U::Carbohydrate	U::Fructose, mannose, galactose, starch, and sucrose metabolism	U::sucrose
+U::tartarate	U::Xenobiotics	U::Food component/Plant	U::tartarate
+U::taurine	U::Amino acid	U::Cysteine, methionine, SAM, taurine metabolism	U::taurine
+U::taurocholenate sulfate*	U::Lipid	U::Bile acid metabolism	U::taurocholenate sulfate*
+U::taurolithocholate 3-sulfate	U::Lipid	U::Bile acid metabolism	U::taurolithocholate 3-sulfate
+U::tetrahydrocortisone	U::Lipid	U::Sterol/Steroid	U::tetrahydrocortisone
+U::theobromine	U::Xenobiotics	U::Xanthine metabolism	U::theobromine
+U::threitol	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::threitol
+U::threonate	U::Cofactors and vitamins	U::Ascorbate and aldarate metabolism	U::threonate
+U::threonine	U::Amino acid	U::Glycine, serine and threonine metabolism	U::threonine
+U::thymine	U::Nucleotide	U::Pyrimidine metabolism, thymine containing	U::thymine
+U::thymol sulfate	U::Xenobiotics	U::Food component/Plant	U::thymol sulfate
+U::tigloylglycine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::tigloylglycine
+U::tiglyl carnitine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::tiglyl carnitine
+U::trans-urocanate	U::Amino acid	U::Histidine metabolism	U::trans-urocanate
+U::tricarballylate	U::Energy	U::Krebs cycle	U::tricarballylate
+U::triethanolamine	U::Xenobiotics	U::Chemical	U::triethanolamine
+U::trigonelline (N'-methylnicotinate)	U::Cofactors and vitamins	U::Nicotinate and nicotinamide metabolism	U::trigonelline (N'-methylnicotinate)
+U::trimethylamine N-oxide	U::Lipid	U::Glycerolipid metabolism	U::trimethylamine N-oxide
+U::tryptamine	U::Amino acid	U::Tryptophan metabolism	U::tryptamine
+U::tryptophan	U::Amino acid	U::Tryptophan metabolism	U::tryptophan
+U::tryptophan betaine	U::Amino acid	U::Tryptophan metabolism	U::tryptophan betaine
+U::tyramine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::tyramine
+U::tyrosine	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::tyrosine
+U::UDP-glucuronate	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::UDP-glucuronate
+U::uracil	U::Nucleotide	U::Pyrimidine metabolism, uracil containing	U::uracil
+U::urate	U::Nucleotide	U::Purine metabolism, urate metabolism	U::urate
+U::urea	U::Amino acid	U::Urea cycle; arginine-, proline-, metabolism	U::urea
+U::valine	U::Amino acid	U::Valine, leucine and isoleucine metabolism	U::valine
+U::vanillate	U::Xenobiotics	U::Food component/Plant	U::vanillate
+U::vanillylmandelate (VMA)	U::Amino acid	U::Phenylalanine & tyrosine metabolism	U::vanillylmandelate (VMA)
+U::xanthine	U::Nucleotide	U::Purine metabolism, (hypo)xanthine/inosine containing	U::xanthine
+U::xanthosine	U::Nucleotide	U::Purine metabolism, (hypo)xanthine/inosine containing	U::xanthosine
+U::xanthurenate	U::Amino acid	U::Tryptophan metabolism	U::xanthurenate
+U::xylitol	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::xylitol
+U::xylonate	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::xylonate
+U::xylose	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::xylose
+U::xylulose	U::Carbohydrate	U::Nucleotide sugars, pentose metabolism	U::xylulose
+U::X - 01911	U::Unknown	U::Unknown	U::X - 01911
+U::X - 02249	U::Unknown	U::Unknown	U::X - 02249
+U::X - 03056	U::Unknown	U::Unknown	U::X - 03056
+U::X - 07765	U::Unknown	U::Unknown	U::X - 07765
+U::X - 09789	U::Unknown	U::Unknown	U::X - 09789
+U::X - 10445	U::Unknown	U::Unknown	U::X - 10445
+U::X - 10457	U::Unknown	U::Unknown	U::X - 10457
+U::X - 10458	U::Unknown	U::Unknown	U::X - 10458
+U::X - 10593	U::Unknown	U::Unknown	U::X - 10593
+U::X - 11204	U::Unknown	U::Unknown	U::X - 11204
+U::X - 11247	U::Unknown	U::Unknown	U::X - 11247
+U::X - 11332	U::Unknown	U::Unknown	U::X - 11332
+U::X - 11333	U::Unknown	U::Unknown	U::X - 11333
+U::X - 11334	U::Unknown	U::Unknown	U::X - 11334
+U::X - 11338	U::Unknown	U::Unknown	U::X - 11338
+U::X - 11357	U::Unknown	U::Unknown	U::X - 11357
+U::X - 11360	U::Unknown	U::Unknown	U::X - 11360
+U::X - 11390	U::Unknown	U::Unknown	U::X - 11390
+U::X - 11423	U::Unknown	U::Unknown	U::X - 11423
+U::X - 11429	U::Unknown	U::Unknown	U::X - 11429
+U::X - 11437	U::Unknown	U::Unknown	U::X - 11437
+U::X - 11440	U::Unknown	U::Unknown	U::X - 11440
+U::X - 11444	U::Unknown	U::Unknown	U::X - 11444
+U::X - 11452	U::Unknown	U::Unknown	U::X - 11452
+U::X - 11470	U::Unknown	U::Unknown	U::X - 11470
+U::X - 11485	U::Unknown	U::Unknown	U::X - 11485
+U::X - 11491	U::Unknown	U::Unknown	U::X - 11491
+U::X - 11529	U::Unknown	U::Unknown	U::X - 11529
+U::X - 11561	U::Unknown	U::Unknown	U::X - 11561
+U::X - 11593	U::Unknown	U::Unknown	U::X - 11593
+U::X - 11616	U::Unknown	U::Unknown	U::X - 11616
+U::X - 11640	U::Unknown	U::Unknown	U::X - 11640
+U::X - 11668	U::Unknown	U::Unknown	U::X - 11668
+U::X - 11687	U::Unknown	U::Unknown	U::X - 11687
+U::X - 11837	U::Unknown	U::Unknown	U::X - 11837
+U::X - 11838	U::Unknown	U::Unknown	U::X - 11838
+U::X - 11843	U::Unknown	U::Unknown	U::X - 11843
+U::X - 11847	U::Unknown	U::Unknown	U::X - 11847
+U::X - 11849	U::Unknown	U::Unknown	U::X - 11849
+U::X - 11852	U::Unknown	U::Unknown	U::X - 11852
+U::X - 11858	U::Unknown	U::Unknown	U::X - 11858
+U::X - 11945	U::Unknown	U::Unknown	U::X - 11945
+U::X - 11979	U::Unknown	U::Unknown	U::X - 11979
+U::X - 12001	U::Unknown	U::Unknown	U::X - 12001
+U::X - 12007	U::Unknown	U::Unknown	U::X - 12007
+U::X - 12010	U::Unknown	U::Unknown	U::X - 12010
+U::X - 12014	U::Unknown	U::Unknown	U::X - 12014
+U::X - 12024	U::Unknown	U::Unknown	U::X - 12024
+U::X - 12026	U::Unknown	U::Unknown	U::X - 12026
+U::X - 12028	U::Unknown	U::Unknown	U::X - 12028
+U::X - 12039	U::Unknown	U::Unknown	U::X - 12039
+U::X - 12056	U::Unknown	U::Unknown	U::X - 12056
+U::X - 12092	U::Unknown	U::Unknown	U::X - 12092
+U::X - 12093	U::Unknown	U::Unknown	U::X - 12093
+U::X - 12095	U::Unknown	U::Unknown	U::X - 12095
+U::X - 12097	U::Unknown	U::Unknown	U::X - 12097
+U::X - 12100	U::Unknown	U::Unknown	U::X - 12100
+U::X - 12101	U::Unknown	U::Unknown	U::X - 12101
+U::X - 12104	U::Unknown	U::Unknown	U::X - 12104
+U::X - 12107	U::Unknown	U::Unknown	U::X - 12107
+U::X - 12108	U::Unknown	U::Unknown	U::X - 12108
+U::X - 12110	U::Unknown	U::Unknown	U::X - 12110
+U::X - 12112	U::Unknown	U::Unknown	U::X - 12112
+U::X - 12113	U::Unknown	U::Unknown	U::X - 12113
+U::X - 12114	U::Unknown	U::Unknown	U::X - 12114
+U::X - 12115	U::Unknown	U::Unknown	U::X - 12115
+U::X - 12116	U::Unknown	U::Unknown	U::X - 12116
+U::X - 12117	U::Unknown	U::Unknown	U::X - 12117
+U::X - 12119	U::Unknown	U::Unknown	U::X - 12119
+U::X - 12122	U::Unknown	U::Unknown	U::X - 12122
+U::X - 12123	U::Unknown	U::Unknown	U::X - 12123
+U::X - 12124	U::Unknown	U::Unknown	U::X - 12124
+U::X - 12125	U::Unknown	U::Unknown	U::X - 12125
+U::X - 12126	U::Unknown	U::Unknown	U::X - 12126
+U::X - 12127	U::Unknown	U::Unknown	U::X - 12127
+U::X - 12128	U::Unknown	U::Unknown	U::X - 12128
+U::X - 12161	U::Unknown	U::Unknown	U::X - 12161
+U::X - 12170	U::Unknown	U::Unknown	U::X - 12170
+U::X - 12173	U::Unknown	U::Unknown	U::X - 12173
+U::X - 12187	U::Unknown	U::Unknown	U::X - 12187
+U::X - 12188	U::Unknown	U::Unknown	U::X - 12188
+U::X - 12189	U::Unknown	U::Unknown	U::X - 12189
+U::X - 12191	U::Unknown	U::Unknown	U::X - 12191
+U::X - 12193	U::Unknown	U::Unknown	U::X - 12193
+U::X - 12199	U::Unknown	U::Unknown	U::X - 12199
+U::X - 12206	U::Unknown	U::Unknown	U::X - 12206
+U::X - 12211	U::Unknown	U::Unknown	U::X - 12211
+U::X - 12212	U::Unknown	U::Unknown	U::X - 12212
+U::X - 12216	U::Unknown	U::Unknown	U::X - 12216
+U::X - 12221	U::Unknown	U::Unknown	U::X - 12221
+U::X - 12225	U::Unknown	U::Unknown	U::X - 12225
+U::X - 12230	U::Unknown	U::Unknown	U::X - 12230
+U::X - 12231	U::Unknown	U::Unknown	U::X - 12231
+U::X - 12234	U::Unknown	U::Unknown	U::X - 12234
+U::X - 12244	U::Unknown	U::Unknown	U::X - 12244
+U::X - 12252	U::Unknown	U::Unknown	U::X - 12252
+U::X - 12253	U::Unknown	U::Unknown	U::X - 12253
+U::X - 12254	U::Unknown	U::Unknown	U::X - 12254
+U::X - 12257	U::Unknown	U::Unknown	U::X - 12257
+U::X - 12258	U::Unknown	U::Unknown	U::X - 12258
+U::X - 12259	U::Unknown	U::Unknown	U::X - 12259
+U::X - 12261	U::Unknown	U::Unknown	U::X - 12261
+U::X - 12263	U::Unknown	U::Unknown	U::X - 12263
+U::X - 12267	U::Unknown	U::Unknown	U::X - 12267
+U::X - 12270	U::Unknown	U::Unknown	U::X - 12270
+U::X - 12283	U::Unknown	U::Unknown	U::X - 12283
+U::X - 12303	U::Unknown	U::Unknown	U::X - 12303
+U::X - 12306	U::Unknown	U::Unknown	U::X - 12306
+U::X - 12308	U::Unknown	U::Unknown	U::X - 12308
+U::X - 12328	U::Unknown	U::Unknown	U::X - 12328
+U::X - 12329	U::Unknown	U::Unknown	U::X - 12329
+U::X - 12335	U::Unknown	U::Unknown	U::X - 12335
+U::X - 12339	U::Unknown	U::Unknown	U::X - 12339
+U::X - 12358	U::Unknown	U::Unknown	U::X - 12358
+U::X - 12360	U::Unknown	U::Unknown	U::X - 12360
+U::X - 12364	U::Unknown	U::Unknown	U::X - 12364
+U::X - 12379	U::Unknown	U::Unknown	U::X - 12379
+U::X - 12385	U::Unknown	U::Unknown	U::X - 12385
+U::X - 12386	U::Unknown	U::Unknown	U::X - 12386
+U::X - 12398	U::Unknown	U::Unknown	U::X - 12398
+U::X - 12405	U::Unknown	U::Unknown	U::X - 12405
+U::X - 12407	U::Unknown	U::Unknown	U::X - 12407
+U::X - 12408	U::Unknown	U::Unknown	U::X - 12408
+U::X - 12410	U::Unknown	U::Unknown	U::X - 12410
+U::X - 12411	U::Unknown	U::Unknown	U::X - 12411
+U::X - 12435	U::Unknown	U::Unknown	U::X - 12435
+U::X - 12465	U::Unknown	U::Unknown	U::X - 12465
+U::X - 12510	U::Unknown	U::Unknown	U::X - 12510
+U::X - 12511	U::Unknown	U::Unknown	U::X - 12511
+U::X - 12543	U::Unknown	U::Unknown	U::X - 12543
+U::X - 12565	U::Unknown	U::Unknown	U::X - 12565
+U::X - 12602	U::Unknown	U::Unknown	U::X - 12602
+U::X - 12636	U::Unknown	U::Unknown	U::X - 12636
+U::X - 12637	U::Unknown	U::Unknown	U::X - 12637
+U::X - 12680	U::Unknown	U::Unknown	U::X - 12680
+U::X - 12681	U::Unknown	U::Unknown	U::X - 12681
+U::X - 12682	U::Unknown	U::Unknown	U::X - 12682
+U::X - 12685	U::Unknown	U::Unknown	U::X - 12685
+U::X - 12686	U::Unknown	U::Unknown	U::X - 12686
+U::X - 12687	U::Unknown	U::Unknown	U::X - 12687
+U::X - 12688	U::Unknown	U::Unknown	U::X - 12688
+U::X - 12689	U::Unknown	U::Unknown	U::X - 12689
+U::X - 12690	U::Unknown	U::Unknown	U::X - 12690
+U::X - 12695	U::Unknown	U::Unknown	U::X - 12695
+U::X - 12696	U::Unknown	U::Unknown	U::X - 12696
+U::X - 12701	U::Unknown	U::Unknown	U::X - 12701
+U::X - 12705	U::Unknown	U::Unknown	U::X - 12705
+U::X - 12706	U::Unknown	U::Unknown	U::X - 12706
+U::X - 12707	U::Unknown	U::Unknown	U::X - 12707
+U::X - 12708	U::Unknown	U::Unknown	U::X - 12708
+U::X - 12712	U::Unknown	U::Unknown	U::X - 12712
+U::X - 12713	U::Unknown	U::Unknown	U::X - 12713
+U::X - 12714	U::Unknown	U::Unknown	U::X - 12714
+U::X - 12715	U::Unknown	U::Unknown	U::X - 12715
+U::X - 12718	U::Unknown	U::Unknown	U::X - 12718
+U::X - 12722	U::Unknown	U::Unknown	U::X - 12722
+U::X - 12730	U::Unknown	U::Unknown	U::X - 12730
+U::X - 12732	U::Unknown	U::Unknown	U::X - 12732
+U::X - 12733	U::Unknown	U::Unknown	U::X - 12733
+U::X - 12738	U::Unknown	U::Unknown	U::X - 12738
+U::X - 12739	U::Unknown	U::Unknown	U::X - 12739
+U::X - 12740	U::Unknown	U::Unknown	U::X - 12740
+U::X - 12742	U::Unknown	U::Unknown	U::X - 12742
+U::X - 12745	U::Unknown	U::Unknown	U::X - 12745
+U::X - 12748	U::Unknown	U::Unknown	U::X - 12748
+U::X - 12749	U::Unknown	U::Unknown	U::X - 12749
+U::X - 12753	U::Unknown	U::Unknown	U::X - 12753
+U::X - 12760	U::Unknown	U::Unknown	U::X - 12760
+U::X - 12762	U::Unknown	U::Unknown	U::X - 12762
+U::X - 12799	U::Unknown	U::Unknown	U::X - 12799
+U::X - 12802	U::Unknown	U::Unknown	U::X - 12802
+U::X - 12812	U::Unknown	U::Unknown	U::X - 12812
+U::X - 12813	U::Unknown	U::Unknown	U::X - 12813
+U::X - 12814	U::Unknown	U::Unknown	U::X - 12814
+U::X - 12818	U::Unknown	U::Unknown	U::X - 12818
+U::X - 12819	U::Unknown	U::Unknown	U::X - 12819
+U::X - 12821	U::Unknown	U::Unknown	U::X - 12821
+U::X - 12822	U::Unknown	U::Unknown	U::X - 12822
+U::X - 12824	U::Unknown	U::Unknown	U::X - 12824
+U::X - 12828	U::Unknown	U::Unknown	U::X - 12828
+U::X - 12830	U::Unknown	U::Unknown	U::X - 12830
+U::X - 12831	U::Unknown	U::Unknown	U::X - 12831
+U::X - 12832	U::Unknown	U::Unknown	U::X - 12832
+U::X - 12833	U::Unknown	U::Unknown	U::X - 12833
+U::X - 12834	U::Unknown	U::Unknown	U::X - 12834
+U::X - 12840	U::Unknown	U::Unknown	U::X - 12840
+U::X - 12844	U::Unknown	U::Unknown	U::X - 12844
+U::X - 12845	U::Unknown	U::Unknown	U::X - 12845
+U::X - 12846	U::Unknown	U::Unknown	U::X - 12846
+U::X - 12847	U::Unknown	U::Unknown	U::X - 12847
+U::X - 12848	U::Unknown	U::Unknown	U::X - 12848
+U::X - 12849	U::Unknown	U::Unknown	U::X - 12849
+U::X - 12850	U::Unknown	U::Unknown	U::X - 12850
+U::X - 12855	U::Unknown	U::Unknown	U::X - 12855
+U::X - 12860	U::Unknown	U::Unknown	U::X - 12860
+U::X - 12906	U::Unknown	U::Unknown	U::X - 12906
+U::X - 13046	U::Unknown	U::Unknown	U::X - 13046
+U::X - 13106	U::Unknown	U::Unknown	U::X - 13106
+U::X - 13152	U::Unknown	U::Unknown	U::X - 13152
+U::X - 13230	U::Unknown	U::Unknown	U::X - 13230
+U::X - 13249	U::Unknown	U::Unknown	U::X - 13249
+U::X - 13429	U::Unknown	U::Unknown	U::X - 13429
+U::X - 13431	U::Unknown	U::Unknown	U::X - 13431
+U::X - 13462	U::Unknown	U::Unknown	U::X - 13462
+U::X - 13483	U::Unknown	U::Unknown	U::X - 13483
+U::X - 13528	U::Unknown	U::Unknown	U::X - 13528
+U::X - 13529	U::Unknown	U::Unknown	U::X - 13529
+U::X - 13553	U::Unknown	U::Unknown	U::X - 13553
+U::X - 13688	U::Unknown	U::Unknown	U::X - 13688
+U::X - 13689	U::Unknown	U::Unknown	U::X - 13689
+U::X - 13693	U::Unknown	U::Unknown	U::X - 13693
+U::X - 13695	U::Unknown	U::Unknown	U::X - 13695
+U::X - 13698	U::Unknown	U::Unknown	U::X - 13698
+U::X - 13700	U::Unknown	U::Unknown	U::X - 13700
+U::X - 13709	U::Unknown	U::Unknown	U::X - 13709
+U::X - 13723	U::Unknown	U::Unknown	U::X - 13723
+U::X - 13724	U::Unknown	U::Unknown	U::X - 13724
+U::X - 13726	U::Unknown	U::Unknown	U::X - 13726
+U::X - 13727	U::Unknown	U::Unknown	U::X - 13727
+U::X - 13728	U::Unknown	U::Unknown	U::X - 13728
+U::X - 13729	U::Unknown	U::Unknown	U::X - 13729
+U::X - 13730	U::Unknown	U::Unknown	U::X - 13730
+U::X - 13735	U::Unknown	U::Unknown	U::X - 13735
+U::X - 13737	U::Unknown	U::Unknown	U::X - 13737
+U::X - 13772	U::Unknown	U::Unknown	U::X - 13772
+U::X - 13834	U::Unknown	U::Unknown	U::X - 13834
+U::X - 13835	U::Unknown	U::Unknown	U::X - 13835
+U::X - 13836	U::Unknown	U::Unknown	U::X - 13836
+U::X - 13837	U::Unknown	U::Unknown	U::X - 13837
+U::X - 13841	U::Unknown	U::Unknown	U::X - 13841
+U::X - 13842	U::Unknown	U::Unknown	U::X - 13842
+U::X - 13843	U::Unknown	U::Unknown	U::X - 13843
+U::X - 13844	U::Unknown	U::Unknown	U::X - 13844
+U::X - 13846	U::Unknown	U::Unknown	U::X - 13846
+U::X - 13847	U::Unknown	U::Unknown	U::X - 13847
+U::X - 13864	U::Unknown	U::Unknown	U::X - 13864
+U::X - 13866	U::Unknown	U::Unknown	U::X - 13866
+U::X - 14082	U::Unknown	U::Unknown	U::X - 14082
+U::X - 14302	U::Unknown	U::Unknown	U::X - 14302
+U::X - 14314	U::Unknown	U::Unknown	U::X - 14314
+U::X - 14318	U::Unknown	U::Unknown	U::X - 14318
+U::X - 14331	U::Unknown	U::Unknown	U::X - 14331
+U::X - 14352	U::Unknown	U::Unknown	U::X - 14352
+U::X - 14445	U::Unknown	U::Unknown	U::X - 14445
+U::X - 14473	U::Unknown	U::Unknown	U::X - 14473
+U::X - 14588	U::Unknown	U::Unknown	U::X - 14588
+U::X - 14596	U::Unknown	U::Unknown	U::X - 14596
+U::X - 14625	U::Unknown	U::Unknown	U::X - 14625
+U::X - 14665	U::Unknown	U::Unknown	U::X - 14665
+U::X - 14808	U::Unknown	U::Unknown	U::X - 14808
+U::X - 14815	U::Unknown	U::Unknown	U::X - 14815
+U::X - 14838	U::Unknown	U::Unknown	U::X - 14838
+U::X - 14839	U::Unknown	U::Unknown	U::X - 14839
+U::X - 14955	U::Unknown	U::Unknown	U::X - 14955
+U::X - 15375	U::Unknown	U::Unknown	U::X - 15375
+U::X - 15382	U::Unknown	U::Unknown	U::X - 15382
+U::X - 15415	U::Unknown	U::Unknown	U::X - 15415
+U::X - 15461	U::Unknown	U::Unknown	U::X - 15461
+U::X - 15472	U::Unknown	U::Unknown	U::X - 15472
+U::X - 15484	U::Unknown	U::Unknown	U::X - 15484
+U::X - 15486	U::Unknown	U::Unknown	U::X - 15486
+U::X - 15492	U::Unknown	U::Unknown	U::X - 15492
+U::X - 15503	U::Unknown	U::Unknown	U::X - 15503
+U::X - 15636	U::Unknown	U::Unknown	U::X - 15636
+U::X - 15646	U::Unknown	U::Unknown	U::X - 15646
+U::X - 15678	U::Unknown	U::Unknown	U::X - 15678
+U::X - 15728	U::Unknown	U::Unknown	U::X - 15728
+U::X - 15812	U::Unknown	U::Unknown	U::X - 15812
+U::X - 15863	U::Unknown	U::Unknown	U::X - 15863
+U::X - 16083	U::Unknown	U::Unknown	U::X - 16083
+U::X - 16087	U::Unknown	U::Unknown	U::X - 16087
+U::X - 16288	U::Unknown	U::Unknown	U::X - 16288
+U::X - 16394	U::Unknown	U::Unknown	U::X - 16394
+U::X - 16397	U::Unknown	U::Unknown	U::X - 16397
+U::X - 16563	U::Unknown	U::Unknown	U::X - 16563
+U::X - 16564	U::Unknown	U::Unknown	U::X - 16564
+U::X - 16567	U::Unknown	U::Unknown	U::X - 16567
+U::X - 16570	U::Unknown	U::Unknown	U::X - 16570
+U::X - 16580	U::Unknown	U::Unknown	U::X - 16580
+U::X - 16581	U::Unknown	U::Unknown	U::X - 16581
+U::X - 16654	U::Unknown	U::Unknown	U::X - 16654
+U::X - 16674	U::Unknown	U::Unknown	U::X - 16674
+U::X - 16774	U::Unknown	U::Unknown	U::X - 16774
+U::X - 16803	U::Unknown	U::Unknown	U::X - 16803
+U::X - 16933	U::Unknown	U::Unknown	U::X - 16933
+U::X - 16940	U::Unknown	U::Unknown	U::X - 16940
+U::X - 16947	U::Unknown	U::Unknown	U::X - 16947
+U::X - 16975	U::Unknown	U::Unknown	U::X - 16975
+U::X - 17010	U::Unknown	U::Unknown	U::X - 17010
+U::X - 17138	U::Unknown	U::Unknown	U::X - 17138
+U::X - 17185	U::Unknown	U::Unknown	U::X - 17185
+U::X - 17299	U::Unknown	U::Unknown	U::X - 17299
+U::X - 17302	U::Unknown	U::Unknown	U::X - 17302
+U::X - 17305	U::Unknown	U::Unknown	U::X - 17305
+U::X - 17306	U::Unknown	U::Unknown	U::X - 17306
+U::X - 17308	U::Unknown	U::Unknown	U::X - 17308
+U::X - 17310	U::Unknown	U::Unknown	U::X - 17310
+U::X - 17314	U::Unknown	U::Unknown	U::X - 17314
+U::X - 17320	U::Unknown	U::Unknown	U::X - 17320
+U::X - 17322	U::Unknown	U::Unknown	U::X - 17322
+U::X - 17323	U::Unknown	U::Unknown	U::X - 17323
+U::X - 17324	U::Unknown	U::Unknown	U::X - 17324
+U::X - 17325	U::Unknown	U::Unknown	U::X - 17325
+U::X - 17327	U::Unknown	U::Unknown	U::X - 17327
+U::X - 17328	U::Unknown	U::Unknown	U::X - 17328
+U::X - 17330	U::Unknown	U::Unknown	U::X - 17330
+U::X - 17334	U::Unknown	U::Unknown	U::X - 17334
+U::X - 17335	U::Unknown	U::Unknown	U::X - 17335
+U::X - 17336	U::Unknown	U::Unknown	U::X - 17336
+U::X - 17337	U::Unknown	U::Unknown	U::X - 17337
+U::X - 17339	U::Unknown	U::Unknown	U::X - 17339
+U::X - 17340	U::Unknown	U::Unknown	U::X - 17340
+U::X - 17341	U::Unknown	U::Unknown	U::X - 17341
+U::X - 17342	U::Unknown	U::Unknown	U::X - 17342
+U::X - 17343	U::Unknown	U::Unknown	U::X - 17343
+U::X - 17345	U::Unknown	U::Unknown	U::X - 17345
+U::X - 17346	U::Unknown	U::Unknown	U::X - 17346
+U::X - 17347	U::Unknown	U::Unknown	U::X - 17347
+U::X - 17349	U::Unknown	U::Unknown	U::X - 17349
+U::X - 17350	U::Unknown	U::Unknown	U::X - 17350
+U::X - 17351	U::Unknown	U::Unknown	U::X - 17351
+U::X - 17353	U::Unknown	U::Unknown	U::X - 17353
+U::X - 17354	U::Unknown	U::Unknown	U::X - 17354
+U::X - 17357	U::Unknown	U::Unknown	U::X - 17357
+U::X - 17358	U::Unknown	U::Unknown	U::X - 17358
+U::X - 17359	U::Unknown	U::Unknown	U::X - 17359
+U::X - 17360	U::Unknown	U::Unknown	U::X - 17360
+U::X - 17361	U::Unknown	U::Unknown	U::X - 17361
+U::X - 17365	U::Unknown	U::Unknown	U::X - 17365
+U::X - 17366	U::Unknown	U::Unknown	U::X - 17366
+U::X - 17367	U::Unknown	U::Unknown	U::X - 17367
+U::X - 17370	U::Unknown	U::Unknown	U::X - 17370
+U::X - 17393	U::Unknown	U::Unknown	U::X - 17393
+U::X - 17398	U::Unknown	U::Unknown	U::X - 17398
+U::X - 17438	U::Unknown	U::Unknown	U::X - 17438
+U::X - 17443	U::Unknown	U::Unknown	U::X - 17443
+U::X - 17453	U::Unknown	U::Unknown	U::X - 17453
+U::X - 17612	U::Unknown	U::Unknown	U::X - 17612
+U::X - 17673	U::Unknown	U::Unknown	U::X - 17673
+U::X - 17674	U::Unknown	U::Unknown	U::X - 17674
+U::X - 17675	U::Unknown	U::Unknown	U::X - 17675
+U::X - 17676	U::Unknown	U::Unknown	U::X - 17676
+U::X - 17682	U::Unknown	U::Unknown	U::X - 17682
+U::X - 17685	U::Unknown	U::Unknown	U::X - 17685
+U::X - 17686	U::Unknown	U::Unknown	U::X - 17686
+U::X - 17688	U::Unknown	U::Unknown	U::X - 17688
+U::X - 17692	U::Unknown	U::Unknown	U::X - 17692
+U::X - 17693	U::Unknown	U::Unknown	U::X - 17693
+U::X - 17695	U::Unknown	U::Unknown	U::X - 17695
+U::X - 17699	U::Unknown	U::Unknown	U::X - 17699
+U::X - 17701	U::Unknown	U::Unknown	U::X - 17701
+U::X - 17703	U::Unknown	U::Unknown	U::X - 17703
+U::X - 17704	U::Unknown	U::Unknown	U::X - 17704
+U::X - 17705	U::Unknown	U::Unknown	U::X - 17705
+U::X - 17706	U::Unknown	U::Unknown	U::X - 17706
+U::X - 17707	U::Unknown	U::Unknown	U::X - 17707
+U::X - 17715	U::Unknown	U::Unknown	U::X - 17715
+U::X - 17717	U::Unknown	U::Unknown	U::X - 17717
+U::X - 17723	U::Unknown	U::Unknown	U::X - 17723
+U::X - 17730	U::Unknown	U::Unknown	U::X - 17730
+U::X - 17735	U::Unknown	U::Unknown	U::X - 17735
+U::X - 17736	U::Unknown	U::Unknown	U::X - 17736
+U::X - 17761	U::Unknown	U::Unknown	U::X - 17761
+U::X - 17765	U::Unknown	U::Unknown	U::X - 17765
+U::X - 18342	U::Unknown	U::Unknown	U::X - 18342
+U::X - 18345	U::Unknown	U::Unknown	U::X - 18345
+U::X - 18368	U::Unknown	U::Unknown	U::X - 18368
+U::X - 18376	U::Unknown	U::Unknown	U::X - 18376
+U::X - 18475	U::Unknown	U::Unknown	U::X - 18475
+U::X - 18482	U::Unknown	U::Unknown	U::X - 18482
+U::X - 18539	U::Unknown	U::Unknown	U::X - 18539
+U::X - 18603	U::Unknown	U::Unknown	U::X - 18603
+U::X - 18887	U::Unknown	U::Unknown	U::X - 18887
+U::X - 18929	U::Unknown	U::Unknown	U::X - 18929
+U::X - 18948	U::Unknown	U::Unknown	U::X - 18948
+U::X - 18965	U::Unknown	U::Unknown	U::X - 18965
+U::X - 19380	U::Unknown	U::Unknown	U::X - 19380
+U::X - 19437	U::Unknown	U::Unknown	U::X - 19437
+S::1,11-undecanedicarboxylate	S::Lipid	S::Fatty acid, dicarboxylate	S::1,11-undecanedicarboxylate
+S::1,2-propanediol	S::Lipid	S::Ketone bodies	S::1,2-propanediol
+S::1,4-butanediol	S::Xenobiotics	S::Chemical	S::1,4-butanediol
+S::1,5-anhydroglucitol (1,5-AG)	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::1,5-anhydroglucitol (1,5-AG)
+S::12-HETE	S::Lipid	S::Eicosanoid	S::12-HETE
+S::13-HODE + 9-HODE	S::Lipid	S::Fatty acid, monohydroxy	S::13-HODE + 9-HODE
+S::2,3-butanediol	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::2,3-butanediol
+S::2,3-dihydroxyisovalerate	S::Cofactors and vitamins	S::Pantothenate and CoA metabolism	S::2,3-dihydroxyisovalerate
+S::2-aminoadipate	S::Amino acid	S::Lysine metabolism	S::2-aminoadipate
+S::2-hydroxy-3-methylvalerate	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::2-hydroxy-3-methylvalerate
+S::2-hydroxybutyrate (AHB)	S::Amino acid	S::Cysteine, methionine, SAM, taurine metabolism	S::2-hydroxybutyrate (AHB)
+S::2-hydroxyglutarate	S::Lipid	S::Fatty acid, dicarboxylate	S::2-hydroxyglutarate
+S::2-hydroxypalmitate	S::Lipid	S::Fatty acid, monohydroxy	S::2-hydroxypalmitate
+S::2-hydroxystearate	S::Lipid	S::Fatty acid, monohydroxy	S::2-hydroxystearate
+S::3-(4-hydroxyphenyl)lactate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::3-(4-hydroxyphenyl)lactate
+S::3-(4-hydroxyphenyl)propionate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::3-(4-hydroxyphenyl)propionate
+S::3-aminoisobutyrate	S::Nucleotide	S::Pyrimidine metabolism, thymine containing; Valine, leucine and isoleucine metabolism/	S::3-aminoisobutyrate
+S::3-dehydrocarnitine*	S::Lipid	S::Carnitine metabolism	S::3-dehydrocarnitine*
+S::3-hydroxybutyrate (BHBA)	S::Lipid	S::Ketone bodies	S::3-hydroxybutyrate (BHBA)
+S::3-hydroxyindolin-2-one	S::Xenobiotics	S::Food component/Plant	S::3-hydroxyindolin-2-one
+S::3-hydroxypropanoate	S::Lipid	S::Fatty acid, monohydroxy	S::3-hydroxypropanoate
+S::3-indoxyl sulfate	S::Amino acid	S::Tryptophan metabolism	S::3-indoxyl sulfate
+S::3-phenylpropionate (hydrocinnamate)	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::3-phenylpropionate (hydrocinnamate)
+S::3-phosphoglycerate	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::3-phosphoglycerate
+S::4-hydroxybutyrate (GHB)	S::Lipid	S::Fatty acid, monohydroxy	S::4-hydroxybutyrate (GHB)
+S::4-hydroxyphenylacetate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::4-hydroxyphenylacetate
+S::4-hydroxyphenylpyruvate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::4-hydroxyphenylpyruvate
+S::4-methyl-2-oxopentanoate	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::4-methyl-2-oxopentanoate
+S::5,6-dihydrouracil	S::Nucleotide	S::Pyrimidine metabolism, uracil containing	S::5,6-dihydrouracil
+S::5-aminovalerate	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::5-aminovalerate
+S::5-hydroxymethyl-2-furoic acid	S::Amino acid	S::Phenylalanine &amp; tyrosine metabolism	S::5-hydroxymethyl-2-furoic acid
+S::5-oxoproline	S::Amino acid	S::Glutathione metabolism	S::5-oxoproline
+S::8-hydroxyoctanoate	S::Lipid	S::Fatty acid, monohydroxy	S::8-hydroxyoctanoate
+S::acetoacetate	S::Lipid	S::Ketone bodies	S::acetoacetate
+S::acetylcarnitine	S::Lipid	S::Carnitine metabolism	S::acetylcarnitine
+S::adenine	S::Nucleotide	S::Purine metabolism, adenine containing	S::adenine
+S::adenosine 5'-monophosphate (AMP)	S::Nucleotide	S::Purine metabolism, adenine containing	S::adenosine 5'-monophosphate (AMP)
+S::agmatine	S::Amino acid	S::Polyamine metabolism	S::agmatine
+S::alanine	S::Amino acid	S::Alanine and aspartate metabolism	S::alanine
+S::alanylalanine	S::Peptide	S::Dipeptide	S::alanylalanine
+S::alanylvaline	S::Peptide	S::Dipeptide	S::alanylvaline
+S::allantoin	S::Nucleotide	S::Purine metabolism, urate metabolism	S::allantoin
+S::alpha-glutamylglutamate	S::Peptide	S::Dipeptide	S::alpha-glutamylglutamate
+S::alpha-hydroxyisocaproate	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::alpha-hydroxyisocaproate
+S::alpha-hydroxyisovalerate	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::alpha-hydroxyisovalerate
+S::alpha-ketobutyrate	S::Amino acid	S::Cysteine, methionine, SAM, taurine metabolism	S::alpha-ketobutyrate
+S::alpha-ketoglutarate	S::Energy	S::Krebs cycle	S::alpha-ketoglutarate
+S::arabinose	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::arabinose
+S::arabitol	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::arabitol
+S::arabonate	S::Cofactors and vitamins	S::Ascorbate and aldarate metabolism	S::arabonate
+S::arachidonate (20:4n6)	S::Lipid	S::Long chain fatty acid	S::arachidonate (20:4n6)
+S::arginine	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::arginine
+S::arginylisoleucine	S::Peptide	S::Dipeptide	S::arginylisoleucine
+S::arginylphenylalanine	S::Peptide	S::Dipeptide	S::arginylphenylalanine
+S::arginylproline	S::Peptide	S::Dipeptide	S::arginylproline
+S::asparagylleucine	S::Peptide	S::Dipeptide	S::asparagylleucine
+S::aspartate	S::Amino acid	S::Alanine and aspartate metabolism	S::aspartate
+S::azelate (nonanedioate)	S::Lipid	S::Fatty acid, dicarboxylate	S::azelate (nonanedioate)
+S::benzoate	S::Xenobiotics	S::Benzoate metabolism	S::benzoate
+S::beta-alanine	S::Amino acid	S::Alanine and aspartate metabolism	S::beta-alanine
+S::butyrylcarnitine	S::Lipid	S::Fatty acid metabolism (also BCAA metabolism)	S::butyrylcarnitine
+S::cadaverine	S::Amino acid	S::Lysine metabolism	S::cadaverine
+S::caffeine	S::Xenobiotics	S::Xanthine metabolism	S::caffeine
+S::caprate (10:0)	S::Lipid	S::Medium chain fatty acid	S::caprate (10:0)
+S::caproate (6:0)	S::Lipid	S::Medium chain fatty acid	S::caproate (6:0)
+S::caprylate (8:0)	S::Lipid	S::Medium chain fatty acid	S::caprylate (8:0)
+S::carnitine	S::Lipid	S::Carnitine metabolism	S::carnitine
+S::catechol sulfate	S::Xenobiotics	S::Benzoate metabolism	S::catechol sulfate
+S::choline phosphate	S::Lipid	S::Glycerolipid metabolism	S::choline phosphate
+S::citrate	S::Energy	S::Krebs cycle	S::citrate
+S::citrulline	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::citrulline
+S::cortisone	S::Lipid	S::Sterol/Steroid	S::cortisone
+S::creatine	S::Amino acid	S::Creatine metabolism	S::creatine
+S::cyclo(leu-pro)	S::Peptide	S::Dipeptide	S::cyclo(leu-pro)
+S::cysteine	S::Amino acid	S::Cysteine, methionine, SAM, taurine metabolism	S::cysteine
+S::cytidine	S::Nucleotide	S::Pyrimidine metabolism, cytidine containing	S::cytidine
+S::deoxycarnitine	S::Lipid	S::Carnitine metabolism	S::deoxycarnitine
+S::dihomo-linolenate (20:3n3 or n6)	S::Lipid	S::Essential fatty acid	S::dihomo-linolenate (20:3n3 or n6)
+S::docosadioate	S::Lipid	S::Fatty acid, dicarboxylate	S::docosadioate
+S::dodecanedioate	S::Lipid	S::Fatty acid, dicarboxylate	S::dodecanedioate
+S::eicosanodioate	S::Lipid	S::Fatty acid, dicarboxylate	S::eicosanodioate
+S::eicosenoate (20:1n9 or 11)	S::Lipid	S::Long chain fatty acid	S::eicosenoate (20:1n9 or 11)
+S::erythritol	S::Xenobiotics	S::Sugar, sugar substitute, starch	S::erythritol
+S::erythronate*	S::Carbohydrate	S::Aminosugars metabolism	S::erythronate*
+S::ethanolamine	S::Lipid	S::Glycerolipid metabolism	S::ethanolamine
+S::fructose	S::Carbohydrate	S::Fructose, mannose, galactose, starch, and sucrose metabolism	S::fructose
+S::fructose-6-phosphate	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::fructose-6-phosphate
+S::fucose	S::Carbohydrate	S::Aminosugars metabolism	S::fucose
+S::fumarate	S::Energy	S::Krebs cycle	S::fumarate
+S::galactose	S::Carbohydrate	S::Fructose, mannose, galactose, starch, and sucrose metabolism	S::galactose
+S::gamma-aminobutyrate (GABA)	S::Amino acid	S::Glutamate metabolism	S::gamma-aminobutyrate (GABA)
+S::gluconate	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::gluconate
+S::glucose	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::glucose
+S::glucose-6-phosphate (G6P)	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::glucose-6-phosphate (G6P)
+S::glutamate	S::Amino acid	S::Glutamate metabolism	S::glutamate
+S::glutamine	S::Amino acid	S::Glutamate metabolism	S::glutamine
+S::glutamine-glutamate	S::Peptide	S::Dipeptide	S::glutamine-glutamate
+S::glutamine-leucine	S::Peptide	S::Dipeptide	S::glutamine-leucine
+S::glutarate (pentanedioate)	S::Amino acid	S::Lysine metabolism	S::glutarate (pentanedioate)
+S::glycerate	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::glycerate
+S::glycerol	S::Lipid	S::Glycerolipid metabolism	S::glycerol
+S::glycerol 3-phosphate (G3P)	S::Lipid	S::Glycerolipid metabolism	S::glycerol 3-phosphate (G3P)
+S::glycerophosphorylcholine (GPC)	S::Lipid	S::Glycerolipid metabolism	S::glycerophosphorylcholine (GPC)
+S::glycine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::glycine
+S::glycolate (hydroxyacetate)	S::Xenobiotics	S::Chemical	S::glycolate (hydroxyacetate)
+S::glycylglycine	S::Peptide	S::Dipeptide	S::glycylglycine
+S::glycylproline	S::Peptide	S::Dipeptide	S::glycylproline
+S::glycyltyrosine	S::Peptide	S::Dipeptide	S::glycyltyrosine
+S::guanine	S::Nucleotide	S::Purine metabolism, guanine containing	S::guanine
+S::guanosine	S::Nucleotide	S::Purine metabolism, guanine containing	S::guanosine
+S::gulono-1,4-lactone	S::Cofactors and vitamins	S::Ascorbate and aldarate metabolism	S::gulono-1,4-lactone
+S::heptanoate (7:0)	S::Lipid	S::Medium chain fatty acid	S::heptanoate (7:0)
+S::hexadecanedioate	S::Lipid	S::Fatty acid, dicarboxylate	S::hexadecanedioate
+S::hippurate	S::Xenobiotics	S::Benzoate metabolism	S::hippurate
+S::histidine	S::Amino acid	S::Histidine metabolism	S::histidine
+S::histidylhistidine	S::Peptide	S::Dipeptide	S::histidylhistidine
+S::histidylproline	S::Peptide	S::Dipeptide	S::histidylproline
+S::homoserine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::homoserine
+S::hypoxanthine	S::Nucleotide	S::Purine metabolism, (hypo)xanthine/inosine containing	S::hypoxanthine
+S::imidazole propionate	S::Amino acid	S::Histidine metabolism	S::imidazole propionate
+S::indoleacetate	S::Amino acid	S::Tryptophan metabolism	S::indoleacetate
+S::inositol 1-phosphate (I1P)	S::Lipid	S::Inositol metabolism	S::inositol 1-phosphate (I1P)
+S::isoleucine	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::isoleucine
+S::isoleucylalanine	S::Peptide	S::Dipeptide	S::isoleucylalanine
+S::isoleucylglycine	S::Peptide	S::Dipeptide	S::isoleucylglycine
+S::isoleucylserine	S::Peptide	S::Dipeptide	S::isoleucylserine
+S::isovalerylcarnitine	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::isovalerylcarnitine
+S::lactate	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::lactate
+S::leucine	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::leucine
+S::leucylalanine	S::Peptide	S::Dipeptide	S::leucylalanine
+S::leucylglutamate	S::Peptide	S::Dipeptide	S::leucylglutamate
+S::leucylglycine	S::Peptide	S::Dipeptide	S::leucylglycine
+S::leucylisoleucine	S::Peptide	S::Dipeptide	S::leucylisoleucine
+S::leucylleucine	S::Peptide	S::Dipeptide	S::leucylleucine
+S::leucylphenylalanine	S::Peptide	S::Dipeptide	S::leucylphenylalanine
+S::leucyltyrosine	S::Peptide	S::Dipeptide	S::leucyltyrosine
+S::levulinate (4-oxovalerate)	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::levulinate (4-oxovalerate)
+S::lysine	S::Amino acid	S::Lysine metabolism	S::lysine
+S::lysylphenylalanine	S::Peptide	S::Dipeptide	S::lysylphenylalanine
+S::lysylproline	S::Peptide	S::Dipeptide	S::lysylproline
+S::malate	S::Energy	S::Krebs cycle	S::malate
+S::maltose	S::Carbohydrate	S::Fructose, mannose, galactose, starch, and sucrose metabolism	S::maltose
+S::mannose	S::Carbohydrate	S::Fructose, mannose, galactose, starch, and sucrose metabolism	S::mannose
+S::methylsuccinate	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::methylsuccinate
+S::myo-inositol	S::Lipid	S::Inositol metabolism	S::myo-inositol
+S::N-acetylaspartate (NAA)	S::Amino acid	S::Alanine and aspartate metabolism	S::N-acetylaspartate (NAA)
+S::N-acetylglucosamine	S::Carbohydrate	S::Aminosugars metabolism	S::N-acetylglucosamine
+S::N-acetylleucine	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::N-acetylleucine
+S::N-acetylmethionine	S::Amino acid	S::Cysteine, methionine, SAM, taurine metabolism	S::N-acetylmethionine
+S::N-acetylneuraminate	S::Carbohydrate	S::Aminosugars metabolism	S::N-acetylneuraminate
+S::N-acetylphenylalanine	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::N-acetylphenylalanine
+S::N-acetylputrescine	S::Amino acid	S::Polyamine metabolism	S::N-acetylputrescine
+S::N-acetylserine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::N-acetylserine
+S::N6-carbamoylthreonyladenosine	S::Nucleotide	S::Purine metabolism, guanine containing	S::N6-carbamoylthreonyladenosine
+S::nicotinamide	S::Cofactors and vitamins	S::Nicotinate and nicotinamide metabolism	S::nicotinamide
+S::nicotinate ribonucleoside*	S::Cofactors and vitamins	S::Nicotinate and nicotinamide metabolism	S::nicotinate ribonucleoside*
+S::O-acetylhomoserine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::O-acetylhomoserine
+S::ornithine	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::ornithine
+S::orotate	S::Nucleotide	S::Pyrimidine metabolism, orotate containing	S::orotate
+S::p-cresol sulfate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::p-cresol sulfate
+S::palmitoyl sphingomyelin	S::Lipid	S::Sphingolipid	S::palmitoyl sphingomyelin
+S::pantothenate	S::Cofactors and vitamins	S::Pantothenate and CoA metabolism	S::pantothenate
+S::paraxanthine	S::Xenobiotics	S::Xanthine metabolism	S::paraxanthine
+S::pelargonate (9:0)	S::Lipid	S::Medium chain fatty acid	S::pelargonate (9:0)
+S::phenol sulfate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::phenol sulfate
+S::phenylacetate	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::phenylacetate
+S::phenylalanine	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::phenylalanine
+S::phenylalanylglycine	S::Peptide	S::Dipeptide	S::phenylalanylglycine
+S::phenylalanylisoleucine	S::Peptide	S::Dipeptide	S::phenylalanylisoleucine
+S::phenylalanylleucine	S::Peptide	S::Dipeptide	S::phenylalanylleucine
+S::phenylalanylphenylalanine	S::Peptide	S::Dipeptide	S::phenylalanylphenylalanine
+S::phenylalanyltyrosine	S::Peptide	S::Dipeptide	S::phenylalanyltyrosine
+S::phenyllactate (PLA)	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::phenyllactate (PLA)
+S::phosphate	S::Energy	S::Oxidative phosphorylation	S::phosphate
+S::phosphoethanolamine	S::Lipid	S::Glycerolipid metabolism	S::phosphoethanolamine
+S::picolinate	S::Amino acid	S::Tryptophan metabolism	S::picolinate
+S::pipecolate	S::Amino acid	S::Lysine metabolism	S::pipecolate
+S::proline	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::proline
+S::prolylglycine	S::Peptide	S::Dipeptide	S::prolylglycine
+S::prolylproline	S::Peptide	S::Dipeptide	S::prolylproline
+S::propionylcarnitine	S::Lipid	S::Fatty acid metabolism (also BCAA metabolism)	S::propionylcarnitine
+S::pseudouridine	S::Nucleotide	S::Pyrimidine metabolism, uracil containing	S::pseudouridine
+S::putrescine	S::Amino acid	S::Polyamine metabolism	S::putrescine
+S::pyroglutamine*	S::Amino acid	S::Glutamate metabolism	S::pyroglutamine*
+S::pyrophosphate (PPi)	S::Energy	S::Oxidative phosphorylation	S::pyrophosphate (PPi)
+S::pyruvate	S::Carbohydrate	S::Glycolysis, gluconeogenesis, pyruvate metabolism	S::pyruvate
+S::quinate	S::Xenobiotics	S::Food component/Plant	S::quinate
+S::ribose	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::ribose
+S::sarcosine (N-Methylglycine)	S::Amino acid	S::Glycine, serine and threonine metabolism	S::sarcosine (N-Methylglycine)
+S::scyllo-inositol	S::Lipid	S::Inositol metabolism	S::scyllo-inositol
+S::sebacate (decanedioate)	S::Lipid	S::Fatty acid, dicarboxylate	S::sebacate (decanedioate)
+S::serine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::serine
+S::serylleucine	S::Peptide	S::Dipeptide	S::serylleucine
+S::stachydrine	S::Xenobiotics	S::Food component/Plant	S::stachydrine
+S::succinate	S::Energy	S::Krebs cycle	S::succinate
+S::succinylcarnitine	S::Energy	S::Krebs cycle	S::succinylcarnitine
+S::tartarate	S::Xenobiotics	S::Food component/Plant	S::tartarate
+S::taurine	S::Amino acid	S::Cysteine, methionine, SAM, taurine metabolism	S::taurine
+S::tetradecanedioate	S::Lipid	S::Fatty acid, dicarboxylate	S::tetradecanedioate
+S::theobromine	S::Xenobiotics	S::Xanthine metabolism	S::theobromine
+S::threitol	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::threitol
+S::threonate	S::Cofactors and vitamins	S::Ascorbate and aldarate metabolism	S::threonate
+S::threonine	S::Amino acid	S::Glycine, serine and threonine metabolism	S::threonine
+S::threonylphenylalanine	S::Peptide	S::Dipeptide	S::threonylphenylalanine
+S::threonylvaline	S::Peptide	S::Dipeptide	S::threonylvaline
+S::thymine	S::Nucleotide	S::Pyrimidine metabolism, thymine containing	S::thymine
+S::trans-4-hydroxyproline	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::trans-4-hydroxyproline
+S::trans-urocanate	S::Amino acid	S::Histidine metabolism	S::trans-urocanate
+S::tryptophan	S::Amino acid	S::Tryptophan metabolism	S::tryptophan
+S::tryptophan betaine	S::Amino acid	S::Tryptophan metabolism	S::tryptophan betaine
+S::tyrosine	S::Amino acid	S::Phenylalanine & tyrosine metabolism	S::tyrosine
+S::tyrosylglutamine	S::Peptide	S::Dipeptide	S::tyrosylglutamine
+S::tyrosylglycine	S::Peptide	S::Dipeptide	S::tyrosylglycine
+S::tyrosylleucine	S::Peptide	S::Dipeptide	S::tyrosylleucine
+S::undecanedioate	S::Lipid	S::Fatty acid, dicarboxylate	S::undecanedioate
+S::uracil	S::Nucleotide	S::Pyrimidine metabolism, uracil containing	S::uracil
+S::urate	S::Nucleotide	S::Purine metabolism, urate metabolism	S::urate
+S::urea	S::Amino acid	S::Urea cycle; arginine-, proline-, metabolism	S::urea
+S::uridine	S::Nucleotide	S::Pyrimidine metabolism, uracil containing	S::uridine
+S::valerate	S::Lipid	S::Short chain fatty acid	S::valerate
+S::valine	S::Amino acid	S::Valine, leucine and isoleucine metabolism	S::valine
+S::valylalanine	S::Peptide	S::Dipeptide	S::valylalanine
+S::valylisoleucine	S::Peptide	S::Dipeptide	S::valylisoleucine
+S::valylleucine	S::Peptide	S::Dipeptide	S::valylleucine
+S::vanillate	S::Xenobiotics	S::Food component/Plant	S::vanillate
+S::xanthine	S::Nucleotide	S::Purine metabolism, (hypo)xanthine/inosine containing	S::xanthine
+S::xylonate	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::xylonate
+S::xylose	S::Carbohydrate	S::Nucleotide sugars, pentose metabolism	S::xylose
+S::X - 03056	S::Unknown	S::Unknown	S::X - 03056
+S::X - 11315	S::Unknown	S::Unknown	S::X - 11315
+S::X - 11390	S::Unknown	S::Unknown	S::X - 11390
+S::X - 11423	S::Unknown	S::Unknown	S::X - 11423
+S::X - 11508	S::Unknown	S::Unknown	S::X - 11508
+S::X - 11607	S::Unknown	S::Unknown	S::X - 11607
+S::X - 11616	S::Unknown	S::Unknown	S::X - 11616
+S::X - 11618	S::Unknown	S::Unknown	S::X - 11618
+S::X - 11641	S::Unknown	S::Unknown	S::X - 11641
+S::X - 11684	S::Unknown	S::Unknown	S::X - 11684
+S::X - 12259	S::Unknown	S::Unknown	S::X - 12259
+S::X - 12748	S::Unknown	S::Unknown	S::X - 12748
+S::X - 12776	S::Unknown	S::Unknown	S::X - 12776
+S::X - 12805	S::Unknown	S::Unknown	S::X - 12805
+S::X - 12889	S::Unknown	S::Unknown	S::X - 12889
+S::X - 12944	S::Unknown	S::Unknown	S::X - 12944
+S::X - 13230	S::Unknown	S::Unknown	S::X - 13230
+S::X - 13452	S::Unknown	S::Unknown	S::X - 13452
+S::X - 13537	S::Unknown	S::Unknown	S::X - 13537
+S::X - 13579	S::Unknown	S::Unknown	S::X - 13579
+S::X - 13671	S::Unknown	S::Unknown	S::X - 13671
+S::X - 13673	S::Unknown	S::Unknown	S::X - 13673
+S::X - 13819	S::Unknown	S::Unknown	S::X - 13819
+S::X - 13874	S::Unknown	S::Unknown	S::X - 13874
+S::X - 13879	S::Unknown	S::Unknown	S::X - 13879
+S::X - 13891	S::Unknown	S::Unknown	S::X - 13891
+S::X - 14105	S::Unknown	S::Unknown	S::X - 14105
+S::X - 14257	S::Unknown	S::Unknown	S::X - 14257
+S::X - 14473	S::Unknown	S::Unknown	S::X - 14473
+S::X - 14904	S::Unknown	S::Unknown	S::X - 14904
+S::X - 15160	S::Unknown	S::Unknown	S::X - 15160
+S::X - 15415	S::Unknown	S::Unknown	S::X - 15415
+S::X - 15461	S::Unknown	S::Unknown	S::X - 15461
+S::X - 15489	S::Unknown	S::Unknown	S::X - 15489
+S::X - 15580	S::Unknown	S::Unknown	S::X - 15580
+S::X - 15581	S::Unknown	S::Unknown	S::X - 15581
+S::X - 15594	S::Unknown	S::Unknown	S::X - 15594
+S::X - 15605	S::Unknown	S::Unknown	S::X - 15605
+S::X - 15675	S::Unknown	S::Unknown	S::X - 15675
+S::X - 15689	S::Unknown	S::Unknown	S::X - 15689
+S::X - 15735	S::Unknown	S::Unknown	S::X - 15735
+S::X - 15808	S::Unknown	S::Unknown	S::X - 15808
+S::X - 16103	S::Unknown	S::Unknown	S::X - 16103
+S::X - 16271	S::Unknown	S::Unknown	S::X - 16271
+S::X - 16626	S::Unknown	S::Unknown	S::X - 16626
+S::X - 16674	S::Unknown	S::Unknown	S::X - 16674
+S::X - 17010	S::Unknown	S::Unknown	S::X - 17010
+S::X - 17502	S::Unknown	S::Unknown	S::X - 17502
+S::X - 18037	S::Unknown	S::Unknown	S::X - 18037
+S::X - 18059	S::Unknown	S::Unknown	S::X - 18059
+S::X - 18095	S::Unknown	S::Unknown	S::X - 18095
+S::X - 18111	S::Unknown	S::Unknown	S::X - 18111
+S::X - 18113	S::Unknown	S::Unknown	S::X - 18113
+S::X - 18140	S::Unknown	S::Unknown	S::X - 18140
+S::X - 18278	S::Unknown	S::Unknown	S::X - 18278
+S::X - 18309	S::Unknown	S::Unknown	S::X - 18309
+S::X - 18330	S::Unknown	S::Unknown	S::X - 18330
+S::X - 18672	S::Unknown	S::Unknown	S::X - 18672
+S::X - 19437	S::Unknown	S::Unknown	S::X - 19437
+S::X - 19489	S::Unknown	S::Unknown	S::X - 19489
+S::X - 19572	S::Unknown	S::Unknown	S::X - 19572
