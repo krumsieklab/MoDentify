@@ -8,4 +8,10 @@ R package
 
 `library(devtools)`
 
-`install_github("krumsiek/MoDentify")`
+`install_github("krumsiek/MoDentify", build_vignettes=T)`
+
+(takes about a minute)
+
+**Show vignette with example code:**
+
+`browseVignettes("MoDentify")`
