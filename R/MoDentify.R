@@ -3,6 +3,8 @@
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
+#' 
+#' \insertRef{Do2018}{MoDentify}
 #' @import Rdpack
 "_PACKAGE"
 if(getRversion() >= "2.15.1"){

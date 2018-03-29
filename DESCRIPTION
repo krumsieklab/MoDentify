@@ -2,17 +2,18 @@ Package: MoDentify
 Title: Phenotype-driven module identification
 Version: 0.0.0.9000
 Authors@R: c(
-	person("Kieu Trinh", "Do", email = "kieu.do@helmholtz-muenchen.de", role = c("aut", "cre")),
+	person("Kieu Trinh", "Do", email = "kieu.do@helmholtz-muenchen.de", role = "aut"),
+	person("TEST", "TEST", email = "test@helmholtz-muenchen.de", role = "aut"),
 	person("David", "Rasp", email = "david.j.rasp@gmail.com", role = "aut"),
 	person("Gabi", "Kastenmueller", email = "g.kastenmueller@helmholtz-muenchen.de", role = "aut"),
-	person("Jan", "Krumsiek", email = "jan.krumsiek@helmholtz-muenchen.de", role = "aut"))
+	person("Jan", "Krumsiek", email = "jan.krumsiek@helmholtz-muenchen.de", role = c("aut", "cre")))
 Description: A package for the identification of functional modules, that are associated with a given phenotype, in networks
 biocViews: Metabolomics, Network, NetworkInference, GraphAndNetwork
-Author: Kieu Trinh Do <kieu.do@helmholtz-muenchen.de> [aut, cre],
-	David Rasp <david.j.rasp@gmail.com> [aut, cre],
+Author: Kieu Trinh Do <kieu.do@helmholtz-muenchen.de> [aut],
+	David Rasp <david.j.rasp@gmail.com> [aut],
 	Gabi Kastenmueller <g.kastenmueller@helmholtz-muenchen.de> [aut],
 	Karsten Suhre <karsten@suhre.fr> [aut],
-	Jan Krumsiek <jan.krumsiek@helmholtz-muenchen.de> [aut]
+	Jan Krumsiek <jan.krumsiek@helmholtz-muenchen.de> [aut, cre]
 Depends: R (>= 3.3.1), data.table (>= 1.10.4), igraph (>= 1.1.2)
 Imports: GeneNet (>= 1.2.13), RCytoscape (>= 1.24.1), Hmisc (>= 4.0-3), ggplot2 (>= 2.2.1), metabolomics (>= 0.1.4), stats, grDevices, Rdpack
 Suggests: R.rsp, knitr, rmarkdown

@@ -9,14 +9,16 @@
 Phenotype-driven module identification
 }
 \references{
-\insertRef{Do2017}{MoDentify}
+\insertRef{Do2017}{MoDentify} \cr
+\insertRef{Do2018}{MoDentify} \cr
 }
 \author{
-\strong{Maintainer}: David Rasp \email{david.j.rasp@gmail.com}, Kieu Trinh Do \email{kieu.do@helmholtz-muenchen.de}
+\strong{Maintainer}: Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
 
 Authors:
 \itemize{
   \item Kieu Trinh Do \email{kieu.do@helmholtz-muenchen.de}
+  \item David Rasp \email{david.j.rasp@gmail.com}, 
   \item Gabi Kastenmueller \email{g.kastenmueller@helmholtz-muenchen.de}
   \item Karsten Suhre \email{karsten@suhre.de}
   \item Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
