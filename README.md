@@ -5,7 +5,10 @@ R package
 
 **Citation:**
 
-Do KD, Rasp D, Kastenmueller G, Suhre K, Krumsiek J. https://doi.org/10.1101/275057
+Do KD, Rasp D, Kastenmueller G, Suhre K, Krumsiek J. 
+MoDentify: phenotype-driven module identification in metabolomics networks at different resolutions
+Bioinformatics, 2018
+https://doi.org/10.1093/bioinformatics/bty650
 
 **Installation:**
 
