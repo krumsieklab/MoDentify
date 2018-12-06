@@ -159,7 +159,7 @@ identify.modules<-function(graph, data, phenotype, covars = NULL,
   if (dim(modules)[1]>0){
 
     message("\nDeleting duplicate modules.")
-    tmp_DT<-delete.duplicates(nodes, modules, graph)
+    tmp_DT<-deleteDuplicates(nodes, modules, graph)
     modules<-unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
     tmp_DT[,module.score := NULL]
     nodes<-tmp_DT
