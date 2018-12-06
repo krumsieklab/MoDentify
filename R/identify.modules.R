@@ -166,7 +166,7 @@ identify.modules<-function(graph, data, phenotype, covars = NULL,
   
     if(better.than.components){
       message("Deleting less significant contained modules.")
-      tmp_DT<-delete.supergraphs(nodes, modules, graph)
+      tmp_DT<-deleteSupergraphs(nodes, modules, graph)
       modules<-unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
       tmp_DT[,module.score := NULL]
       nodes<-tmp_DT
