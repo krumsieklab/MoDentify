@@ -3,6 +3,7 @@
 #'
 #' @param modules a list as returned by \code{\link{identify.modules}}
 #' @param file a name for the txt file that should be stored
+#' @importFrom utils write.table
 #' @export
 export.modules <- function(modules, file){
   exportdat<-modules$modules[modules$nodes, on=.(moduleID), nomatch=0]
