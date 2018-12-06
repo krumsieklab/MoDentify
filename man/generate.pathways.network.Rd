@@ -34,13 +34,16 @@ Currently implemented: "eigenmetabolite" and "average"}
 }
 \value{
 a list with a network containing the variables as nodes as
-an \code{\link[igraph]{igraph}} object and a list with the module representatives
-including their explained variances.
+an \code{\link[igraph]{igraph}} object and a list with the module 
+representatives including their explained variances.
 }
 \description{
 Subnetwork Creation function
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
+
 pathway.graph<-generate.pathways.network(data = qmdiab.data,
  annotations = qmdiab.annos, level = "Sub.pathway")
 }

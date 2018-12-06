@@ -7,14 +7,15 @@
 eigen.metabolites(data, group = NULL, method = "PCA")
 }
 \arguments{
-\item{data}{a \code{\link[data.table]{data.table}} containing the data, where columns correspond to variables and
-rows to observations.}
+\item{data}{a \code{\link[data.table]{data.table}} containing the data, where 
+columns correspond to variables and rows to observations.}
 
-\item{group}{A list containing the grouping (e.g. pathways) of the variables. If this is \code{NULL} all
-variables will be treated as they were in the same group and only one representation will
-be calculated}
+\item{group}{A list containing the grouping (e.g. pathways) of the variables. 
+If this is \code{NULL} all variables will be treated as they were in the same 
+group and only one representation will be calculated}
 
-\item{method}{the method for calculating eigenmetabolites. Currently PCA and SVD are supported.}
+\item{method}{the method for calculating eigenmetabolites. Currently PCA and 
+SVD are supported.}
 }
 \value{
 list of two, M: \code{\link[data.table]{data.table}} of eigenscores,
@@ -24,6 +25,9 @@ expvar: full lists of explained variances
 Calculate eigenmetabolites as representatives
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
+
 eigen.data<-eigen.metabolites(data=qmdiab.data,
  group = qmdiab.annos$Sub.pathway, method = "PCA")
 }

@@ -2,8 +2,6 @@
 #' 
 #' @keywords internal
 #'
-#' @param nodes
-#'
 #' @import data.table
 #'
 #' @return

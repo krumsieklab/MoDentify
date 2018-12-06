@@ -6,10 +6,11 @@
 #' @param title a name for the Cytoscape session.
 #' @param nodes  \code{\link[data.table]{data.table}} with data containing the nodes.
 #' It is contained in the output list of \code{\link{identify.modules}}.
-#' @param colors a colour palette as returned from \code{\link[grDevices]{rainbow}} for colouring the
-#' different modules.
+#' @param colors a colour palette as returned from 
+#' \code{\link[grDevices]{rainbow}} for colouring the different modules.
 #' @param save.image TRUE, if modules should be saved as png files.
-#' @param cy a \code{\link[RCytoscape]{CytoscapeConnectionClass-class}} object, which can be created with
+#' @param cy a \code{\link[RCytoscape]{CytoscapeConnectionClass-class}} object, 
+#' which can be created with
 #' \code{\link[RCytoscape]{CytoscapeConnection}}.
 #'
 #' @import RCy3

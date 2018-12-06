@@ -6,9 +6,6 @@
 \usage{
 order.annotation(annot_subnet_DT, names)
 }
-\arguments{
-\item{names}{}
-}
 \description{
 Order Annotations
 }

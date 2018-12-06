@@ -21,6 +21,8 @@ matrix of aggregated mean values for each group x sample
 Aggregated Mean Scores
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
 scaled.data<-scale(qmdiab.data)
 aggregated.z.scores<-aggregated.mean(data=scaled.data,
 group = qmdiab.annos$Sub.pathway)

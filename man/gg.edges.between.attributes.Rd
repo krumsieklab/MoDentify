@@ -15,6 +15,9 @@ gg.edges.between.attributes(graph, name, rm.unknown = FALSE)
 Plotting of the edges between attribute types
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
+
 net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos)
 gg.edges.between.attributes(net.graph, "Super.pathway")
 }

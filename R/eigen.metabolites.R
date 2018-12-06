@@ -1,12 +1,13 @@
 #' Calculate eigenmetabolites as representatives
 #'
 #'
-#' @param data a \code{\link[data.table]{data.table}} containing the data, where columns correspond to variables and
-#' rows to observations.
-#' @param group A list containing the grouping (e.g. pathways) of the variables. If this is \code{NULL} all
-#' variables will be treated as they were in the same group and only one representation will
-#' be calculated
-#' @param method the method for calculating eigenmetabolites. Currently PCA and SVD are supported.
+#' @param data a \code{\link[data.table]{data.table}} containing the data, where 
+#' columns correspond to variables and rows to observations.
+#' @param group A list containing the grouping (e.g. pathways) of the variables. 
+#' If this is \code{NULL} all variables will be treated as they were in the same 
+#' group and only one representation will be calculated
+#' @param method the method for calculating eigenmetabolites. Currently PCA and 
+#' SVD are supported.
 #' @references
 #' \insertRef{Langfelder2007}{MoDentify}
 #' @export
@@ -15,6 +16,9 @@
 #' @return list of two, M: \code{\link[data.table]{data.table}} of eigenscores,
 #' expvar: full lists of explained variances
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' 
 #' eigen.data<-eigen.metabolites(data=qmdiab.data,
 #'  group = qmdiab.annos$Sub.pathway, method = "PCA")
 eigen.metabolites = function(data ,group=NULL, method="PCA") {

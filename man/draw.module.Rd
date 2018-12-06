@@ -18,13 +18,13 @@ draw.module(moduleNR, graph, title = "", nodes, colors,
 \item{nodes}{\code{\link[data.table]{data.table}} with data containing the nodes.
 It is contained in the output list of \code{\link{identify.modules}}.}
 
-\item{colors}{a colour palette as returned from \code{\link[grDevices]{rainbow}} for colouring the
-different modules.}
+\item{colors}{a colour palette as returned from \code{\link[grDevices]{rainbow}} 
+for colouring the different modules.}
 
 \item{save.image}{TRUE, if the modules should be saved as png files.}
 
-\item{cy}{a \code{\link[RCytoscape]{CytoscapeConnectionClass-class}} object, which can be created with
-\code{\link[RCytoscape]{CytoscapeConnection}}.}
+\item{cy}{a \code{\link[RCytoscape]{CytoscapeConnectionClass-class}} object, 
+which can be created with \code{\link[RCytoscape]{CytoscapeConnection}}.}
 }
 \description{
 Draw Single Module

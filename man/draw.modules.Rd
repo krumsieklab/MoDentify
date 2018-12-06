@@ -31,11 +31,18 @@ It is contained in the output list of \code{\link{identify.modules}}.}
 Draw Modules
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
+data(qmdiab.phenos)
+
 data<-qmdiab.data[, 1:75]
 annotations<-qmdiab.annos[1:75]
+
 net_graph<-generate.network(data=data, annotations=annotations)
-mods<-identify.modules(graph=net_graph, data=data, annotations = annotations, phenotype = qmdiab.phenos$T2D)
-\donttest{draw.modules(graph=net_graph, modules.summary=mods, title="modules", save.image=FALSE)}
+mods<-identify.modules(graph=net_graph, data=data, annotations = annotations, 
+phenotype = qmdiab.phenos$T2D)
+\donttest{draw.modules(graph=net_graph, modules.summary=mods, title="modules", 
+save.image=FALSE)}
 
 }
 \references{

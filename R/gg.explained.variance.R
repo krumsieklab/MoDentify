@@ -6,6 +6,9 @@
 #' @import data.table
 #' @export
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' 
 #' pathway.graph<-generate.pathways.network(data = qmdiab.data,
 #'  annotations = qmdiab.annos, level = "Sub.pathway")
 #'  gg.explained.variance(pathway.graph)

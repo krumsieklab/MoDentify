@@ -31,6 +31,10 @@ a list containing the module score and the regression coefficient
 Calculate Module-score
 }
 \examples{
+data(qmdiab.data)
+data(qmdiab.annos)
+data(qmdiab.phenos)
+
 net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 
 data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),

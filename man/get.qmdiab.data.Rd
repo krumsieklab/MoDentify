@@ -10,8 +10,10 @@ get.qmdiab.data(filename)
 \item{url}{the link to where QMDiab data is stored.}
 }
 \value{
-list of three, data: \code{\link[data.table]{data.table}} of preprocssed metabolite concentrations,
-annos: \code{\link[data.table]{data.table}} of annotations for each metabolite, phenos: \code{\link[data.table]{data.table}} of age, sex, BMI, and T2D information
+list of three, data: \code{\link[data.table]{data.table}} of 
+preprocssed metabolite concentrations, annos: 
+\code{\link[data.table]{data.table}} of annotations for each metabolite, 
+phenos: \code{\link[data.table]{data.table}} of age, sex, BMI, and T2D information
 }
 \description{
 Calculate eigenmetabolites as module representatives

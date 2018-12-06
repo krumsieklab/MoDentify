@@ -35,6 +35,10 @@
 #' level=1, representative.method="average", correction.method="bonferroni")
 #' @return a list consisting of four elements.
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' data(qmdiab.phenos)
+#' 
 #' data<-qmdiab.data[, 1:75]
 #' annotations<-qmdiab.annos[1:75]
 #'

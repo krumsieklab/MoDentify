@@ -14,7 +14,7 @@ https://doi.org/10.1093/bioinformatics/bty650
 
 `library(devtools)`
 
-`install_github("krumsiek/MoDentify", build_vignettes=T)`
+`install_github("David-J-R/MoDentify", build_vignettes=T)`
 
 (takes about a minute)
 

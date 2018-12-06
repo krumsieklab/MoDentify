@@ -9,9 +9,10 @@
 #' \insertRef{yousri2015}{MoDentify}
 #' @export
 #' @importFrom readxl read_excel
-#' @return list of three, data: \code{\link[data.table]{data.table}} of preprocssed metabolite concentrations,
-#' annos: \code{\link[data.table]{data.table}} of annotations for each metabolite, phenos: \code{\link[data.table]{data.table}} of age, sex, BMI, and T2D information
-#' @examples
+#' @return list of three, data: \code{\link[data.table]{data.table}} of 
+#' preprocssed metabolite concentrations, annos: 
+#' \code{\link[data.table]{data.table}} of annotations for each metabolite, 
+#' phenos: \code{\link[data.table]{data.table}} of age, sex, BMI, and T2D information
 get.qmdiab.data <- function(filename){
   
   ###- Read data

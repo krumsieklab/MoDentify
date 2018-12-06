@@ -9,6 +9,9 @@
 #' @export
 #' @return a vector containing all neighbors of the module
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' 
 #' net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 #' module<-c(3,4)
 #' neighbors<-get.neighbors.for.module(graph = net.graph, module = module)

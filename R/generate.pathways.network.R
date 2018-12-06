@@ -18,11 +18,14 @@
 #' @import igraph
 #' @export
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' 
 #' pathway.graph<-generate.pathways.network(data = qmdiab.data,
 #'  annotations = qmdiab.annos, level = "Sub.pathway")
 #' @return a list with a network containing the variables as nodes as
-#' an \code{\link[igraph]{igraph}} object and a list with the module representatives
-#' including their explained variances.
+#' an \code{\link[igraph]{igraph}} object and a list with the module 
+#' representatives including their explained variances.
 #' @references
 #' \insertRef{Krumsiek2011}{MoDentify}
 #' @references

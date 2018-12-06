@@ -32,8 +32,11 @@ a network containing the variables as nodes as an \code{\link[igraph]{igraph}} o
 Network inference with Gaussian graphical models (GGMs) or Pearson correlation
 }
 \examples{
-net.graph<-generate.network(data = qmdiab.data,
-annotations = qmdiab.annos, alpha=0.05, correction.method = "bonferroni")
+data(qmdiab.data)
+data(qmdiab.annos)
+
+net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos, 
+alpha=0.05, correction.method = "bonferroni")
 }
 \references{
 \insertRef{Krumsiek2011}{MoDentify}

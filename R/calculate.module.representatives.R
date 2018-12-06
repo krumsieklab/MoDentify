@@ -1,9 +1,10 @@
 #' Calculate Module Representative
 #'
 #'
-#' @param data a \code{\link[data.table]{data.table}} with three columns: name, sampleID and z-score.
-#' @param representative.method the method, that is used for calculation of the representatives.
-#' Currently implemented:"eigenmetabolite" and "average"
+#' @param data a \code{\link[data.table]{data.table}} with three columns: name, 
+#' sampleID and z-score.
+#' @param representative.method the method, that is used for calculation of the 
+#' representatives. Currently implemented:"eigenmetabolite" and "average"
 #'
 #' @importFrom stats prcomp
 #' @import data.table
@@ -11,7 +12,8 @@
 #' \insertRef{Langfelder2007}{MoDentify}
 #' @references
 #' \insertRef{Chuang2007}{MoDentify}
-#' @return a \code{\link[data.table]{data.table}} containing the module representative for each sample
+#' @return a \code{\link[data.table]{data.table}} containing the module 
+#' representative for each sample
 calculate.module.representatives<-function(data, representative.method="average"){
   if(representative.method=="average"){
     repdata<-data[,.(representative=mean(z.score)),by=.(sampleID)]

@@ -27,6 +27,10 @@
 #' for the given phenotype, the score and regression coefficient for the seed, the cache
 #' and the consecutive module-scores after adding each new node.
 #' @examples
+#' data(qmdiab.data)
+#' data(qmdiab.annos)
+#' data(qmdiab.phenos)
+#' 
 #' net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 #' data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 #' qmdiab.data)

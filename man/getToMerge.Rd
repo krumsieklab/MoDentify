@@ -6,9 +6,6 @@
 \usage{
 getToMerge(nodes)
 }
-\arguments{
-\item{nodes}{}
-}
 \description{
 Get Overlaping Modules
 }

@@ -2,8 +2,6 @@
 #' 
 #' @keywords internal
 #'
-#' @param annot_subnet_DT
-#' @param names
 #'
 #' @import data.table
 #'
