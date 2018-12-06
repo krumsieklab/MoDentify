@@ -39,7 +39,7 @@ generate.pathways.network <- function(data, covars=NULL, annotations,
   
   
   annotations <- as.data.table(annotations)
-  annotations<-order.annotation(annotations, colnames(data))
+  annotations<-orderAnnotation(annotations, colnames(data))
 
   data<-scale(data)
   subannotations<-copy(annotations)

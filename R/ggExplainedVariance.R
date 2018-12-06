@@ -11,8 +11,8 @@
 #' 
 #' pathway.graph<-generate.pathways.network(data = qmdiab.data,
 #'  annotations = qmdiab.annos, level = "Sub.pathway")
-#'  gg.explained.variance(pathway.graph)
-gg.explained.variance<-function(subnet, selection = NULL){
+#'  ggExplainedVariance(pathway.graph)
+ggExplainedVariance<-function(subnet, selection = NULL){
   groups <- names(subnet$representatives$expvar)
   
   if(!is.null(groups)){

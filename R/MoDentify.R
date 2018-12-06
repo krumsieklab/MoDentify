@@ -1,6 +1,6 @@
 #' Phenotype-driven module identification
 #'
-#'
+#' @docType package
 #' @references
 #' \insertRef{Do2017}{MoDentify}
 #' 
@@ -20,18 +20,21 @@ utils::globalVariables(c("node2", "from", "node1", "to", "pval.adjust", "p", "co
                         package = "MoDentify", add=FALSE)
 
 
-#'
-#'
+#' qmdiab annotations
+#'@docType data
 #'@format a \code{\link[data.table]{data.table}} with 1524 rows and 14 variables
+#'@usage data(qmdiab.annos)
 "qmdiab.annos"
 
-#'
-#'
+#' qmdiab data
+#'@docType data
 #'@format a \code{\link[data.table]{data.table}} with 310 rows and 1524 colums
+#'@usage data(qmdiab.data)
 "qmdiab.data"
 
-#'
-#'
+#' qmdiab phenotypes
+#'@docType data
 #'@format a \code{\link[data.table]{data.table}} with 310 rows and 4 columns
+#'@usage data(qmdiab.phenos)
 "qmdiab.phenos"
 

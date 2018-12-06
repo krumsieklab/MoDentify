@@ -13,8 +13,8 @@
 #' data(qmdiab.annos)
 #' 
 #' net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos)
-#' gg.edges.between.attributes(net.graph, "Super.pathway")
-gg.edges.between.attributes<-function(graph, name, rm.unknown=FALSE){
+#' ggEdgesBetweenAttributes(net.graph, "Super.pathway")
+ggEdgesBetweenAttributes<-function(graph, name, rm.unknown=FALSE){
   l<-lapply(E(graph), function(x)
     vertex_attr(graph= graph, name = name, index=as.vector(ends(graph = graph, es = x))))
 
