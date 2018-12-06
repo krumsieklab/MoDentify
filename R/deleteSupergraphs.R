@@ -13,7 +13,7 @@
 
 deleteSupergraphs<-function(nodes, modules, graph){
   DT<-modules[nodes, on=.(moduleID)]
-  deleteDuplicate<-DT
+  DTMax<-DT
   moduleIDs<-modules$moduleID
   for(i in 1:(length(moduleIDs))){
     for(j in (i):length(moduleIDs)){

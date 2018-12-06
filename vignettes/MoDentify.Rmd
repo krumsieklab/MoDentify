@@ -116,6 +116,7 @@ Raw and preprocessed metabolomics data for blood, urine, and saliva, metabolite 
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab metabolomics data
+data("qmdiab.data")
 knitr::kable(qmdiab.data[1:4,1:3])
 ```
 
@@ -123,6 +124,7 @@ knitr::kable(qmdiab.data[1:4,1:3])
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab annotations
+data("qmdiab.annos")
 knitr::kable(qmdiab.annos[1:4,2:5])
 ```
 
@@ -130,6 +132,7 @@ Finally, `qmdiab.phenos` is a data.frame containing information about age, gende
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab phenotypes
+data("qmdiab.phenos")
 knitr::kable(qmdiab.phenos[1:3,])
 ```
 
@@ -150,7 +153,7 @@ qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx")
 met.graph <- generate.network(data = qmdiab.data, 
                             covars = qmdiab.phenos, 
                             annotations = 
-                              qmdiab.annos[,c("name","SUPER_PATHWAY","SUB_PATHWAY")],
+                              qmdiab.annos[,c("name","Super.pathway","Sub.pathway")],
                             correlation.type = "partial",
                             alpha = 0.05, 
                             correction.method = "bonferroni")
@@ -190,7 +193,7 @@ met.graph <- graph_from_data_frame(d = net.DT,
 In metabolomics, it has frequently been observed that metabolites from the same pathways tend to correlate with each other, while there are only few correlations across pathways [@donetwork2015, @Krumsiek2011, @mitra2013]. This trend can be explored in the inferred network by investigating the number of edges within and between pathways:
 
 ```{r fig.height = 5.5, fig.width = 6}
-gg.edges.between.attributes(met.graph, "SUPER_PATHWAY", rm.unknown = TRUE)
+ggEdgesBetweenAttributes(met.graph, "Super.pathway", rm.unknown = TRUE)
 ```
 
 
@@ -258,7 +261,7 @@ knitr::include_graphics("png_files/MoDentify_modules.png")
 ```{r message=FALSE, warning=FALSE, results='hide'}
 pathway.graph <- generate.pathways.network(data = qmdiab.data,
                                          annotations = qmdiab.annos,
-                                         level = "SUB_PATHWAY",
+                                         level = "Sub.pathway",
                                          correlation.type = "pearson",
                                          alpha = 0.05,
                                          correction.method = "bonferroni",
@@ -282,12 +285,12 @@ pathway.graph <- generate.pathways.network(data = qmdiab.data,
 
 ```{r fig.height = 7.2, fig.width = 7.2}
 # plot all pathways
-gg.explained.variance(pathway.graph)
+ggExplainedVariance(pathway.graph)
 ```
 \newpage
 ```{r fig.height = 7.2, fig.width = 7.2}
 # plot the first 50 pathways
-gg.explained.variance(pathway.graph, 1:50)
+ggExplainedVariance(pathway.graph, 1:50)
 ```
 
 ##Module identification
