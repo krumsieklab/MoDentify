@@ -28,7 +28,7 @@
 #' @references
 #' \insertRef{Do2017}{MoDentify}
 generate.pathways.network <- function(data, covars=NULL, annotations,
-                         level="SUB_PATHWAY", 
+                         level="Sub.pathway", 
                          correlation.type="partial",
                          alpha=0.05,
                          correction.method = "bonferroni", rm.unknown=TRUE,

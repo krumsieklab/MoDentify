@@ -6,10 +6,10 @@
 \usage{
 identify.modules(graph, data, phenotype, covars = NULL, annotations,
 merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
-for.pathways=FALSE, representative.method="mean", correction.method="bonferroni")
+level=1, representative.method="average", correction.method="bonferroni")
 }
 \arguments{
-\item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{create.network}}.
+\item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generate.network}}.
 The ID of the nodes must correspond to the name of the variables.}
 
 \item{data}{either a matrix, where the columns correspond to the variables and the rows to the observations.
@@ -32,10 +32,10 @@ if they are better than all of their components.}
 
 \item{alpha}{significance level for accepting the modules.}
 
-\item{for.pathways}{Must be set to the name of the column to be used, if modules should be calculated for pathways.}
+\item{level}{Must be set to the name of the column to be used, if modules should be calculated for pathways.}
 
 \item{representative.method}{the method, that is used for the calculation of the module representation.
-Currently implemented: "eigenM-PCA", "eigenM-SVD" and "mean"}
+Currently implemented: "eigenmetabolite" and "average"}
 
 \item{correction.method}{the method that used for multiple testing correction ("bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", "none").
 Default is set to bonferroni. See \code{\link[stats]{p.adjust}}.}
@@ -48,15 +48,16 @@ Module Identification
 }
 \examples{
 data<-qmdiab.data[, 1:75]
-annotations<-qmdiab.annotations[1:75]
+annotations<-qmdiab.annos[1:75]
 
-net.graph<-create.network(data=data, annotations=annotations)
-mods<-identify.modules(graph=net.graph, data=data, phenotype = qmdiab.phenotype$T2D,
-alpha = 0.05)
+net.graph<-generate.network(data=data, annotations=annotations)
+mods<-identify.modules(graph=net.graph, data=data, annotations = annotations
+, phenotype = qmdiab.phenos$T2D, alpha = 0.05)
 
-pathway.graph<-create.pathways.network(data=data, annotations=annotations)$network
-pathway.mods<-identify.modules(graph=pathway.graph, data=data,
-phenotype = qmdiab.phenotype$T2D, for.pathways = TRUE, annotations = annotations,
+pathway.graph<-generate.pathways.network(data=data, annotations=annotations)
+
+pathway.modules<-identify.modules(graph=pathway.graph$network, data=data,
+phenotype = qmdiab.phenos$T2D, level = pathway.graph$level, annotations = annotations,
 alpha = 0.05)
 }
 \references{

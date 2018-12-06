@@ -23,5 +23,5 @@ Aggregated Mean Scores
 \examples{
 scaled.data<-scale(qmdiab.data)
 aggregated.z.scores<-aggregated.mean(data=scaled.data,
-group = qmdiab.annotations$Sub.pathway)
+group = qmdiab.annos$Sub.pathway)
 }

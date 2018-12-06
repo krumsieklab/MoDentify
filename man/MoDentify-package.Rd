@@ -6,11 +6,12 @@
 \alias{MoDentify-package}
 \title{Phenotype-driven module identification}
 \description{
-Phenotype-driven module identification
+A package for the identification of functional modules, that are associated with a given phenotype, in networks
 }
 \references{
-\insertRef{Do2017}{MoDentify} \cr
-\insertRef{Do2018}{MoDentify} \cr
+\insertRef{Do2017}{MoDentify}
+
+\insertRef{Do2018}{MoDentify}
 }
 \author{
 \strong{Maintainer}: Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
@@ -18,10 +19,9 @@ Phenotype-driven module identification
 Authors:
 \itemize{
   \item Kieu Trinh Do \email{kieu.do@helmholtz-muenchen.de}
-  \item David Rasp \email{david.j.rasp@gmail.com}, 
+  \item TEST TEST \email{test@helmholtz-muenchen.de}
+  \item David Rasp \email{david.j.rasp@gmail.com}
   \item Gabi Kastenmueller \email{g.kastenmueller@helmholtz-muenchen.de}
-  \item Karsten Suhre \email{karsten@suhre.de}
-  \item Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
 }
 
 }

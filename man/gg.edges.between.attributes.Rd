@@ -4,7 +4,7 @@
 \alias{gg.edges.between.attributes}
 \title{Plotting of the edges between attribute types}
 \usage{
-gg.edges.between.attributes(graph, name)
+gg.edges.between.attributes(graph, name, rm.unknown = FALSE)
 }
 \arguments{
 \item{graph}{an \code{\link[igraph]{igraph}} object}
@@ -15,7 +15,6 @@ gg.edges.between.attributes(graph, name)
 Plotting of the edges between attribute types
 }
 \examples{
-net.graph<-create.network(data = qmdiab.data,
-annotations = qmdiab.annotations)
+net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos)
 gg.edges.between.attributes(net.graph, "Super.pathway")
 }

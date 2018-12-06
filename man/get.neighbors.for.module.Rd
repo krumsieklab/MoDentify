@@ -18,7 +18,7 @@ a vector containing all neighbors of the module
 Get Neighbors for Module
 }
 \examples{
-net.graph<-create.network(data=qmdiab.data, annotations=qmdiab.annotations)
+net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 module<-c(3,4)
 neighbors<-get.neighbors.for.module(graph = net.graph, module = module)
 }

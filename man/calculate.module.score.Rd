@@ -5,10 +5,10 @@
 \title{Calculate Module-score}
 \usage{
 calculate.module.score(graph, nodes, data, phenotype, covars = NULL,
-  representative.method = "mean")
+  representative.method = "average")
 }
 \arguments{
-\item{graph}{an igraph object, which can be generated with \code{\link{create.network}}.
+\item{graph}{an igraph object, which can be generated with \code{\link{generate.network}}.
 The ID of the nodes must correspond to the name of the variables.}
 
 \item{nodes}{a vector containing the ID of the nodes contained in the module}
@@ -22,7 +22,7 @@ It must have the same number of observations as in data.}
 The rows for the observations must be in the same order as in the phenotype vector.}
 
 \item{representative.method}{the method, that is used for the calculation of the eigenmetabolites.
-Currently implemented: "eigenM-PCA", "eigenM-SVD" and "mean"}
+Currently implemented: "eigenmetabolite" and "average"}
 }
 \value{
 a list containing the module score and the regression coefficient
@@ -31,7 +31,7 @@ a list containing the module score and the regression coefficient
 Calculate Module-score
 }
 \examples{
-net.graph<-create.network(data=qmdiab.data, annotations=qmdiab.annotations)
+net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 
 data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 qmdiab.data)
@@ -41,7 +41,7 @@ data[, z.score:=scale(value), by=.(name)]
 module.nodes<-c(3, neighbors(net.graph, 3))
 
 module.score<-calculate.module.score(graph = net.graph, nodes = module.nodes,
-data = data, phenotype = qmdiab.phenotype$T2D)
+data = data, phenotype = qmdiab.phenos$T2D)
 }
 \references{
 \insertRef{Do2017}{MoDentify}

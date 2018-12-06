@@ -7,7 +7,7 @@
 get.merged.modules(graph, data, phenotype, covars, nodes)
 }
 \arguments{
-\item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{create.network}}.
+\item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generate.network}}.
 The ID of the nodes must correspond to the name of the variables.}
 
 \item{data}{either a matrix, where the columns correspond to the variables and the rows to the observations.

@@ -1,7 +1,7 @@
 #' Module Identification
 #'
 #'
-#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{create.network}}.
+#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generate.network}}.
 #' The ID of the nodes must correspond to the name of the variables.
 #' @param data either a matrix, where the columns correspond to the variables and the rows to the observations.
 #' Or a \code{\link[data.table]{data.table}} with three columns: name, sampleID and value.
@@ -38,11 +38,11 @@
 #' data<-qmdiab.data[, 1:75]
 #' annotations<-qmdiab.annos[1:75]
 #'
-#' net.graph<-create.network(data=data, annotations=annotations)
-#' mods<-identify.modules(graph=net.graph, data=data, phenotype = qmdiab.phenos$T2D,
-#' alpha = 0.05)
+#' net.graph<-generate.network(data=data, annotations=annotations)
+#' mods<-identify.modules(graph=net.graph, data=data, annotations = annotations
+#' , phenotype = qmdiab.phenos$T2D, alpha = 0.05)
 #'
-#' pathway.graph<-create.pathways.network(data=data, annotations=annotations)
+#' pathway.graph<-generate.pathways.network(data=data, annotations=annotations)
 #' 
 #' pathway.modules<-identify.modules(graph=pathway.graph$network, data=data,
 #' phenotype = qmdiab.phenos$T2D, level = pathway.graph$level, annotations = annotations,

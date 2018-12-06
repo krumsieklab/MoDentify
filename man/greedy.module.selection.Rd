@@ -6,10 +6,10 @@
 \usage{
 greedy.module.selection(graph, nodeNr, data, phenotype, covars = NULL,
   alpha = 0.05, already_calculated, better.than.components = TRUE,
-  representative.method = "mean")
+  representative.method = "average")
 }
 \arguments{
-\item{graph}{an igraph object, which can be generated with \code{\link{create.network}}.
+\item{graph}{an igraph object, which can be generated with \code{\link{generate.network}}.
 The ID of the nodes must correspond to the name of the variables.}
 
 \item{nodeNr}{the number of the node, which should be used as a seed.}
@@ -32,7 +32,7 @@ already calculated modules}
 if they are better than all of their components.}
 
 \item{representative.method}{the method used for the calculation of the module representatives.
-Currently implemented: "eigenM-PCA", "eigenM-SVD" and "mean"}
+Currently implemented: "eigenmetabolite" and "average"}
 }
 \value{
 a list containing the members of the module, the module-score, its regression coefficient
@@ -43,7 +43,7 @@ and the consecutive module-scores after adding each new node.
 Greedy Module Selection for a Seed
 }
 \examples{
-net.graph<-create.network(data=qmdiab.data, annotations=qmdiab.annotations)
+net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 qmdiab.data)
 data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
@@ -52,7 +52,7 @@ already_calculated<-data.table(key.value=character(),
 score=numeric(), beta=numeric(), times.accessed=numeric())
 
 module<-greedy.module.selection(graph=net.graph, nodeNr = 51, data = data,
-phenotype = qmdiab.phenotype$T2D, already_calculated = already_calculated)
+phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated)
 }
 \references{
 \insertRef{Do2017}{MoDentify}

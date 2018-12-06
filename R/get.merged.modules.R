@@ -1,7 +1,7 @@
 #' Get Module scores for Merged Modules
 #'
 #'
-#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{create.network}}.
+#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generate.network}}.
 #' The ID of the nodes must correspond to the name of the variables.
 #' @param data either a matrix, where the columns correspond to the variables and the rows to the observations.
 #' Or a \code{\link[data.table]{data.table}} with three columns: name, sampleID and value.

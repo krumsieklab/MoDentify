@@ -1,7 +1,7 @@
 #' Calculate Module-score
 #'
 #'
-#' @param graph an igraph object, which can be generated with \code{\link{create.network}}.
+#' @param graph an igraph object, which can be generated with \code{\link{generate.network}}.
 #' The ID of the nodes must correspond to the name of the variables.
 #' @param nodes a vector containing the ID of the nodes contained in the module
 #' @param data a \code{\link[data.table]{data.table}} with three columns: name, sampleID and z-score.
@@ -23,7 +23,7 @@
 #' @import igraph
 #' @return a list containing the module score and the regression coefficient
 #' @examples
-#' net.graph<-create.network(data=qmdiab.data, annotations=qmdiab.annos)
+#' net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
 #'
 #' data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 #' qmdiab.data)

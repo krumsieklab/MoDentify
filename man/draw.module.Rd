@@ -4,14 +4,14 @@
 \alias{draw.module}
 \title{Draw Single Module}
 \usage{
-draw.module(moduleNR, graph, title = "", nodes, colors, save.image = TRUE,
-  cy)
+draw.module(moduleNR, graph, title = "", nodes, colors,
+  save.image = TRUE, cy)
 }
 \arguments{
 \item{moduleNR}{number of the module, that should be drawn.}
 
 \item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with
-\code{\link{create.network}}.}
+\code{\link{generate.network}}.}
 
 \item{title}{a name for the Cytoscape session.}
 

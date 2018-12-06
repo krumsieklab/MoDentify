@@ -9,8 +9,7 @@
 #' @import igraph
 #' @importFrom stats setNames
 #' @examples
-#' net.graph<-create.network(data = qmdiab.data,
-#' annotations = qmdiab.annos)
+#' net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos)
 #' gg.edges.between.attributes(net.graph, "Super.pathway")
 gg.edges.between.attributes<-function(graph, name, rm.unknown=FALSE){
   l<-lapply(E(graph), function(x)

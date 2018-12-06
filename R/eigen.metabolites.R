@@ -15,7 +15,7 @@
 #' @return list of two, M: \code{\link[data.table]{data.table}} of eigenscores,
 #' expvar: full lists of explained variances
 #' @examples
-#' eigen.data<-eigen.data(data=qmdiab.data,
+#' eigen.data<-eigen.metabolites(data=qmdiab.data,
 #'  group = qmdiab.annos$Sub.pathway, method = "PCA")
 eigen.metabolites = function(data ,group=NULL, method="PCA") {
   if(is.null(group)){

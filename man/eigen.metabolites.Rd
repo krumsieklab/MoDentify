@@ -2,7 +2,7 @@
 % Please edit documentation in R/eigen.metabolites.R
 \name{eigen.metabolites}
 \alias{eigen.metabolites}
-\title{Calculate eigenmetabolites as module representatives}
+\title{Calculate eigenmetabolites as representatives}
 \usage{
 eigen.metabolites(data, group = NULL, method = "PCA")
 }
@@ -21,11 +21,11 @@ list of two, M: \code{\link[data.table]{data.table}} of eigenscores,
 expvar: full lists of explained variances
 }
 \description{
-Calculate eigenmetabolites as module representatives
+Calculate eigenmetabolites as representatives
 }
 \examples{
-eigen.data<-eigen.data(data=qmdiab.data,
- group = qmdiab.annotations$Sub.pathway, method = "PCA")
+eigen.data<-eigen.metabolites(data=qmdiab.data,
+ group = qmdiab.annos$Sub.pathway, method = "PCA")
 }
 \references{
 \insertRef{Langfelder2007}{MoDentify}
