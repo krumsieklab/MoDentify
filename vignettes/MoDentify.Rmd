@@ -1,10 +1,12 @@
 ---
-title: Introduction to the MoDentify R package
+title: Introduction to network generation and identification of functional 
+       modules with the R package MoDentify
 author: 
     - name: Kieu Trinh Do
       affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
     - name: David Rasp
       affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+      email: David.J.Rasp@gmail.com
     - name: Gabi Kastenmueller
       affiliation: 
         - German Center for Diabetes Research (DZD), Neuherberg, Germany
@@ -17,25 +19,15 @@ author:
       affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
 date: '`r Sys.Date()`'
 output: BiocStyle::html_document
-bibliography: REFERENCES.bib
+bibliography: ../inst/REFERENCES.bib
 package: MoDentify
-# abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
+abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
 vignette: >
   %\VignetteIndexEntry{Introduction to the MoDentify R package}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-<style>
-body {
-text-align: justify}
-</style>
 
-<!-- 
- http://rmarkdown.rstudio.com/word_document_format.html
-word_document:
-pdf_document:
-rmarkdown::html_vignette:
--->
 
 \newpage
 #Introduction to *MoDentify* {#intro}
@@ -77,37 +69,17 @@ knitr::include_graphics("png_files/MoDentify_scheme.png")
   
 
 \newpage
-#Prerequisites and installation {#prerequisites}
-The following software packages are required to run *MoDentify*:
 
-1. R version 3.3.1 or newer
+# Prerequisites and installation {#prerequisites}
 
-2. R-packages:
-  - CRAN: *data.table* (>= 1.10.4)
-  - CRAN: *igraph* (>= 1.1.2)
-  - CRAN: *GeneNet* (>= 1.2.13)
-  - CRAN: *Hmisc* (>= 4.0-3)
-  - CRAN: *ggplot2* (>= 2.2.1)
-  - CRAN: *Rdpack*
-  - Bioconductor: *metabolomics* (>= 0.1.4)
-  
-3. For visualization of the identified modules in the underlying network, the following software is required:
-  - Bioconductor: *RCytoscape* (>= 1.24.1)
-  - Cytoscape version 2.8.3, available at http://www.cytoscape.org/download_old_versions.html
-  - The *CytoscapeRPC* plugin for Cytoscape. Installation instructions can be found here: https://wiki.nbic.nl/index.php/CytoscapeRPC_install. CytoscapeRPC has to be activated (Plugins > CytoscapeRPC > Activate CytoscapeRPC) and opened on port 9000. 
 
-To install *MoDentify*, download the package from Github (https://github.com/krumsiek/MoDentify). Change the working directory in R to the folder where the downloaded file is stored, and install *MoDentify* via R package *devtools*:
+For visualization of the identified modules in the underlying network, the following software is required:
 
-```{r eval=FALSE}
-library(devtools)
-install("MoDentify",build_vignettes = TRUE)
-```
+1. Bioconductor: *RCy3* 
+2. *Cytoscape* (>= 3.7.0) available at https://cytoscape.org/download.html
+3. The *CyREST* (>= 3.8.0), which automatically installed with Cytoscape >= 3.3.0
 
-Open the Vignette with:
 
-```{r message=FALSE, warning=FALSE, results='hide'}
-browseVignettes("MoDentify")
-```
 
 Load *MoDentify* with:
 
@@ -148,11 +120,11 @@ knitr::kable(qmdiab.phenos[1:3,])
 
 
 
-Alternatively, the three data.tables can be generated from the excel file *QMDiab_metabolomics_Preprocessed.xlsx* stored at the Dryad Data Repository:
+<!-- Alternatively, the three data.tables can be generated from the excel file *QMDiab_metabolomics_Preprocessed.xlsx* stored at the Dryad Data Repository: -->
 
-```{r eval=FALSE}
-qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx")
-```
+<!-- ```{r eval=FALSE} -->
+<!-- qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx") -->
+<!-- ``` -->
 
 \newpage
 #Module identification at metabolite level {#metlevel}
@@ -187,9 +159,11 @@ summary(met.graph)
 Alternatively, a pre-existing network can be used for module identification. Note that all nodes in the network must be available as variables in the input data.
 
 ```{r eval=FALSE}
-net.DT <- fread(input = "QMDiab_flatfiles/qmdiab.network.txt", header = TRUE)
+net.DT <- fread(input = system.file("extdata", "qmdiab.network.txt", 
+                                    package = "MoDentify"), header = TRUE)
 
-annotations <- fread(input = "QMDiab_flatfiles/qmdiab.annotations.txt", header = TRUE)
+annotations <- fread(input = system.file("extdata", "qmdiab.annotations.txt",
+                                         package = "MoDentify"), header = TRUE)
 
 library(igraph)
 met.graph <- graph_from_data_frame(d = net.DT,
