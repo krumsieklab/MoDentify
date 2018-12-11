@@ -61,7 +61,7 @@ generate.pathways.network <- function(data, covars=NULL, annotations,
   
   }else if(representative.method=="average"){
     representatives <- NULL
-    mat<-as.matrix(aggregated.mean(data=data, group=subannotations[, name]))
+    mat<-as.matrix(aggregatedMean(data=data, group=subannotations[, name]))
     representatives$M <- mat
     representatives$expvar <- NULL
   }else{stop("\n Method not supported.\n")}

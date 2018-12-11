@@ -13,9 +13,9 @@
 #' data(qmdiab.data)
 #' data(qmdiab.annos)
 #' scaled.data<-scale(qmdiab.data)
-#' aggregated.z.scores<-aggregated.mean(data=scaled.data,
+#' aggregated.z.scores<-aggregatedMean(data=scaled.data,
 #' group = qmdiab.annos$Sub.pathway)
-aggregated.mean = function(data, group) {
+aggregatedMean = function(data, group) {
   unique.group=unique(group)
   res=sapply(unique.group,function(g){apply(as.data.frame(data[,group==g]),1,mean, na.rm=T  )})
   colnames(res)=unique.group

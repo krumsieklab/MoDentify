@@ -1,12 +1,22 @@
 ---
 title: Introduction to the MoDentify R package
-author: |
-  | Kieu Trinh Do^1^, David Rasp^1^, Gabi Kastenmueller^2,3^, Karsten Suhre^3,4^, Jan Krumsiek^1^
-  | 1 Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany 2 German Center for Diabetes Research (DZD), Neuherberg, Germany 3 Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany 4 Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
+author: 
+    - name: Kieu Trinh Do
+      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+    - name: David Rasp
+      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+    - name: Gabi Kastenmueller
+      affiliation: 
+        - German Center for Diabetes Research (DZD), Neuherberg, Germany
+        - Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+    - name: Karsten Suhre
+      affiliation: 
+        - Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+        - Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
+    - name: Jan Krumsiek
+      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
 date: '`r Sys.Date()`'
-output: 
-  rmarkdown::html_vignette:
-    toc: true
+output: BiocStyle::html_document
 bibliography: REFERENCES.bib
 package: MoDentify
 # abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
