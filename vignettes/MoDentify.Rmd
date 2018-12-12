@@ -120,11 +120,12 @@ knitr::kable(qmdiab.phenos[1:3,])
 
 
 
-<!-- Alternatively, the three data.tables can be generated from the excel file *QMDiab_metabolomics_Preprocessed.xlsx* stored at the Dryad Data Repository: -->
+Alternatively, the three data.tables can be generated from the excel file *QMDiab_metabolomics_Preprocessed.xlsx* stored at the Dryad Data Repository:
 
-<!-- ```{r eval=FALSE} -->
-<!-- qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx") -->
-<!-- ``` -->
+```{r eval=FALSE}
+source(system.file("scripts", "getQmdiabData.R", package = "MoDentify"))
+qmdiab <- getQmdiabData("QMDiab_metabolomics_Preprocessed.xlsx")
+```
 
 \newpage
 #Module identification at metabolite level {#metlevel}
@@ -290,7 +291,8 @@ pathway.modules <- identifyModules(graph = pathway.graph$network,
                                             correction.method ="bonferroni",
                                             representative.method = "average")
 ```
-<!-- Hier kommt warning: Not all of your variables are represented in graph, weil wir in graph die Unknowns ausgeschlossen haben.-->
+<!-- We get a warning here: Not all of your variables are represented in graph, 
+because we excluded the unknowns here.-->
 
 - `graph` is an igraph object loaded from an external source or inferred within *MoDentify*. 
 - `data` is a data.table or data.frame with variables in columns and observations in rows. 

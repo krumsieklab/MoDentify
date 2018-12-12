@@ -133,7 +133,7 @@ identifyModules<-function(graph, data, phenotype, covars = NULL,
   for(v in V(graph)){
     #message(cat(paste0(v, " ")))
     cat(paste(v," "))
-    module<-greedy.module.selection(graph, v, data, phenotype, covars, alpha,
+    module<-greedyModuleSelection(graph, v, data, phenotype, covars, alpha,
                                     already_calculated, better.than.components, representative.method=representative.method)
     already_calculated<-module$already_calculated
     seed.scores<-c(seed.scores, module$seed.score)
