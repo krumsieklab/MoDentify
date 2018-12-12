@@ -132,7 +132,7 @@ knitr::kable(qmdiab.phenos[1:3,])
 ##Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
-met.graph <- generate.network(data = qmdiab.data, 
+met.graph <- generateNetwork(data = qmdiab.data, 
                             covars = qmdiab.phenos, 
                             annotations = 
                               qmdiab.annos[,c("name","Super.pathway","Sub.pathway")],
@@ -184,7 +184,7 @@ ggEdgesBetweenAttributes(met.graph, "Super.pathway", rm.unknown = TRUE)
 ##Module identification
 
 ```{r eval=FALSE}
-modules.summary <- identify.modules(graph = met.graph,
+modules.summary <- identifyModules(graph = met.graph,
                                   data = qmdiab.data,
                                   annotations = qmdiab.annos,
                                   covars = qmdiab.phenos[,1:3],
@@ -208,7 +208,7 @@ modules.summary <- identify.modules(graph = met.graph,
 Modules can be exported to a file using:
 
 ```{r eval=FALSE}
-  export.modules(modules.summary, "QMDiab_modules.txt")
+  writeModules(modules.summary, "QMDiab_modules.txt")
 ```
 
 
@@ -243,7 +243,7 @@ knitr::include_graphics("png_files/MoDentify_modules.png")
 ##Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
-pathway.graph <- generate.pathways.network(data = qmdiab.data,
+pathway.graph <- generatePathwaysNetwork(data = qmdiab.data,
                                          annotations = qmdiab.annos,
                                          level = "Sub.pathway",
                                          correlation.type = "pearson",
@@ -280,7 +280,7 @@ ggExplainedVariance(pathway.graph, 1:50)
 ##Module identification
 
 ```{r eval=FALSE}
-pathway.modules <- identify.modules(graph = pathway.graph$network,
+pathway.modules <- identifyModules(graph = pathway.graph$network,
                                             data = qmdiab.data,
                                             covars = qmdiab.phenos[,1:3],
                                             phenotype = qmdiab.phenos$T2D,
@@ -328,7 +328,14 @@ knitr::include_graphics("png_files/MoDentify_pathway_modules.png")
 #How to cite
 To cite *MoDentify*, please cite the following publication:
 
-XXX Application Note.
+<!-- @Do2018: -->
+
+Do KD, Rasp D, Kastenmueller G, Suhre K, Krumsiek J.
+MoDentify: phenotype-driven module identification in metabolomics networks at different resolutions.
+Bioinformatics, 2018
+https://doi.org/10.1093/bioinformatics/bty650
+
+
 
 
 \newpage
