@@ -19,9 +19,9 @@
 #' data(qmdiab.data)
 #' data(qmdiab.annos)
 #' 
-#' eigen.data<-eigen.metabolites(data=qmdiab.data,
+#' eigen.data<-eigenMetabolites(data=qmdiab.data,
 #'  group = qmdiab.annos$Sub.pathway, method = "PCA")
-eigen.metabolites = function(data ,group=NULL, method="PCA") {
+eigenMetabolites = function(data ,group=NULL, method="PCA") {
   if(is.null(group)){
     group<-rep("Group", dim(data)[2])
   }

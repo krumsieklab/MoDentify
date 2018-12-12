@@ -28,6 +28,16 @@
 #' \insertRef{Shannon2013}{MoDentify}
 #'
 draw.network.with.modules<-function(graph, title, nodes, colors, save.image=TRUE, cy){
+    
+    if (!"package:RCy3" %in% search()) {
+        tryCatch({
+            loadNamespace("RCy3")
+        }, error=function(err) {
+            stop(conditionMessage(err), "\n",
+                 "This requires the 'RCy3' package to be installed")
+        })
+    }
+    
   # as_graphnel<-igraph:::as_graphnel
   # nodes<-nodes
   # module_graph<-graph

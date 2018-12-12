@@ -54,9 +54,9 @@ generate.pathways.network <- function(data, covars=NULL, annotations,
     if (sum(is.na(data))>0){
       stop("Data matrix contains missing values.\n Pathway network via eigenemtabolite approach not possible.\n")
     }else{
-      eigen.metabolites<-eigen.metabolites(data=data, group=subannotations[, name], method = "PCA")
-      mat<-as.matrix(eigen.metabolites$M)
-      representatives <- eigen.metabolites
+      eigenMetabolites<-eigenMetabolites(data=data, group=subannotations[, name], method = "PCA")
+      mat<-as.matrix(eigenMetabolites$M)
+      representatives <- eigenMetabolites
     }
   
   }else if(representative.method=="average"){

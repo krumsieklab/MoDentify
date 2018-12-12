@@ -26,7 +26,7 @@ calculate.module.representatives<-function(data, representative.method="average"
     rownames(data) <- data$sampleID
     data$sampleID <- NULL
     data <- as.data.frame(data)
-    eigendata <- eigen.metabolites(data=data, method = "PCA")
+    eigendata <- eigenMetabolites(data=data, method = "PCA")
     repdata<-data.table(representative=eigendata$M$Group)
     
   }else{stop("\n Method not supported.\n")}

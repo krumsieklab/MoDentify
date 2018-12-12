@@ -16,7 +16,7 @@ author:
         - Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
         - Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
     - name: Jan Krumsiek
-      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+      affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
 date: '`r Sys.Date()`'
 output: BiocStyle::html_document
 bibliography: ../inst/REFERENCES.bib

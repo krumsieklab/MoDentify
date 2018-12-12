@@ -14,8 +14,8 @@ Description: MoDentify is a package for the identification of functional modules
             to other biological networks as well.
 Depends: R(>= 3.6.0), data.table (>= 1.10.4), igraph (>= 1.1.2)
 Imports: GeneNet (>= 1.2.13), Hmisc (>= 4.0-3), ggplot2 (>= 2.2.1),
-         metabolomics (>= 0.1.4), stats, grDevices, Rdpack, RCy3, readxl, utils
-Suggests: R.rsp, knitr, rmarkdown, BiocStyle
+         metabolomics (>= 0.1.4), stats, grDevices, Rdpack, readxl, utils
+Suggests: R.rsp, knitr, rmarkdown, BiocStyle, RCy3
 biocViews: Metabolomics, Software, Network, NetworkInference, GraphAndNetwork
 License: Artistic-2.0
 Encoding: UTF-8
