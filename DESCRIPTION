@@ -1,7 +1,7 @@
 Package: MoDentify
 Title: Phenotype-driven module identification
 Version: 0.99.0
-Date: 2018-12-6
+Date: 2018-12-12
 Authors@R: c(
 	person("Kieu Trinh", "Do", email = "kieu.do@helmholtz-muenchen.de", role = "aut"),
 	person("David", "Rasp", email = "david.j.rasp@gmail.com", role = c("aut", "cre")),
@@ -13,9 +13,9 @@ Description: MoDentify is a package for the identification of functional modules
             developed for the use with metabolic networks, but could be applied
             to other biological networks as well.
 Depends: R(>= 3.6.0), data.table (>= 1.10.4), igraph (>= 1.1.2)
-Imports: GeneNet (>= 1.2.13), Hmisc (>= 4.0-3), ggplot2 (>= 2.2.1),
-         metabolomics (>= 0.1.4), stats, grDevices, Rdpack, utils
-Suggests: R.rsp, knitr, rmarkdown, BiocStyle, RCy3, readxl
+Imports: GeneNet (>= 1.2.13), Hmisc (>= 4.0.3), ggplot2 (>= 2.2.1),
+         stats, grDevices, Rdpack, utils
+Suggests: knitr, rmarkdown, BiocStyle, RCy3, readxl
 biocViews: Metabolomics, Software, Network, NetworkInference, GraphAndNetwork
 License: Artistic-2.0
 Encoding: UTF-8

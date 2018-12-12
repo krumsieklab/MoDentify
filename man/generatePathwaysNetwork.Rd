@@ -21,6 +21,8 @@ The columns correspond to the different annotations, the rows to the variables.}
 
 \item{level}{name of the column that should be used for grouping the variables. The default is "SUB_PATHWAY".}
 
+\item{correlation.type}{type of correlation to be estimated. Can either be "pearson", or "partial".}
+
 \item{alpha}{significance threshold (type 1 error) for multiple testing correction.}
 
 \item{correction.method}{the method that should be used for multiple testing correction ("bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", "none").

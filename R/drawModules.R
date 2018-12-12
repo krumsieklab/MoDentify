@@ -10,14 +10,16 @@
 #' @param save.image TRUE, if modules should be saved as png files.
 #' @param modules.to.draw a vector containing the IDs of the modules, that should be drawn.
 #' If \code{NULL}, all modules will be drawn.
+#' @param only.overview.network TRUE if only the overall network should be drawn,
+#' but not the individual networks for the modules
 #'
-#' @import RCy3
 #' @import data.table
 #' @import igraph
 #' @importFrom grDevices rainbow
 #' @export drawModules
 #' @usage drawModules(graph, summary, title="", 
-#' close.cycnets.afterwards=FALSE, save.image=TRUE, modules.to.draw=NULL)
+#' close.cycnets.afterwards=FALSE, save.image=FALSE, modules.to.draw=NULL,
+#' only.overview.network = TRUE)
 #' @examples
 #' data(qmdiab.data)
 #' data(qmdiab.annos)
@@ -37,20 +39,13 @@
 #' @references
 #' \insertRef{Smoot2011}{MoDentify}
 #' @references
-#' \insertRef{Bot2011}{MoDentify}
-#' @references
-#' \insertRef{Shannon2013}{MoDentify}
+#' \insertRef{RCy3}{MoDentify}
 
 drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
                        save.image=FALSE, modules.to.draw=NULL, only.overview.network=TRUE){
     
-    if (!"package:RCy3" %in% search()) {
-        tryCatch({
-            loadNamespace("RCy3")
-        }, error=function(err) {
-            stop(conditionMessage(err), "\n",
-                 "This requires the 'RCy3' package to be installed")
-        })
+    if (!requireNamespace("RCy3", quietly=TRUE)){
+        stop("drawModules() requires 'RCy3' package")
     }
   
   # message("Cytoscape output could take a few minutes...")

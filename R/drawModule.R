@@ -10,10 +10,8 @@
 #' @param colors a colour palette as returned from \code{\link[grDevices]{rainbow}} 
 #' for colouring the different modules.
 #' @param save.image TRUE, if the modules should be saved as png files.
-#' @param cy a \code{\link[RCytoscape]{CytoscapeConnectionClass-class}} object, 
-#' which can be created with \code{\link[RCytoscape]{CytoscapeConnection}}.
+#' @param cy a 
 #'
-#' @import RCy3
 #' @import data.table
 #' @import igraph
 #' @keywords internal
@@ -22,24 +20,20 @@
 #' @references
 #' \insertRef{Smoot2011}{MoDentify}
 #' @references
-#' \insertRef{Bot2011}{MoDentify}
-#' @references
-#' \insertRef{Shannon2013}{MoDentify}
+#' \insertRef{RCy3}{MoDentify}
 
 drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE, cy){
     
-    if (!"package:RCy3" %in% search()) {
-        tryCatch({
-            loadNamespace("RCy3")
-        }, error=function(err) {
-            stop(conditionMessage(err), "\n",
-                 "This requires the 'RCy3' package to be installed")
-        })
+    if (!requireNamespace("RCy3", quietly=TRUE)){
+        stop("drawModule() requires 'RCy3' package")
     }
+        
+    
+   
   # as_graphnel<-igraph:::as_graphnel
   # nodes<-nodes[moduleID==moduleNR]
   # module_graph<-induced_subgraph(graph, nodes$nodeID)
-  # for(i in 1:dim(nodes)[1]){
+  # for(i in seq_len(dim(nodes)[1])){
   #   if("Fluid" %in% vertex_attr_names(graph)){
   #     module_graph<-set_vertex_attr(module_graph, "label", nodes[i]$name,
   #                                   paste0(

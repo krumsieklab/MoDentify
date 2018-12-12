@@ -39,11 +39,11 @@ generateNetwork <- function(data, covars = NULL, annotations, correlation.type =
   
   # calculating Pearson correlation
   C_pear<-rcorr(as.matrix(data), type = "pearson")
-  colnames(C_pear$P)<-1:dim(C_pear$P)[1]
-  rownames(C_pear$P)<-1:dim(C_pear$P)[1]
+  colnames(C_pear$P)<-seq_len(dim(C_pear$P)[1])
+  rownames(C_pear$P)<-seq_len(dim(C_pear$P)[1])
   
   pearp <- C_pear$P
-  pearp[lower.tri(pearp,diag = T)] <- NA
+  pearp[lower.tri(pearp,diag = TRUE)] <- NA
   
   net_DT<-data.table(node1= as.integer(rownames(pearp)), pearp)
   net_DT<-melt(net_DT, id.vars = "node1", variable.name = "node2", value.name = "p")
@@ -63,7 +63,7 @@ generateNetwork <- function(data, covars = NULL, annotations, correlation.type =
     mat<-as.matrix(mat[complete.cases(mat),])
     
     ggm<-ggm.estimate.pcor(mat, method = "static")
-    ggm<-ggm[1:dim(data)[2], 1:dim(data)[2]]
+    ggm<-ggm[seq_len(dim(data)[2]), seq_len(dim(data)[2])]
     ggm_pvals <- as.data.table(network.test.edges(ggm, direct=FALSE, fdr=TRUE, plot=FALSE))
     ggm_pvals[, c("qval", "prob") := NULL]
     
@@ -78,7 +78,7 @@ generateNetwork <- function(data, covars = NULL, annotations, correlation.type =
     net_DT[,"pval" := NULL]
     
     
-  }else{
+  }else if(correlation.type == "pearson"){
     C_pear_DT<-data.table(node1= as.integer(rownames(C_pear$P)), C_pear$r)
     colnames(C_pear_DT) <- c("node1", colnames(C_pear$P))
     C_pear_DT<-melt(C_pear_DT, id.vars = "node1", variable.name = "node2", value.name = "cor")
@@ -121,7 +121,7 @@ generateNetwork <- function(data, covars = NULL, annotations, correlation.type =
   annotations$name <- NULL
   annotations <- cbind(name=tmpnames, annotations)
 
-  net_graph<-graph_from_data_frame(d=net_DT, directed = F, vertices = annotations)
+  net_graph<-graph_from_data_frame(d=net_DT, directed = FALSE, vertices = annotations)
 
   return(net_graph)
 }

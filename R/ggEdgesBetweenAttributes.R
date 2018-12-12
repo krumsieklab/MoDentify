@@ -3,6 +3,7 @@
 #'
 #' @param graph an \code{\link[igraph]{igraph}} object
 #' @param name the name of the attribute
+#' @param rm.unknown remove unknowns
 #' @import ggplot2
 #' @export
 #' @import data.table

@@ -15,8 +15,8 @@ deleteSupergraphs<-function(nodes, modules, graph){
   DT<-modules[nodes, on=.(moduleID)]
   DTMax<-DT
   moduleIDs<-modules$moduleID
-  for(i in 1:(length(moduleIDs))){
-    for(j in (i):length(moduleIDs)){
+  for(i in seq_len(length(moduleIDs))){
+    for(j in seq(i, length(moduleIDs))){
 
       if(i != j){
         v1<-sort(V(graph)[DT[ moduleID == moduleIDs[i],nodeID]])

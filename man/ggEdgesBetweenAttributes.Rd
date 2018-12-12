@@ -10,6 +10,8 @@ ggEdgesBetweenAttributes(graph, name, rm.unknown = FALSE)
 \item{graph}{an \code{\link[igraph]{igraph}} object}
 
 \item{name}{the name of the attribute}
+
+\item{rm.unknown}{remove unknowns}
 }
 \description{
 Plotting of the edges between attribute types

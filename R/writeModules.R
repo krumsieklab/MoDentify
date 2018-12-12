@@ -1,7 +1,7 @@
 #' Export Modules
 #'
 #'
-#' @param modules a list as returned by \code{\link{identify.modules}}
+#' @param modules a list as returned by \code{\link{identifyModules}}
 #' @param file a name for the txt file that should be stored
 #' @importFrom utils write.table
 #' @export

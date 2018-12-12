@@ -7,7 +7,7 @@
 writeModules(modules, file)
 }
 \arguments{
-\item{modules}{a list as returned by \code{\link{identify.modules}}}
+\item{modules}{a list as returned by \code{\link{identifyModules}}}
 
 \item{file}{a name for the txt file that should be stored}
 }

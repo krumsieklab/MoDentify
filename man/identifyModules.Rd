@@ -6,7 +6,7 @@
 \usage{
 identifyModules(graph, data, phenotype, covars = NULL, annotations,
 merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
-level=1, representative.method="average", correction.method="bonferroni")
+level=NULL, representative.method="average", correction.method="bonferroni")
 }
 \arguments{
 \item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generateNetwork}}.

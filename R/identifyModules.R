@@ -32,7 +32,7 @@
 #' @export identifyModules
 #' @usage identifyModules(graph, data, phenotype, covars = NULL, annotations,
 #' merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
-#' level=1, representative.method="average", correction.method="bonferroni")
+#' level=NULL, representative.method="average", correction.method="bonferroni")
 #' @return a list consisting of four elements.
 #' @examples
 #' data(qmdiab.data)
@@ -74,9 +74,9 @@ identifyModules<-function(graph, data, phenotype, covars = NULL,
   if(!is.data.table(data)){
     if(is.data.frame(data)){
       data<-as.data.table(data)
-      data <- cbind(sampleID = paste0("sample", 1:dim(data)[1]), data)
+      data <- cbind(sampleID = paste0("sample", seq_len(dim(data)[1])), data)
     }else if(is.matrix(data)){
-      data<-data.table(sampleID= paste0("sample", 1:dim(data)[1]), data)
+      data<-data.table(sampleID= paste0("sample", seq_len(dim(data)[1])), data)
     }
     data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
   }
@@ -149,7 +149,7 @@ identifyModules<-function(graph, data, phenotype, covars = NULL,
       nodes<-rbind(nodes, data.table(moduleID=newID, nodeID=module$module,
                                          name=vertex_attr(graph, "name", module$module),
                                          label=vertex_attr(graph, "label", module$module),
-                                         order.added=1:length(module$module),
+                                         order.added=seq_len(length(module$module)),
                                          score.after.adding=module$score.sequence))
 
     }

@@ -7,6 +7,7 @@
 #' The columns correspond to the different covariates, the rows to the observations.
 #' @param annotations  a \code{\link[data.table]{data.table}} containing annotations for the variables.
 #' The columns correspond to the different annotations, the rows to the variables.
+#' @param correlation.type type of correlation to be estimated. Can either be "pearson", or "partial".
 #' @param level name of the column that should be used for grouping the variables. The default is "SUB_PATHWAY".
 #' @param alpha significance threshold (type 1 error) for multiple testing correction.
 #' @param correction.method the method that should be used for multiple testing correction ("bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", "none").
