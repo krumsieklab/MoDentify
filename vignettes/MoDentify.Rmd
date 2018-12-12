@@ -218,7 +218,7 @@ Modules can be exported to a file using:
 
 ```{r eval=FALSE}
 #- remember to open Cytoscape and activate the CytoscapeRPC plugin
-draw.modules(graph = met.graph,
+drawModules(graph = met.graph,
              title = "QMDiab_modules",
              summary = modules.summary,
              save.image = FALSE,
@@ -307,7 +307,7 @@ because we excluded the unknowns here.-->
 ##Network and module visualization
 
 ```{r eval=FALSE}
-draw.modules(graph = pathway.graph$network,
+drawModules(graph = pathway.graph$network,
              title = "QMDiab_modules_pw",
              nodes = pathway.modules$nodes,
              modules = pathway.modules$modules,

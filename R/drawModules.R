@@ -15,8 +15,8 @@
 #' @import data.table
 #' @import igraph
 #' @importFrom grDevices rainbow
-#' @export draw.modules
-#' @usage draw.modules(graph, summary, title="", 
+#' @export drawModules
+#' @usage drawModules(graph, summary, title="", 
 #' close.cycnets.afterwards=FALSE, save.image=TRUE, modules.to.draw=NULL)
 #' @examples
 #' data(qmdiab.data)
@@ -29,7 +29,7 @@
 #' net_graph<-generateNetwork(data=data, annotations=annotations)
 #' mods<-identifyModules(graph=net_graph, data=data, annotations = annotations, 
 #' phenotype = qmdiab.phenos$T2D)
-#' \donttest{draw.modules(graph=net_graph, summary=mods, title="modules", 
+#' \donttest{drawModules(graph=net_graph, summary=mods, title="modules", 
 #' save.image=FALSE)}
 #'
 #' @references
@@ -41,8 +41,17 @@
 #' @references
 #' \insertRef{Shannon2013}{MoDentify}
 
-draw.modules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
+drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
                        save.image=FALSE, modules.to.draw=NULL, only.overview.network=TRUE){
+    
+    if (!"package:RCy3" %in% search()) {
+        tryCatch({
+            loadNamespace("RCy3")
+        }, error=function(err) {
+            stop(conditionMessage(err), "\n",
+                 "This requires the 'RCy3' package to be installed")
+        })
+    }
   
   # message("Cytoscape output could take a few minutes...")
   # 
@@ -61,11 +70,11 @@ draw.modules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
   # names(colors)<-modules.to.draw
   # cy = CytoscapeConnection ()
   # #supressWarnings because of Skipping names on vector!
-  # suppressWarnings(draw.network.with.modules(graph, title, nodes, colors, cy=cy, save.image=save.image))
+  # suppressWarnings(drawNetworkWithModules(graph, title, nodes, colors, cy=cy, save.image=save.image))
   # 
   # if (!only.overview.network | save.image){
   #   #supressWarnings because of Skipping names on vector!
-  #   l<-suppressWarnings(lapply(modules.to.draw, draw.module, graph=graph, title=title, nodes=nodes[!is.na(moduleID)],
+  #   l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, nodes=nodes[!is.na(moduleID)],
   #             colors=colors, cy=cy, save.image=save.image))
   #   }
   # 

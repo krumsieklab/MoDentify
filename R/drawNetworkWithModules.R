@@ -17,7 +17,7 @@
 #' @import data.table
 #' @import igraph
 #' @export
-#' @usage draw.network.with.modules(graph, title, nodes, colors, save.image=TRUE, cy)
+#' @usage drawNetworkWithModules(graph, title, nodes, colors, save.image=TRUE, cy)
 #'@references
 #' \insertRef{Shannon2003}{MoDentify}
 #' @references
@@ -27,7 +27,7 @@
 #' @references
 #' \insertRef{Shannon2013}{MoDentify}
 #'
-draw.network.with.modules<-function(graph, title, nodes, colors, save.image=TRUE, cy){
+drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE, cy){
     
     if (!"package:RCy3" %in% search()) {
         tryCatch({

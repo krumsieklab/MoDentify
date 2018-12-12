@@ -26,7 +26,16 @@
 #' @references
 #' \insertRef{Shannon2013}{MoDentify}
 
-draw.module<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE, cy){
+drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE, cy){
+    
+    if (!"package:RCy3" %in% search()) {
+        tryCatch({
+            loadNamespace("RCy3")
+        }, error=function(err) {
+            stop(conditionMessage(err), "\n",
+                 "This requires the 'RCy3' package to be installed")
+        })
+    }
   # as_graphnel<-igraph:::as_graphnel
   # nodes<-nodes[moduleID==moduleNR]
   # module_graph<-induced_subgraph(graph, nodes$nodeID)
