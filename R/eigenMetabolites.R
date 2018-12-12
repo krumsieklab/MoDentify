@@ -36,7 +36,7 @@ eigenMetabolites = function(data ,group=NULL, method="PCA") {
     # assemble matrix
     M = as.data.table(sapply(res, function(x){x$pc1}))
     # assemble expvars
-    expvar = sapply(res, function(x){x$expvar}, simplify=F)
+    expvar = sapply(res, function(x){x$expvar}, simplify=FALSE)
     # return
     return(list(M=M,expvar=expvar))
   }else if(method == "SVD"){

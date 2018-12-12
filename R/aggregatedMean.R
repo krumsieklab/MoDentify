@@ -17,7 +17,8 @@
 #' group = qmdiab.annos$Sub.pathway)
 aggregatedMean = function(data, group) {
   unique.group=unique(group)
-  res=sapply(unique.group,function(g){apply(as.data.frame(data[,group==g]),1,mean, na.rm=T  )})
+  res=sapply(unique.group,function(g){apply(as.data.frame(data[,group==g]),
+                                            1,mean, na.rm=TRUE)})
   colnames(res)=unique.group
   return(res)
 }
