@@ -9,13 +9,12 @@
 #' @param colors a colour palette as returned from 
 #' \code{\link[grDevices]{rainbow}} for colouring the different modules.
 #' @param save.image TRUE, if modules should be saved as png files.
-#' @param cy a 
 #'
 #'
 #' @import data.table
 #' @import igraph
 #' @export
-#' @usage drawNetworkWithModules(graph, title, nodes, colors, save.image=TRUE, cy)
+#' @usage drawNetworkWithModules(graph, title, nodes, colors, save.image=TRUE)
 #'@references
 #' \insertRef{Shannon2003}{MoDentify}
 #' @references
@@ -23,62 +22,49 @@
 #' @references
 #' \insertRef{RCy3}{MoDentify}
 #'
-drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE, cy){
+drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE){
     
     if (!requireNamespace("RCy3", quietly=TRUE)){
         stop("drawNetworkWithModules() requires 'RCy3' package")
     }
     
-  # as_graphnel<-igraph:::as_graphnel
-  # nodes<-nodes
-  # module_graph<-graph
-  # for(i in seq_len(dim(nodes)[1])){
-  #   if("Fluid" %in% vertex_attr_names(graph)){
-  #     module_graph<-set_vertex_attr(module_graph, "Labels", nodes[i]$name,
-  #                                 paste0(
-  #                                   toupper(substr(vertex_attr(graph, "Fluid" ,nodes[i]$name),0,1)),
-  #                                   "::", nodes[i]$label))
-  #   }else{
-  #     module_graph<-set_vertex_attr(module_graph, "Labels", nodes[i]$name, nodes[i]$label)
-  #     }
-  #   
-  #   module_graph<-set_vertex_attr(module_graph, "module.name", nodes[i]$name, nodes[i]$moduleID)
-  #   module_graph<-set_vertex_attr(module_graph, "p.value", nodes[i]$name, nodes[i]$node.pval)
-  #   module_graph<-set_vertex_attr(module_graph, "is.significant", nodes[i]$name, nodes[i]$is.significant)
-  # }
-  # 
-  # g<-as_graphnel(module_graph)
-  # g<-initNodeAttribute (g, "ID", "char", "")
-  # g<-initNodeAttribute (g, "Labels", "char", "")
-  # g<-initNodeAttribute (g, "label", "char", "")
-  # # g<-initNodeAttribute (g, "Super.pathway", "char", "")
-  # # g<-initNodeAttribute (g, "Sub.pathway", "char", "")
-  # # g<-initNodeAttribute (g, "Fluid", "char", "")
-  # g<-initNodeAttribute (g, "p.value", "numeric", "")
-  # g<-initNodeAttribute (g, "module.name", "char", "x")
-  # g<-initNodeAttribute (g, "is.significant", "char", "")
-  # 
-  # 
-  # nodeAttrs <- names(get.vertex.attribute(graph))
-  # for (a in nodeAttrs){
-  #   g<-initNodeAttribute (g, a, "char", "")
-  # }
-  # 
-  # g <- initEdgeAttribute (g, "cor", "numeric", 0.0)
-  # g <- initEdgeAttribute (g, "weight", "numeric", 0.0)
-  # g <- initEdgeAttribute (g, "p", "numeric", 0.0)
-  # 
-  # cw = new.CytoscapeWindow (title, g)
-  # displayGraph(cw)
-  # setNodeLabelRule (cw, "Labels")
+  
+  nodes<-nodes
+  module_graph<-graph
+  for(i in seq_len(dim(nodes)[1])){
+    if("Fluid" %in% vertex_attr_names(graph)){
+      module_graph<-set_vertex_attr(module_graph, "Labels", nodes[i]$name,
+                                  paste0(
+                                    toupper(substr(vertex_attr(graph, "Fluid" ,nodes[i]$name),0,1)),
+                                    "::", nodes[i]$label))
+    }else{
+      module_graph<-set_vertex_attr(module_graph, "Labels", nodes[i]$name, nodes[i]$label)
+      }
+
+    module_graph<-set_vertex_attr(module_graph, "module.name", nodes[i]$name, nodes[i]$moduleID)
+    module_graph<-set_vertex_attr(module_graph, "p.value", nodes[i]$name, nodes[i]$node.pval)
+    module_graph<-set_vertex_attr(module_graph, "is.significant", nodes[i]$name, nodes[i]$is.significant)
+  }
+
+  netSUID <- createNetworkFromIgraph(igraph = module_graph,title = title)
+  
+ 
+  
+  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.05), c(100,50,25,20))
   # setNodeSizeRule(cw, "p.value", c(0.05/vcount(graph), 0.05/vcount(graph),0.05)*1.01, c(100,50,35,25,20), mode = "interpolate")
-  # setNodeShapeRule(cw, "is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
+  setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
+  
+  
+  setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)))
+  
+  
   # setNodeColorRule(cw,"module.name" , names(colors), c(substr(colors, 0, 7)), mode="lookup", default.color='#D8D0CE')
-  # setWindowSize (cw, 600, 1200)
+  
   # layoutNetwork (cw, "kamada-kawai")
-  # 
-  # if(save.image){
-  #   saveImage(cw, paste0(getwd(), "/", title, ".png"), "png", 7.0)
-  # }
+
+  if(save.image){
+    exportImage(filename = paste0(getwd(), "/", title, ".png"), type = "png",
+                resolution = 600, height = 1600)
+  }
 
 }

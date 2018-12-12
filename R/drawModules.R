@@ -48,32 +48,34 @@ drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
         stop("drawModules() requires 'RCy3' package")
     }
   
-  # message("Cytoscape output could take a few minutes...")
-  # 
-  # nodes <- summary$nodes
-  # modules <- summary$modules
-  # 
-  # nodes<-nodes[, .(moduleID, nodeID, name, label, order.added, node.pval=seed.score,
-  #                      after.adding.pval=exp(-score.after.adding))]
-  # nodes[, is.significant:=node.pval < (0.05/vcount(graph))]
-  # nodes[is.na(moduleID), moduleID:=0]
-  # if(is.null(modules.to.draw)){
-  #   modules.to.draw<-modules$moduleID
-  # }
-  # 
-  # colors<-rainbow(length(modules.to.draw))
-  # names(colors)<-modules.to.draw
-  # cy = CytoscapeConnection ()
-  # #supressWarnings because of Skipping names on vector!
-  # suppressWarnings(drawNetworkWithModules(graph, title, nodes, colors, cy=cy, save.image=save.image))
-  # 
-  # if (!only.overview.network | save.image){
-  #   #supressWarnings because of Skipping names on vector!
-  #   l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, nodes=nodes[!is.na(moduleID)],
-  #             colors=colors, cy=cy, save.image=save.image))
-  #   }
-  # 
-  # 
+  message("Cytoscape output could take a few minutes...")
+
+  nodes <- summary$nodes
+  modules <- summary$modules
+
+  nodes<-nodes[, .(moduleID, nodeID, name, label, order.added, node.pval=seed.score,
+                       after.adding.pval=exp(-score.after.adding))]
+  nodes[, is.significant:=node.pval < (0.05/vcount(graph))]
+  nodes[is.na(moduleID), moduleID:=0]
+  if(is.null(modules.to.draw)){
+    modules.to.draw<-modules$moduleID
+  }
+
+  colors<-rainbow(length(modules.to.draw))
+  names(colors)<-modules.to.draw
+  
+  #supressWarnings because of Skipping names on vector!
+  suppressWarnings(drawNetworkWithModules(graph = graph, title = title, 
+                                          nodes = nodes , colors = colors,
+                                          save.image=save.image))
+
+  if (!only.overview.network | save.image){
+    #supressWarnings because of Skipping names on vector!
+    l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, nodes=nodes[!is.na(moduleID)],
+              colors=colors, save.image=save.image))
+    }
+
+
   # if(close.cycnets.afterwards){
   #   deleteAllWindows(cy)
   # }
