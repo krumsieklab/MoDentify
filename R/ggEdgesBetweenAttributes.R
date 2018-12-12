@@ -12,7 +12,7 @@
 #' data(qmdiab.data)
 #' data(qmdiab.annos)
 #' 
-#' net.graph<-generate.network(data = qmdiab.data, annotations = qmdiab.annos)
+#' net.graph<-generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
 #' ggEdgesBetweenAttributes(net.graph, "Super.pathway")
 ggEdgesBetweenAttributes<-function(graph, name, rm.unknown=FALSE){
   l<-lapply(E(graph), function(x)

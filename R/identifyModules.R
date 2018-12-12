@@ -1,7 +1,7 @@
 #' Module Identification
 #'
 #'
-#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generate.network}}.
+#' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generateNetwork}}.
 #' The ID of the nodes must correspond to the name of the variables.
 #' @param data either a matrix, where the columns correspond to the variables and the rows to the observations.
 #' Or a \code{\link[data.table]{data.table}} with three columns: name, sampleID and value.
@@ -29,8 +29,8 @@
 #' \insertRef{Chuang2007}{MoDentify}
 #' @import data.table
 #' @import igraph
-#' @export identify.modules
-#' @usage identify.modules(graph, data, phenotype, covars = NULL, annotations,
+#' @export identifyModules
+#' @usage identifyModules(graph, data, phenotype, covars = NULL, annotations,
 #' merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
 #' level=1, representative.method="average", correction.method="bonferroni")
 #' @return a list consisting of four elements.
@@ -42,16 +42,16 @@
 #' data<-qmdiab.data[, 1:75]
 #' annotations<-qmdiab.annos[1:75]
 #'
-#' net.graph<-generate.network(data=data, annotations=annotations)
-#' mods<-identify.modules(graph=net.graph, data=data, annotations = annotations
+#' net.graph<-generateNetwork(data=data, annotations=annotations)
+#' mods<-identifyModules(graph=net.graph, data=data, annotations = annotations
 #' , phenotype = qmdiab.phenos$T2D, alpha = 0.05)
 #'
-#' pathway.graph<-generate.pathways.network(data=data, annotations=annotations)
+#' pathway.graph<-generatePathwaysNetwork(data=data, annotations=annotations)
 #' 
-#' pathway.modules<-identify.modules(graph=pathway.graph$network, data=data,
+#' pathway.modules<-identifyModules(graph=pathway.graph$network, data=data,
 #' phenotype = qmdiab.phenos$T2D, level = pathway.graph$level, annotations = annotations,
 #' alpha = 0.05)
-identify.modules<-function(graph, data, phenotype, covars = NULL,
+identifyModules<-function(graph, data, phenotype, covars = NULL,
                           annotations,
                           merge.overlapping = FALSE,
                           better.than.components = TRUE,
@@ -117,7 +117,7 @@ identify.modules<-function(graph, data, phenotype, covars = NULL,
     stop("Not all of your nodes are represented in the data data.table")
   }
   
-  message("The function identify.modules could take a few minutes.")
+  message("The function identifyModules could take a few minutes.")
 
   modules<-data.table(moduleID=integer(), module.score=numeric(),
                       module.beta=numeric(), adjusted.score=numeric())

@@ -1,7 +1,7 @@
 #' Greedy Module Selection for a Seed
 #'
 #'
-#' @param graph an igraph object, which can be generated with \code{\link{generate.network}}.
+#' @param graph an igraph object, which can be generated with \code{\link{generateNetwork}}.
 #' The ID of the nodes must correspond to the name of the variables.
 #' @param nodeNr the number of the node, which should be used as a seed.
 #' @param data a \code{\link[data.table]{data.table}} with three columns: name,
@@ -31,7 +31,7 @@
 #' data(qmdiab.annos)
 #' data(qmdiab.phenos)
 #' 
-#' net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
+#' net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
 #' data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 #' qmdiab.data)
 #' data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
@@ -47,7 +47,7 @@ greedy.module.selection<-function(graph, nodeNr, data, phenotype, covars=NULL,
   module<-c(nodeNr)
   ##Calculate score for seed
   
-  seed<-calculate.module.score(graph, nodeNr, data, phenotype, covars, representative.method=representative.method)
+  seed<-calculateModuleScore(graph, nodeNr, data, phenotype, covars, representative.method=representative.method)
   seed.score<-seed$score
   high.score<-seed.score
   beta=0
@@ -59,12 +59,12 @@ greedy.module.selection<-function(graph, nodeNr, data, phenotype, covars=NULL,
   while(length(old_module) != length(module) & high.score == highest.not.signifikant){
     old_module<-module
     ##get all neighbors of current module
-    neighbors<-get.neighbors.for.module(graph, module)
+    neighbors<-getNeighborsForModule(graph, module)
     for(neighbor in neighbors){
       new_module<-unique(c(old_module, neighbor))
       asString<-paste(new_module[order(new_module)], collapse = " ")
       
-      neighbor.result<-calculate.module.score(graph, neighbor, data, phenotype, covars, representative.method=representative.method)
+      neighbor.result<-calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method=representative.method)
       neighbor.score<-neighbor.result$score
       ##Lookup, if the module was already calculated earlier
       if(asString %in% already_calculated$key){
@@ -72,7 +72,7 @@ greedy.module.selection<-function(graph, nodeNr, data, phenotype, covars=NULL,
         current.beta<-already_calculated[key.value == asString, beta]
         already_calculated[key.value == asString, times.accessed:= times.accessed+1]
       }else{
-        current<-calculate.module.score(graph, new_module, data, phenotype, covars, representative.method=representative.method)
+        current<-calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method=representative.method)
         current.score<-current$score
         current.beta<-current$beta
         already_calculated<-rbind(already_calculated, data.table(key.value = asString, score = current.score, beta=current$beta, times.accessed=0))

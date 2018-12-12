@@ -3,10 +3,10 @@
 #'
 #' @param moduleNR number of the module, that should be drawn.
 #' @param graph an \code{\link[igraph]{igraph}} object, which can be generated with
-#' \code{\link{generate.network}}.
+#' \code{\link{generateNetwork}}.
 #' @param title a name for the Cytoscape session.
 #' @param nodes \code{\link[data.table]{data.table}} with data containing the nodes.
-#' It is contained in the output list of \code{\link{identify.modules}}.
+#' It is contained in the output list of \code{\link{identifyModules}}.
 #' @param colors a colour palette as returned from \code{\link[grDevices]{rainbow}} 
 #' for colouring the different modules.
 #' @param save.image TRUE, if the modules should be saved as png files.

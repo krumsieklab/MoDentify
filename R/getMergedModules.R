@@ -2,7 +2,7 @@
 #'
 #'
 #' @param graph an \code{\link[igraph]{igraph}} object, which can be generated 
-#' with \code{\link{generate.network}}. The ID of the nodes must correspond to 
+#' with \code{\link{generateNetwork}}. The ID of the nodes must correspond to 
 #' the name of the variables.
 #' @param data either a matrix, where the columns correspond to the variables 
 #' and the rows to the observations. Or a \code{\link[data.table]{data.table}} 
@@ -18,12 +18,12 @@
 #' @import igraph
 #'
 #' @return
-get.merged.modules<-function(graph, data, phenotype, covars, nodes){
+getMergedModules<-function(graph, data, phenotype, covars, nodes){
   modules<-nodes[, unique(moduleID)]
   module.scores<-c()
   for(module in modules){
     tmp<-nodes[moduleID==module, nodeID]
-    module.scores<-rbind(module.scores, calculate.module.score(graph, tmp, data, phenotype, covars))
+    module.scores<-rbind(module.scores, calculateModuleScore(graph, tmp, data, phenotype, covars))
   }
 
   modules_DT <- data.table(moduleID=modules, module.score=module.scores)

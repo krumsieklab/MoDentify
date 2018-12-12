@@ -9,7 +9,7 @@ greedy.module.selection(graph, nodeNr, data, phenotype, covars = NULL,
   representative.method = "average")
 }
 \arguments{
-\item{graph}{an igraph object, which can be generated with \code{\link{generate.network}}.
+\item{graph}{an igraph object, which can be generated with \code{\link{generateNetwork}}.
 The ID of the nodes must correspond to the name of the variables.}
 
 \item{nodeNr}{the number of the node, which should be used as a seed.}
@@ -47,7 +47,7 @@ data(qmdiab.data)
 data(qmdiab.annos)
 data(qmdiab.phenos)
 
-net.graph<-generate.network(data=qmdiab.data, annotations=qmdiab.annos)
+net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
 data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
 qmdiab.data)
 data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
