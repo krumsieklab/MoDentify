@@ -32,7 +32,7 @@ eigenMetabolites = function(data ,group=NULL, method="PCA") {
       pca = prcomp(as.data.table(data[,group==g]))
       list(pc1=pca$x[,1],
            expvar=(pca$sdev)^2 / sum(pca$sdev^2) )
-    }, simplify=F)
+    }, simplify=FALSE)
     # assemble matrix
     M = as.data.table(sapply(res, function(x){x$pc1}))
     # assemble expvars
@@ -43,7 +43,7 @@ eigenMetabolites = function(data ,group=NULL, method="PCA") {
     res=sapply(unique.group,function(g){
       svd = svd(t(as.data.table(data[,group==g])))
       list(v1=svd$v[,1])
-    }, simplify=F)
+    }, simplify=FALSE)
     # assemble matrix
     M = as.data.table(sapply(res, function(x){x$v1}))
     # return
