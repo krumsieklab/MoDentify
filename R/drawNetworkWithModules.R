@@ -55,6 +55,7 @@ drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE,
   setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.1), c(100, 75, 40, 25), default.size = c(20))
   setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
   setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)), mapping.type = "d")
+  layoutNetwork(layout.name = "kamada-kawai")
   
     if(save.image){
         exportImage(filename = paste0(getwd(), "/", title, ".png"), type = "png",
