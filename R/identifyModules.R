@@ -131,8 +131,7 @@ identifyModules<-function(graph, data, phenotype, covars = NULL,
   message("Proceeding node... ")
 
   for(v in V(graph)){
-    #message(cat(paste0(v, " ")))
-    cat(paste(v," "))
+    message(cat(paste0(v, " ")))
     module<-greedyModuleSelection(graph, v, data, phenotype, covars, alpha,
                                     already_calculated, better.than.components, representative.method=representative.method)
     already_calculated<-module$already_calculated
