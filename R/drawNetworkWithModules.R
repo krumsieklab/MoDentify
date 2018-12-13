@@ -52,7 +52,7 @@ drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE,
   netSUID <- createNetworkFromIgraph(igraph = module_graph,title = title)
   
 
-  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.1/vcount(graph), 0.1), c(100,50,30,25,20))
+  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.1), c(100, 75, 40, 25), default.size = c(20))
   setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
   setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)), mapping.type = "d")
   

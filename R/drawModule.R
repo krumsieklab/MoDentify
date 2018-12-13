@@ -52,6 +52,8 @@ drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE,
                                          paste0(title, "_", "module", moduleNR))
  
   setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)), mapping.type = "d")  
+  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.1), c(100, 75, 40, 25), default.size = c(20))
+  setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
   
   if(save.image){
       exportImage(filename =  paste0(getwd(), "/", title, "_", "module", moduleNR, ".png"),
