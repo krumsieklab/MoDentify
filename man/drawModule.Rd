@@ -5,7 +5,7 @@
 \title{Draw Single Module}
 \usage{
 drawModule(moduleNR, graph, title = "", nodes, colors,
-  save.image = TRUE, cy)
+  save.image = TRUE, close.cycnets.afterwards = FALSE)
 }
 \arguments{
 \item{moduleNR}{number of the module, that should be drawn.}
@@ -23,7 +23,8 @@ for colouring the different modules.}
 
 \item{save.image}{TRUE, if the modules should be saved as png files.}
 
-\item{cy}{a}
+\item{close.cycnets.afterwards}{TRUE, if the windows in the cytoscape environment should be closed
+after drawing. This might be useful repeated function call.}
 }
 \description{
 Draw Single Module

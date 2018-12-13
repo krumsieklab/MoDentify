@@ -10,7 +10,10 @@
 #' @param colors a colour palette as returned from \code{\link[grDevices]{rainbow}} 
 #' for colouring the different modules.
 #' @param save.image TRUE, if the modules should be saved as png files.
+#' @param close.cycnets.afterwards TRUE, if the windows in the cytoscape environment should be closed
+#' after drawing. This might be useful repeated function call.
 #'
+#' @import RCy3
 #' @import data.table
 #' @import igraph
 #' @keywords internal
@@ -21,7 +24,8 @@
 #' @references
 #' \insertRef{RCy3}{MoDentify}
 
-drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE){
+drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE,
+                     close.cycnets.afterwards = FALSE){
     
     if (!requireNamespace("RCy3", quietly=TRUE)){
         stop("drawModule() requires 'RCy3' package")
@@ -49,18 +53,16 @@ drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE){
   netSUID <- createNetworkFromIgraph(igraph = module_graph,title = 
                                          paste0(title, "_", "module", moduleNR))
  
+  setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)), mapping.type = "d")  
   
-  
-  
-  # setNodeColorRule(cw,"module.name" , names(colors), c(substr(colors, 0, 7)), mode="lookup", default.color='#D8D0CE')
-  # 
-  # setWindowSize (cw, 1200, 1200)
-  # layoutNetwork (cw, "kamada-kawai")
-  # 
-  # 
-  # if(save.image){
-  #   saveImage(cw, paste0(getwd(), "/", title, "_", "module", moduleNR, ".png"), "png", 1.0)
-  # }
+  if(save.image){
+      exportImage(filename =  paste0(getwd(), "/", title, "_", "module", moduleNR, ".png"),
+                  type = "png", resolution = 600, height = 800)
+  }
 
+  
+  if(close.cycnets.afterwards){
+      closeSession()
+  }
 
 }

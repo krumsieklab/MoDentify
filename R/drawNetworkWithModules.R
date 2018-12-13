@@ -9,8 +9,11 @@
 #' @param colors a colour palette as returned from 
 #' \code{\link[grDevices]{rainbow}} for colouring the different modules.
 #' @param save.image TRUE, if modules should be saved as png files.
+#' @param close.cycnets.afterwards TRUE, if the windows in the cytoscape environment should be closed
+#' after drawing. This might be useful repeated function call.
 #'
 #'
+#' @import RCy3
 #' @import data.table
 #' @import igraph
 #' @export
@@ -22,7 +25,8 @@
 #' @references
 #' \insertRef{RCy3}{MoDentify}
 #'
-drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE){
+drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE,
+                                 close.cycnets.afterwards = FALSE){
     
     if (!requireNamespace("RCy3", quietly=TRUE)){
         stop("drawNetworkWithModules() requires 'RCy3' package")
@@ -48,23 +52,18 @@ drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE){
 
   netSUID <- createNetworkFromIgraph(igraph = module_graph,title = title)
   
- 
-  
-  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.05), c(100,50,25,20))
-  # setNodeSizeRule(cw, "p.value", c(0.05/vcount(graph), 0.05/vcount(graph),0.05)*1.01, c(100,50,35,25,20), mode = "interpolate")
-  setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
-  
-  
-  setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)))
-  
-  
-  # setNodeColorRule(cw,"module.name" , names(colors), c(substr(colors, 0, 7)), mode="lookup", default.color='#D8D0CE')
-  
-  # layoutNetwork (cw, "kamada-kawai")
 
-  if(save.image){
-    exportImage(filename = paste0(getwd(), "/", title, ".png"), type = "png",
+  setNodeSizeMapping("p.value", c(0.05/vcount(graph), 0.1/vcount(graph), 0.1), c(100,50,30,25,20))
+  setNodeShapeMapping("is.significant", c("TRUE", "FALSE"), c("diamond", "ellipse"))
+  setNodeColorMapping("module.name", names(colors), c(substr(colors, 0, 7)), mapping.type = "d")
+  
+    if(save.image){
+        exportImage(filename = paste0(getwd(), "/", title, ".png"), type = "png",
                 resolution = 600, height = 1600)
+    }
+  
+  if(close.cycnets.afterwards){
+      closeSession()
   }
 
 }

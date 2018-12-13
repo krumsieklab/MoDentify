@@ -13,6 +13,7 @@
 #' @param only.overview.network TRUE if only the overall network should be drawn,
 #' but not the individual networks for the modules
 #'
+#' @import RCy3
 #' @import data.table
 #' @import igraph
 #' @importFrom grDevices rainbow
@@ -67,12 +68,15 @@ drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
   #supressWarnings because of Skipping names on vector!
   suppressWarnings(drawNetworkWithModules(graph = graph, title = title, 
                                           nodes = nodes , colors = colors,
-                                          save.image=save.image))
+                                          save.image=save.image,
+                                          close.cycnets.afterwards = close.cycnets.afterwards))
 
   if (!only.overview.network | save.image){
-    #supressWarnings because of Skipping names on vector!
-    l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, nodes=nodes[!is.na(moduleID)],
-              colors=colors, save.image=save.image))
+    #supressWarnings because of Skipping names on vector
+    l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, 
+                               nodes=nodes[!is.na(moduleID)], colors=colors, 
+                               save.image=save.image, 
+                               close.cycnets.afterwards = close.cycnets.afterwards))
     }
 
 
