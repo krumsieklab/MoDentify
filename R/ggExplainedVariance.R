@@ -10,29 +10,34 @@
 #' data(qmdiab.data)
 #' data(qmdiab.annos)
 #' 
-#' pathway.graph<-generatePathwaysNetwork(data = qmdiab.data,
-#'  annotations = qmdiab.annos, level = "Sub.pathway")
-#'  ggExplainedVariance(pathway.graph)
-ggExplainedVariance<-function(subnet, selection = NULL){
+#' pathway.graph <- generatePathwaysNetwork(
+#'   data = qmdiab.data,
+#'   annotations = qmdiab.annos, level = "Sub.pathway"
+#' )
+#' ggExplainedVariance(pathway.graph)
+ggExplainedVariance <- function(subnet, selection = NULL) {
   groups <- names(subnet$representatives$expvar)
-  
-  if(!is.null(groups)){
-  
-    if (!is.null(selection)){
+
+  if (!is.null(groups)) {
+    if (!is.null(selection)) {
       groups <- groups[selection]
     }
-    
-    DT<-data.table(group=character(), principal.component.number=character(), 
-                   explained.variance=numeric())
-    for(group in groups){
-      expvar<-subnet$representatives$expvar[[group]]
-      DT<-rbind(DT, data.table(group=group, principal.component.number=seq_len(length(expvar)),
-                               explained.variance=expvar))
+
+    DT <- data.table(
+      group = character(), principal.component.number = character(),
+      explained.variance = numeric()
+    )
+    for (group in groups) {
+      expvar <- subnet$representatives$expvar[[group]]
+      DT <- rbind(DT, data.table(
+        group = group, principal.component.number = seq_len(length(expvar)),
+        explained.variance = expvar
+      ))
     }
-    g<-ggplot(DT[principal.component.number==1], aes(x=factor(group), y=explained.variance))
-    g<-g+geom_point()+ theme(axis.text.x = element_text(angle = 75, hjust = 1))+ylim(c(0,1))+xlab("")
-    g+ylab("explained variance of eigenmetabolites")
-  }else{
+    g <- ggplot(DT[principal.component.number == 1], aes(x = factor(group), y = explained.variance))
+    g <- g + geom_point() + theme(axis.text.x = element_text(angle = 75, hjust = 1)) + ylim(c(0, 1)) + xlab("")
+    g + ylab("explained variance of eigenmetabolites")
+  } else {
     message("No explained variances available if representatives are not eigenmetabolites.\n")
   }
 }

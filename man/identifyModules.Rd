@@ -51,18 +51,22 @@ data(qmdiab.data)
 data(qmdiab.annos)
 data(qmdiab.phenos)
 
-data<-qmdiab.data[, 1:75]
-annotations<-qmdiab.annos[1:75]
+data <- qmdiab.data[, 1:75]
+annotations <- qmdiab.annos[1:75]
 
-net.graph<-generateNetwork(data=data, annotations=annotations)
-mods<-identifyModules(graph=net.graph, data=data, annotations = annotations
-, phenotype = qmdiab.phenos$T2D, alpha = 0.05)
+net.graph <- generateNetwork(data = data, annotations = annotations)
+mods <- identifyModules(
+  graph = net.graph, data = data, annotations =
+    annotations, phenotype = qmdiab.phenos$T2D, alpha = 0.05
+)
 
-pathway.graph<-generatePathwaysNetwork(data=data, annotations=annotations)
+pathway.graph <- generatePathwaysNetwork(data = data, annotations = annotations)
 
-pathway.modules<-identifyModules(graph=pathway.graph$network, data=data,
-phenotype = qmdiab.phenos$T2D, level = pathway.graph$level, annotations = annotations,
-alpha = 0.05)
+pathway.modules <- identifyModules(
+  graph = pathway.graph$network, data = data,
+  phenotype = qmdiab.phenos$T2D, level = pathway.graph$level, annotations = annotations,
+  alpha = 0.05
+)
 }
 \references{
 \insertRef{Do2017}{MoDentify}

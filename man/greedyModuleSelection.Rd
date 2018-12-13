@@ -47,16 +47,22 @@ data(qmdiab.data)
 data(qmdiab.annos)
 data(qmdiab.phenos)
 
-net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
-data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
-qmdiab.data)
-data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
-data[, z.score:=scale(value), by=.(name)]
-already_calculated<-data.table(key.value=character(),
-score=numeric(), beta=numeric(), times.accessed=numeric())
+net.graph <- generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
+data <- data.table(
+  sampleID = paste0("sample", 1:dim(qmdiab.data)[1]),
+  qmdiab.data
+)
+data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
+data[, z.score := scale(value), by = .(name)]
+already_calculated <- data.table(
+  key.value = character(),
+  score = numeric(), beta = numeric(), times.accessed = numeric()
+)
 
-module<-greedyModuleSelection(graph=net.graph, nodeNr = 51, data = data,
-phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated)
+module <- greedyModuleSelection(
+  graph = net.graph, nodeNr = 51, data = data,
+  phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated
+)
 }
 \references{
 \insertRef{Do2017}{MoDentify}

@@ -18,7 +18,9 @@ Plotting of the explained variances
 data(qmdiab.data)
 data(qmdiab.annos)
 
-pathway.graph<-generatePathwaysNetwork(data = qmdiab.data,
- annotations = qmdiab.annos, level = "Sub.pathway")
- ggExplainedVariance(pathway.graph)
+pathway.graph <- generatePathwaysNetwork(
+  data = qmdiab.data,
+  annotations = qmdiab.annos, level = "Sub.pathway"
+)
+ggExplainedVariance(pathway.graph)
 }

@@ -20,6 +20,6 @@ Plotting of the edges between attribute types
 data(qmdiab.data)
 data(qmdiab.annos)
 
-net.graph<-generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
+net.graph <- generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
 ggEdgesBetweenAttributes(net.graph, "Super.pathway")
 }

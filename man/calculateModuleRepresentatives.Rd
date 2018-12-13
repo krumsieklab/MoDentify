@@ -7,14 +7,14 @@
 calculateModuleRepresentatives(data, representative.method = "average")
 }
 \arguments{
-\item{data}{a \code{\link[data.table]{data.table}} with three columns: name, 
+\item{data}{a \code{\link[data.table]{data.table}} with three columns: name,
 sampleID and z-score.}
 
-\item{representative.method}{the method, that is used for calculation of the 
+\item{representative.method}{the method, that is used for calculation of the
 representatives. Currently implemented:"eigenmetabolite" and "average"}
 }
 \value{
-a \code{\link[data.table]{data.table}} containing the module 
+a \code{\link[data.table]{data.table}} containing the module
 representative for each sample
 }
 \description{

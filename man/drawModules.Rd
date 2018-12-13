@@ -4,7 +4,7 @@
 \alias{drawModules}
 \title{Draw Modules}
 \usage{
-drawModules(graph, summary, title="", 
+drawModules(graph, summary, title="",
 close.cycnets.afterwards=FALSE, save.image=FALSE, modules.to.draw=NULL,
 only.overview.network = TRUE)
 }
@@ -35,14 +35,20 @@ data(qmdiab.data)
 data(qmdiab.annos)
 data(qmdiab.phenos)
 
-data<-qmdiab.data[, 1:75]
-annotations<-qmdiab.annos[1:75]
+data <- qmdiab.data[, 1:75]
+annotations <- qmdiab.annos[1:75]
 
-net_graph<-generateNetwork(data=data, annotations=annotations)
-mods<-identifyModules(graph=net_graph, data=data, annotations = annotations, 
-phenotype = qmdiab.phenos$T2D)
-\donttest{drawModules(graph=net_graph, summary=mods, title="modules", 
-save.image=FALSE)}
+net_graph <- generateNetwork(data = data, annotations = annotations)
+mods <- identifyModules(
+  graph = net_graph, data = data, annotations = annotations,
+  phenotype = qmdiab.phenos$T2D
+)
+\donttest{
+drawModules(
+  graph = net_graph, summary = mods, title = "modules",
+  save.image = FALSE
+)
+}
 
 }
 \references{

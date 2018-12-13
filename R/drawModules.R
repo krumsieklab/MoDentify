@@ -18,7 +18,7 @@
 #' @import igraph
 #' @importFrom grDevices rainbow
 #' @export drawModules
-#' @usage drawModules(graph, summary, title="", 
+#' @usage drawModules(graph, summary, title="",
 #' close.cycnets.afterwards=FALSE, save.image=FALSE, modules.to.draw=NULL,
 #' only.overview.network = TRUE)
 #' @examples
@@ -26,15 +26,21 @@
 #' data(qmdiab.annos)
 #' data(qmdiab.phenos)
 #' 
-#' data<-qmdiab.data[, 1:75]
-#' annotations<-qmdiab.annos[1:75]
+#' data <- qmdiab.data[, 1:75]
+#' annotations <- qmdiab.annos[1:75]
 #' 
-#' net_graph<-generateNetwork(data=data, annotations=annotations)
-#' mods<-identifyModules(graph=net_graph, data=data, annotations = annotations, 
-#' phenotype = qmdiab.phenos$T2D)
-#' \donttest{drawModules(graph=net_graph, summary=mods, title="modules", 
-#' save.image=FALSE)}
-#'
+#' net_graph <- generateNetwork(data = data, annotations = annotations)
+#' mods <- identifyModules(
+#'   graph = net_graph, data = data, annotations = annotations,
+#'   phenotype = qmdiab.phenos$T2D
+#' )
+#' \donttest{
+#' drawModules(
+#'   graph = net_graph, summary = mods, title = "modules",
+#'   save.image = FALSE
+#' )
+#' }
+#' 
 #' @references
 #' \insertRef{Shannon2003}{MoDentify}
 #' @references
@@ -42,44 +48,46 @@
 #' @references
 #' \insertRef{RCy3}{MoDentify}
 
-drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
-                       save.image=FALSE, modules.to.draw=NULL, only.overview.network=TRUE){
-    
-
-  
+drawModules <- function(graph, summary, title = "", close.cycnets.afterwards = FALSE,
+                        save.image = FALSE, modules.to.draw = NULL, only.overview.network = TRUE) {
   message("Cytoscape output could take a few minutes...")
 
   nodes <- summary$nodes
   modules <- summary$modules
 
-  nodes<-nodes[, .(moduleID, nodeID, name, label, order.added, node.pval=seed.score,
-                       after.adding.pval=exp(-score.after.adding))]
-  nodes[, is.significant:=node.pval < (0.05/vcount(graph))]
-  nodes[is.na(moduleID), moduleID:=0]
-  if(is.null(modules.to.draw)){
-    modules.to.draw<-modules$moduleID
+  nodes <- nodes[, .(moduleID, nodeID, name, label, order.added,
+    node.pval = seed.score,
+    after.adding.pval = exp(-score.after.adding)
+  )]
+  nodes[, is.significant := node.pval < (0.05 / vcount(graph))]
+  nodes[is.na(moduleID), moduleID := 0]
+  if (is.null(modules.to.draw)) {
+    modules.to.draw <- modules$moduleID
   }
 
-  colors<-rainbow(length(modules.to.draw))
-  names(colors)<-modules.to.draw
-  
-  #supressWarnings because of Skipping names on vector!
-  suppressWarnings(drawNetworkWithModules(graph = graph, title = title, 
-                                          nodes = nodes , colors = colors,
-                                          save.image=save.image,
-                                          close.cycnets.afterwards = close.cycnets.afterwards))
+  colors <- rainbow(length(modules.to.draw))
+  names(colors) <- modules.to.draw
 
-  if (!only.overview.network | save.image){
-    #supressWarnings because of Skipping names on vector
-    l<-suppressWarnings(lapply(modules.to.draw, drawModule, graph=graph, title=title, 
-                               nodes=nodes[!is.na(moduleID)], colors=colors, 
-                               save.image=save.image, 
-                               close.cycnets.afterwards = close.cycnets.afterwards))
-    }
+  # supressWarnings because of Skipping names on vector!
+  suppressWarnings(drawNetworkWithModules(
+    graph = graph, title = title,
+    nodes = nodes, colors = colors,
+    save.image = save.image,
+    close.cycnets.afterwards = close.cycnets.afterwards
+  ))
+
+  if (!only.overview.network | save.image) {
+    # supressWarnings because of Skipping names on vector
+    l <- suppressWarnings(lapply(modules.to.draw, drawModule,
+      graph = graph, title = title,
+      nodes = nodes[!is.na(moduleID)], colors = colors,
+      save.image = save.image,
+      close.cycnets.afterwards = close.cycnets.afterwards
+    ))
+  }
 
 
   # if(close.cycnets.afterwards){
   #   deleteAllWindows(cy)
   # }
-
 }

@@ -7,12 +7,12 @@
 aggregatedMean(data, group)
 }
 \arguments{
-\item{data}{a \code{\link[data.table]{data.table}} containing the data, where the columns correspond to the variables and
-the rows to the samples}
+\item{data}{a \code{\link[data.table]{data.table}} containing the data, where
+the columns correspond to the variables and the rows to the samples}
 
-\item{group}{A list containing the grouping corresponding to the variables. If this is \code{NULL} all
-variables will be treated as they were in the same group and only one representative will
-be calculated}
+\item{group}{A list containing the grouping corresponding to the variables.
+If this is \code{NULL} all variables will be treated as they were in the same
+group and only one representative will be calculated}
 }
 \value{
 matrix of aggregated mean values for each group x sample
@@ -23,7 +23,9 @@ Aggregated Mean Scores
 \examples{
 data(qmdiab.data)
 data(qmdiab.annos)
-scaled.data<-scale(qmdiab.data)
-aggregated.z.scores<-aggregatedMean(data=scaled.data,
-group = qmdiab.annos$Sub.pathway)
+scaled.data <- scale(qmdiab.data)
+aggregated.z.scores <- aggregatedMean(
+  data = scaled.data,
+  group = qmdiab.annos$Sub.pathway
+)
 }

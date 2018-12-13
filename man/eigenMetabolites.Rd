@@ -7,14 +7,14 @@
 eigenMetabolites(data, group = NULL, method = "PCA")
 }
 \arguments{
-\item{data}{a \code{\link[data.table]{data.table}} containing the data, where 
+\item{data}{a \code{\link[data.table]{data.table}} containing the data, where
 columns correspond to variables and rows to observations.}
 
-\item{group}{A list containing the grouping (e.g. pathways) of the variables. 
-If this is \code{NULL} all variables will be treated as they were in the same 
+\item{group}{A list containing the grouping (e.g. pathways) of the variables.
+If this is \code{NULL} all variables will be treated as they were in the same
 group and only one representation will be calculated}
 
-\item{method}{the method for calculating eigenmetabolites. Currently PCA and 
+\item{method}{the method for calculating eigenmetabolites. Currently PCA and
 SVD are supported.}
 }
 \value{
@@ -28,8 +28,10 @@ Calculate eigenmetabolites as representatives
 data(qmdiab.data)
 data(qmdiab.annos)
 
-eigen.data<-eigenMetabolites(data=qmdiab.data,
- group = qmdiab.annos$Sub.pathway, method = "PCA")
+eigen.data <- eigenMetabolites(
+  data = qmdiab.data,
+  group = qmdiab.annos$Sub.pathway, method = "PCA"
+)
 }
 \references{
 \insertRef{Langfelder2007}{MoDentify}

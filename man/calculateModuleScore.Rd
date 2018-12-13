@@ -35,17 +35,21 @@ data(qmdiab.data)
 data(qmdiab.annos)
 data(qmdiab.phenos)
 
-net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
+net.graph <- generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
 
-data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
-qmdiab.data)
-data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
-data[, z.score:=scale(value), by=.(name)]
+data <- data.table(
+  sampleID = paste0("sample", 1:dim(qmdiab.data)[1]),
+  qmdiab.data
+)
+data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
+data[, z.score := scale(value), by = .(name)]
 
-module.nodes<-c(3, neighbors(net.graph, 3))
+module.nodes <- c(3, neighbors(net.graph, 3))
 
-module.score<-calculateModuleScore(graph = net.graph, nodes = module.nodes,
-data = data, phenotype = qmdiab.phenos$T2D)
+module.score <- calculateModuleScore(
+  graph = net.graph, nodes = module.nodes,
+  data = data, phenotype = qmdiab.phenos$T2D
+)
 }
 \references{
 \insertRef{Do2017}{MoDentify}

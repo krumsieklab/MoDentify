@@ -21,8 +21,8 @@ Get Neighbors for Module
 data(qmdiab.data)
 data(qmdiab.annos)
 
-net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
-module<-c(3,4)
-neighbors<-getNeighborsForModule(graph = net.graph, module = module)
+net.graph <- generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
+module <- c(3, 4)
+neighbors <- getNeighborsForModule(graph = net.graph, module = module)
 }
 \keyword{internal}

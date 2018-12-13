@@ -18,7 +18,7 @@ drawModule(moduleNR, graph, title = "", nodes, colors,
 \item{nodes}{\code{\link[data.table]{data.table}} with data containing the nodes.
 It is contained in the output list of \code{\link{identifyModules}}.}
 
-\item{colors}{a colour palette as returned from \code{\link[grDevices]{rainbow}} 
+\item{colors}{a colour palette as returned from \code{\link[grDevices]{rainbow}}
 for colouring the different modules.}
 
 \item{save.image}{TRUE, if the modules should be saved as png files.}

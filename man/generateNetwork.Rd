@@ -35,8 +35,10 @@ Network inference with Gaussian graphical models (GGMs) or Pearson correlation
 data(qmdiab.data)
 data(qmdiab.annos)
 
-net.graph<-generateNetwork(data = qmdiab.data, annotations = qmdiab.annos, 
-alpha=0.05, correction.method = "bonferroni")
+net.graph <- generateNetwork(
+  data = qmdiab.data, annotations = qmdiab.annos,
+  alpha = 0.05, correction.method = "bonferroni"
+)
 }
 \references{
 \insertRef{Krumsiek2011}{MoDentify}

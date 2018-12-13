@@ -12,7 +12,7 @@
 #' @param representative.method the method, that is used for the calculation of the eigenmetabolites.
 #' Currently implemented: "eigenmetabolite" and "average"
 #'
-#'@import data.table
+#' @import data.table
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
@@ -27,33 +27,37 @@
 #' data(qmdiab.annos)
 #' data(qmdiab.phenos)
 #' 
-#' net.graph<-generateNetwork(data=qmdiab.data, annotations=qmdiab.annos)
-#'
-#' data<-data.table(sampleID= paste0("sample", 1:dim(qmdiab.data)[1]),
-#' qmdiab.data)
-#' data<-melt(data=data, id.vars = "sampleID", variable.name = "name")
-#' data[, z.score:=scale(value), by=.(name)]
-#'
-#' module.nodes<-c(3, neighbors(net.graph, 3))
-#'
-#' module.score<-calculateModuleScore(graph = net.graph, nodes = module.nodes,
-#' data = data, phenotype = qmdiab.phenos$T2D)
-calculateModuleScore<-function(graph, nodes, data, phenotype, covars=NULL,
-                                     representative.method="average"){
-  #Subsetting the variables for the ones contained in the module
-  data<-data[name %in% vertex_attr(graph, "name", nodes)]
+#' net.graph <- generateNetwork(data = qmdiab.data, annotations = qmdiab.annos)
+#' 
+#' data <- data.table(
+#'   sampleID = paste0("sample", 1:dim(qmdiab.data)[1]),
+#'   qmdiab.data
+#' )
+#' data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
+#' data[, z.score := scale(value), by = .(name)]
+#' 
+#' module.nodes <- c(3, neighbors(net.graph, 3))
+#' 
+#' module.score <- calculateModuleScore(
+#'   graph = net.graph, nodes = module.nodes,
+#'   data = data, phenotype = qmdiab.phenos$T2D
+#' )
+calculateModuleScore <- function(graph, nodes, data, phenotype, covars = NULL,
+                                 representative.method = "average") {
+  # Subsetting the variables for the ones contained in the module
+  data <- data[name %in% vertex_attr(graph, "name", nodes)]
 
-  #Calculate the pathway representative
-  repdata<-calculateModuleRepresentatives(data, representative.method)
+  # Calculate the pathway representative
+  repdata <- calculateModuleRepresentatives(data, representative.method)
 
-  if(is.null(covars)){
-    DT<-data.table(y= repdata[,representative], phenotype=phenotype)
-  }else{
-    DT<-data.table(y= repdata[,representative], phenotype=phenotype, covars)
+  if (is.null(covars)) {
+    DT <- data.table(y = repdata[, representative], phenotype = phenotype)
+  } else {
+    DT <- data.table(y = repdata[, representative], phenotype = phenotype, covars)
   }
-  lm.Module<-lm(formula= y ~ ., data=DT)
+  lm.Module <- lm(formula = y ~ ., data = DT)
 
-  sum<-summary(lm.Module)
-  p_value<-sum$coefficients[2,"Pr(>|t|)"]
-  return(list(score=p_value, beta=lm.Module$coefficients[2]))
+  sum <- summary(lm.Module)
+  p_value <- sum$coefficients[2, "Pr(>|t|)"]
+  return(list(score = p_value, beta = lm.Module$coefficients[2]))
 }
