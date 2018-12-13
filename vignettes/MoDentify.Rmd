@@ -64,7 +64,7 @@ Given the scoring function and a seed node, a greedy search procedure is perform
 
 ```{r echo=FALSE, out.width="100%"}
 library(knitr)
-knitr::include_graphics("png_files/MoDentify_scheme.png")
+knitr::include_graphics(system.file("figures", "MoDentify_scheme.png", package = "MoDentify"))
 ```
   
 
@@ -235,7 +235,7 @@ drawModules(graph = met.graph,
 
 ```{r echo=FALSE, out.width="100%"}
 library(knitr)
-knitr::include_graphics("png_files/MoDentify_modules.png")
+knitr::include_graphics(system.file("figures", "MoDentify_modules.png", package = "MoDentify"))
 ```
 
 \newpage
@@ -323,7 +323,7 @@ drawModules(graph = pathway.graph$network,
 
 ```{r echo=FALSE, out.width="100%"}
 library(knitr)
-knitr::include_graphics("png_files/MoDentify_pathway_modules.png")
+knitr::include_graphics(system.file("figures", "MoDentify_pathway_modules.png", package = "MoDentify"))
 ```
 
 \newpage
