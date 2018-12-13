@@ -27,9 +27,7 @@
 drawModule<-function(moduleNR, graph, title="", nodes, colors, save.image=TRUE,
                      close.cycnets.afterwards = FALSE){
     
-    if (!requireNamespace("RCy3", quietly=TRUE)){
-        stop("drawModule() requires 'RCy3' package")
-    }
+    
     
    
   nodes<-nodes[moduleID==moduleNR]

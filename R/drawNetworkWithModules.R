@@ -17,7 +17,8 @@
 #' @import data.table
 #' @import igraph
 #' @export
-#' @usage drawNetworkWithModules(graph, title, nodes, colors, save.image=TRUE)
+#' @usage drawNetworkWithModules(graph, title, nodes, colors, save.image=TRUE,
+#' close.cycnets.afterwards = FALSE)
 #'@references
 #' \insertRef{Shannon2003}{MoDentify}
 #' @references
@@ -28,9 +29,7 @@
 drawNetworkWithModules<-function(graph, title, nodes, colors, save.image=TRUE,
                                  close.cycnets.afterwards = FALSE){
     
-    if (!requireNamespace("RCy3", quietly=TRUE)){
-        stop("drawNetworkWithModules() requires 'RCy3' package")
-    }
+    
     
   
   nodes<-nodes

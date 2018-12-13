@@ -45,9 +45,7 @@
 drawModules<-function(graph, summary, title="", close.cycnets.afterwards=FALSE,
                        save.image=FALSE, modules.to.draw=NULL, only.overview.network=TRUE){
     
-    if (!requireNamespace("RCy3", quietly=TRUE)){
-        stop("drawModules() requires 'RCy3' package")
-    }
+
   
   message("Cytoscape output could take a few minutes...")
 

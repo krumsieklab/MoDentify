@@ -17,5 +17,6 @@
 #' neighbors<-getNeighborsForModule(graph = net.graph, module = module)
 getNeighborsForModule<-function(graph, module){
   neighbors<-unique(unname(unlist(lapply(module, neighbors, graph=graph))))
+  
   return(neighbors[!neighbors %in% module])
 }
