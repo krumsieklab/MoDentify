@@ -149,7 +149,7 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
       already_calculated, better.than.components,
       representative.method = representative.method
     )
-    already_calculated <- module$already_calculated
+    already_calculated <- already_calculated
     seed.scores <- c(seed.scores, module$seed.score)
     seed.betas <- c(seed.betas, unname(module$seed.beta))
 
@@ -171,6 +171,8 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
       ))
     }
   }
+  
+  
   seed_scores_DT <- data.table(nodeID = V(graph), seed.score = seed.scores, seed.beta = seed.betas)
 
   if (dim(modules)[1] > 0) {
