@@ -22,6 +22,9 @@
 #' Currently implemented: "eigenmetabolite" and "average"
 #' @param correction.method the method that used for multiple testing correction ("bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", "none").
 #' Default is set to bonferroni. See \code{\link[stats]{p.adjust}}.
+#' @param BPPARAM An instance of the
+#' \code{\link[BiocParallel]{BiocParallelParam-class}} that determines how to
+#' parallelisation of the functions will be evaluated.
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
@@ -29,10 +32,12 @@
 #' \insertRef{Chuang2007}{MoDentify}
 #' @import data.table
 #' @import igraph
+#' @import BiocParallel
 #' @export identifyModules
 #' @usage identifyModules(graph, data, phenotype, covars = NULL, annotations,
 #' merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
-#' level=NULL, representative.method="average", correction.method="bonferroni")
+#' level=NULL, representative.method="average", correction.method="bonferroni",
+#' BPPARAM = SerialParam(progressbar = TRUE))
 #' @return a list consisting of four elements.
 #' @examples
 #' data(qmdiab.data)
@@ -62,7 +67,8 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
                             alpha = 0.05,
                             level = NULL,
                             representative.method = "average",
-                            correction.method = "bonferroni") {
+                            correction.method = "bonferroni",
+                            BPPARAM = SerialParam(progressbar = TRUE)) {
 
 
   # for incomplete data only average approach possible
@@ -134,22 +140,20 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
     moduleID = integer(), nodeID = integer(), name = character(), label = character(),
     order.added = integer(), score.after.adding = numeric()
   )
-  already_calculated <- data.table(
-    key.value = character(), score = numeric(), beta = numeric(),
-    times.accessed = numeric()
-  )
   seed.scores <- c()
   seed.betas <- c()
 
-  message("Proceeding node... ")
+  message("Identifiying functional modules:")
+  l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data, 
+              phenotype=phenotype, covars=covars,  alpha=alpha, 
+              better.than.components=better.than.components, 
+              representative.method = representative.method,
+              BPPARAM = BPPARAM)
 
-  for (v in V(graph)) {
-    message(cat(paste0(v, " ")))
-    module <- greedyModuleSelection(graph, v, data, phenotype, covars, alpha,
-      already_calculated, better.than.components,
-      representative.method = representative.method
-    )
-    already_calculated <- already_calculated
+  for (module in l) {
+    #message(cat(paste0(v, " ")))
+    #module <- greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
+    #  better.than.components, representative.method = representative.method)
     seed.scores <- c(seed.scores, module$seed.score)
     seed.betas <- c(seed.betas, unname(module$seed.beta))
 
@@ -210,5 +214,5 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
   } else {
     (message("No modules found."))
   }
-  return(list(modules = modules, nodes = nodes, seeds = seed_scores_DT, cache = already_calculated))
+  return(list(modules = modules, nodes = nodes, seeds = seed_scores_DT))
 }

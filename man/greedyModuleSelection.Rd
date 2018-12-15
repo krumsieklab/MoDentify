@@ -4,15 +4,15 @@
 \alias{greedyModuleSelection}
 \title{Greedy Module Selection for a Seed}
 \usage{
-greedyModuleSelection(graph, nodeNr, data, phenotype, covars = NULL,
-  alpha = 0.05, already_calculated, better.than.components = TRUE,
+greedyModuleSelection(nodeNr, graph, data, phenotype, covars = NULL,
+  alpha = 0.05, better.than.components = TRUE,
   representative.method = "average")
 }
 \arguments{
+\item{nodeNr}{the number of the node, which should be used as a seed.}
+
 \item{graph}{an igraph object, which can be generated with \code{\link{generateNetwork}}.
 The ID of the nodes must correspond to the name of the variables.}
-
-\item{nodeNr}{the number of the node, which should be used as a seed.}
 
 \item{data}{a \code{\link[data.table]{data.table}} with three columns: name,
 sampleID and z-score.}
@@ -25,14 +25,14 @@ The rows for the observations must be in the same order as in the phenotype vect
 
 \item{alpha}{significance level (type 1 error) for accepting the modules.}
 
-\item{already_calculated}{a \code{\link[data.table]{data.table}} containing the results for
-already calculated modules}
-
 \item{better.than.components}{if \code{TRUE}, modules will only be enlarged and accepted,
 if they are better than all of their components.}
 
 \item{representative.method}{the method used for the calculation of the module representatives.
 Currently implemented: "eigenmetabolite" and "average"}
+
+\item{already_calculated}{a \code{\link[data.table]{data.table}} containing the results for
+already calculated modules}
 }
 \value{
 a list containing the members of the module, the module-score, its regression coefficient

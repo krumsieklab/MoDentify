@@ -6,7 +6,8 @@
 \usage{
 identifyModules(graph, data, phenotype, covars = NULL, annotations,
 merge.overlapping=FALSE, better.than.components= TRUE, alpha=0.05,
-level=NULL, representative.method="average", correction.method="bonferroni")
+level=NULL, representative.method="average", correction.method="bonferroni",
+BPPARAM = SerialParam(progressbar = TRUE))
 }
 \arguments{
 \item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated with \code{\link{generateNetwork}}.
@@ -39,6 +40,10 @@ Currently implemented: "eigenmetabolite" and "average"}
 
 \item{correction.method}{the method that used for multiple testing correction ("bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", "none").
 Default is set to bonferroni. See \code{\link[stats]{p.adjust}}.}
+
+\item{BPPARAM}{An instance of the
+\code{\link[BiocParallel]{BiocParallelParam-class}} that determines how to
+parallelisation of the functions will be evaluated.}
 }
 \value{
 a list consisting of four elements.

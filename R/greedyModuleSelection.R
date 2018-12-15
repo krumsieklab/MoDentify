@@ -47,13 +47,14 @@
 #'   graph = net.graph, nodeNr = 51, data = data,
 #'   phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated
 #' )
-greedyModuleSelection <- function(graph, nodeNr, data, phenotype, covars = NULL,
-                                  alpha = 0.05, already_calculated,
-                                  better.than.components = TRUE, representative.method = "average") {
+greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
+                                  alpha = 0.05, better.than.components = TRUE, 
+                                  representative.method = "average") {
   module <- c(nodeNr)
   ## Calculate score for seed
-
-  seed <- calculateModuleScore(graph, nodeNr, data, phenotype, covars, representative.method = representative.method)
+  
+  seed <- calculateModuleScoreM(graph, nodeNr, data, phenotype, covars, 
+                                representative.method = representative.method)
   seed.score <- seed$score
   high.score <- seed.score
   beta <- 0
@@ -70,19 +71,14 @@ greedyModuleSelection <- function(graph, nodeNr, data, phenotype, covars = NULL,
       new_module <- unique(c(old_module, neighbor))
       asString <- paste(new_module[order(new_module)], collapse = " ")
 
-      neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
+      neighbor.result <- calculateModuleScoreM(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
       neighbor.score <- neighbor.result$score
-      ## Lookup, if the module was already calculated earlier
-      if (asString %in% already_calculated$key) {
-        current.score <- already_calculated[key.value == asString, score]
-        current.beta <- already_calculated[key.value == asString, beta]
-        already_calculated[key.value == asString, times.accessed := times.accessed + 1]
-      } else {
-        current <- calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method = representative.method)
+      
+        current <- calculateModuleScoreM(graph, new_module, data, phenotype, covars, representative.method = representative.method)
         current.score <- current$score
         current.beta <- current$beta
-        already_calculated <- rbind(already_calculated, data.table(key.value = asString, score = current.score, beta = current$beta, times.accessed = 0))
-      }
+        
+      
 
       if (better.than.components) {
         if (current.score < high.score & current.score < highest.not.signifikant) {
@@ -106,5 +102,7 @@ greedyModuleSelection <- function(graph, nodeNr, data, phenotype, covars = NULL,
     }
     neighbor.index <- neighbor.index + 1
   }
-  return(list(module = module, module.score = high.score, beta = beta, seed.score = seed.score, seed.beta = seed$beta, already_calculated = already_calculated, score.sequence = score.sequence))
+  return(list(module = module, module.score = high.score, beta = beta, 
+              seed.score = seed.score, seed.beta = seed$beta, 
+              score.sequence = score.sequence))
 }
