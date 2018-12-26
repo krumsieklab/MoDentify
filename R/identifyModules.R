@@ -151,9 +151,6 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
               BPPARAM = BPPARAM)
 
   for (module in l) {
-    #message(cat(paste0(v, " ")))
-    #module <- greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
-    #  better.than.components, representative.method = representative.method)
     seed.scores <- c(seed.scores, module$seed.score)
     seed.betas <- c(seed.betas, unname(module$seed.beta))
 
