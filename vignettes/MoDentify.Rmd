@@ -77,7 +77,8 @@ For visualization of the identified modules in the underlying network, the follo
 
 1. Bioconductor: *RCy3* 
 2. *Cytoscape* (>= 3.7.0) available at https://cytoscape.org/download.html
-3. The *CyREST* (>= 3.8.0), which automatically installed with Cytoscape >= 3.3.0
+3. The *CyREST* (>= 3.8.0) plugin for *Cytoscape*, which is automatically 
+installed with Cytoscape >= 3.3.0
 
 
 
