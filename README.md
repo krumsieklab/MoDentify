@@ -12,9 +12,12 @@ https://doi.org/10.1093/bioinformatics/bty650
 
 **Installation:**
 
-`library(devtools)`
-
-`install_github("David-J-R/MoDentify", build_vignettes=T)`
+```r
+# Installation of the development version from GitHub
+if (!requireNamespace("devtools", quietly = TRUE))
+    install.packages("devtools")
+devtools::install_github("David-J-R/MoDentify", build_vignettes=TRUE)
+```
 
 (takes about a minute)
 

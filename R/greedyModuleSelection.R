@@ -11,8 +11,6 @@
 #' @param covars a \code{\link[data.table]{data.table}} containing the covariates to correct for.
 #' The rows for the observations must be in the same order as in the phenotype vector.
 #' @param alpha significance level (type 1 error) for accepting the modules.
-#' @param already_calculated a \code{\link[data.table]{data.table}} containing the results for
-#' already calculated modules
 #' @param better.than.components if \code{TRUE}, modules will only be enlarged and accepted,
 #' if they are better than all of their components.
 #' @param representative.method the method used for the calculation of the module representatives.
@@ -38,14 +36,10 @@
 #' )
 #' data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
 #' data[, z.score := scale(value), by = .(name)]
-#' already_calculated <- data.table(
-#'   key.value = character(),
-#'   score = numeric(), beta = numeric(), times.accessed = numeric()
-#' )
 #' 
 #' module <- greedyModuleSelection(
 #'   graph = net.graph, nodeNr = 51, data = data,
-#'   phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated
+#'   phenotype = qmdiab.phenos$T2D
 #' )
 greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
                                   alpha = 0.05, better.than.components = TRUE, 

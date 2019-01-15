@@ -30,9 +30,6 @@ if they are better than all of their components.}
 
 \item{representative.method}{the method used for the calculation of the module representatives.
 Currently implemented: "eigenmetabolite" and "average"}
-
-\item{already_calculated}{a \code{\link[data.table]{data.table}} containing the results for
-already calculated modules}
 }
 \value{
 a list containing the members of the module, the module-score, its regression coefficient
@@ -54,14 +51,10 @@ data <- data.table(
 )
 data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
 data[, z.score := scale(value), by = .(name)]
-already_calculated <- data.table(
-  key.value = character(),
-  score = numeric(), beta = numeric(), times.accessed = numeric()
-)
 
 module <- greedyModuleSelection(
   graph = net.graph, nodeNr = 51, data = data,
-  phenotype = qmdiab.phenos$T2D, already_calculated = already_calculated
+  phenotype = qmdiab.phenos$T2D
 )
 }
 \references{

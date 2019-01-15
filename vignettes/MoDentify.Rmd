@@ -19,7 +19,7 @@ author:
       affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
 date: '`r Sys.Date()`'
 output: BiocStyle::html_document
-bibliography: ../inst/REFERENCES.bib
+bibliography: "`r system.file('REFERENCES.bib', package = 'MoDentify')`"
 package: MoDentify
 abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
 vignette: >
