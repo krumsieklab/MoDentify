@@ -18,12 +18,14 @@ author:
     - name: Jan Krumsiek
       affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
 date: '`r Sys.Date()`'
-output: BiocStyle::html_document
+output: 
+    BiocStyle::html_document:
+            toc_float: true
 bibliography: "`r system.file('REFERENCES.bib', package = 'MoDentify')`"
 package: MoDentify
 abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
 vignette: >
-  %\VignetteIndexEntry{Introduction to the MoDentify R package}
+  %\VignetteIndexEntry{MoDentify tutorial}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -62,8 +64,7 @@ $R_M$, the module representative can either be defined by the *eigenmetabolite* 
 Given the scoring function and a seed node, a greedy search procedure is performed to identify an *optimal module*. The algorithm starts with a *seed node* as *candidate module*. The score of the *candidate module* that contains only the seed node is obtained from the univariate differential analysis. In each iteration, the neighborhood of the *candidate module* is identified. Each neighbor (*candidate*) is added to the *candidate module* and the score of the extended *candidate module* is calculated with the scoring function as defined in section [Module representation and scoring](#module). The *candidate* node leading to the highest score improvement is added to the *candidate module* if the module score is higher than the score of each of its single components. The algorithm terminates if no further score improvements can be made, and the *optimal module* is returned. In an optional consolidation step, overlapping *optimal modules*, e.g. from different *seed nodes*, can be combined into one module, which is re-scored by the scoring function. To assess the significance of the modules, a conservative multiple testing correction procedure was used by correcting for the total number of nodes in the underlying network.  
 
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
+```{r echo=FALSE}
 knitr::include_graphics(system.file("figures", "MoDentify_scheme.png", package = "MoDentify"))
 ```
   
@@ -167,7 +168,6 @@ net.DT <- fread(input = system.file("extdata", "qmdiab.network.txt",
 annotations <- fread(input = system.file("extdata", "qmdiab.annotations.txt",
                                          package = "MoDentify"), header = TRUE)
 
-library(igraph)
 met.graph <- graph_from_data_frame(d = net.DT,
                                    directed = FALSE,
                                    vertices = annotations)
@@ -234,8 +234,7 @@ drawModules(graph = met.graph,
 - `modules.to.draw` contains the module IDs to be drawn. If this parameter is set to `NULL` all modules will be visualized.
 
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
+```{r echo=FALSE}
 knitr::include_graphics(system.file("figures", "MoDentify_modules.png", package = "MoDentify"))
 ```
 
@@ -322,8 +321,7 @@ drawModules(graph = pathway.graph$network,
 - `save.image` is a logical parameter specifying whether png files of the modules should be saved.
 - `modules.to.draw` contains the module IDs to be drawn. If this parameter is set to `NULL` all modules will be visualized.
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
+```{r echo=FALSE}
 knitr::include_graphics(system.file("figures", "MoDentify_pathway_modules.png", package = "MoDentify"))
 ```
 
@@ -339,7 +337,14 @@ Bioinformatics, 2018
 https://doi.org/10.1093/bioinformatics/bty650
 
 
+# Session info {.unnumbered}
 
+Here is the output of `sessionInfo()` on the system on which this document 
+was compiled running pandoc `r rmarkdown::pandoc_version()`:
 
-\newpage
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
+
+\newpage {.unnumbered}
 # References
