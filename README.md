@@ -5,7 +5,7 @@ R package
 
 **!!! Broken Cytoscape connection: !!!**
 
-We are aware that the connection to Cytoscape does not work anymore in the current version of MoDentify. We are working on this issue and hope to have a fix soon.
+We are aware that the connection to Cytoscape does not work anymore in the current version of MoDentify. We are working on this issue and hope to have a fix soon. - Jan Krumsiek, February 5, 2019.
 
 **Citation:**
 
