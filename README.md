@@ -3,6 +3,10 @@ Phenotype-driven module identification based on multilevel metabolomics networks
 
 R package
 
+**!!! Broken Cytoscape connection: !!!**
+
+We are aware that the connection to Cytoscape does not work anymore in the current version of MoDentify. We are working on this issue and hope to have a fix soon.
+
 **Citation:**
 
 Do KD, Rasp D, Kastenmueller G, Suhre K, Krumsiek J.  
