@@ -2,7 +2,6 @@
 
 export(aggregatedMean)
 export(calculateModuleScore)
-export(calculateModuleScoreM)
 export(drawModules)
 export(drawNetworkWithModules)
 export(eigenMetabolites)
