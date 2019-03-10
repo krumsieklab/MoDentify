@@ -63,10 +63,3 @@ calculateModuleScore <- function(graph, nodes, data, phenotype, covars = NULL,
 }
 
 
-#' Calculate Module-score Memoized
-#'
-#' @keywords internal
-#'
-#' @importFrom R.cache addMemoization
-#'
-calculateModuleScoreM <- addMemoization(calculateModuleScore)

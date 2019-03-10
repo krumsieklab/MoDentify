@@ -5,7 +5,7 @@
 \title{Greedy Module Selection for a Seed}
 \usage{
 greedyModuleSelection(nodeNr, graph, data, phenotype, covars = NULL,
-  alpha = 0.05, better.than.components = TRUE,
+  alpha = 0.05, moduleCache = NULL, better.than.components = TRUE,
   representative.method = "average")
 }
 \arguments{

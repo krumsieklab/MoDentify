@@ -42,7 +42,7 @@
 #'   phenotype = qmdiab.phenos$T2D
 #' )
 greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
-                                  alpha = 0.05, better.than.components = TRUE, 
+                                  alpha = 0.05, moduleCache = NULL, better.than.components = TRUE, 
                                   representative.method = "average") {
   module <- c(nodeNr)
   ## Calculate score for seed
@@ -65,12 +65,22 @@ greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
       new_module <- unique(c(old_module, neighbor))
       asString <- paste(new_module[order(new_module)], collapse = " ")
 
-      neighbor.result <- calculateModuleScoreM(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
+      neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
       neighbor.score <- neighbor.result$score
       
-        current <- calculateModuleScoreM(graph, new_module, data, phenotype, covars, representative.method = representative.method)
+      if(!is.null(moduleCache) & asString %in% moduleCache$key){
+          current.score<-moduleCache[key.value == asString, score]
+          current.beta<-moduleCache[key.value == asString, beta]
+          moduleCache[key.value == asString, times.accessed:= times.accessed+1]
+      }else{
+        current <- calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method = representative.method)
         current.score <- current$score
         current.beta <- current$beta
+        moduleCache<-rbind(moduleCache, data.table(key.value = asString, 
+                                                   score = current.score, 
+                                                   beta=current$beta, times.accessed=0))
+        
+      }
         
       
 
@@ -96,7 +106,7 @@ greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
     }
     neighbor.index <- neighbor.index + 1
   }
-  return(list(module = module, module.score = high.score, beta = beta, 
-              seed.score = seed.score, seed.beta = seed$beta, 
-              score.sequence = score.sequence))
+  return(list(module = module, module.score = high.score, beta = beta,  
+              moduleCache = moduleCache,seed.score = seed.score, 
+              seed.beta = seed$beta,  score.sequence = score.sequence))
 }

@@ -140,17 +140,27 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
     moduleID = integer(), nodeID = integer(), name = character(), label = character(),
     order.added = integer(), score.after.adding = numeric()
   )
+  
+  moduleCache<-data.table(key.value=character(), score=numeric(), beta=numeric(),
+                                 times.accessed=numeric())
+  
   seed.scores <- c()
   seed.betas <- c()
 
   message("Identifiying functional modules:")
-  l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data, 
-              phenotype=phenotype, covars=covars,  alpha=alpha, 
-              better.than.components=better.than.components, 
-              representative.method = representative.method,
-              BPPARAM = BPPARAM)
+  # l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data, 
+  #             phenotype=phenotype, covars=covars,  alpha=alpha, 
+  #             better.than.components=better.than.components, 
+  #             representative.method = representative.method,
+  #             BPPARAM = BPPARAM)
 
-  for (module in l) {
+  # for (module in l) {
+  for(v in V(graph)){
+    message(cat(paste0(v, " ")))
+      module<-greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
+                                      moduleCache = moduleCache, better.than.components, 
+                                      representative.method=representative.method)
+    moduleCache<-module$moduleCache
     seed.scores <- c(seed.scores, module$seed.score)
     seed.betas <- c(seed.betas, unname(module$seed.beta))
 
