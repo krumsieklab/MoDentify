@@ -47,7 +47,7 @@ greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
   module <- c(nodeNr)
   ## Calculate score for seed
   
-  seed <- calculateModuleScoreM(graph, nodeNr, data, phenotype, covars, 
+  seed <- calculateModuleScore(graph, nodeNr, data, phenotype, covars, 
                                 representative.method = representative.method)
   seed.score <- seed$score
   high.score <- seed.score
