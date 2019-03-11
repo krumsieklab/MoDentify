@@ -3,13 +3,9 @@ Phenotype-driven module identification based on multilevel metabolomics networks
 
 R package
 
-**!!! Broken Cytoscape connection: !!!**
-
-We are aware that the connection to Cytoscape does not work anymore in the current version of MoDentify. We are working on this issue and hope to have a fix soon.
-
-In the meantime, the connection should work with Bioconductor Version 3.6 or older.
-
-- Jan Krumsiek, February 13, 2019.
+**Version history**
+- 3/11/19 - Updated package to work with RCy3 package for Cytoscape connectivity
+- 1/18/18 - Initial commit
 
 **Citation:**
 
