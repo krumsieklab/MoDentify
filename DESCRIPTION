@@ -1,26 +1,26 @@
 Package: MoDentify
 Title: Phenotype-driven module identification
-Version: 0.0.0.9000
+Version: 0.99.0
+Date: 2019-03-03
 Authors@R: c(
 	person("Kieu Trinh", "Do", email = "kieu.do@helmholtz-muenchen.de", role = "aut"),
-	person("TEST", "TEST", email = "test@helmholtz-muenchen.de", role = "aut"),
-	person("David", "Rasp", email = "david.j.rasp@gmail.com", role = "aut"),
+	person("David", "Rasp", email = "david.j.rasp@gmail.com", role = c("aut", "cre")),
 	person("Gabi", "Kastenmueller", email = "g.kastenmueller@helmholtz-muenchen.de", role = "aut"),
-	person("Jan", "Krumsiek", email = "jan.krumsiek@helmholtz-muenchen.de", role = c("aut", "cre")))
-Description: A package for the identification of functional modules, that are associated with a given phenotype, in networks
-biocViews: Metabolomics, Network, NetworkInference, GraphAndNetwork
-Author: Kieu Trinh Do <kieu.do@helmholtz-muenchen.de> [aut],
-	David Rasp <david.j.rasp@gmail.com> [aut],
-	Gabi Kastenmueller <g.kastenmueller@helmholtz-muenchen.de> [aut],
-	Karsten Suhre <karsten@suhre.fr> [aut],
-	Jan Krumsiek <jan.krumsiek@helmholtz-muenchen.de> [aut, cre]
-Depends: R (>= 3.3.1), data.table (>= 1.10.4), igraph (>= 1.1.2)
-Imports: GeneNet (>= 1.2.13), RCytoscape (>= 1.24.1), Hmisc (>= 4.0-3), ggplot2 (>= 2.2.1), metabolomics (>= 0.1.4), stats, grDevices, Rdpack
-Suggests: R.rsp, knitr, rmarkdown
-biocViews: Bioinformatics, Metabolomics, Software
+	person("Karsten", "Suhre", email = "karsten@suhre.fr", role = "aut"),
+	person("Jan", "Krumsiek", email = "jan.krumsiek@helmholtz-muenchen.de", role = "aut"))
+Description: MoDentify is a package for the identification of functional modules, 
+            that are associated with a given phenotype, in networks. It was 
+            developed for the use with metabolic networks, but could be applied
+            to other biological networks as well.
+Depends: R (>= 3.5.0), data.table (>= 1.10.4), igraph (>= 1.1.2)
+Imports: GeneNet (>= 1.2.13), Hmisc (>= 4.0.3), ggplot2 (>= 2.2.1), RCy3,
+         BiocParallel, stats, grDevices, Rdpack, utils
+Suggests: knitr, rmarkdown, BiocStyle, testthat, readxl
+biocViews: Metabolomics, Software, Network, NetworkInference, GraphAndNetwork
 License: Artistic-2.0
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.1
 RdMacros: Rdpack
-VignetteBuilder: R.rsp
+VignetteBuilder: knitr
+URL: https://github.com/David-J-R/MoDentify
+BugReports: https://github.com/David-J-R/MoDentify/issues

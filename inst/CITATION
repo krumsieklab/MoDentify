@@ -1,0 +1,15 @@
+citHeader("To cite MoDentify in publications use:")
+
+
+bibentry(bibtype = "Article",
+         title = "{MoDentify}: a tool for phenotype-driven module identification in multilevel metabolomics networks",
+         author = c(person("Kieu Trinh", "Do"),
+                    person("David Johann-Nepomuk Peter", "Rasp"),
+                    person("Gabi", "Kastenmueller"),
+                    person("Karsten", "Suhre"),
+                    person("Jan", "Krumsiek")),
+         year = 2018,
+         url = "https://www.biorxiv.org/content/early/2018/03/04/275057",
+         doi = "10.1101/275057",
+         journal = "bioRxiv",
+         pages = "275057")

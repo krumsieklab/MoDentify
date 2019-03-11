@@ -6,21 +6,32 @@
 \alias{MoDentify-package}
 \title{Phenotype-driven module identification}
 \description{
-Phenotype-driven module identification
+MoDentify is a package for the identification of functional modules, 
+            that are associated with a given phenotype, in networks. It was 
+            developed for the use with metabolic networks, but could be applied
+            to other biological networks as well.
 }
 \references{
-\insertRef{Do2017}{MoDentify} \cr
-\insertRef{Do2018}{MoDentify} \cr
+\insertRef{Do2017}{MoDentify}
+
+\insertRef{Do2018}{MoDentify}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/David-J-R/MoDentify}
+  \item Report bugs at \url{https://github.com/David-J-R/MoDentify/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
+\strong{Maintainer}: David Rasp \email{david.j.rasp@gmail.com}
 
 Authors:
 \itemize{
   \item Kieu Trinh Do \email{kieu.do@helmholtz-muenchen.de}
-  \item David Rasp \email{david.j.rasp@gmail.com}, 
   \item Gabi Kastenmueller \email{g.kastenmueller@helmholtz-muenchen.de}
-  \item Karsten Suhre \email{karsten@suhre.de}
+  \item Karsten Suhre \email{karsten@suhre.fr}
   \item Jan Krumsiek \email{jan.krumsiek@helmholtz-muenchen.de}
 }
 

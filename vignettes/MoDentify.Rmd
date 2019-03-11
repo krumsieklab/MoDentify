@@ -1,31 +1,35 @@
 ---
-title: Introduction to the MoDentify R package
-author: |
-  | Kieu Trinh Do^1^, David Rasp^1^, Gabi Kastenmueller^2,3^, Karsten Suhre^3,4^, Jan Krumsiek^1^
-  | 1 Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany 2 German Center for Diabetes Research (DZD), Neuherberg, Germany 3 Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany 4 Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
+title: Introduction to network generation and identification of functional 
+       modules with the R package MoDentify
+author: 
+    - name: Kieu Trinh Do
+      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+    - name: David Rasp
+      affiliation: Institute of Computational Biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+      email: David.J.Rasp@gmail.com
+    - name: Gabi Kastenmueller
+      affiliation: 
+        - German Center for Diabetes Research (DZD), Neuherberg, Germany
+        - Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+    - name: Karsten Suhre
+      affiliation: 
+        - Institute of Bioinformatics and systems biology, Helmholtz-Zentrum Muenchen, Neuherberg, Germany
+        - Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
+    - name: Jan Krumsiek
+      affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
 date: '`r Sys.Date()`'
 output: 
-  rmarkdown::html_vignette:
-    toc: true
-bibliography: REFERENCES.bib
+    BiocStyle::html_document:
+            toc_float: true
+bibliography: "`r system.file('REFERENCES.bib', package = 'MoDentify')`"
 package: MoDentify
-# abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
+abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
 vignette: >
-  %\VignetteIndexEntry{Introduction to the MoDentify R package}
+  %\VignetteIndexEntry{MoDentify tutorial}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-<style>
-body {
-text-align: justify}
-</style>
 
-<!-- 
- http://rmarkdown.rstudio.com/word_document_format.html
-word_document:
-pdf_document:
-rmarkdown::html_vignette:
--->
 
 \newpage
 #Introduction to *MoDentify* {#intro}
@@ -60,44 +64,24 @@ $R_M$, the module representative can either be defined by the *eigenmetabolite* 
 Given the scoring function and a seed node, a greedy search procedure is performed to identify an *optimal module*. The algorithm starts with a *seed node* as *candidate module*. The score of the *candidate module* that contains only the seed node is obtained from the univariate differential analysis. In each iteration, the neighborhood of the *candidate module* is identified. Each neighbor (*candidate*) is added to the *candidate module* and the score of the extended *candidate module* is calculated with the scoring function as defined in section [Module representation and scoring](#module). The *candidate* node leading to the highest score improvement is added to the *candidate module* if the module score is higher than the score of each of its single components. The algorithm terminates if no further score improvements can be made, and the *optimal module* is returned. In an optional consolidation step, overlapping *optimal modules*, e.g. from different *seed nodes*, can be combined into one module, which is re-scored by the scoring function. To assess the significance of the modules, a conservative multiple testing correction procedure was used by correcting for the total number of nodes in the underlying network.  
 
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
-knitr::include_graphics("png_files/MoDentify_scheme.png")
+```{r echo=FALSE}
+knitr::include_graphics(system.file("figures", "MoDentify_scheme.png", package = "MoDentify"))
 ```
   
 
 \newpage
-#Prerequisites and installation {#prerequisites}
-The following software packages are required to run *MoDentify*:
 
-1. R version 3.3.1 or newer
+# Prerequisites and installation {#prerequisites}
 
-2. R-packages:
-  - CRAN: *data.table* (>= 1.10.4)
-  - CRAN: *igraph* (>= 1.1.2)
-  - CRAN: *GeneNet* (>= 1.2.13)
-  - CRAN: *Hmisc* (>= 4.0-3)
-  - CRAN: *ggplot2* (>= 2.2.1)
-  - CRAN: *Rdpack*
-  - Bioconductor: *metabolomics* (>= 0.1.4)
-  
-3. For visualization of the identified modules in the underlying network, the following software is required:
-  - Bioconductor: *RCytoscape* (>= 1.24.1)
-  - Cytoscape version 2.8.3, available at http://www.cytoscape.org/download_old_versions.html
-  - The *CytoscapeRPC* plugin for Cytoscape. Installation instructions can be found here: https://wiki.nbic.nl/index.php/CytoscapeRPC_install. CytoscapeRPC has to be activated (Plugins > CytoscapeRPC > Activate CytoscapeRPC) and opened on port 9000. 
 
-To install *MoDentify*, download the package from Github (https://github.com/krumsiek/MoDentify). Change the working directory in R to the folder where the downloaded file is stored, and install *MoDentify* via R package *devtools*:
+For visualization of the identified modules in the underlying network, the following software is required:
 
-```{r eval=FALSE}
-library(devtools)
-install("MoDentify",build_vignettes = TRUE)
-```
+1. Bioconductor: *RCy3* 
+2. *Cytoscape* (>= 3.7.0) available at https://cytoscape.org/download.html
+3. The *CyREST* (>= 3.8.0) plugin for *Cytoscape*, which is automatically 
+installed with Cytoscape >= 3.3.0
 
-Open the Vignette with:
 
-```{r message=FALSE, warning=FALSE, results='hide'}
-browseVignettes("MoDentify")
-```
 
 Load *MoDentify* with:
 
@@ -116,6 +100,7 @@ Raw and preprocessed metabolomics data for blood, urine, and saliva, metabolite 
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab metabolomics data
+data("qmdiab.data")
 knitr::kable(qmdiab.data[1:4,1:3])
 ```
 
@@ -123,6 +108,7 @@ knitr::kable(qmdiab.data[1:4,1:3])
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab annotations
+data("qmdiab.annos")
 knitr::kable(qmdiab.annos[1:4,2:5])
 ```
 
@@ -130,6 +116,7 @@ Finally, `qmdiab.phenos` is a data.frame containing information about age, gende
 
 ```{r message=FALSE, warning=FALSE, results='asis'}
 # QMDiab phenotypes
+data("qmdiab.phenos")
 knitr::kable(qmdiab.phenos[1:3,])
 ```
 
@@ -138,7 +125,8 @@ knitr::kable(qmdiab.phenos[1:3,])
 Alternatively, the three data.tables can be generated from the excel file *QMDiab_metabolomics_Preprocessed.xlsx* stored at the Dryad Data Repository:
 
 ```{r eval=FALSE}
-qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx")
+source(system.file("scripts", "getQmdiabData.R", package = "MoDentify"))
+qmdiab <- getQmdiabData("QMDiab_metabolomics_Preprocessed.xlsx")
 ```
 
 \newpage
@@ -147,10 +135,10 @@ qmdiab <- get.qmdiab.data("QMDiab_metabolomics_Preprocessed.xlsx")
 ##Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
-met.graph <- generate.network(data = qmdiab.data, 
+met.graph <- generateNetwork(data = qmdiab.data, 
                             covars = qmdiab.phenos, 
                             annotations = 
-                              qmdiab.annos[,c("name","SUPER_PATHWAY","SUB_PATHWAY")],
+                              qmdiab.annos[,c("name","Super.pathway","Sub.pathway")],
                             correlation.type = "partial",
                             alpha = 0.05, 
                             correction.method = "bonferroni")
@@ -174,11 +162,12 @@ summary(met.graph)
 Alternatively, a pre-existing network can be used for module identification. Note that all nodes in the network must be available as variables in the input data.
 
 ```{r eval=FALSE}
-net.DT <- fread(input = "QMDiab_flatfiles/qmdiab.network.txt", header = TRUE)
+net.DT <- fread(input = system.file("extdata", "qmdiab.network.txt", 
+                                    package = "MoDentify"), header = TRUE)
 
-annotations <- fread(input = "QMDiab_flatfiles/qmdiab.annotations.txt", header = TRUE)
+annotations <- fread(input = system.file("extdata", "qmdiab.annotations.txt",
+                                         package = "MoDentify"), header = TRUE)
 
-library(igraph)
 met.graph <- graph_from_data_frame(d = net.DT,
                                    directed = FALSE,
                                    vertices = annotations)
@@ -190,14 +179,14 @@ met.graph <- graph_from_data_frame(d = net.DT,
 In metabolomics, it has frequently been observed that metabolites from the same pathways tend to correlate with each other, while there are only few correlations across pathways [@donetwork2015, @Krumsiek2011, @mitra2013]. This trend can be explored in the inferred network by investigating the number of edges within and between pathways:
 
 ```{r fig.height = 5.5, fig.width = 6}
-gg.edges.between.attributes(met.graph, "SUPER_PATHWAY", rm.unknown = TRUE)
+ggEdgesBetweenAttributes(met.graph, "Super.pathway", rm.unknown = TRUE)
 ```
 
 
 ##Module identification
 
 ```{r eval=FALSE}
-modules.summary <- identify.modules(graph = met.graph,
+modules.summary <- identifyModules(graph = met.graph,
                                   data = qmdiab.data,
                                   annotations = qmdiab.annos,
                                   covars = qmdiab.phenos[,1:3],
@@ -221,7 +210,7 @@ modules.summary <- identify.modules(graph = met.graph,
 Modules can be exported to a file using:
 
 ```{r eval=FALSE}
-  export.modules(modules.summary, "QMDiab_modules.txt")
+  writeModules(modules.summary, "QMDiab_modules.txt")
 ```
 
 
@@ -230,7 +219,7 @@ Modules can be exported to a file using:
 
 ```{r eval=FALSE}
 #- remember to open Cytoscape and activate the CytoscapeRPC plugin
-draw.modules(graph = met.graph,
+drawModules(graph = met.graph,
              title = "QMDiab_modules",
              summary = modules.summary,
              save.image = FALSE,
@@ -245,9 +234,8 @@ draw.modules(graph = met.graph,
 - `modules.to.draw` contains the module IDs to be drawn. If this parameter is set to `NULL` all modules will be visualized.
 
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
-knitr::include_graphics("png_files/MoDentify_modules.png")
+```{r echo=FALSE}
+knitr::include_graphics(system.file("figures", "MoDentify_modules.png", package = "MoDentify"))
 ```
 
 \newpage
@@ -256,9 +244,9 @@ knitr::include_graphics("png_files/MoDentify_modules.png")
 ##Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
-pathway.graph <- generate.pathways.network(data = qmdiab.data,
+pathway.graph <- generatePathwaysNetwork(data = qmdiab.data,
                                          annotations = qmdiab.annos,
-                                         level = "SUB_PATHWAY",
+                                         level = "Sub.pathway",
                                          correlation.type = "pearson",
                                          alpha = 0.05,
                                          correction.method = "bonferroni",
@@ -282,18 +270,18 @@ pathway.graph <- generate.pathways.network(data = qmdiab.data,
 
 ```{r fig.height = 7.2, fig.width = 7.2}
 # plot all pathways
-gg.explained.variance(pathway.graph)
+ggExplainedVariance(pathway.graph)
 ```
 \newpage
 ```{r fig.height = 7.2, fig.width = 7.2}
 # plot the first 50 pathways
-gg.explained.variance(pathway.graph, 1:50)
+ggExplainedVariance(pathway.graph, 1:50)
 ```
 
 ##Module identification
 
 ```{r eval=FALSE}
-pathway.modules <- identify.modules(graph = pathway.graph$network,
+pathway.modules <- identifyModules(graph = pathway.graph$network,
                                             data = qmdiab.data,
                                             covars = qmdiab.phenos[,1:3],
                                             phenotype = qmdiab.phenos$T2D,
@@ -303,7 +291,8 @@ pathway.modules <- identify.modules(graph = pathway.graph$network,
                                             correction.method ="bonferroni",
                                             representative.method = "average")
 ```
-<!-- Hier kommt warning: Not all of your variables are represented in graph, weil wir in graph die Unknowns ausgeschlossen haben.-->
+<!-- We get a warning here: Not all of your variables are represented in graph, 
+because we excluded the unknowns here.-->
 
 - `graph` is an igraph object loaded from an external source or inferred within *MoDentify*. 
 - `data` is a data.table or data.frame with variables in columns and observations in rows. 
@@ -318,7 +307,7 @@ pathway.modules <- identify.modules(graph = pathway.graph$network,
 ##Network and module visualization
 
 ```{r eval=FALSE}
-draw.modules(graph = pathway.graph$network,
+drawModules(graph = pathway.graph$network,
              title = "QMDiab_modules_pw",
              nodes = pathway.modules$nodes,
              modules = pathway.modules$modules,
@@ -332,17 +321,30 @@ draw.modules(graph = pathway.graph$network,
 - `save.image` is a logical parameter specifying whether png files of the modules should be saved.
 - `modules.to.draw` contains the module IDs to be drawn. If this parameter is set to `NULL` all modules will be visualized.
 
-```{r echo=FALSE, out.width="100%"}
-library(knitr)
-knitr::include_graphics("png_files/MoDentify_pathway_modules.png")
+```{r echo=FALSE}
+knitr::include_graphics(system.file("figures", "MoDentify_pathway_modules.png", package = "MoDentify"))
 ```
 
 \newpage
 #How to cite
 To cite *MoDentify*, please cite the following publication:
 
-XXX Application Note.
+<!-- @Do2018: -->
+
+Do KD, Rasp D, Kastenmueller G, Suhre K, Krumsiek J.
+MoDentify: phenotype-driven module identification in metabolomics networks at different resolutions.
+Bioinformatics, 2018
+https://doi.org/10.1093/bioinformatics/bty650
 
 
-\newpage
+# Session info {.unnumbered}
+
+Here is the output of `sessionInfo()` on the system on which this document 
+was compiled running pandoc `r rmarkdown::pandoc_version()`:
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
+
+\newpage {.unnumbered}
 # References
