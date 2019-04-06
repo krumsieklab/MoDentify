@@ -5,8 +5,8 @@
 \title{Greedy Module Selection for a Seed}
 \usage{
 greedyModuleSelection(nodeNr, graph, data, phenotype, covars = NULL,
-  alpha = 0.05, moduleCache = NULL, better.than.components = TRUE,
-  representative.method = "average")
+  alpha = 0.05, moduleCache = NULL, cacheFolder = NULL,
+  better.than.components = TRUE, representative.method = "average")
 }
 \arguments{
 \item{nodeNr}{the number of the node, which should be used as a seed.}
@@ -24,6 +24,8 @@ It must have the same number of samples as in data.}
 The rows for the observations must be in the same order as in the phenotype vector.}
 
 \item{alpha}{significance level (type 1 error) for accepting the modules.}
+
+\item{cacheFolder}{location of the temporary files, where the cache is stored}
 
 \item{better.than.components}{if \code{TRUE}, modules will only be enlarged and accepted,
 if they are better than all of their components.}
