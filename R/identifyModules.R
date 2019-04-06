@@ -68,158 +68,165 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
                             level = NULL,
                             representative.method = "average",
                             correction.method = "bonferroni",
+                            caching = TRUE,
                             BPPARAM = SerialParam(progressbar = TRUE)) {
-
-
-  # for incomplete data only average approach possible
-  if (sum(is.na(data)) > 0) {
-    if (representative.method == "eigenmetabolite") {
-      stop("Data matrix contains missing values.\n Module identification with eigenmetabolite approach not possible.\n")
+    
+    
+    # for incomplete data only average approach possible
+    if (sum(is.na(data)) > 0) {
+        if (representative.method == "eigenmetabolite") {
+            stop("Data matrix contains missing values.\n Module identification with eigenmetabolite approach not possible.\n")
+        } else {
+            warning("Data matrix contains missing values.\n Only complete cases were used for module representatives (average).\n")
+        }
+    }
+    
+    
+    if (!is.data.table(data)) {
+        if (is.data.frame(data)) {
+            data <- as.data.table(data)
+            data <- cbind(sampleID = paste0("sample", seq_len(dim(data)[1])), data)
+        } else if (is.matrix(data)) {
+            data <- data.table(sampleID = paste0("sample", seq_len(dim(data)[1])), data)
+        }
+        data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
+    }
+    
+    annotations <- as.data.table(annotations)
+    
+    # Calculate the z-scores for variables
+    data[, z.score := scale(value), by = .(name)]
+    if (!is.null(level)) {
+        if (!"Fluid" %in% colnames(annotations)) {
+            annotations[, s.id := annotations[, get(level)]]
+        } else {
+            annotations[, s.id := paste(annotations[, get(level)], Fluid)]
+        }
+        
+        data <- data[annotations[, .(name, s.id)], on = "name"]
+        data[, met.name := name]
+        data[, name := s.id]
+        data[, s.id := NULL]
+    }
+    
+    
+    if (!is.null(covars)) {
+        if (dim(covars)[1] != length(phenotype)) {
+            stop("Covars and Phenotype have a different amount of samples")
+        }
+        if (dim(covars)[1] != length(unique(data$sampleID))) {
+            stop("Variables and covariates have a different number of observations.")
+        }
     } else {
-      warning("Data matrix contains missing values.\n Only complete cases were used for module representatives (average).\n")
+        if (length(phenotype) != length(unique(data$sampleID))) {
+            stop("Variables and covariates have a different number of observations.")
+        }
     }
-  }
-
-
-  if (!is.data.table(data)) {
-    if (is.data.frame(data)) {
-      data <- as.data.table(data)
-      data <- cbind(sampleID = paste0("sample", seq_len(dim(data)[1])), data)
-    } else if (is.matrix(data)) {
-      data <- data.table(sampleID = paste0("sample", seq_len(dim(data)[1])), data)
+    
+    
+    if (!all(as.character(unique(data$name)) %in% vertex_attr(graph, "name"))) {
+        warning("Not all of your variables are represented in the graph.")
     }
-    data <- melt(data = data, id.vars = "sampleID", variable.name = "name")
-  }
-
-  annotations <- as.data.table(annotations)
-
-  # Calculate the z-scores for variables
-  data[, z.score := scale(value), by = .(name)]
-  if (!is.null(level)) {
-    if (!"Fluid" %in% colnames(annotations)) {
-      annotations[, s.id := annotations[, get(level)]]
+    if (!all(vertex_attr(graph, "name") %in% as.character(unique(data$name)))) {
+        stop("Not all of your nodes are represented in the data data.table")
+    }
+    
+    message("The function identifyModules could take a few minutes.")
+    
+    modules <- data.table(
+        moduleID = integer(), module.score = numeric(),
+        module.beta = numeric(), adjusted.score = numeric()
+    )
+    nodes <- data.table(
+        moduleID = integer(), nodeID = integer(), name = character(), label = character(),
+        order.added = integer(), score.after.adding = numeric()
+    )
+    
+    # create temporary folder for the cache
+    if(caching){
+        cacheFolder <- tempfile()
+        dir.create(cacheFolder)
+    }else{
+        cacheFolder <- NULL
+    }
+    
+    
+    seed.scores <- c()
+    seed.betas <- c()
+    
+    message("Identifiying functional modules:")
+    l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data,
+                phenotype=phenotype, covars=covars,  alpha=alpha, cacheFolder = cacheFolder,
+                better.than.components=better.than.components,
+                representative.method = representative.method,
+                BPPARAM = BPPARAM)
+    
+    for (module in l) {
+        # for(v in V(graph)){
+        #   message(cat(paste0(v, " ")))
+        #     module<-greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
+        #                                     moduleCache = moduleCache, better.than.components, 
+        #                                     representative.method=representative.method)
+        moduleCache<-module$moduleCache
+        seed.scores <- c(seed.scores, module$seed.score)
+        seed.betas <- c(seed.betas, unname(module$seed.beta))
+        
+        adjusted.score <- p.adjust(p = module$module.score, n = vcount(graph), method = correction.method)
+        if (length(module$module) > 1 & adjusted.score < alpha) {
+            newID <- dim(modules)[1] + 1
+            
+            modules <- rbind(modules, data.table(
+                moduleID = newID, module.score = module$module.score,
+                module.beta = module$beta, adjusted.score = adjusted.score
+            ))
+            
+            nodes <- rbind(nodes, data.table(
+                moduleID = newID, nodeID = module$module,
+                name = vertex_attr(graph, "name", module$module),
+                label = vertex_attr(graph, "label", module$module),
+                order.added = seq_len(length(module$module)),
+                score.after.adding = module$score.sequence
+            ))
+        }
+    }
+    
+    
+    seed_scores_DT <- data.table(nodeID = V(graph), seed.score = seed.scores, seed.beta = seed.betas)
+    
+    if (dim(modules)[1] > 0) {
+        message("\nDeleting duplicate modules.")
+        tmp_DT <- deleteDuplicates(nodes, modules, graph)
+        modules <- unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
+        tmp_DT[, module.score := NULL]
+        nodes <- tmp_DT
+        
+        if (better.than.components) {
+            message("Deleting less significant contained modules.")
+            tmp_DT <- deleteSupergraphs(nodes, modules, graph)
+            modules <- unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
+            tmp_DT[, module.score := NULL]
+            nodes <- tmp_DT
+        }
+        
+        if (merge.overlapping) {
+            message("Merging overlapping modules.")
+            toMerge <- getToMerge(nodes)
+            nodes <- toMerge[nodes, on = .(moduleID)]
+            nodes[, moduleID := NULL]
+            nodes[, module.beta := NULL]
+            nodes[, adjusted.score := NULL]
+            nodes[, adjusted.pval := NULL]
+            setnames(nodes, c("moduleID", "nodeID", "name", "label", "order.added", "score.after.adding"))
+            modules <- getMergedModules(graph, data, phenotype, covars, nodes)
+            modules$adjusted.score <- p.adjust(p = modules$module.score, n = vcount(graph), method = correction.method)
+        }
+        
+        nodes <- nodes[seed_scores_DT, on = .(nodeID)]
+        nodes[, name := vertex_attr(graph, "name", nodeID)]
+        nodes[, label := vertex_attr(graph, "label", nodeID)]
+        message(paste0("Number of modules found: ", dim(modules)[1]))
     } else {
-      annotations[, s.id := paste(annotations[, get(level)], Fluid)]
+        (message("No modules found."))
     }
-
-    data <- data[annotations[, .(name, s.id)], on = "name"]
-    data[, met.name := name]
-    data[, name := s.id]
-    data[, s.id := NULL]
-  }
-
-
-  if (!is.null(covars)) {
-    if (dim(covars)[1] != length(phenotype)) {
-      stop("Covars and Phenotype have a different amount of samples")
-    }
-    if (dim(covars)[1] != length(unique(data$sampleID))) {
-      stop("Variables and covariates have a different number of observations.")
-    }
-  } else {
-    if (length(phenotype) != length(unique(data$sampleID))) {
-      stop("Variables and covariates have a different number of observations.")
-    }
-  }
-
-
-  if (!all(as.character(unique(data$name)) %in% vertex_attr(graph, "name"))) {
-    warning("Not all of your variables are represented in the graph.")
-  }
-  if (!all(vertex_attr(graph, "name") %in% as.character(unique(data$name)))) {
-    stop("Not all of your nodes are represented in the data data.table")
-  }
-
-  message("The function identifyModules could take a few minutes.")
-
-  modules <- data.table(
-    moduleID = integer(), module.score = numeric(),
-    module.beta = numeric(), adjusted.score = numeric()
-  )
-  nodes <- data.table(
-    moduleID = integer(), nodeID = integer(), name = character(), label = character(),
-    order.added = integer(), score.after.adding = numeric()
-  )
-  
-  moduleCache<-data.table(key.value=character(), score=numeric(), beta=numeric(),
-                                 times.accessed=numeric())
-  
-  seed.scores <- c()
-  seed.betas <- c()
-
-  message("Identifiying functional modules:")
-  # l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data, 
-  #             phenotype=phenotype, covars=covars,  alpha=alpha, 
-  #             better.than.components=better.than.components, 
-  #             representative.method = representative.method,
-  #             BPPARAM = BPPARAM)
-
-  # for (module in l) {
-  for(v in V(graph)){
-    message(cat(paste0(v, " ")))
-      module<-greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
-                                      moduleCache = moduleCache, better.than.components, 
-                                      representative.method=representative.method)
-    moduleCache<-module$moduleCache
-    seed.scores <- c(seed.scores, module$seed.score)
-    seed.betas <- c(seed.betas, unname(module$seed.beta))
-
-    adjusted.score <- p.adjust(p = module$module.score, n = vcount(graph), method = correction.method)
-    if (length(module$module) > 1 & adjusted.score < alpha) {
-      newID <- dim(modules)[1] + 1
-
-      modules <- rbind(modules, data.table(
-        moduleID = newID, module.score = module$module.score,
-        module.beta = module$beta, adjusted.score = adjusted.score
-      ))
-
-      nodes <- rbind(nodes, data.table(
-        moduleID = newID, nodeID = module$module,
-        name = vertex_attr(graph, "name", module$module),
-        label = vertex_attr(graph, "label", module$module),
-        order.added = seq_len(length(module$module)),
-        score.after.adding = module$score.sequence
-      ))
-    }
-  }
-  
-  
-  seed_scores_DT <- data.table(nodeID = V(graph), seed.score = seed.scores, seed.beta = seed.betas)
-
-  if (dim(modules)[1] > 0) {
-    message("\nDeleting duplicate modules.")
-    tmp_DT <- deleteDuplicates(nodes, modules, graph)
-    modules <- unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
-    tmp_DT[, module.score := NULL]
-    nodes <- tmp_DT
-
-    if (better.than.components) {
-      message("Deleting less significant contained modules.")
-      tmp_DT <- deleteSupergraphs(nodes, modules, graph)
-      modules <- unique(tmp_DT[, .(moduleID, module.score, module.beta, adjusted.score)])
-      tmp_DT[, module.score := NULL]
-      nodes <- tmp_DT
-    }
-
-    if (merge.overlapping) {
-      message("Merging overlapping modules.")
-      toMerge <- getToMerge(nodes)
-      nodes <- toMerge[nodes, on = .(moduleID)]
-      nodes[, moduleID := NULL]
-      nodes[, module.beta := NULL]
-      nodes[, adjusted.score := NULL]
-      nodes[, adjusted.pval := NULL]
-      setnames(nodes, c("moduleID", "nodeID", "name", "label", "order.added", "score.after.adding"))
-      modules <- getMergedModules(graph, data, phenotype, covars, nodes)
-      modules$adjusted.score <- p.adjust(p = modules$module.score, n = vcount(graph), method = correction.method)
-    }
-
-    nodes <- nodes[seed_scores_DT, on = .(nodeID)]
-    nodes[, name := vertex_attr(graph, "name", nodeID)]
-    nodes[, label := vertex_attr(graph, "label", nodeID)]
-    message(paste0("Number of modules found: ", dim(modules)[1]))
-  } else {
-    (message("No modules found."))
-  }
-  return(list(modules = modules, nodes = nodes, seeds = seed_scores_DT))
+    return(list(modules = modules, nodes = nodes, seeds = seed_scores_DT))
 }

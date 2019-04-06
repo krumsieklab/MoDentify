@@ -15,11 +15,13 @@
 #' if they are better than all of their components.
 #' @param representative.method the method used for the calculation of the module representatives.
 #' Currently implemented: "eigenmetabolite" and "average"
+#' @param cacheFolder location of the temporary files, where the cache is stored
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
 #' @import data.table
 #' @import igraph
+#' @importFrom digest digest
 #' @export
 #' @return a list containing the members of the module, the module-score, its regression coefficient
 #' for the given phenotype, the score and regression coefficient for the seed, the cache
@@ -42,71 +44,85 @@
 #'   phenotype = qmdiab.phenos$T2D
 #' )
 greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
-                                  alpha = 0.05, moduleCache = NULL, better.than.components = TRUE, 
+                                  alpha = 0.05, moduleCache = NULL, cacheFolder = NULL, 
+                                  better.than.components = TRUE, 
                                   representative.method = "average") {
-  module <- c(nodeNr)
-  ## Calculate score for seed
-  
-  seed <- calculateModuleScore(graph, nodeNr, data, phenotype, covars, 
-                                representative.method = representative.method)
-  seed.score <- seed$score
-  high.score <- seed.score
-  beta <- 0
-  old_module <- c()
-  score.sequence <- c(seed.score)
-  neighbor.index <- 2
-  highest.not.signifikant <- seed.score
-
-  while (length(old_module) != length(module) & high.score == highest.not.signifikant) {
-    old_module <- module
-    ## get all neighbors of current module
-    neighbors <- getNeighborsForModule(graph, module)
-    for (neighbor in neighbors) {
-      new_module <- unique(c(old_module, neighbor))
-      asString <- paste(new_module[order(new_module)], collapse = " ")
-
-      neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
-      neighbor.score <- neighbor.result$score
-      
-      if(!is.null(moduleCache) & asString %in% moduleCache$key){
-          current.score<-moduleCache[key.value == asString, score]
-          current.beta<-moduleCache[key.value == asString, beta]
-          moduleCache[key.value == asString, times.accessed:= times.accessed+1]
-      }else{
-        current <- calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method = representative.method)
-        current.score <- current$score
-        current.beta <- current$beta
-        moduleCache<-rbind(moduleCache, data.table(key.value = asString, 
-                                                   score = current.score, 
-                                                   beta=current$beta, times.accessed=0))
-        
-      }
-        
-      
-
-      if (better.than.components) {
-        if (current.score < high.score & current.score < highest.not.signifikant) {
-          highest.not.signifikant <- current.score
-          if (current.score < neighbor.score) {
-            score.sequence[neighbor.index] <- current.score
-            high.score <- current.score
-            beta <- current.beta
-            module <- new_module
-          }
+    
+    
+    module <- c(nodeNr)
+    ## Calculate score for seed
+    
+    seed <- calculateModuleScore(graph, nodeNr, data, phenotype, covars, 
+                                 representative.method = representative.method)
+    seed.score <- seed$score
+    high.score <- seed.score
+    beta <- 0
+    old_module <- c()
+    score.sequence <- c(seed.score)
+    neighbor.index <- 2
+    highest.not.signifikant <- seed.score
+    
+    while (length(old_module) != length(module) & high.score == highest.not.signifikant) {
+        old_module <- module
+        ## get all neighbors of current module
+        neighbors <- getNeighborsForModule(graph, module)
+        for (neighbor in neighbors) {
+            new_module <- unique(c(old_module, neighbor))
+            
+            
+            neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
+            neighbor.score <- neighbor.result$score
+            
+            currentDigest <- digest(new_module)
+            if(!is.null(cacheFolder) && currentDigest %in% dir(cacheFolder)){
+                
+                tmp <- as.numeric(read.csv(file = paste0(cacheFolder, currentDigest), 
+                                           header = FALSE))
+                current.score <- tmp[1]
+                current.beta <- tmp[2]
+                rm(tmp)
+            }else{
+                current <- calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method = representative.method)
+                current.score <- current$score
+                current.beta <- current$beta
+                # moduleCache<-rbind(moduleCache, data.table(key.value = asString, 
+                #                                            score = current.score, 
+                #                                            beta=current$beta, times.accessed=0))
+                
+                if(!is.null(cacheFolder)){
+                    fileName <- paste0(cacheFolder, "/", currentDigest)
+                    write(x= c(current.score, current.beta), file = fileName, sep = ",")
+                }
+            }
+            
+            
+            
+            if (better.than.components) {
+                if (current.score < high.score & current.score < highest.not.signifikant) {
+                    highest.not.signifikant <- current.score
+                    if (current.score < neighbor.score) {
+                        score.sequence[neighbor.index] <- current.score
+                        high.score <- current.score
+                        beta <- current.beta
+                        module <- new_module
+                    }
+                }
+            } else {
+                if (current.score < high.score) {
+                    score.sequence[neighbor.index] <- current.score
+                    high.score <- current.score
+                    highest.not.signifikant <- high.score
+                    beta <- current.beta
+                    module <- new_module
+                }
+            }
         }
-      } else {
-        if (current.score < high.score) {
-          score.sequence[neighbor.index] <- current.score
-          high.score <- current.score
-          highest.not.signifikant <- high.score
-          beta <- current.beta
-          module <- new_module
-        }
-      }
+        neighbor.index <- neighbor.index + 1
     }
-    neighbor.index <- neighbor.index + 1
-  }
-  return(list(module = module, module.score = high.score, beta = beta,  
-              moduleCache = moduleCache,seed.score = seed.score, 
-              seed.beta = seed$beta,  score.sequence = score.sequence))
+    
+    
+    
+    return(list(module = module, module.score = high.score, beta = beta,  
+                moduleCache = moduleCache,seed.score = seed.score, 
+                seed.beta = seed$beta,  score.sequence = score.sequence))
 }
