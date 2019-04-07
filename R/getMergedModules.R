@@ -13,17 +13,22 @@
 #' covariates to correct for.
 #' @param nodes an \code{\link[igraph]{igraph}} object, containing the
 #' information for the nodes and their new modules.
+#' @param scoringFunction a scoring function accepting parameters 
+#' moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}
 #'
 #' @import data.table
 #' @import igraph
 #'
 #' @return
-getMergedModules <- function(graph, data, phenotype, covars, nodes) {
+getMergedModules <- function(graph, data, phenotype, covars, nodes,
+                             scoringFunction=linearScoring) {
   modules <- nodes[, unique(moduleID)]
   module.scores <- c()
   for (module in modules) {
     tmp <- nodes[moduleID == module, nodeID]
-    module.scores <- rbind(module.scores, calculateModuleScore(graph, tmp, data, phenotype, covars))
+    module.scores <- rbind(module.scores, calculateModuleScore(graph, tmp, data, 
+                                                               phenotype, covars, 
+                                                               scoringFunction=scoringFunction))
   }
 
   modules_DT <- data.table(moduleID = modules, module.score = module.scores)

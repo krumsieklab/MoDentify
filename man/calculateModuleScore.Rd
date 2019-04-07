@@ -5,7 +5,7 @@
 \title{Calculate Module-score}
 \usage{
 calculateModuleScore(graph, nodes, data, phenotype, covars = NULL,
-  representative.method = "average")
+  representative.method = "average", scoringFunction = linearScoring)
 }
 \arguments{
 \item{graph}{an igraph object, which can be generated with \code{\link{generateNetwork}}.
@@ -23,6 +23,9 @@ The rows for the observations must be in the same order as in the phenotype vect
 
 \item{representative.method}{the method, that is used for the calculation of the eigenmetabolites.
 Currently implemented: "eigenmetabolite" and "average"}
+
+\item{scoringFunction}{a scoring function accepting parameters 
+moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}}
 }
 \value{
 a list containing the module score and the regression coefficient

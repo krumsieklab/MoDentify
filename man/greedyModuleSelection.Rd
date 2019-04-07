@@ -6,7 +6,8 @@
 \usage{
 greedyModuleSelection(nodeNr, graph, data, phenotype, covars = NULL,
   alpha = 0.05, moduleCache = NULL, cacheFolder = NULL,
-  better.than.components = TRUE, representative.method = "average")
+  better.than.components = TRUE, representative.method = "average",
+  scoringFunction = linearScoring)
 }
 \arguments{
 \item{nodeNr}{the number of the node, which should be used as a seed.}
@@ -32,6 +33,9 @@ if they are better than all of their components.}
 
 \item{representative.method}{the method used for the calculation of the module representatives.
 Currently implemented: "eigenmetabolite" and "average"}
+
+\item{scoringFunction}{a scoring function accepting parameters 
+moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}}
 }
 \value{
 a list containing the members of the module, the module-score, its regression coefficient

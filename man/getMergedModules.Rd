@@ -4,7 +4,8 @@
 \alias{getMergedModules}
 \title{Get Module scores for Merged Modules}
 \usage{
-getMergedModules(graph, data, phenotype, covars, nodes)
+getMergedModules(graph, data, phenotype, covars, nodes,
+  scoringFunction = linearScoring)
 }
 \arguments{
 \item{graph}{an \code{\link[igraph]{igraph}} object, which can be generated
@@ -23,6 +24,9 @@ covariates to correct for.}
 
 \item{nodes}{an \code{\link[igraph]{igraph}} object, containing the
 information for the nodes and their new modules.}
+
+\item{scoringFunction}{a scoring function accepting parameters 
+moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}}
 }
 \description{
 Get Module scores for Merged Modules

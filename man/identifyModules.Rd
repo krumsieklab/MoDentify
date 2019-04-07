@@ -44,6 +44,9 @@ Default is set to bonferroni. See \code{\link[stats]{p.adjust}}.}
 \item{BPPARAM}{An instance of the
 \code{\link[BiocParallel]{BiocParallelParam-class}} that determines how to
 parallelisation of the functions will be evaluated.}
+
+\item{scoringFunction}{a scoring function accepting parameters 
+moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}}
 }
 \value{
 a list consisting of four elements.

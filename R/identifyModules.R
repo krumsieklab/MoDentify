@@ -25,6 +25,8 @@
 #' @param BPPARAM An instance of the
 #' \code{\link[BiocParallel]{BiocParallelParam-class}} that determines how to
 #' parallelisation of the functions will be evaluated.
+#' @param scoringFunction a scoring function accepting parameters 
+#' moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
@@ -69,7 +71,8 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
                             representative.method = "average",
                             correction.method = "bonferroni",
                             caching = TRUE,
-                            BPPARAM = SerialParam(progressbar = TRUE)) {
+                            BPPARAM = SerialParam(progressbar = TRUE),
+                            scoringFunction=linearScoring) {
     
     
     # for incomplete data only average approach possible
@@ -158,15 +161,11 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
     l<-bplapply(V(graph), greedyModuleSelection, graph=graph, data=data,
                 phenotype=phenotype, covars=covars,  alpha=alpha, cacheFolder = cacheFolder,
                 better.than.components=better.than.components,
-                representative.method = representative.method,
+                representative.method = representative.method, 
+                scoringFunction=scoringFunction,
                 BPPARAM = BPPARAM)
     
     for (module in l) {
-        # for(v in V(graph)){
-        #   message(cat(paste0(v, " ")))
-        #     module<-greedyModuleSelection(v, graph, data, phenotype, covars, alpha,
-        #                                     moduleCache = moduleCache, better.than.components, 
-        #                                     representative.method=representative.method)
         moduleCache<-module$moduleCache
         seed.scores <- c(seed.scores, module$seed.score)
         seed.betas <- c(seed.betas, unname(module$seed.beta))
@@ -217,7 +216,8 @@ identifyModules <- function(graph, data, phenotype, covars = NULL,
             nodes[, adjusted.score := NULL]
             nodes[, adjusted.pval := NULL]
             setnames(nodes, c("moduleID", "nodeID", "name", "label", "order.added", "score.after.adding"))
-            modules <- getMergedModules(graph, data, phenotype, covars, nodes)
+            modules <- getMergedModules(graph, data, phenotype, covars, nodes, 
+                                        scoringFunction=scoringFunction)
             modules$adjusted.score <- p.adjust(p = modules$module.score, n = vcount(graph), method = correction.method)
         }
         

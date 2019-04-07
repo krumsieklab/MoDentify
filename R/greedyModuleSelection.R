@@ -16,6 +16,8 @@
 #' @param representative.method the method used for the calculation of the module representatives.
 #' Currently implemented: "eigenmetabolite" and "average"
 #' @param cacheFolder location of the temporary files, where the cache is stored
+#' @param scoringFunction a scoring function accepting parameters 
+#' moduleRepresentatives, phenotype and covars. See \code{\link[MoDentify]{linearScoring}}
 #'
 #' @references
 #' \insertRef{Do2017}{MoDentify}
@@ -46,14 +48,16 @@
 greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
                                   alpha = 0.05, moduleCache = NULL, cacheFolder = NULL, 
                                   better.than.components = TRUE, 
-                                  representative.method = "average") {
+                                  representative.method = "average",
+                                  scoringFunction=linearScoring) {
     
     
     module <- c(nodeNr)
     ## Calculate score for seed
     
     seed <- calculateModuleScore(graph, nodeNr, data, phenotype, covars, 
-                                 representative.method = representative.method)
+                                 representative.method = representative.method, 
+                                 scoringFunction=scoringFunction)
     seed.score <- seed$score
     high.score <- seed.score
     beta <- 0
@@ -70,7 +74,9 @@ greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
             new_module <- unique(c(old_module, neighbor))
             
             
-            neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, covars, representative.method = representative.method)
+            neighbor.result <- calculateModuleScore(graph, neighbor, data, phenotype, 
+                                                    covars, representative.method = representative.method, 
+                                                    scoringFunction = scoringFunction)
             neighbor.score <- neighbor.result$score
             
             currentDigest <- digest(new_module)
@@ -82,12 +88,12 @@ greedyModuleSelection <- function(nodeNr, graph, data, phenotype, covars = NULL,
                 current.beta <- tmp[2]
                 rm(tmp)
             }else{
-                current <- calculateModuleScore(graph, new_module, data, phenotype, covars, representative.method = representative.method)
+                current <- calculateModuleScore(graph, new_module, data, phenotype, 
+                                                covars, representative.method = representative.method, 
+                                                scoringFunction = scoringFunction)
                 current.score <- current$score
                 current.beta <- current$beta
-                # moduleCache<-rbind(moduleCache, data.table(key.value = asString, 
-                #                                            score = current.score, 
-                #                                            beta=current$beta, times.accessed=0))
+                
                 
                 if(!is.null(cacheFolder)){
                     fileName <- paste0(cacheFolder, "/", currentDigest)
