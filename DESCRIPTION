@@ -23,5 +23,5 @@ Encoding: UTF-8
 RoxygenNote: 6.1.1
 RdMacros: Rdpack
 VignetteBuilder: knitr
-URL: https://github.com/David-J-R/MoDentify
-BugReports: https://github.com/David-J-R/MoDentify/issues
+URL: https://github.com/krumsieklab/MoDentify
+BugReports: https://github.com/krumsieklab/MoDentify/issues
