@@ -20,10 +20,10 @@ https://doi.org/10.1093/bioinformatics/bty650
 # Installation of the development version from GitHub
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
-devtools::install_github("krumsieklab/MoDentify", build_opts = c())
+devtools::install_github("krumsieklab/MoDentify", build_vignettes = T)
 ```
 
-(takes about a minute)
+(takes about a minute, since it compiles the Vignette)
 
 **Show vignette with example code:**
 

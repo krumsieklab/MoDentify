@@ -19,7 +19,7 @@ author:
       affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
 date: '`r Sys.Date()`'
 output: 
-    BiocStyle::html_document:
+    html_document:
             toc_float: true
 bibliography: "`r system.file('REFERENCES.bib', package = 'MoDentify')`"
 package: MoDentify
