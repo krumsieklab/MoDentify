@@ -17,13 +17,14 @@ author:
         - Department of Physiology and Biophysics, Weill Cornell Medical College in Qatar, Education City, Doha, Qatar
     - name: Jan Krumsiek
       affiliation: Institute for Computational Biomedicine, Englander Institute for Precision Medicine, Department of Physiology and Biophysics, Weill Cornell Medicine, New York, USA
-date: '`r Sys.Date()`'
+
 output: 
     html_document:
-            toc_float: true
+            toc: true
+            number_sections: true
 bibliography: "`r system.file('REFERENCES.bib', package = 'MoDentify')`"
 package: MoDentify
-abstract: MoDentify is an R package for the identification of phenotype-driven modules in metabolomics data. To this end, data-driven networks are inferred using Gaussian graphical models (GGMs), which are based on partial correlations [@Krumsiek2011]. Subsequently, based on this network a greedy approach is applied to identify modules that are associated with a given phenotype by score maximization. In particular, *MoDentify* is able to search for modules at different layers of resolution, from metabolites to pathways, and therefore, facilitates the interpretation of modules for all scales of phenotypic associations [@Do2017].
+
 vignette: >
   %\VignetteIndexEntry{MoDentify tutorial}
   %\VignetteEngine{knitr::rmarkdown}
@@ -31,8 +32,8 @@ vignette: >
 ---
 
 
-\newpage
-#Introduction to *MoDentify* {#intro}
+# Introduction to *MoDentify* {#intro}
+
 Phenotype associations in large-scale, heterogeneous metabolomics data sets can be expected to be substantially complex, spanning functional modules. Functional modules are commonly defined as groups of correlating entities that are functionally coordinated, coregulated, or generally driven by a common biological process [@mitra2013]. Moreover, phenotypes will associate with metabolic modules at different scales, ranging from global associations spanning entire pathways or even sets of pathways, to localized associations with only few metabolites [@Do2017].  *MoDentify* is an algorithm for the identification of modules at different layers of resolution (both at the fine-grained metabolite level and the more global pathway-level).
 
 Given a [network](#networkinference), a phenotype variable, a [scoring function](#module), and a *seed* (starting) node, a greedy search algorithm identifies an optimal module by score maximization. This module is determined by extending candidate modules along its network edges, until no further score improvement can be achieved (see [Module identification](#moduleidentification)).
@@ -130,9 +131,9 @@ qmdiab <- getQmdiabData("QMDiab_metabolomics_Preprocessed.xlsx")
 ```
 
 \newpage
-#Module identification at metabolite level {#metlevel}
+# Module identification at metabolite level {#metlevel}
 
-##Network inference
+## Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
 met.graph <- generateNetwork(data = qmdiab.data, 
@@ -174,7 +175,7 @@ met.graph <- graph_from_data_frame(d = net.DT,
 ```
 
 
-##Edges between variable groups
+## Edges between variable groups
 
 In metabolomics, it has frequently been observed that metabolites from the same pathways tend to correlate with each other, while there are only few correlations across pathways [@donetwork2015, @Krumsiek2011, @mitra2013]. This trend can be explored in the inferred network by investigating the number of edges within and between pathways:
 
@@ -183,7 +184,7 @@ ggEdgesBetweenAttributes(met.graph, "Super.pathway", rm.unknown = TRUE)
 ```
 
 
-##Module identification
+## Module identification
 
 ```{r eval=FALSE}
 modules.summary <- identifyModules(graph = met.graph,
@@ -215,7 +216,7 @@ Modules can be exported to a file using:
 
 
 
-##Network and module visualization
+## Network and module visualization
 
 ```{r eval=FALSE}
 #- remember to open Cytoscape and activate the CytoscapeRPC plugin
@@ -239,9 +240,9 @@ knitr::include_graphics(system.file("figures", "MoDentify_modules.png", package 
 ```
 
 \newpage
-#Module identification at pathway level {#pathwaylevel}
+# Module identification at pathway level {#pathwaylevel}
 
-##Network inference
+## Network inference
 
 ```{r message=FALSE, warning=FALSE, results='hide'}
 pathway.graph <- generatePathwaysNetwork(data = qmdiab.data,
@@ -264,7 +265,7 @@ pathway.graph <- generatePathwaysNetwork(data = qmdiab.data,
 - `representative.method` is either "eigenmetabolite" for the *eigenmetabolite* approach, or "average" for the *average* approach to calculate the pathway representative. 
 
 \newpage
-##Explained variances of *eigenmetabolites* {#expvar}
+## Explained variances of *eigenmetabolites* {#expvar}
 
 *Eigenmetabolites* are calculated as the first principal components of a PCA. The explained variances can be plotted with:
 
@@ -278,7 +279,7 @@ ggExplainedVariance(pathway.graph)
 ggExplainedVariance(pathway.graph, 1:50)
 ```
 
-##Module identification
+## Module identification
 
 ```{r eval=FALSE}
 pathway.modules <- identifyModules(graph = pathway.graph$network,
@@ -304,7 +305,7 @@ because we excluded the unknowns here.-->
 - `correction.method` is the multiple testing correction method to be used (can be "bonferroni", "BH", "BY", "fdr", "holm", "hochberg", "hommel", or "none" from the function `p.adjust` of package `stats`).
 - `representative.method` is either "eigenmetabolite" for the *eigenmetabolite* approach, or "average" for the *average* approach to calculate the module representative. 
 
-##Network and module visualization
+## Network and module visualization
 
 ```{r eval=FALSE}
 drawModules(graph = pathway.graph$network,
@@ -326,7 +327,7 @@ knitr::include_graphics(system.file("figures", "MoDentify_pathway_modules.png", 
 ```
 
 \newpage
-#How to cite
+# Citation
 To cite *MoDentify*, please cite the following publication:
 
 <!-- @Do2018: -->
@@ -337,7 +338,7 @@ Bioinformatics, 2018
 https://doi.org/10.1093/bioinformatics/bty650
 
 
-# Session info {.unnumbered}
+# Session info 
 
 Here is the output of `sessionInfo()` on the system on which this document 
 was compiled running pandoc `r rmarkdown::pandoc_version()`:
@@ -347,4 +348,3 @@ sessionInfo()
 ```
 
 \newpage {.unnumbered}
-# References
